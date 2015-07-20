@@ -1,0 +1,105 @@
+Hero,NOVA
+
+//POINTS
+
+Ability,1,Name,Cosmic Combo
+Ability,1,Points,20
+
+Ability,2,Name,Blast Off!
+Ability,2,Points,20
+
+Ability,3,Name,Worldmind Assistance
+Ability,3,Points,20
+
+Ability,4,Name,Magneton Pulsar
+Ability,4,Points,20
+
+Ability,5,Name,Cosmic Resilience
+Ability,5,Points,1
+
+Ability,6,Name,Gravimetric Surge
+Ability,6,Points,20
+
+Ability,7,Name,Falling Star
+Ability,7,Points,20
+
+Ability,8,Name,Nova Dash
+Ability,8,Points,20
+
+Ability,9,Name,Rocket Speed
+Ability,9,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,10,TeamUp
+
+[Cosmic Resilience]
+Ability,11,Name,Cosmic Resilience
+Ability,11,Slot,2
+Ability,11,Page,2
+Ability,11,Cooldown,15
+Ability,11,SECLT,50
+
+[Blast Off!]
+Ability,12,Name,Blast Off!
+Ability,12,Movement
+Ability,12,Slot,8
+
+[Rocket Speed]
+Ability,13,Name,Rocket Speed
+Ability,13,Page,2
+Ability,13,Slot,6
+Ability,13,Toggle
+Ability,13,Cooldown,60
+
+[Magneton Pulsar]
+Ability,14,Name,Magneton Pulsar
+Ability,14,Page,1
+Ability,14,Slot,3
+Ability,14,Cooldown,5
+
+[Falling Star]
+Ability,15,Name,Falling Star
+Ability,15,Slot,5
+Ability,15,Cooldown,5
+
+[Nova Corps]
+Ability,16,Name,Nova Corps
+Ability,16,Slot,2
+Ability,16,Page,3
+Ability,16,Cooldown,500
+Ability,16,Boss
+Ability,16,Delay,750
+
+[Gravimetric Surge]
+Ability,17,Name,Gravimetric Surge
+Ability,17,Slot,6
+Ability,17,Boss
+Ability,17,Cooldown,35
+
+[Nova Dash]
+Ability,18,Name,Nova Dash
+Ability,18,Slot,7
+Ability,18,Cooldown,6
+
+[Cosmic Combo]
+Ability,19,Name,Cosmic Combo
+Ability,19,Slot,4
+Ability,19,minrange,300
+Ability,19,YSPGT,20 
+
+[Blast off!]
+Ability,20,Name,Blast Off!
+Ability,20,Page,1
+Ability,20,Slot,2
+Ability,20,YSPGT,20 
+
+[Minor Beam]
+Ability,21,Name,Minor Beam
+Ability,21,Page,1
+Ability,21,Slot,1
+
+END
+
+[Build (http://marvelheroes.info/build/15514/)]
