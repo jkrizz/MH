@@ -1,0 +1,104 @@
+hero,Hulk
+
+//PASSIVES
+
+[Unbridled Rampage]
+Ability,1,name,Unbridled Rampage
+Ability,1,points,20
+
+[Hulk Tough!]
+Ability,2,Name,Hulk Tough!
+Ability,2,Points,10
+
+//ROTATION
+
+TeamUp
+ability,3,teamup
+
+Deafening Roar
+ability,4,name,Deafening Roar
+ability,4,cooldown,10
+ability,4,points,1
+ability,4,page,2
+ability,4,slot,2
+ability,4,maxrange,375
+
+Worldbreaker
+ability,5,name,Worldbreaker
+ability,5,cooldown,600
+ability,5,Boss
+ability,5,MaxRange,800
+ability,5,Page,3
+ability,5,Slot,3
+
+Demolishing Charge
+ability,6,name,Demolishing Charge
+ability,6,points,0
+ability,6,slot,8
+ability,6,page,1
+ability,6,movement
+
+Demolishing Charge
+ability,7,name,Demolishing Charge
+ability,7,points,0
+ability,7,slot,8
+ability,7,page,1
+ability,7,movement
+ability,7,cooldown,2
+ability,7,MinRange,300
+
+Vicious Headbutt
+ability,8,name,Vicious Headbutt
+ability,8,points,20
+ability,8,slot,2
+ability,8,page,1
+ability,8,cooldown,3
+Ability,8,MaxRange,100
+
+Knuckledusters
+ability,9,name,Knuckledusters
+ability,9,points,20
+ability,9,slot,3
+ability,9,page,1
+ability,9,cooldown,40
+
+Thunderous Handclap
+ability,10,name,Thunderous Handclap
+ability,10,points,20
+ability,10,slot,4
+ability,10,page,1
+ability,10,MaxRange,425
+
+Cratering Stomp
+ability,11,name,Cratering Stomp
+ability,11,points,20
+ability,11,slot,5
+ability,11,page,1
+ability,11,TargetSelf
+ability,11,MaxRange,375
+
+Avalanche Leap
+ability,12,name,Avalanche Leap
+ability,12,points,20
+ability,12,slot,6
+ability,12,page,1
+ability,12,cooldown,2
+ability,12,MouseTarget
+ability,12,MaxRange,1000
+
+Meteor Strike
+ability,13,name,Meteor Strike
+ability,13,points,20
+ability,13,slot,7
+ability,13,page,1
+
+Brutal Swing
+ability,14,Name,Brutal Swing
+ability,14,Points,0
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,MaxRange,100
+
+END
+
+[Build:http://marvelheroes.info/build/6076/]
