@@ -1,0 +1,104 @@
+Hero,Loki
+
+//PASSIVES
+
+[Master Sorcerer]
+Ability,1,Name,Master Sorcerer
+Ability,1,Points,20
+
+Ability,2,Name,Jotun Blood
+Ability,2,Points,1
+
+Ability,3,Name,Lord of Deception
+Ability,3,Points,20
+
+// ROTATION
+
+[TeamUp]
+Ability,4,TeamUp
+Ability,4,Cooldown,60
+
+[Frost Armor]
+Ability,5,Points,20
+Ability,5,Slot,2
+Ability,5,Page,2
+Ability,5,Toggle
+Ability,5,Cooldown,120
+Ability,5,Name,Frost Armor
+
+[Cold Snap]
+Ability,6,Points,1
+Ability,6,Slot,3
+Ability,6,Page,2
+Ability,6,Cost,25
+Ability,6,YHPLT,50
+Ability,6,Name,Cold Snap
+
+[Misdirection]
+Ability,7,Slot,8
+Ability,7,Cost,20
+Ability,7,Cooldown,3
+Ability,7,Name,Misdirection
+
+[Illusionary Projection]
+Ability,8,Points,1
+Ability,8,Slot,2
+Ability,8,Cost,20
+Ability,8,SECLT,6
+Ability,8,Name,Illusionary Projection
+
+[Bouncing Bolt]
+Ability,9,Points,20
+Ability,9,Slot,6
+Ability,9,Cost,10
+Ability,9,Cooldown,1
+Ability,9,AOE
+Ability,9,AOETYPE,target
+Ability,9,AOECOUNT,3
+Ability,9,Name,Bouncing Bolt
+
+[Unyielding Power]
+Ability,10,Points,20
+Ability,10,Slot,7
+Ability,10,Boss
+Ability,10,Maxrange,250
+Ability,10,Name,Unyielding Power
+
+[Arcane Binding]
+Ability,11,Points,20
+Ability,11,Slot,3
+Ability,11,Cost,20
+Ability,11,Cooldown,4
+Ability,11,Boss
+Ability,11,Name,Arcane Binding
+
+[Permafrost Spikes]
+Ability,12,Points,20
+Ability,12,Slot,5
+Ability,12,Cost,20
+Ability,12,Cooldown,5
+Ability,12,Mousetarget
+Ability,12,Boss
+Ability,12,Name,Permafrost Spikes
+
+[Winter's Breath]
+Ability,13,Points,20
+Ability,13,Slot,4
+Ability,13,Cost,10
+Ability,13,Boss
+Ability,13,Delay,0
+Ability,13,Name,Winter's Breath
+
+[Spatial Deception]
+Ability,14,Slot,1
+Ability,14,Name,Spatial Deception
+
+[Misdirection]
+Ability,15,Slot,8
+Ability,15,Cost,13
+Ability,15,Cooldown,1
+Ability,15,Movement
+
+END
+
+[Based on UncleSam's Loki]
