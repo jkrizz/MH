@@ -12,16 +12,9 @@ Ability,2,Page,2
 Ability,2,Slot,2
 Ability,2,Cooldown,24
 
-[Heroic Strike]
-Ability,3,Name,Heroic Strike
-Ability,3,Page,2
-Ability,3,Slot,1
-Ability,3,YSPLT,10
-Ability,3,Points,0
-
 [Vibranium Bash]
 Ability,4,Name,Vibranium Bash
-Ability,4,Slot,1
+Ability,4,Slot,2
 Ability,4,Page,1
 Ability,4,SECLT,4
 Ability,4,Points,20
@@ -38,7 +31,7 @@ Ability,5,Points,20
 
 [Star-spangled Strike]
 Ability,6,Name,Star-spangled Strike
-Ability,6,Slot,2
+Ability,6,Slot,3
 Ability,6,Page,1
 Ability,6,Boss
 Ability,6,Cooldown,24
@@ -48,7 +41,7 @@ Ability,6,Points,20
 [Meteor Kick]
 Ability,7,Name,Meteor Kick
 Ability,7,Page,1
-Ability,7,Slot,3
+Ability,7,Slot,4
 Ability,7,Cooldown,4
 Ability,7,SECEQ,5
 Ability,7,MaxRange,300
@@ -57,14 +50,15 @@ Ability,7,Points,20
 [Shield Bash]
 Ability,8,Name,Shield Bash
 Ability,8,Page,1
-Ability,8,Slot,4
+Ability,8,Slot,5
 Ability,8,Cooldown,4
 Ability,8,MaxRange,300
 Ability,8,Points,20
 
 [Airborne Assault]
 Ability,9,Name,Airborne Assault
-Ability,9,Slot,5
+Ability,9,Page,1
+Ability,9,Slot,6
 Ability,9,Cooldown,4
 Ability,9,MaxRange,300
 Ability,9,Points,20
@@ -79,7 +73,8 @@ Ability,10,Points,20
 
 [Shield Toss]
 Ability,11,Name,Shield Toss
-Ability,11,Slot,6
+Ability,11,Page,1
+Ability,11,Slot,7
 Ability,11,Cooldown,4
 Ability,11,MaxRange,600
 Ability,11,Points,0
@@ -94,7 +89,8 @@ Ability,12,Points,20
 
 [Heroic Charge]
 Ability,13,Name,Heroic Charge
-Ability,13,Slot,7
+Ability,13,Page,1
+Ability,13,Slot,8
 Ability,13,Movement
 Ability,13,Cooldown,1
 
@@ -103,5 +99,12 @@ Ability,14,Name,Patriotic Soldier
 Ability,14,Points,20
 Ability,14,Cost,10
 Ability,14,Cooldown,6
+
+[Heroic Strike]
+Ability,15,Name,Heroic Strike
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,YSPLT,10
+Ability,15,Points,0
 
 END
