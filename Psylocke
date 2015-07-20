@@ -1,0 +1,83 @@
+hero,Psylocke
+
+Make sure TeamUp is out
+Ability,1,TeamUp
+Ability,1,Cooldown,60
+
+Psionic Maelstrom
+ability,2,name,Psionic Maelstrom
+ability,2,page,2
+ability,2,slot,7
+ability,2,cooldown,600
+ability,2,boss
+
+Ethereal Butterflies
+ability,3,name,Ethereal Butterflies
+ability,3,points,20
+ability,3,slot,6
+ability,3,page,1
+ability,3,cooldown,25
+ability,3,YSPLT,75
+ability,3,MaxRange,600
+
+Psionic Vortex
+ability,4,name,Psionic Vortex
+ability,4,points,20
+ability,4,slot,2
+ability,4,page,1
+ability,4,cooldown,8
+ability,4,maxrange,500
+
+Falling Lotus Strike
+ability,5,name,Falling Lotus Strike
+ability,5,points,20
+ability,5,slot,3
+ability,5,page,1
+ability,5,cooldown,6
+ability,5,maxrange,375
+
+//Psionic Projection
+//ability,6,name,Psionic Projection
+//ability,6,points,20
+//ability,6,slot,8
+//ability,6,page,1
+//ability,6,activate,1
+//ability,6,cooldown,4
+
+Assassinate
+ability,7,name,Assassinate
+ability,7,points,20
+ability,7,slot,7
+ability,7,page,1
+ability,7,cooldown,4
+ability,7,MHPLT,60
+ability,7,MaxRange,675
+
+Katana Typhoon
+ability,8,name,Katana Typhoon
+ability,8,points,20
+ability,8,slot,5
+ability,8,page,1
+ability,8,Cooldown,3
+ability,8,MaxRange,125
+
+Kirisute Gomen
+ability,9,name,Kirisute Gomen
+ability,9,points,20
+ability,9,slot,8
+ability,9,page,1
+ability,9,maxrange,90
+ability,9,YSPGT,15
+
+Shadow Dash
+ability,10,name,Shadow Dash
+ability,10,points,20
+ability,10,slot,4
+ability,10,page,1
+ability,10,movement
+ability,10,cooldown,1
+
+end
+
+[Build:http://marvelheroes.info/build/9358/]
+[7/4/2015]
