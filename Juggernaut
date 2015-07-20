@@ -1,0 +1,94 @@
+hero,Juggernaut
+
+//PASSIVES
+
+[Can't Be Stopped]
+Ability,1,Name,Can't Be Stopped
+Ability,1,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,1,TeamUp
+
+[Lariat]
+Ability,2,name,Lariat
+Ability,2,points,20
+Ability,2,slot,1
+Ability,2,page,1
+Ability,2,mousetarget
+
+[Lariat]
+Ability,3,name,Lariat
+Ability,3,points,20
+Ability,3,slot,2
+Ability,3,page,1
+Ability,3,movement
+
+[Enter the Fray]
+Ability,4,name,Enter the Fray
+Ability,4,points,20
+Ability,4,slot,3
+Ability,4,page,1
+Ability,4,cooldown,4
+
+[Earthquake]
+Ability,5,name,Earthquake
+Ability,5,points,20
+Ability,5,slot,4
+Ability,5,page,1
+Ability,5,cooldown,10
+
+[Sunday Punch]
+Ability,5,name,Sunday Punch
+Ability,5,points,20
+Ability,5,slot,5
+Ability,5,page,1
+Ability,5,boss
+Ability,5,cooldown,6
+Ability,5,YSPGT,70
+
+[Wrath of Cyttorak]
+Ability,6,name,Wrath of Cyttorak
+Ability,6,points,20
+Ability,6,slot,6
+Ability,6,page,1
+Ability,6,cooldown,30
+
+[Unstoppable Charge]
+Ability,7,name,Unstoppable Charge
+Ability,7,points,20
+Ability,7,slot,7
+Ability,7,page,1
+Ability,7,mousetarget
+Ability,7,boss
+Ability,7,cooldown,45
+
+[Big Elbow Drop]
+Ability,8,name,Big Elbow Drop
+Ability,8,points,20
+Ability,8,slot,8
+Ability,8,page,1
+Ability,8,mousetarget
+
+[Round of Applause]
+Ability,9,name,Round of Applause
+Ability,9,points,20
+Ability,9,slot,4
+Ability,9,page,2
+
+[Full Power]
+Ability,10,name,Full Power
+Ability,10,points,20
+Ability,10,slot,5
+Ability,10,page,2
+Ability,10,boss
+
+[Human Juggernaut]
+Ability,11,name,Human Juggernaut
+Ability,11,points,20
+Ability,11,slot,7
+Ability,11,page,2
+Ability,11,toggle
+
+end
