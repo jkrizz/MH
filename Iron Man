@@ -66,8 +66,8 @@ Ability,9,Name,The One-Off
 Ability,9,Page,1
 Ability,9,Slot,4
 Ability,9,Cooldown,20
-Ability,9,Elite
 Ability,9,Points,20
+Ability,9,MaxRange,450
 
 [Jericho Bombardment]
 Ability,10,Name,Jericho Bombardment
