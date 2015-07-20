@@ -1,0 +1,85 @@
+hero,Ms. Marvel
+
+//PASSIVES
+
+[Kree Toughness]
+Ability,1,name,Kree Toughness
+Ability,1,Points,20
+
+[Energy Absorption]
+Ability,2,name,Energy Absorption
+Ability,2,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,3,TeamUp
+
+[Binary Overdrive]
+ability,4,name,Binary Overdrive
+ability,4,boss
+ability,4,cooldown,600
+
+[Flying Lunge]
+ability,5,name,Flying Lunge
+ability,5,points,0
+ability,5,slot,8
+ability,5,page,1
+ability,5,movement
+
+[Flying Lunge]
+ability,6,name,Flying Lunge
+ability,6,points,0
+ability,6,slot,8
+ability,6,page,1
+ability,6,movement
+ability,6,boss
+ability,6,cooldown,2
+ability,6,MinRange,300
+
+[Cosmic Haymaker]
+ability,7,name,Cosmic Haymaker
+ability,7,points,20
+ability,7,slot,2
+ability,7,page,1
+ability,7,cooldown,2
+ability,7,MaxRange,100
+
+[Infused Uppercut]
+ability,8,name,Infused Uppercut
+ability,8,points,20
+ability,8,slot,3
+ability,8,page,1
+ability,8,cooldown,3
+ability,8,MaxRange,100
+
+[Radiant Cascade]
+ability,9,name,Radiant Cascade
+ability,9,points,20
+ability,9,slot,4
+ability,9,page,1
+
+[Stellar Flare]
+ability,10,name,Stellar Flare
+ability,10,points,20
+ability,10,slot,5
+ability,10,page,1
+ability,10,cooldown,2
+
+[Crashdown Strike]
+ability,11,name,Crashdown Strike
+ability,11,points,20
+ability,11,slot,6
+ability,11,page,1
+
+[Infused Regeneration]
+ability,12,name,Infused Regeneration
+ability,12,slot,7
+ability,12,page,1
+
+[Mighty Punch]
+ability,13,name,Mighty Punch
+ability,13,slot,1
+ability,13,page,1
+
+end
