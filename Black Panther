@@ -2,11 +2,11 @@ hero,Black Panther
 
 //PASSIVES
 
-Panther Soul
+[Panther Soul]
 ability,1,name,Panther Soul
 ability,1,points,20
 
-Panther Grace
+[Panther Grace]
 ability,2,name,Panther Grace
 ability,2,points,20
 
@@ -16,71 +16,71 @@ ability,2,points,20
 Ability,3,TeamUp
 
 [Exalted of Bast]
-ability,2,name,Exalted of Bast
-ability,2,Boss
-ability,2,cooldown,600
-ability,2,page,2
-ability,2,slot,3
+ability,4,name,Exalted of Bast
+ability,4,Boss
+ability,4,cooldown,600
+ability,4,page,2
+ability,4,slot,3
 
 [Stealthy Escape]
-ability,3,name,Stealthy Escape
-ability,3,points,0
-ability,3,slot,6
-ability,3,page,1
-ability,3,movement
-ability,3,cooldown,5
-ability,3,MinRange,300
+ability,5,name,Stealthy Escape
+ability,5,points,0
+ability,5,slot,6
+ability,5,page,1
+ability,5,movement
+ability,5,cooldown,5
+ability,5,MinRange,300
 
 [Slashing Lunge]
-ability,4,name,Slashing Lunge
-ability,4,points,1
-ability,4,slot,2
-ability,4,page,1
-ability,4,cooldown,3
-ability,4,maxrange,250
+ability,6,name,Slashing Lunge
+ability,6,points,1
+ability,6,slot,2
+ability,6,page,1
+ability,6,cooldown,3
+ability,6,maxrange,250
 
 [Jungle Snare]
-ability,5,name,Jungle Snare
-ability,5,points,20
-ability,5,slot,3
-ability,5,page,1
-ability,5,maxrange,180
+ability,7,name,Jungle Snare
+ability,7,points,20
+ability,7,slot,3
+ability,7,page,1
+ability,7,maxrange,180
 
 [Dora Milaje]
-ability,6,name,Dora Milaje
-ability,6,points,1
-ability,6,slot,4
-ability,6,page,1
-ability,6,cooldown,30
+ability,8,name,Dora Milaje
+ability,8,points,1
+ability,8,slot,4
+ability,8,page,1
+ability,8,cooldown,30
 
 [Wrath of Bast]
-ability,7,name,Wrath of Bast
-ability,7,points,20
-ability,7,slot,5
-ability,7,page,1
-ability,7,maxrange,475
+ability,9,name,Wrath of Bast
+ability,9,points,20
+ability,9,slot,5
+ability,9,page,1
+ability,9,maxrange,475
 
 [Knockdown  Sweep]
-ability,8,name,Knockdown  Sweep
-ability,8,points,20
-ability,8,slot,7
-ability,8,page,1
+ability,10,name,Knockdown  Sweep
+ability,10,points,20
+ability,10,slot,7
+ability,10,page,1
 
 [Savage Strike]
-ability,9,name,Savage Strike
-ability,9,points,20
-ability,9,slot,8
-ability,9,page,1
-ability,9,cooldown,4
-ability,9,maxrange,110
+ability,11,name,Savage Strike
+ability,11,points,20
+ability,11,slot,8
+ability,11,page,1
+ability,11,cooldown,4
+ability,11,maxrange,110
 
 [Blessing of Bast]
-ability,10,name,Blessing of Bast
-ability,10,points,20
-ability,10,slot,2
-ability,10,page,2
-ability,10,boss
-ability,10,cooldown,13
+ability,12,name,Blessing of Bast
+ability,12,points,20
+ability,12,slot,2
+ability,12,page,2
+ability,12,boss
+ability,12,cooldown,13
 
 end
 
