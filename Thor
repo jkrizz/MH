@@ -1,0 +1,119 @@
+hero,Thor
+
+//PASSIVES
+
+[Yggdrasil's Boon]
+Ability,1,Name,Yggdrasil's Boon
+Ability,1,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,2,TeamUp
+
+[For Asgard!]
+ability,3,name,For Asgard!
+ability,3,Cooldown,27
+ability,3,Points,20
+ability,3,Page,2
+ability,3,Slot,5
+
+[God Blast]
+ability,4,name,God Blast
+ability,4,Boss
+ability,4,Cooldown,430
+ability,4,Page,2
+ability,4,Slot,4
+ability,4,MaxRange,625
+
+[Thunderous Charge]
+ability,5,name,Thunderous Charge
+ability,5,points,0
+ability,5,slot,8
+ability,5,page,1
+ability,5,movement
+ability,5,cooldown,7
+ability,5,MinRange,300
+
+[The Anti-Force]
+ability,6,name,The Anti-Force
+ability,6,points,20
+ability,6,slot,6
+ability,6,page,1
+ability,6,cooldown,20
+ability,6,maxrange,750
+
+[Bring the Thunder]
+ability,7,name,Bring the Thunder
+ability,7,points,20
+ability,7,slot,3
+ability,7,page,1
+ability,7,cooldown,2
+ability,7,MaxRange,600
+
+[Asgardian Smite]
+ability,8,name,Asgardian Smite
+ability,8,points,1
+ability,8,slot,5
+ability,8,page,1
+ability,8,mousetarget
+ability,8,cooldown,7
+ability,8,maxrange,625
+
+[Hammer Smash]
+ability,9,name,Hammer Smash
+ability,9,points,20
+ability,9,slot,4
+ability,9,page,1
+ability,9,cooldown,7
+ability,9,MaxRange,250
+
+[Thundering Strike]
+ability,10,name,Thundering Strike
+ability,10,points,20
+ability,10,page,1
+ability,10,slot,2
+ability,10,MaxRange,100
+
+[Rolling Thunder]
+ability,11,name,Rolling Thunder
+ability,11,points,20
+ability,11,slot,7
+ability,11,page,1
+ability,11,cooldown,2
+ability,11,MaxRange,625
+
+[Son of Odin]
+ability,12,name,Son of Odin
+ability,12,points,20
+ability,12,slot,2
+ability,12,page,2
+ability,12,cooldown,12
+ability,12,MaxRange,375
+
+[Hammer of Storms]
+ability,13,name,Hammer of Storms
+ability,13,points,0
+ability,13,page,2
+ability,13,slot,3
+ability,13,YSPGT,20
+ability,13,MaxRange,600
+
+[Hammer Strike]
+ability,14,name,Hammer Strike
+ability,14,Points,0
+ability,14,Page,1
+Ability,14,Slot,1
+ability,14,maxrange,100
+
+[Thunderous Charge]
+ability,15,name,Thunderous Charge
+ability,15,points,0
+ability,15,slot,8
+ability,15,page,1
+ability,15,movement
+
+end
+
+[Based on Wolfman1190's Thor]
+[Build: http://marvelheroes.info/build/1951/]
