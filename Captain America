@@ -1,6 +1,7 @@
 Hero,Captain America
 
 //PASSIVES
+
 [Shield Expertise]
 Ability,1,Name,Shield Expertise
 Ability,1,Points,20
