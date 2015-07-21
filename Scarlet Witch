@@ -1,6 +1,7 @@
 hero,Scarlet Witch
 
 //PASSIVES
+
 [Chaos Magic]
 Ability,1,Name,Chaos Magic
 Ability,1,Points,20
