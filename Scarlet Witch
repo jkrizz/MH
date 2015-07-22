@@ -6,9 +6,9 @@ hero,Scarlet Witch
 Ability,1,Name,Chaos Magic
 Ability,1,Points,20
 
-//[Bewildering Hex]
-//Ability,2,Name,Bewildering Hex
-//Ability,2,Points,1
+[Bewitching Hex]
+Ability,2,Name,Bewitching Hex
+Ability,2,Points,1
 
 // ROTATION ORDER
 
@@ -17,19 +17,27 @@ Ability,3,TeamUp
 
 [Chaos Shift]
 Ability,4,Name,Chaos Shift
+Ability,4,Points,0
 Ability,4,Slot,8
 Ability,4,Page,1
 Ability,4,MaxRange,300
 Ability,4,AimAt,45,500
 Ability,4,YSPGT,10
-Ability,4,Cooldown,2
 
-[Hex Bolt]
-Ability,5,Name,Hex Bolt
+[Bewitching Hex]
+Ability,5,Name,Bewitching Hex
 Ability,5,Slot,1
 Ability,5,Page,2
 Ability,5,MaxRange,500
 Ability,5,YSPLT,10
+
+[Bewildering Hex]
+Ability,6,Name,Bewildering Hex
+Ability,6,Points,1
+Ability,6,Page,2
+Ability,6,Slot,3
+Ability,6,MaxRange,625
+Ability,6,Cooldown,8
 
 [No More...]
 Ability,6,Name,No More...
@@ -90,14 +98,14 @@ Ability,12,MouseTarget
 Ability,12,Points,20
 
 [Chaotic Hex]
-Ability,13,Name,Chaotix Hex
+Ability,13,Name,Chaotic Hex
 Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,1
+Ability,13,Page,2
+Ability,13,Slot,2
 Ability,13,MaxRange,500
 
-[Hex Bolt]
-Ability,14,Name,Hex Bolt
+[Bewitching Hex]
+Ability,14,Name,Bewitching Hex
 Ability,14,Slot,1
 Ability,14,Page,2
 Ability,14,MaxRange,500
