@@ -1,7 +1,6 @@
 hero,Black Panther
 
 //PASSIVES
-
 [Panther Soul]
 ability,1,name,Panther Soul
 ability,1,points,20
