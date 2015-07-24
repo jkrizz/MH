@@ -75,6 +75,7 @@ Ability,11,Page,1
 Ability,11,Slot,1
 Ability,11,YHPLT,50
 Ability,11,MaxRange,125
+Ability,11,Hold,1000
 
 [Judgment]
 Ability,12,Name,Judgment
@@ -89,6 +90,7 @@ Ability,13,Points,0
 Ability,13,Page,1
 Ability,13,Slot,1
 Ability,13,MaxRange,125
+Ability,13,Hold,1000
 
 [Wheelie]
 Ability,14,Name,Wheelie
