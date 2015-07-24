@@ -1,0 +1,112 @@
+hero,Doctor Doom
+
+//PASSIVES
+
+[Ingenious Defense]
+Ability,1,Name,Ingenious Defense
+Ability,1,Points,1
+
+[Latverian Inferno]
+Ability,2,Name,Latverian Inferno
+Ability,2,Points,1
+
+[The Will of Doom]
+Ability,3,Name,The Will of Doom
+Ability,3,Points,19
+
+//ROTATION
+
+[TeamUp]
+Ability,4,Teamup
+
+[Impending Doom]
+Ability,5,Name,Impending Doom
+Ability,5,Slot,8
+Ability,5,Page,1
+Ability,5,MaxRange,300
+Ability,5,AimAt,45,500
+Ability,5,Points,0
+
+[Declaration of War]
+Ability,6,Name,Declaration of War
+Ability,6,Plot,2
+Ability,6,Page,2
+Ability,6,Points,20
+
+[Doom's Day]
+Ability,7,Name,Doom's Day
+Ability,7,Slot,5
+Ability,7,Page,2
+Ability,7,Boss
+Ability,7,MaxRange,600
+Ability,7,MouseTarget
+
+[Eldritch Reckoning]
+Ability,8,Name,Eldritch Reckoning
+Ability,8,Slot,7
+Ability,8,Page,1
+Ability,8,Cooldown,8
+Ability,8,Points,1
+Ability,8,MaxRange,625
+
+[Latverian Air Defense]
+Ability,9,Name,Latverian Air Defense
+Ability,9,Slot,2
+Ability,9,Page,1
+Ability,9,Points,20
+Ability,9,MaxRange,625
+
+[Latverian Blockade]
+Ability,10,Name,Latverian Blockade
+Ability,10,Slot,3
+Ability,10,Page,1
+Ability,10,Points,20
+
+[Lord of Latveria]
+Ability,11,Name,Lord of Latveria
+Ability,11,Slot,4
+Ability,11,Page,1
+Ability,11,Boss
+Ability,11,Points,20
+
+[Worthless Cretin]
+Ability,12,Name,Worthless Cretin
+Ability,12,Slot,5
+Ability,12,Page,1
+Ability,12,Mousetarget
+Ability,12,Points,20
+Ability,12,MaxRange,750
+
+[Unthinkable]
+Ability,13,Name,Unthinkable
+Ability,13,Slot,6
+Ability,13,Page,1
+Ability,13,Points,20
+Ability,13,MaxRange,675
+
+[Conjured Barrage]
+Ability,14,Name,Conjured Barrage
+Ability,14,Slot,1
+Ability,14,Page,1
+Ability,14,Points,20
+Ability,14,MaxRange,550
+Ability,14,Hold,1000
+
+[Doom Blast]
+Ability,15,name,doom blast
+Ability,15,points,0
+Ability,15,page,2
+Ability,15,slot,1
+Ability,15,MaxRange,500
+
+[Impending Doom]
+Ability,16,Name,Impending Doom
+Ability,16,Slot,8
+Ability,16,Page,1
+Ability,16,Movement
+Ability,16,Points,0
+
+END
+
+[Build: http://marvelheroes.info/build/18269/]
+
