@@ -1,6 +1,6 @@
 hero,Thor
 
-//PASSIVES
+//PASSIVE
 
 [Yggdrasil's Boon]
 Ability,1,Name,Yggdrasil's Boon
