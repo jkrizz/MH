@@ -1,107 +1,108 @@
 hero,Emma Frost
 
-//ROTATION
-
-[TeamUp]
-Ability,1,TeamUp
-
-[Grand Nightmare]
-Ability,2,Name,Grand Nightmare
-Ability,2,Page,2
-Ability,2,Slot,3
-Ability,2,Cooldown,600
-Ability,2,Boss
-Ability,2,MaxRange,750
-
-[Unlock Potential]
-Ability,3,Name,Unlock Potential
-Ability,3,Page,2
-Ability,3,Slot,2
-Ability,3,Points,1
-Ability,3,Cost,17
-Ability,3,Cooldown,30
-Ability,3,Boss
-
-[Telepathic Torment]
-Ability,4,Name,Telepathic Torment
-Ability,4,Points,20
-Ability,10,Page,1
-Ability,4,Slot,2
-Ability,4,Cost,13
-Ability,4,Cooldown,5
-Ability,4,MaxRange,500
-Ability,4,MouseTarget
-
-[Inspire Minion]
-Ability,5,Name,Inspire Minion
-Ability,5,Points,20
-Ability,10,Page,1
-Ability,5,Slot,3
-Ability,5,Cost,20
-Ability,5,Cooldown,12
-
-[Sudden Dread]
-Ability,6,Name,Sudden Dread
-Ability,6,Points,20
-Ability,10,Page,1
-Ability,6,Slot,4
-Ability,6,Cost,17
-Ability,6,Cooldown,5
-Ability,6,MaxRange,250
-
-[Psychic Blast]
-Ability,7,Name,Psychic Blast
-Ability,7,Points,20
-Ability,10,Page,1
-Ability,7,Slot,5
-Ability,7,Cost,17
-Ability,7,Cooldown,5
-Ability,7,MaxRange,650
-Ability,7,MouseTarget
-
-[Kneel Before Me]
-Ability,8,Name,Kneel Before Me
-Ability,8,Points,20
-Ability,10,Page,1
-Ability,8,Slot,6
-Ability,8,Cooldown,20
-Ability,8,MaxRange,500
-
-[Drain Psyche]
-Ability,9,Name,Drain Psyche
-Ability,9,Points,20
-Ability,10,Page,1
-Ability,9,Slot,7
-Ability,9,Hold,2000
-Ability,9,MaxRange,550
-Ability,9,MouseTarget
-Ability,9,Cost,20
-
-[Lustrous Lunge]
-Ability,10,Name,Lustrous Lunge
-Ability,10,Movement
-Ability,10,Slot,8
-Ability,10,Page,1
-Ability,10,Points,1
-
 //PASSIVES
 
 [Telepathic Mastery]
-Ability,11,Name,Telepathic Mastery
+Ability,1,Name,Telepathic Mastery
+Ability,1,Points,20
+
+[Perfection]
+Ability,2,Name,Perfection
+Ability,2,Points,1
+
+[Glittering Lure]
+Ability,3,Name,Glittering Lure
+Ability,3,Points,1
+
+//ROTATION
+
+[TeamUp]
+Ability,4,TeamUp
+
+[Lustrous Lunge]
+Ability,5,Name,Lustrous Lunge
+Ability,5,Points,0
+Ability,5,Slot,8
+Ability,5,Page,1
+Ability,5,MaxRange,200
+Ability,5,AimAt,0,500
+Ability,5,YSPGT,10
+Ability,5,Cooldown,1
+
+[Grand Nightmare]
+Ability,6,Name,Grand Nightmare
+Ability,6,Page,2
+Ability,6,Slot,3
+Ability,6,Boss
+Ability,6,MaxRange,500
+
+[Unlock Potential]
+Ability,7,Name,Unlock Potential
+Ability,7,Page,2
+Ability,7,Slot,2
+Ability,7,Points,1
+Ability,7,Boss
+
+[Telepathic Torment]
+Ability,8,Name,Telepathic Torment
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,2
+Ability,8,Cooldown,8
+Ability,8,MaxRange,500
+
+//[Inspire Minion]
+//Ability,9,Name,Inspire Minion
+//Ability,9,Points,20
+//Ability,9,Page,1
+//Ability,9,Slot,3
+
+[Sudden Dread]
+Ability,10,Name,Sudden Dread
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,4
+Ability,10,Cooldown,7
+Ability,10,MaxRange,220
+
+[Psychic Blast]
+Ability,11,Name,Psychic Blast
 Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,Cooldown,8
+Ability,11,MaxRange,600
 
-//EXTRA
+[Kneel Before Me]
+Ability,12,Name,Kneel Before Me
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,MaxRange,500
+Ability,12,YSPLT,50
 
-[Mental Cloaking]
-Ability,12,Name,Mental Cloaking
-Ability,12,Points,1
+[Drain Psyche]
+Ability,13,Name,Drain Psyche
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,7
+Ability,13,Hold,2000
+Ability,13,MaxRange,550
+Ability,13,MouseTarget
 
 [Psi Bolt]
-Ability,12,Name,Psi Bolt
-Ability,12,Page,1
-Ability,12,Slot,1
-Ability,12,hold,1500
-Ability,12,MaxRange,375
+Ability,14,Name,Psi Bolt
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,hold,1500
+Ability,14,MaxRange,375
+
+[Lustrous Lunge]
+Ability,15,Name,Lustrous Lunge
+Ability,15,Movement
+Ability,15,Slot,8
+Ability,15,Page,1
+Ability,15,Points,1
 
 END
 
