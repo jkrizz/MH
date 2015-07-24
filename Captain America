@@ -58,7 +58,7 @@ Ability,8,Points,20
 Ability,9,Name,Meteor Kick
 Ability,9,Page,1
 Ability,9,Slot,4
-Ability,9,SECEQ,5
+Ability,9,SECGT,5
 Ability,9,MaxRange,400
 Ability,9,Points,20
 
