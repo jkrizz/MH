@@ -10,79 +10,87 @@ ability,1,points,20
 ability,2,name,Panther Grace
 ability,2,points,20
 
+[Blessing of Bast]
+ability,3,name,Blessing of Bast
+ability,3,points,20
+
 //ROTATION
 
 [TeamUp]
-Ability,3,TeamUp
+Ability,4,TeamUp
 
 [Exalted of Bast]
-ability,4,name,Exalted of Bast
-ability,4,Boss
-ability,4,cooldown,600
-ability,4,page,2
-ability,4,slot,3
-
-[Stealthy Escape]
-ability,5,name,Stealthy Escape
-ability,5,points,0
-ability,5,slot,6
-ability,5,page,1
-ability,5,movement
-ability,5,cooldown,5
-ability,5,MinRange,300
-
-[Slashing Lunge]
-ability,6,name,Slashing Lunge
-ability,6,points,1
-ability,6,slot,2
-ability,6,page,1
-ability,6,cooldown,3
-ability,6,maxrange,250
-
-[Jungle Snare]
-ability,7,name,Jungle Snare
-ability,7,points,20
-ability,7,slot,3
-ability,7,page,1
-ability,7,maxrange,180
+ability,5,name,Exalted of Bast
+ability,5,Boss
+ability,5,page,2
+ability,5,slot,3
 
 [Dora Milaje]
-ability,8,name,Dora Milaje
-ability,8,points,1
-ability,8,slot,4
-ability,8,page,1
-ability,8,cooldown,30
+ability,6,name,Dora Milaje
+ability,6,points,1
+ability,6,slot,4
+ability,6,page,1
+ability,6,cooldown,30
 
 [Wrath of Bast]
-ability,9,name,Wrath of Bast
-ability,9,points,20
-ability,9,slot,5
-ability,9,page,1
-ability,9,maxrange,475
+ability,7,name,Wrath of Bast
+ability,7,points,20
+ability,7,slot,5
+ability,7,page,1
+ability,7,maxrange,500
+
+[Stealthy Escape]
+ability,8,name,Stealthy Escape
+ability,8,points,0
+ability,8,slot,8
+ability,8,page,1
+ability,8,movement
+ability,8,cooldown,3
+ability,8,MinRange,300
 
 [Knockdown  Sweep]
-ability,10,name,Knockdown  Sweep
+ability,9,name,Knockdown Sweep
+ability,9,points,20
+ability,9,slot,7
+ability,9,page,1
+ability,9,maxrange,125
+
+[Jungle Snare]
+ability,10,name,Jungle Snare
 ability,10,points,20
-ability,10,slot,7
+ability,10,slot,3
 ability,10,page,1
+ability,10,maxrange,150
 
 [Savage Strike]
 ability,11,name,Savage Strike
 ability,11,points,20
-ability,11,slot,8
+ability,11,slot,6
 ability,11,page,1
 ability,11,cooldown,4
 ability,11,maxrange,110
 
-[Blessing of Bast]
-ability,12,name,Blessing of Bast
+[Predator's Frenzy]
+ability,12,name,Predator's Frenzy
 ability,12,points,20
-ability,12,slot,2
+ability,12,slot,4
 ability,12,page,2
-ability,12,boss
-ability,12,cooldown,13
+ability,12,maxrange,100
+
+[Claw Slash]
+ability,13,name,Claw Slash
+ability,13,points,0
+ability,13,slot,1
+ability,13,page,1
+ability,13,maxrange,100
+
+[Stealthy Escape]
+ability,14,name,Stealthy Escape
+ability,14,points,0
+ability,14,slot,8
+ability,14,page,1
+ability,14,movement
 
 end
 
-[Build:http://marvelheroes.info/build/9358/]
-[7/5/2015]
+[Build: http://marvelheroes.info/build/21/]
