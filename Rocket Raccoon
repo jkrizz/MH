@@ -1,7 +1,6 @@
 hero,Rocket Raccoon
 
 //PASSIVES
-
 [Combat Shield]
 Ability,1,Name,Combat Shield
 Ability,1,Points,20
