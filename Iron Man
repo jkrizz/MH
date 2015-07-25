@@ -12,7 +12,7 @@ Ability,2,Name,House Party
 Ability,2,Slot,1
 Ability,2,Page,2
 Ability,2,Boss
-Ability,2,Cooldown,430
+Ability,2,MaxRange,750
 
 [Adaptive Armor]
 Ability,3,Name,Adaptive Armor
@@ -51,7 +51,7 @@ Ability,7,Name,Micro-Missiles
 Ability,7,Page,1
 Ability,7,Slot,2
 Ability,7,Points,20
-Ability,7,Cooldown,3
+Ability,7,MaxRange,625
 
 [Coolant Blast]
 Ability,8,Name,Coolant Blast
@@ -90,12 +90,15 @@ Ability,12,Page,1
 Ability,12,Slot,3
 Ability,12,MouseTarget
 Ability,12,Hold,6000
-Ability,12,HoldCD,10
+Ability,12,HoldCD,6
+Ability,12,MaxRange,500
 
 [Repulsor Blast]
 Ability,13,Name,Repulsor Blast
 Ability,13,Page,1
 Ability,13,Slot,1
+Ability,13,Hold,2000
+Ability,13,MaxRange,500
 
 [Hyper-Velocity Charge]
 Ability,14,Name,Hyper-Velocity Charge
