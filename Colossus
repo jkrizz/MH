@@ -80,6 +80,7 @@ Ability,14,Name,Titanic Slam
 Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,2
+Ability,14,MaxRange,600
 
 [Colossal Punch]
 Ability,15,Name,Colossal Punch
