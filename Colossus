@@ -1,105 +1,112 @@
-Hero,Colossus
+Hero,Captain America
 
 //PASSIVES
 
-Osmium Champion
-Ability,1,Name,Osmium Champion
+[Shield Expertise]
+Ability,1,Name,Shield Expertise
 Ability,1,Points,20
-
-Bulwark of Steel
-Ability,2,Name,Bulwark of Steel
-Ability,2,Points,20
-
-Osmium Skin
-Ability,3,Name,Osmium Skin
-Ability,3,Points,1
-
-Vanguard Aura
-Ability,4,Name,Vanguard Aura
-Ability,4,Page,2
-Ability,4,Slot,4
-Ability,4,Points,1
-Ability,4,Toggle
 
 //ROTATION
 
-[Teamup]
-Ability,5,TeamUp
+[TeamUp]
+Ability,2,TeamUp
 
-[Osmium Charge]
-Ability,6,Name,Osmium Charge
+[Indestructible Shield]
+Ability,3,Name,Indestructible Shield
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,2
+
+[Heroic Charge]
+ability,4,name,Heroic Charge
+ability,4,points,0
+ability,4,slot,8
+ability,4,page,1
+ability,4,cooldown,3
+ability,4,MinRange,300
+
+[Avengers Assemble]
+Ability,5,Name,Avengers Assemble
+Ability,5,Page,2
+Ability,5,Slot,3
+Ability,5,Boss
+Ability,5,Points,20
+Ability,5,MouseTarget
+
+[Star-spangled Strike]
+Ability,6,Name,Star-spangled Strike
+Ability,6,Slot,3
 Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,MinRange,300
-Ability,6,Cooldown,3
-Ability,6,Movement
+Ability,6,MaxRange,275
+Ability,6,Points,20
 
-[Heavy Metal]
-Ability,7,Name,Heavy Metal
-Ability,7,Boss
+[Vibranium Bash]
+Ability,7,Name,Vibranium Bash
 Ability,7,Slot,2
-Ability,7,Page,3
+Ability,7,Page,1
+Ability,7,SECLT,5
+Ability,7,Points,20
+Ability,7,MaxRange,100
 
-[Titanic Slam]
-Ability,8,Name,Titanic Slam
+[Torqued Shield Throw]
+Ability,8,Name,Torqued Shield Throw
+Ability,8,Page,2
+Ability,8,Slot,4
+Ability,8,MaxRange,230
 Ability,8,Points,20
-Ability,8,Page,1
-Ability,8,Slot,2
 
-[Demolition Stomp]
-Ability,9,Name,Demolition Stomp
-Ability,9,Points,20
+[Shield Bash]
+Ability,9,Name,Shield Bash
 Ability,9,Page,1
-Ability,9,Slot,3
-Ability,9,Cooldown,9
-Ability,9,MaxRange,200
+Ability,9,Slot,5
+Ability,9,MaxRange,125
+Ability,9,Points,20
 
-[Fissure]
-Ability,10,Name,Fissure
-Ability,10,Points,20
+[Meteor Kick]
+Ability,10,Name,Meteor Kick
 Ability,10,Page,1
 Ability,10,Slot,4
-Ability,10,Cooldown,7
-Ability,10,MaxRange,450
+Ability,10,SECGT,5
+Ability,10,MaxRange,400
+Ability,10,Points,20
 
-[Fastball Special]
-Ability,11,Name,Fastball Special
-Ability,11,Points,1
+[Airborne Assault]
+Ability,11,Name,Airborne Assault
 Ability,11,Page,1
-Ability,11,Slot,5
-Ability,11,MaxRange,750
+Ability,11,Slot,6
+Ability,11,MaxRange,500
+Ability,11,Points,20
 
-[Colossal Roar]
-Ability,12,Name,Colossal Roar
-Ability,12,Points,20
+[Shield Toss]
+Ability,12,Name,Shield Toss
 Ability,12,Page,1
-Ability,12,Slot,6
+Ability,12,Slot,7
+Ability,12,MaxRange,750
+Ability,12,Points,0
+Ability,12,MouseTarget
 
-[Crushing Smite]
-Ability,13,Name,Crushing Smite
+[Patriotic Soldier]
+Ability,13,Name,Patriotic Soldier
 Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,7
-Ability,13,MaxRange,140
+Ability,13,Cost,10
+Ability,13,Cooldown,6
+Ability,13,Page,2
+Ability,13,Slot,5
 
-[Colossal Punch]
-Ability,14,Name,Colossal Punch
-Ability,14,Points,20
-Ability,14,Page,2
-Ability,14,Slot,2
-Ability,14,MaxRange,125
+[Heroic Strike]
+Ability,14,Name,Heroic Strike
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,Points,0
+Ability,14,MaxRange,100
 
-[Osmium Punch]
-Ability,15,Name,Osmium Punch
+[Heroic Charge]
+Ability,15,Name,Heroic Charge
+Ability,15,Points,0
 Ability,15,Page,1
-Ability,15,Slot,1
-Ability,15,MaxRange,100
-
-[Osmium Charge]
-Ability,16,Name,Osmium Charge
-Ability,16,Page,1
-Ability,16,Slot,8
+Ability,15,Slot,8
+Ability,15,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/20231/]
+[Build: https://forums.marvelheroes.com/discussion/187194/mocs-cosmic-midtown-and-genosha-raid-tested-cap-build-4-54-high-health-raid-dummy-ttk]
