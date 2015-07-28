@@ -113,7 +113,6 @@ ability,15,slot,8
 ability,15,page,1
 ability,15,movement
 
-end
+END
 
-[Based on Wolfman1190's Thor]
 [Build: http://marvelheroes.info/build/1951/]
