@@ -20,30 +20,22 @@ Ability,4,Name,Chaos Shift
 Ability,4,Points,0
 Ability,4,Slot,8
 Ability,4,Page,1
-Ability,4,MaxRange,300
-Ability,4,AimAt,45,500
+Ability,4,Boss
+Ability,4,MaxRange,175
+Ability,4,AimAt,0,450
 Ability,4,YSPGT,10
 
 [Bewitching Hex]
 Ability,5,Name,Bewitching Hex
 Ability,5,Slot,1
 Ability,5,Page,2
-Ability,5,MaxRange,500
+Ability,5,MaxRange,450
 Ability,5,YSPLT,10
-
-[Bewildering Hex]
-Ability,6,Name,Bewildering Hex
-Ability,6,Points,1
-Ability,6,Page,2
-Ability,6,Slot,3
-Ability,6,MaxRange,625
-Ability,6,Cooldown,8
 
 [No More...]
 Ability,6,Name,No More...
 Ability,6,Slot,2
 Ability,6,Page,3
-Ability,6,Cooldown,500
 Ability,6,Boss
 Ability,6,MaxRange,700
 
@@ -108,13 +100,20 @@ Ability,13,MaxRange,500
 Ability,14,Name,Bewitching Hex
 Ability,14,Slot,1
 Ability,14,Page,2
-Ability,14,MaxRange,500
+Ability,14,MaxRange,325
+
+[Hex Bolt]
+Ability,15,Name,Hex Bolt
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,MaxRange,325
 
 [Chaos Shift]
-Ability,15,Name,Chaos Shift
-Ability,15,Slot,8
-Ability,15,Page,1
-Ability,15,Movement
+Ability,16,Name,Chaos Shift
+Ability,16,Slot,8
+Ability,16,Page,1
+Ability,16,Movement
 
 END
 
