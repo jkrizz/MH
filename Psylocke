@@ -1,83 +1,108 @@
 hero,Psylocke
 
-Make sure TeamUp is out
+//PASSIVES
+
+[Telekinetic Prowress]
+Ability,1,Name,Telekinetic Prowress
+Ability,1,Points,20
+
+[Deadly Assassin]
+Ability,2,Name,Deadly Assassin
+Ability,2,Points,20
+
+[Psionic Resilience]
+Ability,3,Name,Psionic Resilience
+Ability,3,Points,1
+
+//ROTATION
+
+[TeamUp]
 Ability,1,TeamUp
-Ability,1,Cooldown,60
 
-Psionic Maelstrom
-ability,2,name,Psionic Maelstrom
-ability,2,page,2
-ability,2,slot,7
-ability,2,cooldown,600
-ability,2,boss
+[Psionic Maelstrom]
+Ability,2,Name,Psionic Maelstrom
+Ability,2,Page,2
+Ability,2,Slot,2
+Ability,2,Boss
 
-Ethereal Butterflies
-ability,3,name,Ethereal Butterflies
-ability,3,points,20
-ability,3,slot,6
-ability,3,page,1
-ability,3,cooldown,25
-ability,3,YSPLT,75
-ability,3,MaxRange,600
+[Ethereal Butterflies]
+Ability,3,Name,Ethereal Butterflies
+Ability,3,Points,20
+Ability,3,Slot,3
+Ability,3,Page,2
+Ability,3,YSPLT,75
+Ability,3,MaxRange,600
 
-Psionic Vortex
-ability,4,name,Psionic Vortex
-ability,4,points,20
-ability,4,slot,2
-ability,4,page,1
-ability,4,cooldown,8
-ability,4,maxrange,500
+[Psionic Vortex]
+Ability,4,Name,Psionic Vortex
+Ability,4,Points,20
+Ability,4,Slot,2
+Ability,4,Page,1
+Ability,4,Cooldown,6
+Ability,4,Maxrange,600
 
-Falling Lotus Strike
-ability,5,name,Falling Lotus Strike
-ability,5,points,20
-ability,5,slot,3
-ability,5,page,1
-ability,5,cooldown,6
-ability,5,maxrange,375
+[Falling Lotus Strike]
+Ability,5,Name,Falling Lotus Strike
+Ability,5,Points,20
+Ability,5,Slot,3
+Ability,5,Page,1
+Ability,5,Cooldown,6
+Ability,5,Maxrange,425
 
-//Psionic Projection
-//ability,6,name,Psionic Projection
-//ability,6,points,20
-//ability,6,slot,8
-//ability,6,page,1
-//ability,6,activate,1
-//ability,6,cooldown,4
+[Psionic Projection]
+Ability,6,Name,Psionic Projection
+Ability,6,Points,20
+Ability,6,Slot,4
+Ability,6,Page,1
+Ability,6,Cooldown,4
 
-Assassinate
-ability,7,name,Assassinate
-ability,7,points,20
-ability,7,slot,7
-ability,7,page,1
-ability,7,cooldown,4
-ability,7,MHPLT,60
-ability,7,MaxRange,675
+[Katana Typhoon]
+Ability,7,Name,Katana Typhoon
+Ability,7,Points,20
+Ability,7,Slot,5
+Ability,7,Page,1
+Ability,7,MaxRange,125
 
-Katana Typhoon
-ability,8,name,Katana Typhoon
-ability,8,points,20
-ability,8,slot,5
-ability,8,page,1
-ability,8,Cooldown,3
-ability,8,MaxRange,125
+[Assassinate]
+Ability,8,Name,Assassinate
+Ability,8,Points,20
+Ability,8,Slot,6
+Ability,8,Page,1
+Ability,8,Cooldown,4
+Ability,8,MaxRange,700
+Ability,8,Buff,marvelconditioneffect_psylocke_psistealth,true
+Ability,8,MouseTarget
 
-Kirisute Gomen
-ability,9,name,Kirisute Gomen
-ability,9,points,20
-ability,9,slot,8
-ability,9,page,1
-ability,9,maxrange,90
-ability,9,YSPGT,15
+[Psi-Thrust]
+Ability,9,Name,Psi-Thrust
+Ability,9,Points,20
+Ability,9,Slot,7
+Ability,9,Page,1
+Ability,9,Activate,1
+Ability,9,MaxRange,425
 
-Shadow Dash
-ability,10,name,Shadow Dash
-ability,10,points,20
-ability,10,slot,4
-ability,10,page,1
-ability,10,movement
-ability,10,cooldown,1
+[Kirisute Gomen]
+Ability,10,Name,Kirisute Gomen
+Ability,10,Points,20
+Ability,10,Slot,4
+Ability,10,Page,2
+Ability,10,Maxrange,90
+Ability,10,YSPGT,15
 
-end
+[Ninjutsu Strike]
+Ability,11,Name,Ninjutsu Strike
+Ability,11,Points,0
+Ability,11,Slot,1
+Ability,11,Page,1
+Ability,11,MaxRange,100
 
-[Build:http://marvelheroes.info/build/9358/]
-[7/4/2015]
+[Shadow Dash]
+Ability,12,Name,Shadow Dash
+Ability,12,Points,20
+Ability,12,Slot,8
+Ability,12,Page,1
+Ability,12,Movement
+
+END1
+
+[Build: http://marvelheroes.info/build/426/]
