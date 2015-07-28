@@ -18,7 +18,7 @@ Ability,3,Toggle
 //ROTATION
 
 [TeamUp]
-Ability,4,Name,TeamUp
+Ability,4,TeamUp
 
 [Sirocco Rush]
 Ability,5,Name,Sirocco Rush
@@ -65,7 +65,6 @@ Ability,10,Name,Microburst
 Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,5
-Ability,10,Cooldown,9
 Ability,10,MaxRange,800
 Ability,10,MaxLevel,8
 
