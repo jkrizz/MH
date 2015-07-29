@@ -15,6 +15,7 @@ Ability,3,Name,Glittering Lure
 Ability,3,Points,1
 
 //ROTATION
+
 [TeamUp]
 Ability,4,TeamUp
 
@@ -27,7 +28,7 @@ Ability,5,MaxRange,200
 Ability,5,Boss
 Ability,5,AimAt,0,500
 Ability,5,YSPGT,10
-Ability,5,Cooldown,1
+Ability,5,Cooldown,3
 
 [Grand Nightmare]
 Ability,6,Name,Grand Nightmare
