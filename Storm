@@ -16,6 +16,7 @@ Ability,3,Points,20
 Ability,3,Toggle
 
 //ROTATION
+
 [TeamUp]
 Ability,4,TeamUp
 
