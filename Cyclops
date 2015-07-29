@@ -5,6 +5,7 @@ hero,Cyclops
 [By The Numbers]
 Ability,1,Name,By The Numbers
 Ability,1,Points,20
+
 [Force Multiplier]
 Ability,2,Name,Force Multiplier
 Ability,2,Points,20
@@ -27,7 +28,7 @@ Ability,5,MaxRange,300
 Ability,5,Boss
 Ability,5,AimAt,75,100
 Ability,5,YSPGT,10
-Ability,5,Cooldown,1
+Ability,5,Cooldown,3
 
 [To Me, My X-Men!]
 Ability,6,Name,To Me, My X-Men!
