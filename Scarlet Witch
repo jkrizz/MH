@@ -27,8 +27,9 @@ Ability,4,YSPGT,10
 
 [Bewitching Hex]
 Ability,5,Name,Bewitching Hex
+Ability,5,Points,1
 Ability,5,Slot,1
-Ability,5,Page,2
+Ability,5,Page,1
 Ability,5,MaxRange,450
 Ability,5,YSPLT,10
 
@@ -98,16 +99,18 @@ Ability,13,MaxRange,500
 
 [Bewitching Hex]
 Ability,14,Name,Bewitching Hex
+Ability,14,Points,1
 Ability,14,Slot,1
-Ability,14,Page,2
-Ability,14,MaxRange,325
+Ability,14,Page,1
+Ability,14,MaxRange,450
 
 [Hex Bolt]
 Ability,15,Name,Hex Bolt
 Ability,15,Points,0
 Ability,15,Page,1
 Ability,15,Slot,1
-Ability,15,MaxRange,325
+Ability,15,MaxRange,450
+Ability,15,MaxLevel,28
 
 [Chaos Shift]
 Ability,16,Name,Chaos Shift
