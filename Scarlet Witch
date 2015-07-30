@@ -26,97 +26,97 @@ Ability,4,AimAt,0,450
 Ability,4,YSPGT,10
 
 [Bewitching Hex]
-Ability,5,Name,Bewitching Hex
-Ability,5,Points,1
-Ability,5,Slot,1
-Ability,5,Page,1
-Ability,5,MaxRange,450
-Ability,5,YSPLT,10
+Ability,6,Name,Bewitching Hex
+Ability,6,Points,1
+Ability,6,Slot,1
+Ability,6,Page,1
+Ability,6,MaxRange,450
+Ability,6,YSPLT,10
 
 [No More...]
-Ability,6,Name,No More...
-Ability,6,Slot,2
-Ability,6,Page,3
-Ability,6,Boss
-Ability,6,MaxRange,700
+Ability,7,Name,No More...
+Ability,7,Slot,2
+Ability,7,Page,3
+Ability,7,Boss
+Ability,7,MaxRange,700
 
 [Unmake Reality]
-Ability,7,Name,Unmake Reality
-Ability,7,Slot,6
-Ability,7,Page,1
-Ability,7,Boss
-Ability,7,MaxRange,450
-Ability,7,Points,20
-
-[Hex Sphere]
-Ability,8,Name,Hex Sphere
+Ability,8,Name,Unmake Reality
+Ability,8,Slot,6
 Ability,8,Page,1
-Ability,8,Slot,7
-Ability,8,SECGT,1
-Ability,8,Cooldown,4
-Ability,8,MaxRange,625
+Ability,8,Boss
+Ability,8,MaxRange,450
 Ability,8,Points,20
 
-[Beasts from Beyond]
-Ability,9,Name,Beasts from Beyond
-Ability,9,Slot,1
-Ability,9,Slot,2
-Ability,9,MaxRange,550
-Ability,9,Cooldown,8
+[Hex Sphere]
+Ability,9,Name,Hex Sphere
+Ability,9,Page,1
+Ability,9,Slot,7
+Ability,9,SECGT,1
+Ability,9,Cooldown,4
+Ability,9,MaxRange,625
 Ability,9,Points,20
 
-[Ravenous Binding]
-Ability,10,Name,Ravenous Binding
-Ability,10,Slot,3
+[Beasts from Beyond]
+Ability,10,Name,Beasts from Beyond
 Ability,10,Page,1
-Ability,10,Cooldown,6
-Ability,10,MaxRange,625
+Ability,10,Slot,2
+Ability,10,MaxRange,550
+Ability,10,Cooldown,8
 Ability,10,Points,20
 
-[Chaos Rift]
-Ability,11,Name,Chaos Rift
+[Ravenous Binding]
+Ability,11,Name,Ravenous Binding
+Ability,11,Slot,3
 Ability,11,Page,1
-Ability,11,Slot,4
 Ability,11,Cooldown,6
-Ability,11,MaxRange,550
-Ability,11,MouseTarget
+Ability,11,MaxRange,625
 Ability,11,Points,20
 
-[Obfuscation]
-Ability,12,Name,Obfuscation
-Ability,12,Slot,5
+[Chaos Rift]
+Ability,12,Name,Chaos Rift
 Ability,12,Page,1
-Ability,12,Maxrange,500
+Ability,12,Slot,4
+Ability,12,Cooldown,6
+Ability,12,MaxRange,550
 Ability,12,MouseTarget
 Ability,12,Points,20
 
-[Chaotic Hex]
-Ability,13,Name,Chaotic Hex
+[Obfuscation]
+Ability,13,Name,Obfuscation
+Ability,13,Slot,5
+Ability,13,Page,1
+Ability,13,Maxrange,500
+Ability,13,MouseTarget
 Ability,13,Points,20
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,MaxRange,500
+
+[Chaotic Hex]
+Ability,14,Name,Chaotic Hex
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,2
+Ability,14,MaxRange,500
 
 [Bewitching Hex]
-Ability,14,Name,Bewitching Hex
-Ability,14,Points,1
-Ability,14,Slot,1
-Ability,14,Page,1
-Ability,14,MaxRange,450
+Ability,15,Name,Bewitching Hex
+Ability,15,Points,1
+Ability,15,Slot,1
+Ability,15,Page,1
+Ability,15,MaxRange,450
 
 [Hex Bolt]
-Ability,15,Name,Hex Bolt
-Ability,15,Points,0
-Ability,15,Page,1
-Ability,15,Slot,1
-Ability,15,MaxRange,450
-Ability,15,MaxLevel,28
+Ability,16,Name,Hex Bolt
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,450
+Ability,16,MaxLevel,28
 
 [Chaos Shift]
-Ability,16,Name,Chaos Shift
-Ability,16,Slot,8
-Ability,16,Page,1
-Ability,16,Movement
+Ability,17,Name,Chaos Shift
+Ability,17,Slot,8
+Ability,17,Page,1
+Ability,17,Movement
 
 END
 
