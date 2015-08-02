@@ -18,6 +18,7 @@ ability,3,points,20
 
 [TeamUp]
 Ability,4,TeamUp
+Ability,4,Cooldown,15
 
 [Claw Slash]
 ability,5,name,Claw Slash
