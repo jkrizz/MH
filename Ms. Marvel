@@ -18,6 +18,7 @@ Ability,3,Points,20
 
 [TeamUp]
 Ability,4,TeamUp
+Ability,4,Cooldown,15
 
 [Binary Overdrive]
 Ability,5,Name,Binary Overdrive
