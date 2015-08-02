@@ -15,6 +15,7 @@ Ability,3,Name,Martial Arts
 Ability,3,Points,1
 
 //ROTATION
+
 [TeamUp]
 Ability,4,TeamUp
 Ability,4,Cooldown,15
