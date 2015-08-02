@@ -14,6 +14,7 @@ Ability,2,Points,1
 
 [TeamUp]
 Ability,3,Teamup
+Ability,3,Cooldown,15
 
 [Demolishing Charge]
 Ability,4,Name,Demolishing Charge
