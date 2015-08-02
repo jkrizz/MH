@@ -15,7 +15,6 @@ Ability,3,Name,The Will of Doom
 Ability,3,Points,19
 
 //ROTATION
-
 [TeamUp]
 Ability,4,Teamup
 Ability,4,Cooldown,15
