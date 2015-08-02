@@ -18,6 +18,7 @@ Ability,3,Points,19
 
 [TeamUp]
 Ability,4,Teamup
+Ability,4,Cooldown,15
 
 [Impending Doom]
 Ability,5,Name,Impending Doom
