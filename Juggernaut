@@ -25,6 +25,7 @@ Ability,4,Points,1
 
 [TeamUp]
 Ability,5,TeamUp
+Ability,5,Cooldown,15
 
 [Full Power]
 Ability,6,Name,Full Power
