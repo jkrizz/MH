@@ -10,6 +10,7 @@ Ability,1,Points,20
 
 [TeamUp]
 Ability,2,TeamUp
+Ability,2,Cooldown,15
 
 [Indestructible Shield]
 Ability,3,Name,Indestructible Shield
