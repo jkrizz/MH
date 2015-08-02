@@ -14,6 +14,7 @@ Ability,2,Points,20
 
 [TeamUp]
 Ability,3,TeamUp
+Ability,3,Cooldown,15
 
 [H7 Fleetslayer]
 Ability,4,Name,H7 Fleetslayer
