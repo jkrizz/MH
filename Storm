@@ -19,6 +19,7 @@ Ability,3,Toggle
 
 [TeamUp]
 Ability,4,TeamUp
+Ability,4,Cooldown,15
 
 [Sirocco Rush]
 Ability,5,Name,Sirocco Rush
