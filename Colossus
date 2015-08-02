@@ -25,6 +25,7 @@ Ability,4,Toggle
 
 [Teamup]
 Ability,5,TeamUp
+Ability,5,Cooldown,15
 
 [Osmium Charge]
 Ability,6,Name,Osmium Charge
