@@ -16,6 +16,7 @@ Ability,3,Points,1
 
 [TeamUp]
 Ability,4,TeamUp
+Ability,4,Cooldown,15
 
 [Arcane Shield]
 Ability,5,Name,Arcane Shield
