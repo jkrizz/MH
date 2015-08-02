@@ -10,6 +10,7 @@ Ability,1,Points,20
 
 [TeamUp]
 Ability,2,TeamUp
+Ability,2,Cooldown,15
 
 [For Asgard!]
 ability,3,name,For Asgard!
