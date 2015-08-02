@@ -21,6 +21,7 @@ Ability,3,Toggle
 
 [TeamUp]
 Ability,4,TeamUp
+Ability,4,Cooldown,15
 
 [Nova Corps]
 Ability,5,Name,Nova Corps
