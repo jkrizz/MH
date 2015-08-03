@@ -32,6 +32,7 @@ Ability,5,Page,2
 Ability,5,Slot,3
 Ability,5,Boss
 Ability,5,Points,20
+Ability,5,Hold,8000
 Ability,5,MouseTarget
 
 [Star-spangled Strike]
