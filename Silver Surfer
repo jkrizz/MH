@@ -1,0 +1,107 @@
+hero,Silver Surfer
+
+//PASSIVES
+
+[Comet's Tail]
+Ability,1,Name,Comet's Tail
+Ability,1,Points,20
+Ability,1,Toggle
+Ability,1,Page,3
+Ability,1,Slot,2
+
+[Polarity Field]
+Ability,2,Name,Polarity Field
+Ability,2,Points,1
+Ability,2,Toggle
+Ability,2,Page,3
+Ability,2,Slot,3
+
+[Power Unconquered]
+Ability,3,Name,Power Unconquered
+Ability,3,Points,20
+
+[Cosmic Resonance]
+Ability,4,Name,Cosmic Resonance
+Ability,4,Points,1
+
+[Temporal Recall]
+Ability,5,Name,Temporal Recall
+Ability,5,Points,1
+
+//ROTATION
+
+[TeamUp]
+Ability,6,TeamUp
+Ability,6,Cooldown,15
+
+[Convergence]
+Ability,7,Name,Convergence
+Ability,7,Page,2
+Ability,7,Slot,2
+Ability,7,Boss
+Ability,7,MaxRange,250
+
+[Reconstruct]
+Ability,8,Name,Reconstruct
+Ability,8,Points,1
+Ability,8,YSPLT,65
+Ability,8,Page,1
+Ability,8,Slot,2
+
+[Singularity]
+Ability,9,Name,Singularity
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,3
+
+[Subspace Rift]
+Ability,10,Name,Subspace Rift
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,4
+Ability,10,Cooldown,6
+Ability,10,MaxRange,625
+
+[Repulse]
+Ability,11,Name,Repulse
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,MaxRange,750
+
+[Deconstruct]
+Ability,12,Name,Deconstruct
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+
+[Event Horion]
+Ability,13,Name,Event Horizon
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,7
+Ability,13,Elite
+
+[Board Dash]
+Ability,14,Name,Board Dash
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,8
+
+[Cosmic Beam Array]
+Ability,15,Name,Cosmic Beam Array
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,MouseTarget
+
+[Board Dash]
+Ability,16,Name,Board Dash
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,8
+Ability,16,Movement
+
+END
+
+[Build: https://forums.marvelheroes.com/discussion/173060/complete-movement-build-guide-30s-ttk-videos-gear-omega-updated-2015-2-12-for-1-35]
