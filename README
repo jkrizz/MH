@@ -1,0 +1,5 @@
+Any heroes that have a "w/Evasion" tag in their description may need to have their evasion moves (usually listed near the top of the rotation comment) commented out with two //.
+
+Some heroes can't maintain the spirit costs to use these evasions until around level 30, where it's usually safe to enable them.
+
+Experiment as needed.
