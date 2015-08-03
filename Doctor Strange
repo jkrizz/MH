@@ -51,93 +51,101 @@ Ability,8,Page,1
 Ability,8,Slot,1
 Ability,8,YSPLT,20
 
+//[Fangs of Farallah]
+//Ability,9,Name,Fangs of Farallah
+//Ability,9,Points,20
+//Ability,9,Page,2
+//Ability,9,Slot,5
+//Ability,9,Buff,[MISSING],True
+
 [Facet of Power]
-Ability,9,Name,Facet of Power
-Ability,9,Boss
-Ability,9,Page,3
-Ability,9,Slot,2
+Ability,10,Name,Facet of Power
+Ability,10,Boss
+Ability,10,Page,3
+Ability,10,Slot,2
 
 [Seal of the Vishanti]
-Ability,10,Name,Seal of the Vishanti
-Ability,10,Points,1
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,TargetSelf
-
-[Images of Ikonn]
-Ability,11,Name,Images of Ikonn
+Ability,11,Name,Seal of the Vishanti
 Ability,11,Points,1
 Ability,11,Page,1
-Ability,11,Slot,3
+Ability,11,Slot,2
+Ability,11,TargetSelf
 
-[Shield of the Seraphim]
-Ability,12,Name,Shield of the Seraphim
+[Images of Ikonn]
+Ability,12,Name,Images of Ikonn
 Ability,12,Points,1
 Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,YHPLT,90
+Ability,12,Slot,3
 
-[Seven Rings of Raggadorr]
-Ability,13,Name,Seven Rings of Raggadorr
+[Shield of the Seraphim]
+Ability,13,Name,Shield of the Seraphim
 Ability,13,Points,1
 Ability,13,Page,1
-Ability,13,Slot,5
-Ability,13,YSPLT,50
+Ability,13,Slot,4
+Ability,13,YHPLT,90
+
+[Seven Rings of Raggadorr]
+Ability,14,Name,Seven Rings of Raggadorr
+Ability,14,Points,1
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,YSPLT,50
 
 [All-Seeing Eye]
-Ability,14,Name,All-Seeing Eye
-Ability,14,Points,20
-Ability,14,Page,3
-Ability,14,Slot,3
+Ability,15,Name,All-Seeing Eye
+Ability,15,Points,20
+Ability,15,Page,3
+Ability,15,Slot,3
 
 [Vapors of Valtorr]
-Ability,15,Name,Vapors of Valtorr
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,6
-
-[Flames of the Faltine]
-Ability,16,Name,Flames of the Faltine
+Ability,16,Name,Vapors of Valtorr
 Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,7
+Ability,16,Slot,6
+
+[Flames of the Faltine]
+Ability,17,Name,Flames of the Faltine
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,7
 
 [Demons of Denak]
-Ability,17,Name,Demons of Denak
-Ability,17,Points,20
-Ability,17,Page,2
-Ability,17,Slot,2
-
-[Crimson Bands of Cyttorak]
-Ability,18,Name,Crimson Bands of Cyttorak
+Ability,18,Name,Demons of Denak
 Ability,18,Points,20
 Ability,18,Page,2
-Ability,18,Slot,3
+Ability,18,Slot,2
+Ability,18,MouseTarget
 
-[Seven Suns of Cinnibus]
-Ability,19,Name.Seven Suns of Cinnibus
+[Crimson Bands of Cyttorak]
+Ability,19,Name,Crimson Bands of Cyttorak
 Ability,19,Points,20
 Ability,19,Page,2
-Ability,19,Slot,4
+Ability,19,Slot,3
 
-[Fangs of Farallah]
-Ability,20,Name,Fangs of Farallah
+[Seven Suns of Cinnibus]
+Ability,20,Name,Seven Suns of Cinnibus
 Ability,20,Points,20
 Ability,20,Page,2
-Ability,20,Slot,5
+Ability,20,Slot,4
+
+[Fangs of Farallah]
+Ability,21,Name,Fangs of Farallah
+Ability,21,Points,20
+Ability,21,Page,2
+Ability,21,Slot,5
 
 [Bolts of Balthakk]
-Ability,21,Name,Bolts of Balthakk
-Ability,21,Points,0
-Ability,21,Page,1
-Ability,21,Slot,1
-
-[Mystic Shift]
-Ability,22,Name,Mystic Shift
+Ability,22,Name,Bolts of Balthakk
 Ability,22,Points,0
 Ability,22,Page,1
-Ability,22,Slot,8
-Ability,22,Movement
+Ability,22,Slot,1
+
+[Mystic Shift]
+Ability,23,Name,Mystic Shift
+Ability,23,Points,0
+Ability,23,Page,1
+Ability,23,Slot,8
+Ability,23,Movement
 
 END
 
