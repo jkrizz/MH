@@ -18,7 +18,7 @@ Ability,3,Points,1
 
 [TeamUp]
 Ability,4,TeamUp
-Ability,4,Cooldown,
+Ability,4,Cooldown,15
 
 [Psionic Maelstrom]
 Ability,5,Name,Psionic Maelstrom
