@@ -116,36 +116,43 @@ Ability,18,Page,2
 Ability,18,Slot,2
 Ability,18,MouseTarget
 
-[Crimson Bands of Cyttorak]
-Ability,19,Name,Crimson Bands of Cyttorak
+[Fangs of Farallah]
+Ability,19,Name,Fangs of Farallah
 Ability,19,Points,20
 Ability,19,Page,2
-Ability,19,Slot,3
+Ability,19,Slot,5
+Ability,19,Cooldown,2
 
-[Seven Suns of Cinnibus]
-Ability,20,Name,Seven Suns of Cinnibus
+[Crimson Bands of Cyttorak]
+Ability,20,Name,Crimson Bands of Cyttorak
 Ability,20,Points,20
 Ability,20,Page,2
-Ability,20,Slot,4
+Ability,20,Slot,3
 
-[Fangs of Farallah]
-Ability,21,Name,Fangs of Farallah
+[Seven Suns of Cinnibus]
+Ability,21,Name,Seven Suns of Cinnibus
 Ability,21,Points,20
 Ability,21,Page,2
-Ability,21,Slot,5
+Ability,21,Slot,4
+
+[Fangs of Farallah]
+Ability,22,Name,Fangs of Farallah
+Ability,22,Points,20
+Ability,22,Page,2
+Ability,22,Slot,5
 
 [Bolts of Balthakk]
-Ability,22,Name,Bolts of Balthakk
-Ability,22,Points,0
-Ability,22,Page,1
-Ability,22,Slot,1
-
-[Mystic Shift]
-Ability,23,Name,Mystic Shift
+Ability,23,Name,Bolts of Balthakk
 Ability,23,Points,0
 Ability,23,Page,1
-Ability,23,Slot,8
-Ability,23,Movement
+Ability,23,Slot,1
+
+[Mystic Shift]
+Ability,24,Name,Mystic Shift
+Ability,24,Points,0
+Ability,24,Page,1
+Ability,24,Slot,8
+Ability,24,Movement
 
 END
 
