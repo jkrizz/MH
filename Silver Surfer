@@ -68,10 +68,11 @@ Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,5
 Ability,11,MaxRange,750
+Ability,11,AimAt,180,100
 
 [Deconstruct]
 Ability,12,Name,Deconstruct
-Ability,12,Points,20
+Ability,12,Points,18
 Ability,12,Page,1
 Ability,12,Slot,6
 
@@ -95,12 +96,20 @@ Ability,15,Page,1
 Ability,15,Slot,1
 Ability,15,MouseTarget
 
-[Board Dash]
-Ability,16,Name,Board Dash
-Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,8
+[Subspace Slipstream]
+Ability,16,Name,Subspace Slipstream
+Ability,16,Points,1
+Ability,16,Page,2
+Ability,16,Slot,3
 Ability,16,Movement
+Ability,16,YSPGT,20
+
+[Board Dash]
+Ability,17,Name,Board Dash
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,8
+Ability,17,Movement
 
 END
 
