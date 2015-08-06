@@ -24,92 +24,112 @@ Ability,3,Points,20
 Ability,4,Name,Cosmic Resonance
 Ability,4,Points,1
 
-[Temporal Recall]
-Ability,5,Name,Temporal Recall
-Ability,5,Points,1
-
 //ROTATION
 
 [TeamUp]
-Ability,6,TeamUp
-Ability,6,Cooldown,15
+Ability,5,TeamUp
+Ability,5,Cooldown,15
 
 [Convergence]
-Ability,7,Name,Convergence
-Ability,7,Page,2
-Ability,7,Slot,2
-Ability,7,Boss
-Ability,7,MaxRange,250
+Ability,6,Name,Convergence
+Ability,6,Page,2
+Ability,6,Slot,2
+Ability,6,Boss
+Ability,6,MaxRange,250
 
 [Reconstruct]
-Ability,8,Name,Reconstruct
+Ability,7,Name,Reconstruct
+Ability,7,Points,1
+Ability,7,YSPLT,65
+Ability,7,Page,1
+Ability,7,Slot,2
+
+[Temporal Recall]
+Ability,8,Name,Temporal Recall
 Ability,8,Points,1
-Ability,8,YSPLT,65
-Ability,8,Page,1
-Ability,8,Slot,2
+Ability,8,Page,2
+Ability,8,Slot,4
+Ability,8,Elite
+Ability,8,Cooldown,5
 
 [Singularity]
 Ability,9,Name,Singularity
 Ability,9,Points,20
 Ability,9,Page,1
 Ability,9,Slot,3
-
-[Subspace Rift]
-Ability,10,Name,Subspace Rift
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,4
-Ability,10,Cooldown,6
-Ability,10,MaxRange,625
-
-[Repulse]
-Ability,11,Name,Repulse
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,5
-Ability,11,MaxRange,750
-Ability,11,AimAt,180,100
-
-[Deconstruct]
-Ability,12,Name,Deconstruct
-Ability,12,Points,18
-Ability,12,Page,1
-Ability,12,Slot,6
-
-[Event Horion]
-Ability,13,Name,Event Horizon
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,7
-Ability,13,Elite
-
-[Board Dash]
-Ability,14,Name,Board Dash
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,8
-
-[Cosmic Beam Array]
-Ability,15,Name,Cosmic Beam Array
-Ability,15,Points,0
-Ability,15,Page,1
-Ability,15,Slot,1
-Ability,15,MouseTarget
+Ability,9,Movement
+Ability,9,Cooldown,3
 
 [Subspace Slipstream]
-Ability,16,Name,Subspace Slipstream
-Ability,16,Points,1
-Ability,16,Page,2
-Ability,16,Slot,3
-Ability,16,Movement
-Ability,16,YSPGT,20
+Ability,10,Name,Subspace Slipstream
+Ability,10,Points,1
+Ability,10,Page,2
+Ability,10,Slot,3
+Ability,10,YSPGT,60
+Ability,10,MinRange,650
+
+[Singularity]
+Ability,11,Name,Singularity
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,3
+
+[Subspace Rift]
+Ability,12,Name,Subspace Rift
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,4
+Ability,12,Cooldown,6
+Ability,12,MaxRange,625
+
+[Repulse]
+Ability,13,Name,Repulse
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,MaxRange,750
+Ability,13,AimAt,180,100
+
+[Deconstruct]
+Ability,14,Name,Deconstruct
+Ability,14,Points,18
+Ability,14,Page,1
+Ability,14,Slot,6
+
+[Event Horion]
+Ability,15,Name,Event Horizon
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,7
+Ability,15,Elite
 
 [Board Dash]
-Ability,17,Name,Board Dash
-Ability,17,Points,20
+Ability,16,Name,Board Dash
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,8
+
+[Cosmic Beam Array]
+Ability,17,Name,Cosmic Beam Array
+Ability,17,Points,0
 Ability,17,Page,1
-Ability,17,Slot,8
-Ability,17,Movement
+Ability,17,Slot,1
+Ability,17,MouseTarget
+
+[Subspace Slipstream]
+Ability,18,Name,Subspace Slipstream
+Ability,18,Points,1
+Ability,18,Page,2
+Ability,18,Slot,3
+Ability,18,Movement
+Ability,18,YSPGT,20
+
+[Board Dash]
+Ability,19,Name,Board Dash
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
 
 END
 
