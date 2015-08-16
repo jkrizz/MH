@@ -27,6 +27,7 @@ Ability,5,Page,1
 Ability,5,MaxRange,300
 Ability,5,AimAt,45,500
 Ability,5,Points,0
+Ability,5,Boss
 
 [Declaration of War]
 Ability,6,Name,Declaration of War
