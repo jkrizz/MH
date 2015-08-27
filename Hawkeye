@@ -1,6 +1,6 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
-//I highly recommend (at least with this ability file) only playing Hawkeye in a combat only gamestep.  That is to say that I don't recommend having him level automatically through terminals, but through manual movement and only activating the gamestep for combat.  All of Hawkeye's abilites (again, in this ability file) have LOS issues with all the terrain in the game and he was easily the slowest to level in terminals.  Midtown leveling on Monday's may be fine, but he's just too squishy and combined with the LOS issues and is the only character I've run into so far that I don't recommend afk botting.
+//I highly recommend (at least with this ability file) only playing Hawkeye in a combat only gamestep.  That is to say that I don't recommend having him level automatically through terminals, but through manual movement and only activating the gamestep for combat.  All of Hawkeye's abilites (again, in this ability file) have LOS issues with all the terrain in the game and he was easily the slowest to level in terminals.  Midtown leveling on Monday's may be fine, but he's just too squishy and combined with the LOS issues is the only character I've run into so far that I don't recommend afk botting.
 
 hero,Hawkeye
 
