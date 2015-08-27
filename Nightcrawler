@@ -25,8 +25,8 @@ Ability,3,Toggle
 Ability,4,TeamUp
 Ability,4,Cooldown,5
 
+//Recommend uncommenting the below if you don't have a Zola's
 //[Shadowmeld]
-//Recommend uncommenting this if you don't have a Zola's
 //Ability,5,Name,Shadowmeld
 //Ability,5,Points,1
 //Ability,5,Page,1
@@ -43,8 +43,8 @@ Ability,6,YSPLT,20
 Ability,6,Delay,4000
 Ability,6,Movement
 
+//Uncomment the below if you feel you need to slip into the shadows to heal, possibly useful early game
 //[Shadowmeld]
-//Uncomment this if you feel you need to slip into the shadows to heal, possibly useful early game
 //Ability,7,Name,Shadowmeld
 //Ability,7,Points,1
 //Ability,7,Page,1
