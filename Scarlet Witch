@@ -12,7 +12,7 @@ Ability,1,Points,20
 Ability,2,Name,Bewitching Hex
 Ability,2,Points,1
 
-// ROTATION ORDER
+//ROTATION ORDER
 
 [TeamUp]
 Ability,3,TeamUp
