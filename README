@@ -19,5 +19,7 @@ Experiment as needed.
 -Please take special note of instructions for the following characters:
 
 -Vision: Acquire a robot from Midtown once you are able to put a point into A.I. Hack.  Also be sure to level the robot up as you level.  Not super crucial, but don't be level 60 with a level 10 robot.
+
 -Nightcrawler: Shadowmeld is an interesting ability that both restores health and spirit.  I have this disabled by default because I find it interferes with farming, but while leveling it may be beneficial to enable it by uncommenting those sections in the ability file.
+
 -Hawkeye: I highly recommend (at least with this ability file) only playing Hawkeye in a combat only gamestep.  That is to say that I don't recommend having him level automatically through terminals, but through manual movement and only activating the gamestep for combat.  All of Hawkeye's abilites (again, in this ability file) have LOS issues with all the terrain in the game and he was easily the slowest to level in terminals.  Midtown leveling on Monday's may be fine, but he's just too squishy and combined with the LOS issues is the only character I've run into so far that I don't recommend afk botting.
