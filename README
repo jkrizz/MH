@@ -1,4 +1,5 @@
-Any heroes that have a "w/Evasion" tag in their description may need to have their evasion moves (usually listed near the top of the rotation comment) commented out with two //.
+**
+-Any heroes that have a "w/Evasion" tag in their description may need to have their evasion moves (usually listed near the top of the rotation comment) commented out with two //.
 
 Some heroes can't maintain the spirit costs to use these evasions until around level 30, where it's usually safe to enable them.
 
@@ -15,3 +16,8 @@ Example for Scarlet Witch.  The teleport is enabled by default in her ability fi
 //Ability,4,YSPGT,10
 
 Experiment as needed.
+
+**
+-Please take special note of instructions for the following characters:
+
+-Vision: Acquire a robot from Midtown once you are able to put a point into A.I. Hack.  Also be sure to level the robot up as you level.  Not super crucial, but don't be level 60 with a level 10 robot.
