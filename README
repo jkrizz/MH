@@ -2,4 +2,16 @@ Any heroes that have a "w/Evasion" tag in their description may need to have the
 
 Some heroes can't maintain the spirit costs to use these evasions until around level 30, where it's usually safe to enable them.
 
+Example for Scarlet Witch.  The teleport is enabled by default in her ability file, but to comment it out you would change it to this:
+
+//[Chaos Shift]
+//Ability,4,Name,Chaos Shift
+//Ability,4,Points,0
+//Ability,4,Slot,8
+//Ability,4,Page,1
+//Ability,4,Boss
+//Ability,4,MaxRange,175
+//Ability,4,AimAt,0,450
+//Ability,4,YSPGT,10
+
 Experiment as needed.
