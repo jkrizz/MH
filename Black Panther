@@ -71,6 +71,7 @@ Ability,11,points,20
 Ability,11,slot,7
 Ability,11,page,1
 Ability,11,maxrange,125
+Ability,11,Buff,marvelconditioneffect_bleed,True
 
 [Jungle Snare]
 Ability,12,name,Jungle Snare
@@ -102,12 +103,20 @@ Ability,15,slot,1
 Ability,15,page,1
 Ability,15,maxrange,100
 
+[Ziggurat]
+Ability,16,Name,Ziggurat of Kargul
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,8
+Ability,16,Movement
+Ability,16,YHPGT,40
+
 [Stealthy Escape]
-Ability,16,name,Stealthy Escape
-Ability,16,points,0
-Ability,16,slot,8
-Ability,16,page,1
-Ability,16,movement
+Ability,17,name,Stealthy Escape
+Ability,17,points,0
+Ability,17,slot,8
+Ability,17,page,1
+Ability,17,movement
 
 END
 
