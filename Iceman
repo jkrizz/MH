@@ -1,0 +1,144 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Iceman
+
+//PASSIVES
+
+[Frost Nova]
+Ability,1,Name,Frost Nova
+Ability,1,Points,20
+
+[Construct Focus]
+Ability,2,Name,Construct Focus
+Ability,2,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,3,TeamUp
+Ability,3,Cooldown,15
+
+[Ice Block]
+Ability,4,Name,Ice Block
+Ability,4,Points,1
+Ability,4,Slot,7
+Ability,4,Page,1
+Ability,4,YHPLT,30
+
+[Snow Plow]
+Ability,5,Name,Snow Plow
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,MaxRange,200
+Ability,5,AimAt,45,400
+Ability,5,YSPGT,10
+Ability,5,Boss
+
+[Snow Plow]
+Ability,6,Name,Snow Plow
+Ability,6,Points,0
+Ability,6,Slot,8
+Ability,6,Page,1
+Ability,6,MinRange,600
+Ability,6,YSPGT,10
+
+[Ice Golem]
+Ability,7,Name,Ice Golem
+Ability,7,Points,20
+Ability,7,Slot,5
+Ability,7,Page,1
+Ability,7,Movement
+Ability,7,Cooldown,30
+
+[Chillblain]
+Ability,8,Name,Chillblain
+Ability,8,Points,0
+Ability,8,Slot,1
+Ability,8,Page,2
+Ability,8,YSPLT,20
+Ability,8,MaxRange,600
+
+[Ice Golem]
+Ability,9,Name,Ice Golem
+Ability,9,Points,20
+Ability,9,Sot,5
+Ability,9,Page,1
+Ability,9,Cooldown,30
+
+[Ice Slick]
+Ability,10,Name,Ice Slick
+Ability,10,Points,20
+Ability,10,Slot,2
+Ability,10,Page,1
+Ability,10,Cooldown,5
+Ability,10,MaxRange,600
+
+[Work of Art]
+Ability,11,Name,Work of Art
+Ability,11,Points,20
+Ability,11,Slot,4
+Ability,11,Page,2
+Ability,11,MaxRange,450
+
+[Age of Icemen]
+Ability,12,Name,Age of Icemen
+Ability,12,Boss
+Ability,12,Slot,3
+Ability,12,Page,2
+
+[Absolute Zero]
+Ability,13,Name,Absolute Zero
+Ability,13,Points,20
+Ability,13,Slot,2
+Ability,13,Page,2
+Ability,13,Boss
+Ability,13,MaxRange,350
+
+[Flash Freeze]
+Ability,14,Name,Flash Freeze
+Ability,14,Points,20
+Ability,14,Slot,3
+Ability,14,Page,1
+Ability,14,MaxRange,600
+Ability,14,Mousetarget
+
+[Frost Nova]
+Ability,15,Name,Frost Nova
+Ability,15,Points,20
+Ability,15,Slot,6
+Ability,15,Page,1
+Ability,15,MaxRange,375
+
+[Glacial Wall]
+Ability,16,Name,Glacial Wall
+Ability,16,Points,1
+Ability,16,Slot,6
+Ability,16,Page,1
+Ability,16,MaxRange,350
+
+[Frozen Lance]
+Ability,17,Name,Frozen Lance
+Ability,17,Points,20
+Ability,17,Slot,4
+Ability,17,Page,1
+Ability,17,Cooldown,3
+Ability,17,MaxRange,600
+
+[Ziggurat]
+Ability,17,Name,Ziggurat of Kargul
+Ability,17,Points,0
+Ability,17,Page,2
+Ability,17,Slot,8
+Ability,17,Movement
+Ability,17,YHPGT,40
+Ability,17,Delay,1500
+
+[Snow Plow]
+Ability,18,Name,Snow Plow
+Ability,18,Points,0
+Ability,18,Slot,8
+Ability,18,Page,1
+Ability,18,Movement
+
+END
