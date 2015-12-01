@@ -2,120 +2,116 @@
 
 hero,Thor
 
-//PASSIVES
-
-[Yggdrasil's Boon]
-Ability,1,Name,Yggdrasil's Boon
-Ability,1,Points,20
-
 //ROTATION
 
 [TeamUp]
-Ability,2,TeamUp
-Ability,2,Cooldown,15
+Ability,1,TeamUp
+Ability,1,Cooldown,15
 
-[For Asgard!]
-ability,3,name,For Asgard!
-ability,3,Cooldown,27
-ability,3,Points,20
-ability,3,Page,2
-ability,3,Slot,5
-
-[God Blast]
-ability,4,name,God Blast
-ability,4,Boss
-ability,4,Cooldown,430
-ability,4,Page,2
-ability,4,Slot,4
-ability,4,MaxRange,625
+[Yggdrasil's Boon]
+Ability,2,Name,Yggdrasil's Boon
+Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,3
 
 [Thunderous Charge]
-ability,5,name,Thunderous Charge
-ability,5,points,0
-ability,5,slot,8
-ability,5,page,1
-ability,5,movement
-ability,5,cooldown,7
-ability,5,MinRange,300
-
-[The Anti-Force]
-ability,6,name,The Anti-Force
-ability,6,points,20
-ability,6,slot,6
-ability,6,page,1
-ability,6,cooldown,20
-ability,6,maxrange,750
-
-[Bring the Thunder]
-ability,7,name,Bring the Thunder
-ability,7,points,20
-ability,7,slot,3
-ability,7,page,1
-ability,7,cooldown,2
-ability,7,MaxRange,600
-
-[Asgardian Smite]
-ability,8,name,Asgardian Smite
-ability,8,points,1
-ability,8,slot,5
-ability,8,page,1
-ability,8,mousetarget
-ability,8,cooldown,7
-ability,8,maxrange,625
-
-[Hammer Smash]
-ability,9,name,Hammer Smash
-ability,9,points,20
-ability,9,slot,4
-ability,9,page,1
-ability,9,cooldown,7
-ability,9,MaxRange,250
-
-[Thundering Strike]
-ability,10,name,Thundering Strike
-ability,10,points,20
-ability,10,page,1
-ability,10,slot,2
-ability,10,MaxRange,100
-
-[Rolling Thunder]
-ability,11,name,Rolling Thunder
-ability,11,points,20
-ability,11,slot,7
-ability,11,page,1
-ability,11,cooldown,2
-ability,11,MaxRange,625
+Ability,3,Name,Thunderous Charge
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,150
+Ability,3,YSPGT,20
 
 [Son of Odin]
-ability,12,name,Son of Odin
-ability,12,points,20
-ability,12,slot,2
-ability,12,page,2
-ability,12,cooldown,12
-ability,12,MaxRange,375
+Ability,4,Name,Son of Odin
+Ability,4,Points,20
+Ability,4,Slot,4
+Ability,4,Page,1
+Ability,4,MaxRange,375
+
+[For Asgard!]
+Ability,5,Name,For Asgard!
+Ability,5,Points,20
+Ability,5,Page,1
+Ability,5,Slot,6
+
+[Bring the Thunder]
+Ability,6,Name,Bring the Thunder
+Ability,6,Points,20
+Ability,6,Slot,3
+Ability,6,Page,1
+Ability,6,MaxRange,550
+Ability,6,Cooldown,4
+
+[Rolling Thunder]
+Ability,7,Name,Rolling Thunder
+Ability,7,Points,20
+Ability,7,Slot,7
+Ability,7,Page,1
+Ability,7,MaxRange,625
+Ability,7,Cooldown,4
+
+[God Blast]
+Ability,8,Name,God Blast
+Ability,8,Boss
+Ability,8,Page,2
+Ability,8,Slot,4
+Ability,8,MaxRange,625
+Ability,8,MouseTarget
+
+[The Anti-Force]
+Ability,9,Name,The Anti-Force
+Ability,9,Points,20
+Ability,9,Slot,5
+Ability,9,Page,1
+Ability,9,Maxrange,650
+
+[Spinning Strike]
+Ability,10,Name,Spinning Strike
+Ability,10,Points,20
+Ability,10,Page,2
+Ability,10,Slot,2
+Ability,10,MaxRange,125
 
 [Hammer of Storms]
-ability,13,name,Hammer of Storms
-ability,13,points,0
-ability,13,page,2
-ability,13,slot,3
-ability,13,YSPGT,20
-ability,13,MaxRange,600
+Ability,11,Name,Hammer of Storms
+Ability,11,Points,0
+Ability,11,Page,2
+Ability,11,Slot,5
+Ability,11,MaxRange,625
+
+[Thundering Strike]
+Ability,12,Name,Thundering Strike
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,2
+Ability,12,MaxRange,100
 
 [Hammer Strike]
-ability,14,name,Hammer Strike
-ability,14,Points,0
-ability,14,Page,1
-Ability,14,Slot,1
-ability,14,maxrange,100
+Ability,13,Name,Hammer Strike
+Ability,13,Points,0
+Ability,13,Page,1
+Ability,13,Slot,1
+Ability,13,Maxrange,100
+
+[Ziggurat]
+Ability,14,Name,Ziggurat of Kargul
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,8
+Ability,14,Movement
+Ability,14,YHPGT,40
+Ability,14,Delay,1500
 
 [Thunderous Charge]
-ability,15,name,Thunderous Charge
-ability,15,points,0
-ability,15,slot,8
-ability,15,page,1
-ability,15,movement
+Ability,15,Name,Thunderous Charge
+Ability,15,Points,0
+Ability,15,Slot,8
+Ability,15,Page,1
+Ability,15,Movement
 
 END
 
 [Build: http://marvelheroes.info/build/1951/]
+
