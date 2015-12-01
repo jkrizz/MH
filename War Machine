@@ -46,7 +46,7 @@ Ability,5,MinRange,600
 Ability,5,YSPGT,10
 
 [Sidekick]
-Ability,6,Name,Side Kick
+Ability,6,Name,Sidekick
 Ability,6,Points,0
 Ability,6,Page,2
 Ability,6,Slot,3
