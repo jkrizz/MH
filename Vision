@@ -6,116 +6,118 @@ hero,Vision
 
 //PASSIVES
 
-[Defragmentation]
-Ability,1,Name,Defragmentation
-Ability,1,Points,20
-
 [Density Shift]
-Ability,2,Name,Density Shift
-Ability,2,Points,1
+Ability,1,Name,Density Shift
+Ability,1,Points,1
 
 [Power of the Sun]
-Ability,3,Name,Power of the Sun
-Ability,3,Points,1
+Ability,2,Name,Power of the Sun
+Ability,2,Points,1
 
 [A.I. Hack]
-Ability,4,Name,A.I. Hack
-Ability,4,Points,1
+Ability,3,Name,A.I. Hack
+Ability,3,Points,1
 
 //EARLY PRIORITY
 
 [Tri-Beam]
-Ability,5,Name,Tri-Beam
-Ability,5,Points,20
+Ability,4,Name,Tri-Beam
+Ability,4,Points,20
 
 //ROTATION
 
 [TeamUp]
-Ability,6,TeamUp
-Ability,6,Cooldown,15
+Ability,5,TeamUp
+
+[Defragmentation]
+Ability,6,Name,Defragmentation
+Ability,6,Points,20
+Ability,6,Page,2
+Ability,6,Slot,4
 
 [Phase]
 Ability,7,Name,Phase
 Ability,7,Points,0
-Ability,7,Slot,8
 Ability,7,Page,1
-Ability,7,Boss
-Ability,7,MaxRange,190
-Ability,7,AimAt,0,400
+Ability,7,Slot,8
+Ability,7,MaxRange,100
+Ability,7,AimAt,45,400
 Ability,7,YSPGT,10
+Ability,7,Boss
+Ability,7,Cooldown,3
 
 [Phase]
 Ability,8,Name,Phase
 Ability,8,Points,0
 Ability,8,Slot,8
 Ability,8,Page,1
-Ability,8,MinRange,550
+Ability,8,MinRange,700
 Ability,8,YSPGT,10
 
+[Terminal Velocity]
+Ability,9,Name,Terminal Velocity
+Ability,9,Points,0
+Ability,9,Slot,5
+Ability,9,Page,2
+Ability,9,MaxRange,600
+
 [Solar Overcharge]
-Ability,9,Name,Solar Overcharge
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,2
-Ability,9,YSPLT,25
-Ability,9,MaxRange,625
+Ability,10,Name,Solar Overcharge
+Ability,10.Points,20
+Ability,10,Page,1
+Ability,10,Slot,2
+Ability,10,YSPLT,25
+Ability,10,MaxRange,625
 
 [Phase Punch]
-Ability,10,Name,Phase Punch
-Ability,10,Points,0
-Ability,10,Slot,1
-Ability,10,Page,1
-Ability,10,MaxRange,100
-Ability,10,YSPLT,20
-Ability,10,MaxLevel,4
+Ability,11,Name,Phase Punch
+Ability,11,Points,0
+Ability,11,Slot,1
+Ability,11,Page,1
+Ability,11,MaxRange,100
+Ability,11,YSPLT,20
+Ability,11,MaxLevel,4
 
 [Solar Bolt]
-Ability,11,Name,Solar Bolt
-Ability,11,Points,20
-Ability,11,Slot,3
-Ability,11,Page,1
-Ability,11,YSPLT,20
-Ability,11,MaxRange,500
+Ability,12,Name,Solar Bolt
+Ability,12,Points,20
+Ability,12,Slot,3
+Ability,12,Page,1
+Ability,12,YSPLT,20
+Ability,12,MaxRange,500
 
 [Healing Nanites]
-Ability,12,Name,Healing Nanites
-Ability,12,Points,1
-Ability,12,Slot,4
-Ability,12,Page,1
-Ability,12,YHPLT,60
+Ability,13,Name,Healing Nanites
+Ability,13,Points,1
+Ability,13,Slot,4
+Ability,13,Page,1
+Ability,13,YHPLT,60
 
 [Solar Flare]
-Ability,13,Name,Solar Flare
-Ability,13,Points,20
-Ability,13,Slot,7
-Ability,13,Page,1
-Ability,13,MaxRange,600
-Ability,13,AOE
-Ability,13,AOETYPE,Self
-Ability,13,AOERange,600
-Ability,13,AOECOUNT,2
+Ability,14,Name,Solar Flare
+Ability,14,Points,20
+Ability,14,Slot,7
+Ability,14,Page,1
+Ability,14,MaxRange,600
+Ability,14,AOE
+Ability,14,AOETYPE,Self
+Ability,14,AOERange,600
+Ability,14,AOECOUNT,1
 
 [Solar Bolt]
-Ability,14,Name,Solar Bolt
-Ability,14,Points,20
-Ability,14,Slot,3
-Ability,14,Page,1
-Ability,14,Cooldown,7
-Ability,14,MaxRange,500
-
-[Overclocking]
-Ability,15,Name,Overclocking
+Ability,15,Name,Solar Bolt
 Ability,15,Points,20
-Ability,15,Slot,5
+Ability,15,Slot,3
 Ability,15,Page,1
-Ability,15,Cooldown,20
+Ability,15,Cooldown,7
+Ability,15,MaxRange,500
 
 [Overclocking]
 Ability,16,Name,Overclocking
 Ability,16,Points,20
 Ability,16,Slot,5
 Ability,16,Page,1
-Ability,16,Buff,marvelconditioneffect_visionsolargemcharging,True
+Ability,16,Cooldown,6
 
 [Channeled Solar Beam]
 Ability,17,Name,Channeled Solar Beam
@@ -147,8 +149,8 @@ Ability,20,Points,20
 Ability,20,Slot,3
 Ability,20,Page,2
 Ability,20,MouseTarget
-Ability,20,Hold,500
-Ability,20,MaxRange,550
+Ability,20,Hold,5000,AsPrimary
+Ability,20,MaxRange,600
 
 [Phase Punch]
 Ability,21,Name,Phase Punch
