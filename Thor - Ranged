@@ -105,6 +105,7 @@ Ability,14,Points,20
 Ability,14,Page,2
 Ability,14,Slot,6
 Ability,14,MaxRange,625
+Ability,14,MouseTarget
 
 [Forked Lightning]
 Ability,15,Name,Forked Lightning
@@ -112,6 +113,7 @@ Ability,15,Points,0
 Ability,15,Page,2
 Ability,15,Slot,6
 Ability,15,MaxRange,600
+Ability,15,MaxLevel,18
 
 [Crack the Sky]
 Ability,16,Name,Crack the Sky
@@ -119,6 +121,7 @@ Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,2
 Ability,16,MaxRange,625
+Ability,16,Hold,5000,AsPrimary
 
 [Hammer Strike]
 Ability,17,Name,Hammer Strike
