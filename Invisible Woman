@@ -1,0 +1,158 @@
+hero,Invisible Woman
+
+//PASSIVES
+
+[Personal Force Field]
+Ability,1,Name,Personal Force Field
+Ability,1,Slot,2
+Ability,1,Page,2
+Ability,1,Toggle
+Ability,1,Points,20
+Ability,1,Cooldown,60
+
+//ROTATION
+
+[Ziggurat]
+Ability,2,Name,Ziggurat of Kargul
+Ability,2,Points,0
+Ability,2,Page,2
+Ability,2,Slot,8
+Ability,2,Cooldown,3
+Ability,2,YHPGT,40
+Ability,2,MinRange,150
+Ability,2,Delay,1500
+
+[Shield Blitz]
+Ability,3,Name,Shield Blitz
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,150
+Ability,3,YSPGT,20
+
+[Resonating Wave]
+Ability,4,Name,Resonating Wave
+Ability,4,Page,1
+Ability,4,Slot,2
+Ability,4,Points,20
+Ability,4,Cooldown,4
+//Ability,4,Buff,marvelconditioneffect_invisiblewoman_stealth,True
+Ability,4,MaxRange,325
+
+[TeamUp]
+Ability,5,TeamUp
+
+[Force Disc]
+Ability,6,Name,Force Disc
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,YSPLT,25
+Ability,6,MaxRange,600
+
+[Shield Dome]
+Ability,7,Shield Dome
+Ability,7,Page,2
+Ability,7,Slot,3
+Ability,7,YHPLT,30
+Ability,7,Points,1
+
+[Spheroid Typhoon]
+Ability,8,Name,Spheroid Typhoon
+Ability,8,Page,2
+Ability,8,Slot,7
+Ability,8,Boss
+
+[Quantum Compression]
+Ability,9,Name,Quantum Compression
+Ability,9,Page,2
+Ability,9,Slot,4
+Ability,9,Boss
+Ability,9,Activate,5
+Ability,9,ActivateCD,30
+Ability,9,ActivateDelay,4500
+Ability,9,Delay,100
+Ability,9,Points,20
+Ability,9,SECEQ,0
+
+[Storm of Spheres]
+Ability,10,Name,Storm of Spheres
+Ability,10,Page,1
+Ability,10,Slot,3
+Ability,10,Cooldown,4
+Ability,10,Points,20
+Ability,10,MaxRange,600
+
+[Force Pillar]
+Ability,11,Name,Force Pillar
+Ability,11,Page,1
+Ability,11,Slot,4
+Ability,11,Cooldown,8
+Ability,11,Points,1
+Ability,11,MaxRange,450
+
+[Suffocate]
+Ability,12,Name,Suffocate
+Ability,12,Page,1
+Ability,12,Slot,5
+Ability,12,Points,20
+Ability,12,Cooldown,5
+Ability,12,MaxRange,750
+
+[Seeker Orbs]
+Ability,13,Name,Seeker Orbs
+Ability,13,Page,1
+Ability,13,Slot,6
+Ability,13,Points,20
+Ability,13,SECGT,0
+Ability,13,MaxRange,700
+
+[The Crusher]
+Ability,14,Name,The Crusher
+Ability,14,Page,1
+Ability,14,Slot,7
+Ability,14,Points,1
+Ability,14,MaxRange,700
+
+[Invisible Combat]
+Ability,15,Name,Invisible Combat
+Ability,15,Slot,5
+Ability,15,Page,2
+Ability,15,Points,20
+
+[Crushing Force]
+Ability,16,Name,Crushing Force
+Ability,16,Page,2
+Ability,16,Slot,6
+Ability,16,Points,20
+Ability,16,MaxRange,575
+
+[Force Disc]
+Ability,17,Name,Force Disc
+Ability,17,Points,1
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,YSPLT,25
+Ability,17,MaxRange,600
+
+[Ziggurat]
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,Movement
+Ability,18,YHPGT,40
+Ability,18,Delay,1500
+
+[Shield Blitz]
+Ability,19,Name,Shield Blitz
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Points,0
+Ability,19,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/8398/]
+
