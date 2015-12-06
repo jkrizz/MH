@@ -15,12 +15,12 @@ Ability,2,Points,1
 [The Will of Doom]
 Ability,3,Name,The Will of Doom
 Ability,3,Points,19
+Ability,3,Specialization,0x872D90F5DCE513C0
 
 //ROTATION
 
 [TeamUp]
 Ability,4,Teamup
-Ability,4,Cooldown,15
 
 [Impending Doom]
 Ability,5,Name,Impending Doom
@@ -29,6 +29,7 @@ Ability,5,Page,1
 Ability,5,MaxRange,300
 Ability,5,AimAt,45,500
 Ability,5,Points,0
+Ability,5,Cooldown,3
 Ability,5,Boss
 
 [Declaration of War]
@@ -103,14 +104,20 @@ Ability,15,page,2
 Ability,15,slot,1
 Ability,15,MaxRange,500
 
-[Impending Doom]
-Ability,16,Name,Impending Doom
-Ability,16,Slot,8
-Ability,16,Page,1
+[Declaration of War]
+Ability,16,Name,Declaration of War
+Ability,16,Slot,2
+Ability,16,Page,2
+Ability,16,Points,20
 Ability,16,Movement
-Ability,16,Points,0
+
+[Impending Doom]
+Ability,17,Name,Impending Doom
+Ability,17,Slot,8
+Ability,17,Page,1
+Ability,17,Movement
+Ability,17,Points,0
 
 END
 
 [Build: http://marvelheroes.info/build/18269/]
-
