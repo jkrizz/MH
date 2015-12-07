@@ -88,6 +88,7 @@ Ability,13,Name,Colossal Roar
 Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,6
+Ability,13,MaxRange,425
 
 [Crushing Smite]
 Ability,14,Name,Crushing Smite
