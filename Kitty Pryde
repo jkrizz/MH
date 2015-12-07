@@ -13,7 +13,7 @@ Ability,2,Slot,2
 
 [Intangible]
 Ability,3,Name,Intangible
-Ability,3,Points,20
+Ability,3,Points,4
 Ability,3,Page,2
 Ability,3,Slot,3
 Ability,3,Cooldown,60
