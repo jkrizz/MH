@@ -12,25 +12,28 @@ Ability,1,Points,1
 Ability,2,Name,Latverian Inferno
 Ability,2,Points,1
 
-[The Will of Doom]
-Ability,3,Name,The Will of Doom
-Ability,3,Points,19
-Ability,3,Specialization,0x872D90F5DCE513C0
-
 //ROTATION
 
 [TeamUp]
-Ability,4,Teamup
+Ability,3,Teamup
 
 [Impending Doom]
-Ability,5,Name,Impending Doom
-Ability,5,Slot,8
-Ability,5,Page,1
-Ability,5,MaxRange,300
-Ability,5,AimAt,45,500
-Ability,5,Points,0
-Ability,5,Cooldown,3
-Ability,5,Boss
+Ability,4,Name,Impending Doom
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
+
+[The Will of Doom]
+Ability,5,Name,The Will of Doom
+Ability,5,Points,20
+Ability,5,Specialization,0x872D90F5DCE513C0
+Ability,5,Slot,6
+Ability,5,Page,2
+Ability,5,YHPLT,50
+Ability,5,Cooldown,20
 
 [Declaration of War]
 Ability,6,Name,Declaration of War
@@ -38,13 +41,13 @@ Ability,6,Slot,2
 Ability,6,Page,2
 Ability,6,Points,20
 
-[Doom's Day]
-Ability,7,Name,Doom's Day
-Ability,7,Slot,5
-Ability,7,Page,2
-Ability,7,Boss
-Ability,7,MaxRange,600
-Ability,7,MouseTarget
+//[Doom's Day]
+//Ability,7,Name,Doom's Day
+//Ability,7,Slot,5
+//Ability,7,Page,2
+//Ability,7,Boss
+//Ability,7,MaxRange,600
+//Ability,7,MouseTarget
 
 [Eldritch Reckoning]
 Ability,8,Name,Eldritch Reckoning
@@ -88,6 +91,7 @@ Ability,13,Slot,6
 Ability,13,Page,1
 Ability,13,Points,20
 Ability,13,MaxRange,675
+Ability,13,Cooldown,6
 
 [Conjured Barrage]
 Ability,14,Name,Conjured Barrage
@@ -95,7 +99,7 @@ Ability,14,Slot,1
 Ability,14,Page,1
 Ability,14,Points,20
 Ability,14,MaxRange,550
-Ability,14,Hold,1000
+Ability,14,Hold,1000,AsPrimary
 
 [Doom Blast]
 Ability,15,name,doom blast
