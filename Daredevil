@@ -16,76 +16,108 @@ Ability,2,Points,20
 
 [TeamUp]
 Ability,3,TeamUp
-Ability,3,Cooldown,15
 
-[Born Again]
-Ability,4,Name,Born Again
-Ability,4,Points,20
-Ability,4,Page,1
-Ability,4,Slot,6
-Ability,4,YHPLT,60
-Ability,4,SECGT,4
-
-[Man Without Fear]
-Ability,5,Name,Man Without Fear
-Ability,5,Page,2
-Ability,5,Slot,3
-Ability,5,Boss
-
-[Devil's Due]
-Ability,6,Name,Devil's Due
-Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,2
-Ability,6,MouseTarget
-Ability,6,MaxRange,750
-Ability,6,SECLT,2
-
-[Rebounding Club]
-Ability,7,Name,Rebounding Club
-Ability,7,Points,20
-Ability,7,Page,1
-Ability,7,Slot,3
-Ability,7,MouseTarget
-Ability,7,MaxRange,625
-Ability,7,Cooldown,4
-
-[Jumping Strike]
-Ability,8,Name,Jumping Strike
-Ability,8,Points,20 
-Ability,8,Page,1
-Ability,8,Slot,4
-Ability,8,MaxRange,425
-Ability,8,SECGT,4
-
-[Spinning Hook Kick]
-Ability,9,Name,Spinning Hook Kick
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,5
-Ability,9,MaxRange,200
-
-[Nunchuck Beatdown]
-Ability,10,Name,Nunchuck Beatdown
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,7
-Ability,10,MaxRange,100
-
-[Assault and Battery]
-Ability,11,Name,Assault and Battery
-Ability,11,Points,0
-Ability,11,Page,1
-Ability,11,Slot,1
+[Ziggurat]
+Ability,4,Name,Ziggurat of Kargul
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,YHPGT,40
+Ability,4,MinRange,200
 
 [Action Roll]
-Ability,12,Name,Action Roll
-Ability,12,Points,0
+Ability,5,Name,Action Roll
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,200
+Ability,5,YSPGT,20
+
+[Assault and Battery]
+Ability,6,Name,Assault and Battery
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,YSPLT,20
+
+[Born Again]
+Ability,7,Name,Born Again
+Ability,7,Points,20
+Ability,7,Page,1
+Ability,7,Slot,6
+Ability,7,YHPLT,80
+Ability,7,SECGT,4
+
+[Man Without Fear]
+Ability,8,Name,Man Without Fear
+Ability,8,Page,2
+Ability,8,Slot,3
+Ability,8,Boss
+Ability,8,MaxRange,300
+
+[Devil's Due]
+Ability,9,Name,Devil's Due
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,2
+Ability,9,MouseTarget
+Ability,9,MaxRange,750
+Ability,9,SECLT,3
+
+[Rebounding Club]
+Ability,10,Name,Rebounding Club
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,3
+Ability,10,MouseTarget
+Ability,10,MaxRange,625
+Ability,10,Cooldown,4
+
+[Jumping Strike]
+Ability,11,Name,Jumping Strike
+Ability,11,Points,20 
+Ability,11,Page,1
+Ability,11,Slot,4
+Ability,11,MaxRange,425
+Ability,11,SECGT,4
+
+[Spinning Hook Kick]
+Ability,12,Name,Spinning Hook Kick
+Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,8
-Ability,12,Movement
+Ability,12,Slot,5
+Ability,12,MaxRange,200
+
+[Nunchuck Beatdown]
+Ability,13,Name,Nunchuck Beatdown
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,7
+Ability,13,MaxRange,100
+
+[Assault and Battery]
+Ability,14,Name,Assault and Battery
+Ability,14,Points,0
+Ability,14,Page,1
+Ability,14,Slot,1
+
+[Ziggurat]
+Ability,15,Name,Ziggurat of Kargul
+Ability,15,Points,0
+Ability,15,Page,2
+Ability,15,Slot,8
+Ability,15,YHPGT,40
+Ability,15,Movement
+
+[Action Roll]
+Ability,16,Name,Action Roll
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,8
+Ability,16,Movement
 
 END
 
 [Build: https://forums.marvelheroes.com/discussion/160370/eggrolls-guide-to-darediddlin-2015-07-03]
-
