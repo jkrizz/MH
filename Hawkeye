@@ -15,58 +15,54 @@ Ability,1,Toggle
 
 [Combat Training]
 Ability,2,Name,Combat Training
-Ability,2,Points,20
+Ability,2,Points,1
 
 [Freeze Arrow]
 Ability,3,Name,Freeze Arrow
 Ability,3,Points,1
 
-[Nerve Gas Arrow]
-Ability,4,Name,Nerve Gas Arrow
-Ability,4,Points,20
-
-[Explosive Arrow]
-Ability,5,Name,Explosive Arrow
-Ability,5,Points,1
-
 //NECESSARY POINTS
 
-[Three Arrow Burst]
-Ability,6,Name,Three Arrow Burst
-Ability,6,Points,20
+[Explosive Arrow]
+Ability,4,Name,Explosive Arrow
+Ability,4,Points,1
 
-[Electric Arrow]
-Ability,7,Name,Electric Arrow
-Ability,7,Points,1
+[Three Arrow Burst]
+Ability,5,Name,Three Arrow Burst
+Ability,5,Points,20
 
 //ROTATION
 
 [TeamUp]
-Ability,8,TeamUp
+Ability,7,TeamUp
+
+[Ziggurat]
+Ability,8,Name,Ziggurat of Kargul
+Ability,8,Points,0
+Ability,8,Page,2
+Ability,8,Slot,8
 Ability,8,Cooldown,3
+Ability,8,YHPGT,40
+Ability,8,MinRange,200
 
 [Acrobatic Roll]
 Ability,9,Name,Acrobatic Roll
 Ability,9,Points,0
-Ability,9,Slot,8
 Ability,9,Page,1
-Ability,9,MaxRange,300
-Ability,9,Boss
-Ability,9,AimAt,75,100
-Ability,9,YSPGT,10
+Ability,9,Slot,8
 Ability,9,Cooldown,3
+Ability,9,MinRange,200
+Ability,9,YSPGT,20
 Ability,9,MaxLevel,28
 
 [Ronin Lunge]
 Ability,10,Name,Ronin Lunge
 Ability,10,Points,1
-Ability,10,Slot,8
 Ability,10,Page,1
-Ability,10,MaxRange,300
-Ability,10,Boss
-Ability,10,AimAt,75,100
-Ability,10,YSPGT,10
+Ability,10,Slot,8
 Ability,10,Cooldown,3
+Ability,10,MinRange,200
+Ability,10,YSPGT,20
 
 [Serrated Arrow]
 Ability,11,Name,Serrated Arrow
@@ -81,70 +77,84 @@ Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,2
 
-[Avenging Arrow]
-Ability,13,Name,Avenging Arrow
-Ability,13,Page,2
-Ability,13,Slot,3
-Ability,13,Boss
-
 [StarkTech Claymore Turret]
-Ability,14,Name,StarkTech Claymore Turret
+Ability,13,Name,StarkTech Claymore Turret
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,3
+
+[Nerve Gas Arrow]
+Ability,14,Name,Nerve Gas Arrow
 Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,3
-Ability,14,Elite
+Ability,14,Page,2
+Ability,14,Slot,4
+Ability,14,MaxRange,750
+Ability,14,Cooldown,6
+
+[Avenging Arrow]
+Ability,15,Name,Avenging Arrow
+Ability,15,Page,2
+Ability,15,Slot,3
+Ability,15,Boss
 
 [Speed Loader Volley]
-Ability,15,Name,Speed Loader Volley
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,4
+Ability,16,Name,Speed Loader Volley
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,4
 
-//I can't get charged abilities to work properly.  Dumped points into Combat Training passive.  If you mess with this abilities points, alter the points in Combat Training.
-//[Rocket Arrow]
-//Ability,16,Name,Rocket Arrow
-//Ability,16,Points,20
-//Ability,16,Slot,5
-//Ability,16,Page,1
-//Ability,16,Cooldown,2
-//Ability,16,AimAt,0,900
+[Rocket Arrow]
+Ability,17,Name,Rocket Arrow
+Ability,17,Points,20
+Ability,17,Slot,5
+Ability,17,Page,1
+Ability,17,MouseTarget
 
 [Electric Arrow]
-Ability,17,Name,Electric Arrow
-Ability,17,Points,18
-Ability,17,Page,1
-Ability,17,Slot,7
-Ability,17,AOE
-Ability,17,AOETYPE,Target
-Ability,17,AOERANGE,375
-Ability,17,AOECOUNT,3
-
-[Three Arrow Burst]
-Ability,18,Name,Three Arrow Burst
+Ability,18,Name,Electric Arrow
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,6
+Ability,18,Slot,7
+Ability,18,AOE
+Ability,18,AOETYPE,Target
+Ability,18,AOERANGE,375
+Ability,18,AOECOUNT,1
+
+[Three Arrow Burst]
+Ability,19,Name,Three Arrow Burst
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,6
+Ability,19,Hold,1000,AsPrimary
 
 [Serrated Arrow]
-Ability,19,Name,Serrated Arrow
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,1
+Ability,20,Name,Serrated Arrow
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,1
+
+[Ziggurat]
+Ability,21,Name,Ziggurat of Kargul
+Ability,21,Points,0
+Ability,21,Page,2
+Ability,21,Slot,8
+Ability,21,Movement
+Ability,21,YHPGT,40
 
 [Acrobatic Roll]
-Ability,20,Name,Acrobatic Roll
-Ability,20,Points,0
-Ability,20,Slot,8
-Ability,20,Page,1
-Ability,20,Movement
-Ability,20,MaxLevel,28
+Ability,22,Name,Acrobatic Roll
+Ability,22,Points,0
+Ability,22,Slot,8
+Ability,22,Page,1
+Ability,22,Movement
+Ability,22,MaxLevel,28
 
 [Ronin Lunge]
-Ability,21,Name,Ronin Lunge
-Ability,21,Points,1
-Ability,21,Slot,8
-Ability,21,Page,1
-Ability,21,Movement
+Ability,23,Name,Ronin Lunge
+Ability,23,Points,1
+Ability,23,Slot,8
+Ability,23,Page,1
+Ability,23,Movement
 
 END
 
