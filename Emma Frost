@@ -23,23 +23,23 @@ Ability,3,Points,1
 [TeamUp]
 Ability,4,TeamUp
 
-[Ziggurat]
-Ability,5,Name,Ziggurat of Kargul
-Ability,5,Points,0
-Ability,5,Page,2
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,YHPGT,40
-Ability,5,MinRange,200
+//[Ziggurat]
+//Ability,5,Name,Ziggurat of Kargul
+//Ability,5,Points,0
+//Ability,5,Page,2
+//Ability,5,Slot,8
+//Ability,5,Cooldown,3
+//Ability,5,YHPGT,40
+//Ability,5,MinRange,200
 
-[Lustrous Lunge]
-Ability,6,Name,Lustrous Lunge
-Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,Cooldown,3
-Ability,6,MinRange,200
-Ability,6,YSPGT,20
+//[Lustrous Lunge]
+//Ability,6,Name,Lustrous Lunge
+//Ability,6,Points,0
+//Ability,6,Page,1
+//Ability,6,Slot,8
+//Ability,6,Cooldown,3
+//Ability,6,MinRange,200
+//Ability,6,YSPGT,20
 
 [Psi Bolt]
 Ability,7,Name,Psi Bolt
