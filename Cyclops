@@ -17,23 +17,23 @@ Ability,2,Points,1
 [TeamUp]
 Ability,3,TeamUp
 
-[Ziggurat]
-Ability,4,Name,Ziggurat of Kargul
-Ability,4,Points,0
-Ability,4,Page,2
-Ability,4,Slot,8
-Ability,4,Cooldown,3
-Ability,4,YHPGT,40
-Ability,4,MinRange,200
+//[Ziggurat]
+//Ability,4,Name,Ziggurat of Kargul
+//Ability,4,Points,0
+//Ability,4,Page,2
+//Ability,4,Slot,8
+//Ability,4,Cooldown,3
+//Ability,4,YHPGT,40
+//Ability,4,MinRange,200
 
-[Combat Roll]
-Ability,5,Name,Combat Roll
-Ability,5,Points,0
-Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,MinRange,200
-Ability,5,YSPGT,20
+//[Combat Roll]
+//Ability,5,Name,Combat Roll
+//Ability,5,Points,0
+//Ability,5,Page,1
+//Ability,5,Slot,8
+//Ability,5,Cooldown,3
+//Ability,5,MinRange,200
+//Ability,5,YSPGT,20
 
 [Force Multiplier]
 Ability,6,Name,Force Multiplier
