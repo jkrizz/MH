@@ -17,14 +17,14 @@ Ability,2,Points,1
 [TeamUp]
 Ability,3,Teamup
 
-[Impending Doom]
-Ability,4,Name,Impending Doom
-Ability,4,Points,0
-Ability,4,Page,1
-Ability,4,Slot,8
-Ability,4,Cooldown,3
-Ability,4,MinRange,200
-Ability,4,YSPGT,20
+//[Impending Doom]
+//Ability,4,Name,Impending Doom
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,Cooldown,3
+//Ability,4,MinRange,200
+//Ability,4,YSPGT,20
 
 [The Will of Doom]
 Ability,5,Name,The Will of Doom
