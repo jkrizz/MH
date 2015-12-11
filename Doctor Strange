@@ -21,14 +21,14 @@ Ability,3,Points,16
 [TeamUp]
 Ability,4,TeamUp
 
-[Mystic Shift]
-Ability,5,Name,Mystic Shift
-Ability,5,Points,0
-Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,MinRange,200
-Ability,5,YSPGT,20
+//[Mystic Shift]
+//Ability,5,Name,Mystic Shift
+//Ability,5,Points,0
+//Ability,5,Page,1
+//Ability,5,Slot,8
+//Ability,5,Cooldown,3
+//Ability,5,MinRange,200
+//Ability,5,YSPGT,20
 
 [Astral Form]
 Ability,6,Name,Astral Form
@@ -50,6 +50,7 @@ Ability,8,Points,0
 Ability,8,Page,1
 Ability,8,Slot,1
 Ability,8,YSPLT,20
+Ability,8,MaxRange,750
 
 [Facet of Power]
 Ability,9,Name,Facet of Power
@@ -62,6 +63,7 @@ Ability,10,Name,Images of Ikonn
 Ability,10,Points,1
 Ability,10,Page,1
 Ability,10,Slot,3
+Ability,10,MaxRange,375
 
 [Shield of the Seraphim]
 Ability,11,Name,Shield of the Seraphim
@@ -75,6 +77,7 @@ Ability,12,Name,Seven Suns of Cinnibus
 Ability,12,Points,20
 Ability,12,Page,2
 Ability,12,Slot,4
+Ability,12,MaxRange,425
 
 [Seal of the Vishanti]
 Ability,13,Name,Seal of the Vishanti
@@ -94,12 +97,14 @@ Ability,15,Name,Vapors of Valtorr
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,6
+Ability,15,MaxRange,575
 
 [Flames of the Faltine]
 Ability,16,Name,Flames of the Faltine
 Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,7
+Ability,16,MaxRange,575
 
 [Demons of Denak]
 Ability,17,Name,Demons of Denak
@@ -113,6 +118,7 @@ Ability,18,Name,Crimson Bands of Cyttorak
 Ability,18,Points,20
 Ability,18,Page,2
 Ability,18,Slot,3
+Ability,18,MaxRange,500
 
 [Fangs of Farallah]
 Ability,19,Name,Fangs of Farallah
@@ -120,12 +126,14 @@ Ability,19,Points,20
 Ability,19,Page,2
 Ability,19,Slot,5
 Ability,19,PanelBuff,MarvelUIIcons.Power_DoctorStrange_FangNuke,True,5
+Ability,19,MaxRange,625
 
 [Bolts of Balthakk]
 Ability,20,Name,Bolts of Balthakk
 Ability,20,Points,0
 Ability,20,Page,1
 Ability,20,Slot,1
+Ability,20,MaxRange,750
 
 [Mystic Shift]
 Ability,21,Name,Mystic Shift
