@@ -3,6 +3,7 @@
 hero,Black Widow
 
 //PASSIVES
+
 [Red Room Reflexes]
 Ability,1,Name,Red Room Reflexes
 Ability,1,Points,20
