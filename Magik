@@ -1,0 +1,143 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Magik
+
+//PASSIVES
+
+[N'astirh]
+Ability,1,Name,N'astirh
+Ability,1,Points,1
+Ability,1,Page,2
+Ability,1,Slot,5
+Ability,1,SECGT,3
+
+[Mastery of the Soulsword]
+Ability,2,Name,Mastery of the Soulsword
+Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,7
+Ability,2,Toggle
+Ability,2,Cooldown,60
+
+[Dark Pact]
+Ability,3,Name,Dark Pact
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,6
+Ability,3,Toggle
+Ability,3,Cooldown,10
+Ability,3,PanelBuff,marvelconditioneffect_magik_darkpactnastirhbuff,False,1
+Ability,3,SECEQ,0
+
+[Eternal Servitude]
+Ability,4,Name,Eternal Servitude
+Ability,4,Points,1
+
+[Eldritch Armor]
+Ability,5,Name,Eldritch Armor
+Ability,5,Points,1
+
+[Soulblaze]
+Ability,6,Name,Soulblaze
+Ability,6,Points,1
+Ability,6,Page,2
+Ability,6,Slot,5
+
+//ROTATION
+
+[TeamUp]
+Ability,7,TeamUp
+
+[Stepping Disc]
+Ability,8,Name,Stepping Disc
+Ability,8,Points,0
+Ability,8,Page,1
+Ability,8,Slot,8
+Ability,8,Cooldown,3
+Ability,8,MinRange,150
+Ability,8,YSPGT,20
+
+[Soul Slashing]
+Ability,9,Name,Soul Slashing
+Ability,9,Points,0
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,YSPLT,20
+Ability,9,MaxRange,125
+
+[Vampiric Incantation]
+Ability,10,Name,Vampiric Incantation
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,7
+Ability,10,Cooldown,6
+Ability,10,MaxRange,675
+
+[Darkchylde]
+Ability,11,Name,Darkchylde
+Ability,11,Points,0
+Ability,11,Page,2
+Ability,11,Slot,3
+Ability,11,Boss
+
+[Otherworldly Nova]
+Ability,11,Name,Otherworldly Nova
+Ability,11,Points,20
+Ability,11,Page,2
+Ability,11,Slot,4
+Ability,11,Boss
+
+[Sorcerous Eruption]
+Ability,13,Name,Sorcerous Eruption
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,2
+Ability,13,Cooldown,5
+Ability,13,MaxRange,675
+
+[Step to Me]
+Ability,14,Name,Step to Me
+Ability,14,Page,1
+Ability,14,Slot,3
+Ability,14,Points,20
+Ability,14,Cooldown,9
+Ability,14,MaxRange,675
+
+[Seven League Step]
+Ability,16,Name,Seven League Step
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,4
+
+[Soul Sever]
+Ability,17,Name,Soul Sever
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,6
+Ability,17,MaxRange,675
+
+[Rending Swings]
+Ability,18,Name,Rending Swings
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,5
+Ability,18,MaxRange,125
+Ability,18,Hold,1000,AsPrimary
+
+[Soul Slashing]
+Ability,19,Name,Soul Slashing
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,MaxRange,125
+
+[Stepping Disc]
+Ability,20,Name,Stepping Disc
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/30297/]
