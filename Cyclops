@@ -83,6 +83,7 @@ Ability,11,Name,To Me, My X-Men!
 Ability,11,Page,2
 Ability,11,Slot,3
 Ability,11,MaxRange,750
+Ability,11,Boss
 
 [Overwatch]
 Ability,12,Name,Overwatch
