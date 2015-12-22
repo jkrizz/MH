@@ -4,10 +4,6 @@ hero,Juggernaut
 
 //PASSIVES
 
-[Can't Be Stopped]
-Ability,1,Name,Can't Be Stopped
-Ability,1,Points,20
-
 [Don't You Know Who I Am]
 Ability,2,Name,Don't You Know Who I Am
 Ability,2,Points,1
@@ -19,82 +15,132 @@ Ability,3,Page,2
 Ability,3,Slot,2
 Ability,3,Toggle
 
-[Crimson Force Field]
-Ability,4,Name,Crimson Force Field
-Ability,4,Points,1
-
 //ROTATION
 
 [TeamUp]
-Ability,5,TeamUp
-Ability,5,Cooldown,15
+Ability,4,TeamUp
 
-[Full Power]
-Ability,6,Name,Full Power
-Ability,6,Boss
-Ability,6,Page,2
-Ability,6,Slot,3
+[Ziggurat]
+Ability,5,Name,Ziggurat of Kargul
+Ability,5,Points,0
+Ability,5,Page,2
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,YHPGT,40
+Ability,5,MinRange,200
 
-[Scion of Cyttorak]
-Ability,7,Name,Scion of Cyttorak
-Ability,7,Points,20
-Ability,7,Page,1
-Ability,7,Slot,4
+[Lariat]
+Ability,6,Name,Lariat
+Ability,6,Points,20
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,Cooldown,3
+Ability,6,MinRange,200
+Ability,6,YSPGT,20
 
-[Unstoppable Charge]
-Ability,8,name,Unstoppable Charge
-Ability,8,points,20
-Ability,8,slot,7
-Ability,8,page,1
-//Ability,8,mousetarget
-Ability,8,boss
+[Crimson Force Field]
+Ability,7,Name,Crimson Force Field
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,5
+Ability,7,YHPLT,70
 
-//[Devastating Charge]
-//Can't get Hold or Charged to work properly for this ability
-//Ability,9,Name,Devastating Charge
-//Ability,9,Points,20
-//Ability,9,Page,1
-//Ability,9,Slot,2
-//Ability,9,MaxRange,700
-
-[Round of Applause]
-Ability,10,name,Round of Applause
-Ability,10,points,1
-Ability,10,slot,3
-Ability,10,page,1
-Ability,10,YSPGT,30
-Ability,10,MaxRange,400
-Ability,10,Cooldown,7
-
-[Big Elbow Drop]
-Ability,11,name,Big Elbow Drop
-Ability,11,points,20
-Ability,11,slot,5
-Ability,11,page,1
-Ability,11,mousetarget
-Ability,11,YSPGT,50
-Ability,11,MaxRange,360
+[Can't Be Stopped]
+Ability,8,Name,Can't Be Stopped
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,4
 
 [Enter the Fray]
-Ability,12,name,Enter the Fray
-Ability,12,points,20
-Ability,12,slot,6
-Ability,12,page,1
+Ability,9,Name,Enter the Fray
+Ability,9,Points,20
+Ability,9,Slot,6
+Ability,9,Page,1
+Ability,9,MaxRange,400
+
+[Devastating Charge]
+Ability,10,Name,Devastating Charge
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,2
+Ability,10,MaxRange,700
+Ability,10,YSPLT,50
+Ability,10,MouseTarget
+
+[Full Power]
+Ability,11,Name,Full Power
+Ability,11,Boss
+Ability,11,Page,2
+Ability,11,Slot,3
+
+[Round of Applause]
+Ability,12,Name,Round of Applause
+Ability,12,Points,1
+Ability,12,Slot,3
+Ability,12,Page,1
+Ability,12,YSPGT,30
 Ability,12,MaxRange,400
+Ability,12,Cooldown,6
+
+[Don't You Know Who I Am]
+Ability,13,Name,Don't You Know Who I Am
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,6
+Ability,13,Cooldown,4
+Ability,13,MaxRange,475
+
+[Scion of Cyttorak]
+Ability,14,Name,Scion of Cyttorak
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,4
+
+[Big Elbow Drop]
+Ability,15,Name,Big Elbow Drop
+Ability,15,Points,20
+Ability,15,Slot,5
+Ability,15,Page,1
+Ability,15,Mousetarget
+Ability,15,YSPGT,70
+Ability,15,MaxRange,375
+
+//ANY SUGGESTIONS ON GETTING THIS ABILITY TO WORK PROPERLY?
+//[Unstoppable Charge]
+//Ability,16,Name,Unstoppable Charge
+//Ability,16,Points,20
+//Ability,16,Slot,7
+//Ability,16,Page,1
+//Ability,16,Mousetarget
+//Ability,16,Boss
 
 [Lariat]
-Ability,13,name,Lariat
-Ability,13,points,20
-Ability,13,slot,8
-Ability,13,page,1
-Ability,13,mousetarget
+Ability,17,Name,Lariat
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,8
+Ability,17,MouseTarget
+
+[Ziggurat]
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,YHPGT,40
+Ability,18,Movement
 
 [Lariat]
-Ability,14,name,Lariat
-Ability,14,points,20
-Ability,14,slot,1
-Ability,14,page,1
-Ability,14,movement
+Ability,19,Name,Lariat
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
+
+//MOVEMENT ABILITIES ARE ANNOYING IN SLOT 1
+Ability,20,Name,Rope-A-Dope
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,1
 
 END
 
