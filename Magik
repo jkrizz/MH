@@ -41,7 +41,7 @@ Ability,5,Points,1
 Ability,6,Name,Soulblaze
 Ability,6,Points,1
 Ability,6,Page,2
-Ability,6,Slot,5
+Ability,6,Slot,2
 
 //ROTATION
 
@@ -113,7 +113,7 @@ Ability,15,MaxRange,675
 
 [Seven League Step]
 Ability,16,Name,Seven League Step
-Ability,1,Points,20
+Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,4
 
