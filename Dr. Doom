@@ -57,6 +57,7 @@ Ability,7,Points,20
 //Ability,8,Slot,5
 //Ability,8,Page,2
 //Ability,8,Boss
+//Ability,8,Hold,17000
 //Ability,8,MaxRange,600
 //Ability,8,MouseTarget
 
@@ -102,7 +103,7 @@ Ability,14,Slot,6
 Ability,14,Page,1
 Ability,14,Points,20
 Ability,14,MaxRange,675
-Ability,14,Cooldown,6
+Ability,14,Cooldown,5
 
 [Conjured Barrage]
 Ability,15,Name,Conjured Barrage
