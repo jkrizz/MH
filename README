@@ -1,22 +1,6 @@
--Any heroes that have a "w/Evasion" tag in their description may need to have their evasion moves (usually listed near the top of the rotation comment) commented out with two //.
-
-Some heroes can't maintain the spirit costs to use these evasions until around level 30, where it's usually safe to enable them.
-
-Example for Scarlet Witch.  The teleport is enabled by default in her ability file, but to comment it out you would change it to this:
-
-//[Chaos Shift]
-//Ability,4,Name,Chaos Shift
-//Ability,4,Points,0
-//Ability,4,Slot,8
-//Ability,4,Page,1
-//Ability,4,Boss
-//Ability,4,MaxRange,175
-//Ability,4,AimAt,0,450
-//Ability,4,YSPGT,10
-
-Experiment as needed.
-
 -Please take special note of instructions for the following characters:
+
+-Spiderman: Apparently some of Spiderman's costumes change the roster list and/or name of his abilities.  Please let me know if you have any of the costumes and if they change anything, as I don't have any costumes for him.
 
 -Vision: Acquire a robot from Midtown once you are able to put a point into A.I. Hack.  Also be sure to level the robot up as you level.  Not super crucial, but don't be level 60 with a level 10 robot.
 
