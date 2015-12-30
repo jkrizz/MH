@@ -1,0 +1,154 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+Hero,Moon Knight
+
+//Points
+
+[Fist of Khonshu]
+Ability,1,Name,Fist of Khonshu
+Ability,1,Points,20
+
+[Carbonadium Armor]
+Ability,2,Name,Carbonadium Armor
+Ability,2,Points,5
+
+//ROTATION
+
+[TeamUp]
+Ability,3,TeamUp
+
+[Ziggurat]
+Ability,4,Name,Ziggurat of Kargul
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,YHPGT,40
+Ability,4,MinRange,200
+
+[Combat Maneuvers]
+Ability,5,Name,Combat Maneuvers
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,200
+Ability,5,YSPGT,20
+
+[Avatar of Vengeance]
+Ability,8,Name,Avatar of Vengeance
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,3
+Ability,8,SECEQ,100
+Ability,8,YHPLT,25
+
+[Crescent Dart Throw]
+Ability,9,Name,Crescent Dart Throw
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,Points,20
+Ability,9,MaxRange,625
+Ability,9,YSPLT,20
+
+[Khonshu Unbound]
+Ability,10,Name,Khonshu Unbound
+Ability,10,Points,1
+Ability,10,Page,2
+Ability,10,Slot,7
+
+[Avatar of Vengeance]
+Ability,11,Name,Avatar of Vengeance
+Ability,11,Points,20
+Ability,11,Page,2
+Ability,11,Slot,3
+Ability,11,Boss
+Ability,11,MiniBoss
+Ability,11,SECEQ,100
+
+[Statue of Khonshu]
+Ability,12,Name,Statue of Khonshu
+Ability,12,Points,1
+Ability,12,Page,1
+Ability,12,Slot,7
+Ability,12,Boss
+Ability,12,MiniBoss
+Ability,12,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
+
+[Moon Copter]
+Ability,13,Name,Moon Copter
+Ability,13,Boss
+Ability,13,MiniBoss
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,MaxRange,450
+
+[Gruesome Frenzy]
+Ability,14,Name,Gruesome Frenzy
+Ability,14,Boss
+Ability,14,MiniBoss
+//Ability,14,Activate,14
+Ability,14,Delay,50
+Ability,14,Page,1
+Ability,14,Slot,6
+Ability,14,Points,20
+Ability,14,MaxRange,125
+Ability,14,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
+
+[Tripwire Bolas]
+Ability,15,Name,Tripwire Bolas
+Ability,15,Cooldown,5
+Ability,15,Page,1
+Ability,15,Slot,3
+Ability,15,Points,20
+Ability,15,MaxRange,600
+
+[Crescent Fan]
+Ability,16,Name,Crescent Fan
+Ability,16,Cooldown,5
+Ability,16,Page,1
+Ability,16,Slot,5
+Ability,16,Points,20
+Ability,16,MaxRange,525
+
+[Crescent Dart Throw]
+Ability,17,Name,Crescent Dart Throw
+Ability,17,Cooldown,5
+Ability,17,Page,1
+Ability,17,Slot,4
+Ability,17,Points,20
+Ability,17,MaxRange,600
+
+[Crescent Launchers]
+Ability,18,Name,Crescent Launchers
+Ability,18,Page,1
+Ability,18,Slot,2
+Ability,18,Points,20
+Ability,18,MaxRange,625
+Ability,18,Hold,1000,AsPrimary
+
+[Crescent Dart Throw]
+Ability,19,Name,Crescent Dart Throw
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,Points,20
+Ability,19,MaxRange,600
+
+[Ziggurat]
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
+Ability,20,Page,2
+Ability,20,Slot,8
+Ability,20,Movement
+Ability,20,YHPGT,40
+
+[Combat Maneuvers]
+Ability,21,Name,Combat Maneuvers
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/16887/]
