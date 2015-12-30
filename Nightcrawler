@@ -23,7 +23,6 @@ Ability,3,Toggle
 
 [TeamUp]
 Ability,4,TeamUp
-Ability,4,Cooldown,5
 
 //Recommend uncommenting the below if you don't have a Zola's
 //[Shadowmeld]
@@ -82,6 +81,7 @@ Ability,11,Name,Obscuring Brimstone
 Ability,11,Points,1
 Ability,11,Page,1
 Ability,11,Slot,3
+Ability,11,Boss
 
 [Brimstone Blitz]
 Ability,12,Name,Brimstone Blitz
@@ -95,7 +95,8 @@ Ability,13,Name,Righteous Frenzy
 Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,4
-Ability,13,Elite
+Ability,13,MiniBoss
+Ability,13,Boss
 Ability,13,Delay,50
 
 [Death Blow]
@@ -105,20 +106,25 @@ Ability,14,Page,1
 Ability,14,Slot,5
 Ability,14,MaxRange,150
 
-[Bamf Bomb]
-Ability,15,Name,Bamf Bomb
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,7
-Ability,15,MaxRange,875
-
 [Brimstone Beatdown]
-Ability,16,Name,Brimstone Beatdown
+Ability,15,Name,Brimstone Beatdown
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,3
+Ability,15,Elite
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,MouseTarget
+Ability,15,Hold,1000,AsPrimary
+Ability,15,MaxRange,90
+Ability,15,Delay,100
+
+[Blink Strike]
+Ability,16,Name,Blink Strike
 Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,3
-Ability,16,MouseTarget
-Ability,16,MaxRange,90
+Ability,16,Page,1
+Ability,16,Slot,7
+Ability,16,MaxRange,325
 
 [Sabre Swipe]
 Ability,17,Name,Sabre Swipe
@@ -146,4 +152,4 @@ Ability,19,Buff,marvelconditioneffect_nightcrawler_bamfstealth,False
 
 END
 
-[Build: http://marvelheroes.info/build/1694/
+[Build: http://marvelheroes.info/build/17748/]
