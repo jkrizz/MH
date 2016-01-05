@@ -1,0 +1,131 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Ant-Man
+
+//PASSIVES
+
+[Clothes Make the Man]
+Ability,1,Name,Clothes Make the Man
+Ability,1,Points,3
+
+//ROTATION
+
+[TeamUp]
+Ability,2,TeamUp
+
+[Ziggurat]
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,YHPGT,40
+Ability,3,MinRange,200
+
+[Can't Catch Me]
+Ability,4,Name,Can't Catch Me
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
+
+[Think Small]
+Ability,5,Name,Think Small
+Ability,5,Points,20
+Ability,5,Page,2
+Ability,5,Slot,2
+
+[Shrinking Strike]
+Ability,6,Name,Shrinking Strike
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,Maxrange,125
+Ability,6,YSPLT,20
+
+[Friends in Low Places]
+Ability,7,Name,Friends in Low Places
+Ability,7,Points,0
+Ability,7,Page,1
+Ability,7,Slot,2
+Ability,7,SECLT,100
+
+[Big Foot Sighting]
+Ability,8,Name,Big Foot Sighting
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,3
+Ability,8,MaxRange,125
+
+[The Definite Particle]
+Ability,9,Name,The Definite Particle
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,3
+Ability,9,MaxRange,300
+
+[Red Hots]
+Ability,10,Name,Red Hots
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,5
+Ability,10,MaxRange,950
+Ability,10,Cooldown,4
+
+[Drone Strike]
+Ability,11,Name,Drone Strike
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,6
+Ability,11,Cooldown,4
+Ability,11,MaxRange,950
+
+[Inch-High Good-Bye]
+Ability,12,Name,Inch-High Good-Bye
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,7
+Ability,12,MaxRange,125
+
+[Fistful of Ants]
+Ability,13,Name,Fistful of Ants
+Ability,13,Points,20
+Ability,13,Page,2
+Ability,13,Slot,4
+Ability,13,MaxRange,950
+
+[Tiny Takedown]
+Ability,14,Name,Tiny Takedown
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,4
+Ability,14,MaxRange,125
+Ability,14,Hold,1000,AsPrimary
+
+[Shrinking Strike]
+Ability,15,Name,Shrinking Strike
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,Maxrange,125
+
+[Ziggurat]
+Ability,16,Name,Ziggurat of Kargul
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,8
+Ability,16,Movement
+Ability,16,YHPGT,40
+
+[Can't Catch Me]
+Ability,17,Name,Can't Catch Me
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,8
+Ability,17,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/22395/]
