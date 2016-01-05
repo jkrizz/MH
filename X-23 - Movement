@@ -41,6 +41,7 @@ Ability,5,Name,Heart of a Beast
 Ability,5,Points,2
 Ability,5,Page,2
 Ability,5,Slot,2
+Ability,5,Boss
 
 [Graceful Maneuver]
 Ability,6,Name,Graceful Maneuver
