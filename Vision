@@ -9,6 +9,11 @@ hero,Vision
 [Density Shift]
 Ability,1,Name,Density Shift
 Ability,1,Points,1
+Ability,1,Page,2
+Ability,1,Slot,6
+Ability,1,Toggle
+Ability,1,Buff,marvelconditioneffect_vision_phasemode,False
+Ability,1,Cooldown,60
 
 [Power of the Sun]
 Ability,2,Name,Power of the Sun
@@ -35,23 +40,24 @@ Ability,6,Points,20
 Ability,6,Page,2
 Ability,6,Slot,4
 
-[Phase]
-Ability,7,Name,Phase
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,MaxRange,100
-Ability,7,AimAt,45,400
-Ability,7,YSPGT,10
-Ability,7,Boss
-Ability,7,Cooldown,3
+//[Phase]
+//Ability,7,Name,Phase
+//Ability,7,Points,0
+//Ability,7,Page,1
+//Ability,7,Slot,8
+//Ability,7,MaxRange,200
+//Ability,7,AimAt,45,400
+//Ability,7,YSPGT,10
+//Ability,7,Cooldown,3
+//Ability,7,Boss
 
 [Phase]
 Ability,8,Name,Phase
 Ability,8,Points,0
 Ability,8,Slot,8
 Ability,8,Page,1
-Ability,8,MinRange,700
+Ability,8,MinRange,600
+Ability,8,Cooldown,3
 Ability,8,YSPGT,10
 
 [Terminal Velocity]
@@ -60,6 +66,7 @@ Ability,9,Points,0
 Ability,9,Slot,5
 Ability,9,Page,2
 Ability,9,MaxRange,600
+Ability,9,Boss
 
 [Solar Overcharge]
 Ability,10,Name,Solar Overcharge
@@ -118,6 +125,7 @@ Ability,16,Points,20
 Ability,16,Slot,5
 Ability,16,Page,1
 Ability,16,Cooldown,6
+Ability,16,Boss
 
 [Channeled Solar Beam]
 Ability,17,Name,Channeled Solar Beam
