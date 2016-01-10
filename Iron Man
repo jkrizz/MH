@@ -6,16 +6,16 @@ hero,Iron Man
 
 //ROTATION
 
-[Ziggurat]
-Ability,1,Name,Ziggurat of Kargul
-Ability,1,Points,0
-Ability,1,Page,2
-Ability,1,Slot,8
-Ability,1,MaxRange,200
-Ability,1,AimAt,45,400
-Ability,1,YHPGT,10
-Ability,1,Cooldown,3
-Ability,1,Boss
+//[Ziggurat]
+//Ability,1,Name,Ziggurat of Kargul
+//Ability,1,Points,0
+//Ability,1,Page,2
+//Ability,1,Slot,8
+//Ability,1,MaxRange,200
+//Ability,1,AimAt,45,400
+//Ability,1,YHPGT,10
+//Ability,1,Cooldown,3
+//Ability,1,Boss
 
 [Ziggurat]
 Ability,2,Name,Ziggurat of Kargul
@@ -26,16 +26,16 @@ Ability,2,MinRange,600
 Ability,2,Cooldown,3
 Ability,2,YHPGT,10
 
-[Hyper-Velocity Charge]
-Ability,3,Name,Hyper-Velocity Charge
-Ability,3,Points,0
-Ability,3,Page,1
-Ability,3,Slot,8
-Ability,3,MaxRange,200
-Ability,3,AimAt,45,400
-Ability,3,YSPGT,10
-Ability,3,Cooldown,3
-Ability,3,Boss
+//[Hyper-Velocity Charge]
+//Ability,3,Name,Hyper-Velocity Charge
+//Ability,3,Points,0
+//Ability,3,Page,1
+//Ability,3,Slot,8
+//Ability,3,MaxRange,200
+//Ability,3,AimAt,45,400
+//Ability,3,YSPGT,10
+//Ability,3,Cooldown,3
+//Ability,3,Boss
 
 [Hyper-Velocity Charge]
 Ability,4,Name,Hyper-Velocity Charge
