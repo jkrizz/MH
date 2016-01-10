@@ -12,16 +12,16 @@ Ability,1,Cooldown,60
 
 //ROTATION
 
-[Ziggurat]
-Ability,2,Name,Ziggurat of Kargul
-Ability,2,Points,0
-Ability,2,Page,2
-Ability,2,Slot,8
-Ability,2,MaxRange,200
-Ability,2,AimAt,45,400
-Ability,2,YHPGT,10
-Ability,2,Cooldown,3
-Ability,2,Boss
+//[Ziggurat]
+//Ability,2,Name,Ziggurat of Kargul
+//Ability,2,Points,0
+//Ability,2,Page,2
+//Ability,2,Slot,8
+//Ability,2,MaxRange,200
+//Ability,2,AimAt,45,400
+//Ability,2,YHPGT,10
+//Ability,2,Cooldown,3
+//Ability,2,Boss
 
 [Ziggurat]
 Ability,3,Name,Ziggurat of Kargul
@@ -32,16 +32,16 @@ Ability,3,MinRange,600
 Ability,3,Cooldown,3
 Ability,3,YHPGT,10
 
-[Shield Blitz]
-Ability,4,Name,Shield Blitz
-Ability,4,Points,0
-Ability,4,Page,1
-Ability,4,Slot,8
-Ability,4,MaxRange,200
-Ability,4,AimAt,45,400
-Ability,4,YSPGT,10
-Ability,4,Cooldown,3
-Ability,4,Boss
+//[Shield Blitz]
+//Ability,4,Name,Shield Blitz
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YSPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
 
 [Shield Blitz]
 Ability,5,Name,Shield Blitz
