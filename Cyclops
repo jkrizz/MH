@@ -17,16 +17,16 @@ Ability,2,Points,1
 [TeamUp]
 Ability,3,TeamUp
 
-[Ziggurat]
-Ability,4,Name,Ziggurat of Kargul
-Ability,4,Points,0
-Ability,4,Page,2
-Ability,4,Slot,8
-Ability,4,MaxRange,200
-Ability,4,AimAt,45,400
-Ability,4,YHPGT,10
-Ability,4,Cooldown,3
-Ability,4,Boss
+//[Ziggurat]
+//Ability,4,Name,Ziggurat of Kargul
+//Ability,4,Points,0
+//Ability,4,Page,2
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YHPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
 
 [Ziggurat]
 Ability,5,Name,Ziggurat of Kargul
@@ -37,16 +37,16 @@ Ability,5,MinRange,600
 Ability,5,Cooldown,3
 Ability,5,YHPGT,10
 
-[Combat Roll]
-Ability,6,Name,Combat Roll
-Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,MaxRange,200
-Ability,6,AimAt,45,400
-Ability,6,YSPGT,10
-Ability,6,Cooldown,3
-Ability,6,Boss
+//[Combat Roll]
+//Ability,6,Name,Combat Roll
+//Ability,6,Points,0
+//Ability,6,Page,1
+//Ability,6,Slot,8
+//Ability,6,MaxRange,200
+//Ability,6,AimAt,45,400
+//Ability,6,YSPGT,10
+//Ability,6,Cooldown,3
+//Ability,6,Boss
 
 [Combat Roll]
 Ability,7,Name,Combat Roll
