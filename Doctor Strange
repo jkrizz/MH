@@ -21,16 +21,16 @@ Ability,3,Points,16
 [TeamUp]
 Ability,4,TeamUp
 
-[Mystic Shift]
-Ability,5,Name,Mystic Shift
-Ability,5,Points,0
-Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,MaxRange,200
-Ability,5,AimAt,45,400
-Ability,5,YSPGT,10
-Ability,5,Cooldown,3
-Ability,5,Boss
+//[Mystic Shift]
+//Ability,5,Name,Mystic Shift
+//Ability,5,Points,0
+//Ability,5,Page,1
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YSPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
 
 [Mystic Shift]
 Ability,6,Name,Mystic Shift
