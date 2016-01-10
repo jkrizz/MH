@@ -36,16 +36,16 @@ Ability,5,Points,20
 [TeamUp]
 Ability,6,TeamUp
 
-[Ziggurat]
-Ability,7,Name,Ziggurat of Kargul
-Ability,7,Points,0
-Ability,7,Page,2
-Ability,7,Slot,8
-Ability,7,MaxRange,200
-Ability,7,AimAt,45,400
-Ability,7,YHPGT,10
-Ability,7,Cooldown,3
-Ability,7,Boss
+//[Ziggurat]
+//Ability,7,Name,Ziggurat of Kargul
+//Ability,7,Points,0
+//Ability,7,Page,2
+//Ability,7,Slot,8
+//Ability,7,MaxRange,200
+//Ability,7,AimAt,45,400
+//Ability,7,YHPGT,10
+//Ability,7,Cooldown,3
+//Ability,7,Boss
 
 [Ziggurat]
 Ability,8,Name,Ziggurat of Kargul
@@ -56,17 +56,17 @@ Ability,8,MinRange,600
 Ability,8,Cooldown,3
 Ability,8,YHPGT,10
 
-[Acrobatic Roll]
-Ability,9,Name,Acrobatic Roll
-Ability,9,Points,0
-Ability,9,Page,1
-Ability,9,Slot,8
-Ability,9,MaxRange,200
-Ability,9,AimAt,45,400
-Ability,9,YSPGT,10
-Ability,9,Cooldown,3
-Ability,9,Boss
-Ability,9,MaxLevel,28
+//[Acrobatic Roll]
+//Ability,9,Name,Acrobatic Roll
+//Ability,9,Points,0
+//Ability,9,Page,1
+//Ability,9,Slot,8
+//Ability,9,MaxRange,200
+//Ability,9,AimAt,45,400
+//Ability,9,YSPGT,10
+//Ability,9,Cooldown,3
+//Ability,9,Boss
+//Ability,9,MaxLevel,28
 
 [Acrobatic Roll]
 Ability,10,Name,Acrobatic Roll
@@ -78,16 +78,16 @@ Ability,10,Cooldown,3
 Ability,10,YSPGT,10
 Ability,10,MaxLevel,28
 
-[Ronin Lunge]
-Ability,11,Name,Ronin Lunge
-Ability,11,Points,0
-Ability,11,Page,1
-Ability,11,Slot,8
-Ability,11,MaxRange,200
-Ability,11,AimAt,45,400
-Ability,11,YSPGT,10
-Ability,11,Cooldown,3
-Ability,11,Boss
+//[Ronin Lunge]
+//Ability,11,Name,Ronin Lunge
+//Ability,11,Points,0
+//Ability,11,Page,1
+//Ability,11,Slot,8
+//Ability,11,MaxRange,200
+//Ability,11,AimAt,45,400
+//Ability,11,YSPGT,10
+//Ability,11,Cooldown,3
+//Ability,11,Boss
 
 [Ronin Lunge]
 Ability,12,Name,Ronin Lunge
