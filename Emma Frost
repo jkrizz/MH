@@ -23,16 +23,16 @@ Ability,3,Points,1
 [TeamUp]
 Ability,4,TeamUp
 
-[Ziggurat]
-Ability,5,Name,Ziggurat of Kargul
-Ability,5,Points,0
-Ability,5,Page,2
-Ability,5,Slot,8
-Ability,5,MaxRange,200
-Ability,5,AimAt,45,400
-Ability,5,YHPGT,10
-Ability,5,Cooldown,3
-Ability,5,Boss
+//[Ziggurat]
+//Ability,5,Name,Ziggurat of Kargul
+//Ability,5,Points,0
+//Ability,5,Page,2
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YHPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
 
 [Ziggurat]
 Ability,6,Name,Ziggurat of Kargul
@@ -43,16 +43,16 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YHPGT,10
 
-[Lustrous Lunge]
-Ability,7,Name,Lustrous Lunge
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,MaxRange,200
-Ability,7,AimAt,45,400
-Ability,7,YSPGT,10
-Ability,7,Cooldown,3
-Ability,7,Boss
+//[Lustrous Lunge]
+//Ability,7,Name,Lustrous Lunge
+//Ability,7,Points,0
+//Ability,7,Page,1
+//Ability,7,Slot,8
+//Ability,7,MaxRange,200
+//Ability,7,AimAt,45,400
+//Ability,7,YSPGT,10
+//Ability,7,Cooldown,3
+//Ability,7,Boss
 
 [Lustrous Lunge]
 Ability,8,Name,Lustrous Lunge
