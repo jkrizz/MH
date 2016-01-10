@@ -13,16 +13,16 @@ Ability,1,Points,20
 [TeamUp]
 Ability,3,TeamUp
 
-[Chaos Shift]
-Ability,4,Name,Chaos Shift
-Ability,4,Points,0
-Ability,4,Page,1
-Ability,4,Slot,8
-Ability,4,MaxRange,200
-Ability,4,AimAt,45,400
-Ability,4,YSPGT,10
-Ability,4,Cooldown,3
-Ability,4,Boss
+//[Chaos Shift]
+//Ability,4,Name,Chaos Shift
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YSPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
 
 [Chaos Shift]
 Ability,5,Name,Chaos Shift
