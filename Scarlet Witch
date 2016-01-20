@@ -2,62 +2,69 @@
 
 hero,Scarlet Witch
 
-//PASSIVES
-
-[Chaos Magic]
-Ability,1,Name,Chaos Magic
-Ability,1,Points,20
-
 // ROTATION ORDER
 
 [TeamUp]
-Ability,3,TeamUp
+Ability,1,TeamUp
 
 //[Chaos Shift]
-//Ability,4,Name,Chaos Shift
-//Ability,4,Points,0
-//Ability,4,Page,1
-//Ability,4,Slot,8
-//Ability,4,MaxRange,200
-//Ability,4,AimAt,45,400
-//Ability,4,YSPGT,10
-//Ability,4,Cooldown,3
-//Ability,4,Boss
+//Ability,2,Name,Chaos Shift
+//Ability,2,Points,0
+//Ability,2,Page,1
+//Ability,2,Slot,8
+//Ability,2,MaxRange,200
+//Ability,2,AimAt,45,400
+//Ability,2,YSPGT,10
+//Ability,2,Cooldown,3
+//Ability,2,Boss
 
 [Chaos Shift]
-Ability,5,Name,Chaos Shift
-Ability,5,Points,0
-Ability,5,Slot,8
-Ability,5,Page,1
-Ability,5,MinRange,600
-Ability,5,Cooldown,3
-Ability,5,YSPGT,10
+Ability,3,Name,Chaos Shift
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,MinRange,600
+Ability,3,Cooldown,3
+Ability,3,YSPGT,10
 
 [Hex Bolt]
-Ability,6,Name,Hex Bolt
-Ability,6,Points,0
-Ability,6,Slot,1
-Ability,6,Page,1
-Ability,6,MaxRange,625
-Ability,6,YSPLT,20
-Ability,6,MaxLevel,28
+Ability,4,Name,Hex Bolt
+Ability,4,Points,0
+Ability,4,Slot,1
+Ability,4,Page,1
+Ability,4,MaxRange,625
+Ability,4,YSPLT,20
+Ability,4,MaxLevel,28
 
 [Bewitching Hex]
-Ability,7,Name,Bewitching Hex
-Ability,7,Points,1
-Ability,7,Slot,1
-Ability,7,Page,1
-Ability,7,MaxRange,625
-Ability,7,YSPLT,20
+Ability,5,Name,Bewitching Hex
+Ability,5,Points,1
+Ability,5,Slot,1
+Ability,5,Page,1
+Ability,5,MaxRange,625
+Ability,5,YSPLT,20
+
+[Chaos Magic]
+Ability,6,Name,Chaos Magic
+Ability,6,Points,20
+Ability,6,Page,2
+Ability,6,Slot,5
 
 [Obfuscation]
-Ability,8,Name,Obfuscation
-Ability,8,Slot,5
+Ability,7,Name,Obfuscation
+Ability,7,Slot,5
+Ability,7,Page,1
+//Ability,7,MaxRange,500
+Ability,7,TargetSelf
+Ability,7,Points,20
+Ability,7,YHPLT,50
+
+[Beasts from Beyond]
+Ability,8,Name,Beasts from Beyond
 Ability,8,Page,1
-//Ability,8,MaxRange,500
-Ability,8,TargetSelf
+Ability,8,Slot,2
+Ability,8,MaxRange,575
 Ability,8,Points,20
-Ability,8,YHPLT,50
 
 [Chaos Rift]
 Ability,9,Name,Chaos Rift
@@ -70,11 +77,11 @@ Ability,9,Points,20
 
 [Bewildering Hex]
 Ability,10,Name,Bewildering Hex
+Ability,10,Points,1
 Ability,10,Page,2
 Ability,10,Slot,4
 Ability,10,MaxRange,500
 Ability,10,Cooldown,4
-Ability,10,Points,1
 
 [Ravenous Binding]
 Ability,11,Name,Ravenous Binding
@@ -100,51 +107,44 @@ Ability,13,Boss
 Ability,13,MaxRange,450
 Ability,13,Points,20
 
-[Beasts from Beyond]
-Ability,14,Name,Beasts from Beyond
-Ability,14,Page,1
-Ability,14,Slot,2
-//Ability,14,MaxRange,550
-Ability,14,Points,20
-
 [Hex Sphere]
-Ability,15,Name,Hex Sphere
-Ability,15,Page,1
-Ability,15,Slot,7
-Ability,15,SECGT,1
-Ability,15,MaxRange,625
-Ability,15,Points,20
-Ability,15,Cooldown,3
+Ability,14,Name,Hex Sphere
+Ability,14,Page,1
+Ability,14,Slot,7
+Ability,14,SECGT,1
+Ability,14,MaxRange,625
+Ability,14,Points,20
+Ability,14,Cooldown,3
 
 [Chaotic Hex]
-Ability,16,Name,Chaotic Hex
-Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,2
-Ability,16,MaxRange,500
-Ability,16,Hold,500,AsPrimary
+Ability,15,Name,Chaotic Hex
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,2
+Ability,15,MaxRange,500
+Ability,15,Hold,500,AsPrimary
 
 [Hex Bolt]
-Ability,17,Name,Hex Bolt
-Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,1
-Ability,17,MaxRange,625
-Ability,17,MaxLevel,28
+Ability,16,Name,Hex Bolt
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,625
+Ability,16,MaxLevel,28
 
 [Bewitching Hex]
-Ability,18,Name,Bewitching Hex
-Ability,18,Points,1
-Ability,18,Slot,1
-Ability,18,Page,1
-Ability,18,MaxRange,625
+Ability,17,Name,Bewitching Hex
+Ability,17,Points,1
+Ability,17,Slot,1
+Ability,17,Page,1
+Ability,17,MaxRange,625
 
 [Chaos Shift]
-Ability,19,Name,Chaos Shift
-Ability,19,Points,0
-Ability,19,Slot,8
-Ability,19,Page,1
-Ability,19,Movement
+Ability,18,Name,Chaos Shift
+Ability,18,Points,0
+Ability,18,Slot,8
+Ability,18,Page,1
+Ability,18,Movement
 
 END
 
