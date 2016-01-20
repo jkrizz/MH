@@ -10,6 +10,7 @@ Ability,1,Points,20
 Ability,1,Toggle
 Ability,1,Page,3
 Ability,1,Slot,2
+Ability,1,Cooldown,60
 
 [Polarity Field]
 Ability,2,Name,Polarity Field
@@ -17,99 +18,106 @@ Ability,2,Points,1
 Ability,2,Toggle
 Ability,2,Page,3
 Ability,2,Slot,3
+Ability,2,Cooldown,60
 
 [Power Unconquered]
 Ability,3,Name,Power Unconquered
 Ability,3,Points,20
 
-[Cosmic Resonance]
-Ability,4,Name,Cosmic Resonance
-Ability,4,Points,1
-
 //ROTATION
 
 [TeamUp]
-Ability,5,TeamUp
-Ability,5,Cooldown,15
-
-[Convergence]
-Ability,6,Name,Convergence
-Ability,6,Page,2
-Ability,6,Slot,2
-Ability,6,Boss
-Ability,6,MaxRange,250
-
-[Reconstruct]
-Ability,7,Name,Reconstruct
-Ability,7,Points,1
-Ability,7,YSPLT,65
-Ability,7,Page,1
-Ability,7,Slot,2
-
-[Temporal Recall]
-Ability,8,Name,Temporal Recall
-Ability,8,Points,1
-Ability,8,Page,2
-Ability,8,Slot,4
-Ability,8,Elite
-Ability,8,Cooldown,5
-
-[Singularity]
-Ability,9,Name,Singularity
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,3
-Ability,9,Movement
-Ability,9,Cooldown,3
+Ability,4,TeamUp
 
 [Subspace Slipstream]
-Ability,10,Name,Subspace Slipstream
-Ability,10,Points,1
-Ability,10,Page,2
-Ability,10,Slot,3
-Ability,10,YSPGT,60
-Ability,10,MinRange,650
+Ability,5,Name,Subspace Slipstream
+Ability,5,Points,0
+Ability,5,Page,2
+Ability,5,Slot,3
+Ability,5,Cooldown,6
+Ability,5,MinRange,300
+Ability,5,YSPGT,20
 
-[Singularity]
-Ability,11,Name,Singularity
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,3
+[Board Dash]
+Ability,6,Name,Board Dash
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,Cooldown,3
+Ability,6,MinRange,300
+Ability,6,YSPGT,20
+
+[Subspace Slipstream]
+Ability,7,Name,Subspace Slipstream
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,3
+Ability,7,MinRange,650
+Ability,7,PanelBuff,SilverSurferIcons.Power_SilverSurfer_BoardDash,True,10
 
 [Subspace Rift]
-Ability,12,Name,Subspace Rift
-Ability,12,Points,20
-Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,Cooldown,6
-Ability,12,MaxRange,625
+Ability,8,Name,Subspace Rift
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,4
+Ability,8,Cooldown,5
+Ability,8,MaxRange,625
 
-[Repulse]
-Ability,13,Name,Repulse
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,5
-Ability,13,MaxRange,750
-Ability,13,AimAt,180,100
+[Convergence]
+Ability,9,Name,Convergence
+Ability,9,Page,2
+Ability,9,Slot,2
+Ability,9,Boss
+Ability,9,MaxRange,250
+
+[Singularity]
+Ability,10,Name,Singularity
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,3
+
+[Reconstruct]
+Ability,11,Name,Reconstruct
+Ability,11,Points,1
+Ability,11,YSPLT,65
+Ability,11,Page,1
+Ability,11,Slot,2
 
 [Deconstruct]
-Ability,14,Name,Deconstruct
-Ability,14,Points,18
+Ability,12,Name,Deconstruct
+Ability,12,Points,18
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,MaxRange,550
+
+[Temporal Recall]
+Ability,13,Name,Temporal Recall
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,4
+Ability,13,Boss
+
+[Repulse]
+Ability,14,Name,Repulse
+Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,6
+Ability,14,Slot,5
+Ability,14,MaxRange,750
+Ability,14,AimAt,180,0
 
 [Event Horion]
 Ability,15,Name,Event Horizon
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,7
-Ability,15,Elite
+Ability,15,Boss
 
 [Board Dash]
 Ability,16,Name,Board Dash
 Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,8
+Ability,16,MaxRange,575
 
 [Cosmic Beam Array]
 Ability,17,Name,Cosmic Beam Array
@@ -118,21 +126,27 @@ Ability,17,Page,1
 Ability,17,Slot,1
 Ability,17,MouseTarget
 
-[Subspace Slipstream]
-Ability,18,Name,Subspace Slipstream
-Ability,18,Points,1
-Ability,18,Page,2
+[Singularity]
+Ability,18,Name,Singularity
+Ability,18,Points,20
+Ability,18,Page,1
 Ability,18,Slot,3
 Ability,18,Movement
-Ability,18,YSPGT,20
+
+[Subspace Slipstream]
+Ability,19,Name,Subspace Slipstream
+Ability,19,Points,1
+Ability,19,Page,2
+Ability,19,Slot,3
+Ability,19,Movement
 
 [Board Dash]
-Ability,19,Name,Board Dash
-Ability,19,Points,20
-Ability,19,Page,1
-Ability,19,Slot,8
-Ability,19,Movement
+Ability,20,Name,Board Dash
+Ability,20,Points,20
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
 
 END
 
-[Build: https://forums.marvelheroes.com/discussion/173060/complete-movement-build-guide-30s-ttk-videos-gear-omega-updated-2015-2-12-for-1-35]
+[Build: https://forums.marvelheroes.com/discussion/233363/movementminmax-23s-4-15-updated-on-patch-1-69]
