@@ -8,111 +8,146 @@ hero,She-Hulk
 Ability,1,Name,Defense Attorney
 Ability,1,Points,1
 
-[Contempt of Court]
-Ability,2,Name,Contempt of Court
-Ability,2,Points,20
-
 //ROTATION
 
 [TeamUp]
-Ability,3,TeamUp
-Ability,3,Cooldown,15
+Ability,2,TeamUp
+
+[Ziggurat]
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,YHPGT,40
+Ability,3,MinRange,300
 
 [Legal Lunge]
-Ability,4,Name, Legal Lunge
+Ability,4,Name,Legal Lunge
 Ability,4,Points,0
 Ability,4,Page,1
 Ability,4,Slot,8
-Ability,4,MinRange,300
 Ability,4,Cooldown,3
-
-[Pillar of Justice]
-Ability,5,Name,Pillar of Justice
-Ability,5,Page,2
-Ability,5,Slot,3
-Ability,5,Boss
-Ability,5,MaxRange,450
-
-[Conviction]
-Ability,6,Name,Conviction
-Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,6
-Ability,6,Boss
-Ability,6,MouseTarget
-Ability,6,MaxRange,750
-
-[Surprise Witness]
-Ability,7,Name,Surprise Witness
-Ability,7,Points,5
-Ability,7,Page,2
-Ability,7,Slot,2
-Ability,7,Boss
-
-[Bar Exam] 
-Ability,8,Name,Bar Exam
-Ability,8,Points,20
-Ability,8,Page,2
-Ability,8,Slot,4
-Ability,8,SECLT,3
-Ability,8,MaxRange,250
+Ability,4,MinRange,300
+Ability,4,YSPGT,20
 
 [Lawyer Up]
-Ability,9,Name,Lawyer Up
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,5
-Ability,9,Buff,marvelconditioneffect_shehulk_lawyerup,false
-
-[Objection!]
-Ability,10,Name,Objection!
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,3
-Ability,10,MaxRange,700
-
-[Move To Strike]
-Ability,11,Name,Move to Strike
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,4
-Ability,11,MaxRange,600
-
-[Opening Statement]
-Ability,12,Name,Opening Statement
-Ability,12,Points,20
-Ability,12,Page,1
-Ability,12,Slot,2
-Ability,12,Cooldown,7
-Ability,12,MaxRange,500
-Ability,12,SECLT,5
-
-[Lawyer Up]
-Ability,13,Name,Lawyer Up
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,5
-Ability,13,YHPLT,60
-
-[Closing Argument] 
-Ability,14,Name,Closing Argument
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,7
-Ability,14,SECGT,4
-Ability,14,MaxRange,100
+Ability,5,Name,Lawyer Up
+Ability,5,Points,20
+Ability,5,Page,1
+Ability,5,Slot,5
+Ability,5,SECEQ,5
+Ability,5,YHPLT,40
 
 [Cross Examination]
-Ability,15,Name,Cross Examination
-Ability,15,Points,0
+Ability,6,Name,Cross Examination
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,MaxRange,100
+Ability,6,YSPLT,20
+Ability,6,SECLT,5
+
+[Contempt of Court]
+Ability,7,Name,Contempt of Court
+Ability,7,Points,20
+Ability,7,Page,2
+Ability,7,Slot,5
+
+[Lawyer Up]
+Ability,8,Name,Lawyer Up
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,5
+Ability,8,SECEQ,5
+Ability,8,Buff,marvelconditioneffect_shehulk_lawyerup,false
+
+[Move To Strike]
+Ability,9,Name,Move to Strike
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,4
+Ability,9,MaxRange,600
+Ability,9,PanelBuff,MarvelUIIcons.TeamUp_SheHulk_Objection,True,1
+
+[Pillar of Justice]
+Ability,10,Name,Pillar of Justice
+Ability,10,Page,2
+Ability,10,Slot,3
+Ability,10,Boss
+Ability,10,MaxRange,450
+Ability,10,Buff,marvelconditioneffect_shehulk_lawyerup,true
+
+[Opening Statement]
+Ability,11,Name,Opening Statement
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,2
+Ability,11,Cooldown,5
+Ability,11,MaxRange,500
+Ability,11,SECLT,5
+
+[Conviction]
+Ability,12,Name,Conviction
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,Boss
+Ability,12,MouseTarget
+Ability,12,MaxRange,750
+
+[Surprise Witness]
+Ability,13,Name,Surprise Witness
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,Boss
+
+[Bar Exam] 
+Ability,14,Name,Bar Exam
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,4
+Ability,14,SECLT,3
+Ability,14,MaxRange,250
+
+[Closing Argument] 
+Ability,15,Name,Closing Argument
+Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,1
+Ability,15,Slot,7
+Ability,15,SECGT,4
 Ability,15,MaxRange,100
 
-[Legal Lunge]
-Ability,16,Name,Legal Lunge
+[Objection!]
+Ability,16,Name,Objection!
+Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,8
-Ability,16,Movement
+Ability,16,Slot,3
+Ability,16,MaxRange,700
+
+[Cross Examination]
+Ability,17,Name,Cross Examination
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,MaxRange,100
+
+[Ziggurat]
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,YHPGT,40
+Ability,18,Movement
+
+[Legal Lunge]
+Ability,19,Name,Legal Lunge
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
 
 END
+
+[Build: http://marvelheroes.info/build/11924/#p0]
