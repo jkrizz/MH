@@ -31,7 +31,7 @@ Ability,4,TeamUp
 
 [Subspace Slipstream]
 Ability,5,Name,Subspace Slipstream
-Ability,5,Points,0
+Ability,5,Points,1
 Ability,5,Page,2
 Ability,5,Slot,3
 Ability,5,Cooldown,6
@@ -40,7 +40,7 @@ Ability,5,YSPGT,20
 
 [Board Dash]
 Ability,6,Name,Board Dash
-Ability,6,Points,0
+Ability,6,Points,20
 Ability,6,Page,1
 Ability,6,Slot,8
 Ability,6,Cooldown,3
@@ -85,7 +85,7 @@ Ability,11,Slot,2
 
 [Deconstruct]
 Ability,12,Name,Deconstruct
-Ability,12,Points,18
+Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,6
 Ability,12,MaxRange,550
