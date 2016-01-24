@@ -81,6 +81,7 @@ Ability,12,Points,20
 Ability,12,Slot,4
 Ability,12,Page,2
 Ability,12,Boss
+Ability,12,Miniboss
 Ability,12,Hold,4000
 Ability,12,Mousetarget
 Ability,12,MaxRange,625
@@ -122,7 +123,7 @@ Ability,17,Points,20
 Ability,17,Page,1
 Ability,17,Slot,6
 Ability,17,Mousetarget
-Ability,17,Hold,5000,AsPrimary
+Ability,17,Hold,500,AsPrimary
 Ability,17,MaxRange,125
 
 [Bo Strike]
