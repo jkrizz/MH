@@ -1,0 +1,148 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Taskmaster
+
+//PASSIVES
+
+[Flawless Emulation]
+Ability,1,Name,Flawless Emulation
+Ability,1,Points,20
+
+[Peerless Archer]
+Ability,2,Name,Peerless Archer
+Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,3
+Ability,2,Toggle
+Ability,2,Cooldown,60
+
+[Impervious Soldier]
+Ability,3,Name,Impervious Soldier
+Ability,3,Points,20
+Ability,3,Page,2
+Ability,3,Slot,4
+Ability,3,Toggle
+Ability,3,Cooldown,60
+
+//ROTATION
+
+[TeamUp]
+Ability,4,TeamUp
+
+[Ziggurat]
+Ability,5,Name,Ziggurat of Kargul
+Ability,5,Points,0
+Ability,5,Page,2
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,YHPGT,40
+Ability,5,MinRange,300
+
+[Anti-Heroic Charge]
+Ability,6,Name,Anti-Heroic Charge
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,Cooldown,3
+Ability,6,MinRange,300
+Ability,6,YSPGT,20
+
+[Foeslayer Strike]
+Ability,7,Name,Foeslayer Strike
+Ability,7,Points,0
+Ability,7,Page,1
+Ability,7,Slot,1
+Ability,7,MaxRange,125
+Ability,7,YSPLT,20
+
+[Relentless]
+Ability,8,Name,Relentless
+Ability,8,Points,1
+Ability,8,Page,2
+Ability,8,Slot,5
+
+[Action!]
+Ability,9,Name,Action!
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,7
+Ability,9,Boss
+
+[Field Exercise]
+Ability,10,Name,Field Exercise
+Ability,10,Points,0
+Ability,10,Page,2
+Ability,10,Slot,5
+Ability,10,Boss
+
+[Web Net]
+Ability,11,Name,Web Net
+Ability,11,Points,4
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,Cooldown,4
+Ability,11,MaxRange,600
+
+[Toxic Gas Arrow]
+Ability,12,Name,Toxic Gas Arrow
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,MaxRange,750
+Ability,12,Cooldown,6
+
+[Rebounding Shield]
+Ability,13,Name,Rebounding Shield
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,Cooldown,5
+Ability,13,MaxRange,600
+
+[Shield Crush]
+Ability,14,Name,Shield Crush
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,4
+Ability,14,MaxRange,400
+
+[Dismember]
+Ability,15,Name,Dismember
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,2
+Ability,15,MaxRange,125
+
+[Foeslayer Strike]
+Ability,16,Name,Foeslayer Strike
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,125
+
+[Spidey's Swing]
+Ability,17,Name,Spidey's Swing
+Ability,17,Points,1
+Ability,17,Page,2
+Ability,17,Slot,7
+Ability,17,Buff,marvelconditioneffect_haste,False
+Ability,17,Movement
+
+[Ziggurat]
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,YHPGT,40
+Ability,18,Movement
+
+[Anti-Heroic Charge]
+Ability,19,Name,Anti-Heroic Charge
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/752/]
