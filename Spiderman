@@ -9,94 +9,90 @@ Ability,1,Name,Spider DNA
 Ability,1,Points,20
 Ability,1,Specialization,0x213D0F03FED7142A
 
+//EARLY POINT DISTRIBUTION
+Ability,2,Name,Spidey Pummel
+Ability,2,Points,20
+
 //ROTATION
 
 [TeamUp]
-Ability,2,TeamUp
+Ability,3,TeamUp
 
 [Ziggurat]
-Ability,3,Name,Ziggurat of Kargul
-Ability,3,Points,0
-Ability,3,Page,2
-Ability,3,Slot,8
-Ability,3,Cooldown,3
-Ability,3,YHPGT,40
-Ability,3,MinRange,200
-
-[Amazing Acrobatics]
-Ability,4,Name,Amazing Acrobatics
+Ability,4,Name,Ziggurat of Kargul
 Ability,4,Points,0
-Ability,4,Page,1
+Ability,4,Page,2
 Ability,4,Slot,8
 Ability,4,Cooldown,3
+Ability,4,YHPGT,40
 Ability,4,MinRange,200
-Ability,4,YSPGT,20
 
-[Spider Strike]
-Ability,5,Name,Spider Strike
+[Amazing Acrobatics]
+Ability,5,Name,Amazing Acrobatics
 Ability,5,Points,0
 Ability,5,Page,1
-Ability,5,Slot,1
-Ability,5,MaxRange,125
-Ability,5,YSPLT,20
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,200
+Ability,5,YSPGT,20
+
+[Spider Strike]
+Ability,6,Name,Spider Strike
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,MaxRange,125
+Ability,6,YSPLT,20
 
 [Spider-Sense]
-Ability,6,Name,Spider-Sense
-Ability,6,Points,20
-Ability,6,Page,2
-Ability,6,Slot,2
+Ability,7,Name,Spider-Sense
+Ability,7,Points,20
+Ability,7,Page,2
+Ability,7,Slot,2
 
 [Maximum Spider]
-Ability,7,Name,Maximum Spider
-Ability,7,Page,2
-Ability,7,Slot,4
-Ability,7,MaxRange,675
-Ability,7,Boss
+Ability,8,Name,Maximum Spider
+Ability,8,Page,2
+Ability,8,Slot,4
+Ability,8,MaxRange,675
+Ability,8,Boss
 
 [Amazing Smash]
-Ability,8,Name,Amazing Smash
-Ability,8,Points,20
-Ability,8,Page,2
-Ability,8,Slot,3
-Ability,8,YSPLT,45
-Ability,8,MaxRange,625
+Ability,9,Name,Amazing Smash
+Ability,9,Points,20
+Ability,9,Page,2
+Ability,9,Slot,3
+Ability,9,YSPLT,45
+Ability,9,MaxRange,625
 
 [Web Spray]
-Ability,9,Name,Web Spray
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,5
-Ability,9,MaxRange,575
-Ability,9,Cooldown,3
+Ability,10,Name,Web Spray
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,5
+Ability,10,MaxRange,575
+Ability,10,Cooldown,3
 
 [Stick Around]
-Ability,10,Name,Stick Around
-Ability,10,Points,1
-Ability,10,Page,1
-Ability,10,Slot,6
-Ability,10,MaxRange,500
+Ability,11,Name,Stick Around
+Ability,11,Points,1
+Ability,11,Page,1
+Ability,11,Slot,6
+Ability,11,MaxRange,500
 
 [Leaping Assault]
-Ability,11,Name,Leaping Assault
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,7
-Ability,11,MaxRange,575
-
-[Arachnid Assault]
-Ability,12,Name,Arachnid Assault
+Ability,12,Name,Leaping Assault
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,MaxRange,375
+Ability,12,Slot,7
+Ability,12,MaxRange,575
 
-[Spidey Pummel]
-Ability,13,Name,Spidey Pummel
+[Arachnid Assault]
+Ability,13,Name,Arachnid Assault
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,2
-Ability,13,MaxRange,125
-Ability,13,MinLevel,42
+Ability,13,Slot,4
+Ability,13,MaxRange,375
 
 [Spidey Pummel]
 Ability,14,Name,Spidey Pummel
@@ -104,38 +100,46 @@ Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,2
 Ability,14,MaxRange,125
-Ability,14,Hold,1000,AsPrimary
-Ability,14,MaxLevel,28
+Ability,14,MinLevel,42
 
-[Spider-Brawl]
-Ability,15,Name,Spider-Brawl
+[Spidey Pummel]
+Ability,15,Name,Spidey Pummel
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,3
+Ability,15,Slot,2
 Ability,15,MaxRange,125
 Ability,15,Hold,1000,AsPrimary
+Ability,15,MaxLevel,28
+
+[Spider-Brawl]
+Ability,16,Name,Spider-Brawl
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,3
+Ability,16,MaxRange,125
+Ability,16,Hold,1000,AsPrimary
 
 [Spider Strike]
-Ability,16,Name,Spider Strike
-Ability,16,Points,0
-Ability,16,Page,1
-Ability,16,Slot,1
-Ability,16,MaxRange,125
+Ability,17,Name,Spider Strike
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,MaxRange,125
 
 [Ziggurat]
-Ability,17,Name,Ziggurat of Kargul
-Ability,17,Points,0
-Ability,17,Page,2
-Ability,17,Slot,8
-Ability,17,Movement
-Ability,17,YHPGT,40
-
-[Amazing Acrobatics]
-Ability,18,Name,Amazing Acrobatics
+Ability,18,Name,Ziggurat of Kargul
 Ability,18,Points,0
-Ability,18,Page,1
+Ability,18,Page,2
 Ability,18,Slot,8
 Ability,18,Movement
+Ability,18,YHPGT,40
+
+[Amazing Acrobatics]
+Ability,19,Name,Amazing Acrobatics
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
 
 END
 
