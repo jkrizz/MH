@@ -49,13 +49,15 @@ Ability,6,Name,Gloves Off
 Ability,6,Points,20
 Ability,6,Page,1
 Ability,6,Slot,7
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Final Form]
-Ability,7,Name,Final Form
-Ability,7,Points,0
-Ability,7,Page,2
-Ability,7,Slot,3
-Ability,7,Boss
+//[Final Form]
+//Ability,7,Name,Final Form
+//Ability,7,Points,0
+//Ability,7,Page,2
+//Ability,7,Slot,3
+//Ability,7,Boss
 
 [Kree Resilience]
 Ability,8,Name,Kree Resilience
