@@ -38,17 +38,17 @@ Ability,5,TeamUp
 [Ziggurat]
 Ability,6,Name,Ziggurat of Kargul
 Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,8
+Ability,6,Page,3
+Ability,6,Slot,6
 Ability,6,Cooldown,3
 Ability,6,YHPGT,40
 Ability,6,MinRange,200
 
-[Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE
+[Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
 Ability,7,Name,Vanish
 Ability,7,Points,1
-Ability,7,Page,1
-Ability,7,Slot,8
+Ability,7,Page,3
+Ability,7,Slot,7
 Ability,7,Cooldown,3
 Ability,7,MinRange,200
 Ability,7,YSPGT,20
@@ -197,15 +197,15 @@ Ability,25,MaxRange,125
 [Ziggurat]
 Ability,27,Name,Ziggurat of Kargul
 Ability,27,Points,0
-Ability,27,Page,1
-Ability,27,Slot,8
+Ability,27,Page,3
+Ability,27,Slot,6
 Ability,27,Movement
 Ability,27,YHPGT,40
 
-[Vanish]
+[Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
 Ability,28,Name,Vanish
-Ability,28,Points,1
-Ability,28,Page,1
+Ability,28,Points,3
+Ability,28,Page,7
 Ability,28,Slot,8
 Ability,28,Movement
 
