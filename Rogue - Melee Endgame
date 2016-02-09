@@ -150,6 +150,7 @@ Ability,20,MiniBoss
 Ability,20,Boss
 Ability,20,MaxRange,250
 Ability,20,Hold,5000,ShiftClick
+Ability,20,MouseTarget
 
 [Infernal Meteor]   //LORD BRIMSTONE - GREEN MUSPELHEIM (CAN SOLO)
 Ability,21,Name,Infernal Meteor
