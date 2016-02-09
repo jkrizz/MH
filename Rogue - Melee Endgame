@@ -166,56 +166,48 @@ Ability,22,Page,2
 Ability,22,Slot,1
 //Ability,22,MaxRange,
 
-[Aerial Onslaught]
-Ability,23,Name,Aerial Onslaught
-Ability,23,Points,0
-Ability,23,Page,1
-Ability,23,Slot,3
-Ability,23,MaxRange,125
-Ability,23,Cooldown,4
-
 [Crushing Blows]
-Ability,24,Name,Crushing Blows
-Ability,24,Points,20
-Ability,24,Page,1
-Ability,24,Slot,5
-Ability,24,MaxRange,125
+Ability,23,Name,Crushing Blows
+Ability,23,Points,20
+Ability,23,Page,1
+Ability,23,Slot,5
+Ability,23,MaxRange,125
 
 [Draining Punch]
-Ability,25,Name,Draining Punch
-Ability,25,Points,0
-Ability,25,Page,1
-Ability,25,Slot,1
-Ability,25,MaxRange,125
+Ability,24,Name,Draining Punch
+Ability,24,Points,0
+Ability,24,Page,1
+Ability,24,Slot,1
+Ability,24,MaxRange,125
 
 //[Swooping Flames]   //SAURON - CHAPTER 7 DINOSAUR JUNGLE / MIDTOWN
-//Ability,26,Name,Swooping Flames
-//Ability,26,Points,20
-//Ability,26,Page,2
-//Ability,26,Slot,7
-//Ability,26,Movement
+//Ability,25,Name,Swooping Flames
+//Ability,25,Points,20
+//Ability,25,Page,2
+//Ability,25,Slot,7
+//Ability,25,Movement
 
 [Ziggurat]
-Ability,27,Name,Ziggurat of Kargul
-Ability,27,Points,0
-Ability,27,Page,3
-Ability,27,Slot,6
-Ability,27,Movement
-Ability,27,YHPGT,40
+Ability,26,Name,Ziggurat of Kargul
+Ability,26,Points,0
+Ability,26,Page,3
+Ability,26,Slot,6
+Ability,26,Movement
+Ability,26,YHPGT,40
 
 [Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
-Ability,28,Name,Vanish
-Ability,28,Points,3
-Ability,28,Page,7
-Ability,28,Slot,8
-Ability,28,Movement
+Ability,27,Name,Vanish
+Ability,27,Points,3
+Ability,27,Page,7
+Ability,27,Slot,8
+Ability,27,Movement
 
 [Teleportal]
-Ability,29,Name,Teleportal
-Ability,29,Points,1
-Ability,29,Page,1
-Ability,29,Slot,8
-Ability,29,Movement
+Ability,28,Name,Teleportal
+Ability,28,Points,1
+Ability,28,Page,1
+Ability,28,Slot,8
+Ability,28,Movement
 
 END
 
