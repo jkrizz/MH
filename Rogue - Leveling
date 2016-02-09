@@ -1,0 +1,131 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+//This Rogue ability file is solely used to level without gaining any stolen powers whatsoever.  I highly recommend leveling her on a Monday in Midtown to take advantage of the massive xp acquireable there.
+
+hero,Rogue
+
+//PASSIVES
+
+//ROTATION
+
+[TeamUp]
+Ability,1,TeamUp
+
+[Ziggurat]
+Ability,2,Name,Ziggurat of Kargul
+Ability,2,Points,0
+Ability,2,Page,2
+Ability,2,Slot,8
+Ability,2,Cooldown,3
+Ability,2,YHPGT,40
+Ability,2,MinRange,200
+
+[Kree Charge]
+Ability,3,Name,Kree Charge
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,200
+Ability,3,YSPGT,20
+
+[Draining Punch]
+Ability,4,Name,Draining Punch
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,1
+Ability,4,MaxRange,125
+Ability,4,YSPLT,20
+
+[Rubble Slam]
+Ability,5,Name,Rubble Slam
+Ability,5,Points,20
+Ability,5,Page,1
+Ability,5,Slot,6
+Ability,5,MaxRange,625
+
+[Gloves Off]
+Ability,6,Name,Gloves Off
+Ability,6,Points,20
+Ability,6,Page,1
+Ability,6,Slot,7
+
+[Final Form]
+Ability,7,Name,Final Form
+Ability,7,Points,0
+Ability,7,Page,2
+Ability,7,Slot,3
+Ability,7,Boss
+
+[Kree Resilience]
+Ability,8,Name,Kree Resilience
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,2
+
+[Recall Overload]
+Ability,9,Name,Recall Overload
+Ability,9,Points,20
+Ability,9,Page,2
+Ability,9,Slot,4
+Ability,9,MiniBoss
+Ability,9,Boss
+Ability,9,MaxRange,250
+
+[Drain Life]
+Ability,10,Name,Drain Life
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,2
+Ability,10,MaxRange,125
+Ability,10,Cooldown,5
+
+[Aerial Onslaught]
+Ability,11,Name,Aerial Onslaught
+Ability,11,Points,14
+Ability,11,Page,1
+Ability,11,Slot,3
+Ability,11,MaxRange,125
+Ability,11,Cooldown,4
+
+[Vaulting Uppercut]
+Ability,12,Name,Vaulting Uppercut
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,4
+Ability,12,MaxRange,125
+Ability,12,Cooldown,4
+
+[Crushing Blows]
+Ability,13,Name,Crushing Blows
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,MaxRange,125
+
+[Draining Punch]
+Ability,14,Name,Draining Punch
+Ability,14,Points,0
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,MaxRange,125
+
+[Ziggurat]
+Ability,15,Name,Ziggurat of Kargul
+Ability,15,Points,0
+Ability,15,Page,2
+Ability,15,Slot,8
+Ability,15,Movement
+Ability,15,YHPGT,40
+
+[Kree Charge]
+Ability,16,Name,Kree Charge
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,8
+Ability,16,Movement
+
+END
+
+[Build: None]
+
