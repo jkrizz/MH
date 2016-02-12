@@ -117,34 +117,27 @@ Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,4
 
-[Soul Sever]
-Ability,17,Name,Soul Sever
+[Rending Swings]
+Ability,17,Name,Rending Swings
 Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,6
-Ability,17,MaxRange,675
-
-[Rending Swings]
-Ability,18,Name,Rending Swings
-Ability,18,Points,20
-Ability,18,Page,1
-Ability,18,Slot,5
-Ability,18,MaxRange,125
-Ability,18,Hold,1000,AsPrimary
+Ability,17,Slot,5
+Ability,17,MaxRange,125
+Ability,17,Hold,1000,AsPrimary
 
 [Soul Slashing]
-Ability,19,Name,Soul Slashing
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,MaxRange,125
+Ability,18,Name,Soul Slashing
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,125
 
 [Stepping Disc]
-Ability,20,Name,Stepping Disc
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,8
-Ability,20,Movement
+Ability,19,Name,Stepping Disc
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
 
 END
 
