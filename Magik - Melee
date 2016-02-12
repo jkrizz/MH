@@ -78,7 +78,7 @@ Ability,11,Name,Soul Sever
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,6
-Ability,11,PanelBuff,marvelconditioneffect_magik_bonespiritsoulvisual1,True,5
+Ability,11,PanelBuff,MarvelUIIcons.Power_Magik_VengefulSpirit,True,5
 Ability,11,MaxRange,675
 
 [Darkchylde]
