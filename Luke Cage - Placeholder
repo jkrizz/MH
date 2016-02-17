@@ -1,1 +1,175 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Luke Cage
+
+//PASSIVES
+
+[Superhuman Leverage]
+Ability,1,Name,Superhuman Leverage
+Ability,1,Points,20
+
+[Combo Fighter]
+Ability,2,Name,Combo Fighter
+Ability,2,Points,20
+
+[Unbreakable Skin]
+Ability,3,Name,Unbreakable Skin
+Ability,3,Points,20
+
+[Business Is Good]
+Ability,4,Name,Business Is Good
+Ability,4,Points,1
+
+[Natural Leader]
+Ability,5,Name,Natural Leader
+Ability,5,Points,5
+
+//HEROES FOR HIRE
+
+[Iron Fist]
+Ability,6,Name,Iron Fist
+Ability,6,Points,1
+
+[Jessica Jones]
+Ability,7,Name,Jessica Jones
+Ability,7,Points,1
+
+[Colleen Wing]
+Ability,8,Name,Colleen Wing
+Ability,8,Points,1
+
+//ROTATION
+
+[TeamUp]
+Ability,9,TeamUp
+
+[Ziggurat]
+Ability,10,Name,Ziggurat of Kargul
+Ability,10,Points,0
+Ability,10,Page,2
+Ability,10,Slot,8
+Ability,10,Cooldown,3
+Ability,10,YHPGT,40
+Ability,10,MinRange,200
+
+[Cold Shoulder]
+Ability,11,Name,Cold Shoulder
+Ability,11,Points,0
+Ability,11,Page,1
+Ability,11,Slot,8
+Ability,11,Cooldown,3
+Ability,11,MinRange,200
+Ability,11,YSPGT,20
+
+[Crowbar Beatdown]
+Ability,12,Name,Crowbar Beatdown
+Ability,12,Slot,1
+Ability,12,Page,1
+Ability,12,Points,0
+//Ability,12,MaxRange,
+Ability,12,YSPLT,20
+
+[Cold Shoulder]
+Ability,13,Name,Cold Shoulder
+Ability,13,Points,0
+Ability,13,Page,1
+Ability,13,Slot,8
+//Ability,13,Buff,
+
+[Sweet Christmas]
+Ability,14,Name,Sweet Christmas
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,2
+Ability,14,Boss
+
+[Hero's Call]
+Ability,15,Name,Hero's Call
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,2
+Ability,15,MiniBoss
+Ability,15,Boss
+
+[Misty Knight]
+Ability,16,Name,Misty Knight
+Ability,16,Points,1
+Ability,16,Page,1
+Ability,16,Slot,3
+Ability,16,Cooldown,20
+Ability,16,MaxLevel,30
+
+[Misty Knight]
+Ability,17,Name,Misty Knight
+Ability,17,Points,1
+Ability,17,Page,1
+Ability,17,Slot,3
+Ability,17,CooldownCheck,2,True
+
+[Vehicular Manslaughter]
+Ability,18,Name,Vehicular Manslaughter
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,4
+//Ability,18,MaxRange,
+Ability,18,SECLT,3
+
+[Harlem Dropkick]
+Ability,19,Name,Harlem Dropkick
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,5
+Ability,19,SECGT,4
+//Ability,19,MaxRange,
+Ability,19,MaxLevel,26
+
+[Harlem Dropkick]
+Ability,20,Name,Harlem Dropkick
+Ability,20,Points,20
+Ability,20,Page,1
+Ability,20,Slot,5
+Ability,20,SECGT,4
+//Ability,20,MaxRange,
+//Ability,20,Buff,
+Ability,20,MinLevel,26
+
+[Cage Fighting]
+Ability,21,Name,Cage Fighting
+Ability,21,Points,20
+Ability,21,Page,1
+Ability,21,Slot,6
+Ability,21,SECGT,4
+//Ability,21,MaxRange,
+
+[Tactical Defense]
+Ability,22,Name,Tactical Defense
+Ability,22,Points,1
+Ability,22,Page,1
+Ability,22,Slot,7
+
+[Crowbar Beatdown]
+Ability,23,Name,Crowbar Beatdown
+Ability,23,Points,0
+Ability,23,Page,1
+Ability,23,Slot,1
+//Ability,23,MaxRange,
+
+[Ziggurat]
+Ability,24,Name,Ziggurat of Kargul
+Ability,24,Points,0
+Ability,24,Page,2
+Ability,24,Slot,8
+Ability,24,YHPGT,40
+Ability,24,Movement
+
+[Cold Shoulder]
+Ability,25,Name,Cold Shoulder
+Ability,25,Points,0
+Ability,25,Page,1
+Ability,25,Slot,8
+Ability,25,Movement
+
 END
+
+[Build: http://marvelheroes.info/build/7161/]
+[Cage Was Here removed from build due to charging issues on abilities.  Points reallocated to Natural Leader and Unbreakable Skin]
