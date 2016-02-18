@@ -29,47 +29,44 @@ Ability,4,Cooldown,5
 Ability,5,TeamUp
 
 //[Ziggurat] 
-18 //Ability,6,Name,Ziggurat of Kargul 
-19 //Ability,6,Points,0 
-20 //Ability,6,Page,2 
-21 //Ability,6,Slot,8 
-22 //Ability,6,MaxRange,200 
-23 //Ability,6,AimAt,45,400 
-24 //Ability,6,YHPGT,10 
-25 //Ability,6,Cooldown,3 
-26 //Ability,6,Boss 
-27 
- 
-28 [Ziggurat] 
-29 Ability,7,Name,Ziggurat of Kargul 
-30 Ability,7,Points,0 
-31 Ability,7,Page,2 
-32 Ability,7,Slot,8 
-33 Ability,7,MinRange,600 
-34 Ability,7,Cooldown,3 
-35 Ability,7,YHPGT,10 
-36 
- 
-37 //[Flying Escape] 
-38 //Ability,8,Name,Flying Escape 
-39 //Ability,8,Points,0 
-40 //Ability,8,Page,1 
-41 //Ability,8,Slot,8 
-42 //Ability,8,MaxRange,200 
-43 //Ability,8,AimAt,45,400 
-44 //Ability,8,YSPGT,10 
-45 //Ability,8,Cooldown,3 
-46 //Ability,8,Boss 
-47 
- 
-48 [Flying Escape] 
-49 Ability,9,Name,Flying Escape
-50 Ability,9,Points,0 
-51 Ability,9,Page,1 
-52 Ability,9,Slot,8 
-53 Ability,9,MinRange,600 
-54 Ability,9,Cooldown,3 
-55 Ability,9,YSPGT,10 
+//Ability,6,Name,Ziggurat of Kargul 
+//Ability,6,Points,0 
+//Ability,6,Page,2 
+//Ability,6,Slot,8 
+//Ability,6,MaxRange,200 
+//Ability,6,AimAt,45,400 
+//Ability,6,YHPGT,10 
+//Ability,6,Cooldown,3 
+//Ability,6,Boss 
+
+[Ziggurat] 
+Ability,7,Name,Ziggurat of Kargul 
+Ability,7,Points,0 
+Ability,7,Page,2 
+Ability,7,Slot,8 
+Ability,7,MinRange,600 
+Ability,7,Cooldown,3 
+Ability,7,YHPGT,10 
+
+//[Flying Escape] 
+//Ability,8,Name,Flying Escape 
+//Ability,8,Points,0 
+//Ability,8,Page,1 
+//Ability,8,Slot,8 
+//Ability,8,MaxRange,200 
+//Ability,8,AimAt,45,400 
+//Ability,8,YSPGT,10 
+//Ability,8,Cooldown,3 
+//Ability,8,Boss 
+
+[Flying Escape] 
+Ability,9,Name,Flying Escape
+Ability,9,Points,0 
+Ability,9,Page,1 
+Ability,9,Slot,8 
+Ability,9,MinRange,600 
+Ability,9,Cooldown,3 
+Ability,9,YSPGT,10 
 
 [Cosmic Challenge]
 Ability,10,Name,Cosmic Challenge
