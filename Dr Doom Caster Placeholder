@@ -12,10 +12,6 @@ Ability,1,Points,6
 Ability,2,Name,Latverian Inferno
 Ability,2,Points,1
 
-//PRIORITY POINT
-Ability,3,Name,Conjured Barrage
-Ability,3,Points,1
-
 //ROTATION
 
 [TeamUp]
@@ -44,22 +40,33 @@ Ability,6,YSPGT,10
 [The Will of Doom]
 Ability,7,Name,The Will of Doom
 Ability,7,Points,20
-Ability,7,Specialization,0x872D90F5DCE513C0
+//Ability,7,Specialization,0x872D90F5DCE513C0
 Ability,7,Slot,6
 Ability,7,Page,2
 Ability,7,YHPLT,50
 Ability,7,Cooldown,20
 
+[Mystical Master]
+Ability,1,Name,Mystical Master
+Ability,1,Points,20
+Ability,1,Page,2
+Ability,1,Slot,3
+//Ability,1,MaxRange,
+Ability,1,MiniBoss
+Ability,1,Boss
+//Ability,1,SECLT,
+
 [Declaration of War]
 Ability,8,Name,Declaration of War
-Ability,8,Slot,2
+Ability,8,Points,1
 Ability,8,Page,2
-Ability,8,Points,20
+Ability,8,Slot,2
 
 //[Doom's Day]
 //Ability,9,Name,Doom's Day
-//Ability,9,Slot,5
+//Ability,9,Points,0
 //Ability,9,Page,2
+//Ability,9,Slot,5
 //Ability,9,Boss
 //Ability,9,Hold,17000
 //Ability,9,MaxRange,600
@@ -85,14 +92,7 @@ Ability,11,MouseTarget
 Ability,12,Name,Latverian Blockade
 Ability,12,Slot,3
 Ability,12,Page,1
-Ability,12,Points,20
-
-[Lord of Latveria]
-Ability,13,Name,Lord of Latveria
-Ability,13,Slot,4
-Ability,13,Page,1
-Ability,13,Boss
-Ability,13,Points,20
+Ability,12,Points,1
 
 [Worthless Cretin]
 Ability,14,Name,Worthless Cretin
@@ -110,16 +110,26 @@ Ability,15,Points,20
 Ability,15,MaxRange,675
 Ability,15,Cooldown,5
 
-[Conjured Barrage]
-Ability,16,Name,Conjured Barrage
+[Channeled Torment]
+Ability,1,Name,Channeled Torment
+Ability,1,Points,20
+Ability,1,Page,2
+Ability,1,Slot,4
+//Ability,1,MaxRange,
+//Ability,1,MouseTarget
+Ability,1,Hold,4000
+
+[Pierece the Veil]
+Ability,16,Name,Pierce the Veil
 Ability,16,Slot,1
 Ability,16,Page,1
 Ability,16,Points,20
-Ability,16,MaxRange,550
+//Ability,16,MaxRange,
+//Ability,16,MouseTarget
 Ability,16,Hold,1000,AsPrimary
 
 [Doom Blast]
-Ability,17,Name,doom blast
+Ability,17,Name,Doom blast
 Ability,17,Points,0
 Ability,17,Page,2
 Ability,17,Slot,1
@@ -130,7 +140,7 @@ Ability,17,Hold,1000,AsPrimary
 Ability,18,Name,Declaration of War
 Ability,18,Slot,2
 Ability,18,Page,2
-Ability,18,Points,20
+Ability,18,Points,1
 Ability,18,Movement
 Ability,18,Cooldown,2
 
@@ -143,4 +153,4 @@ Ability,19,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/18269/]
+[Build: http://marvelheroes.info/build/18231/]
