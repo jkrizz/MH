@@ -1,0 +1,168 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Silver Surfer
+
+//PASSIVES
+
+[Comet's Tail]
+Ability,1,Name,Comet's Tail
+Ability,1,Points,20
+Ability,1,Toggle
+Ability,1,Page,3
+Ability,1,Slot,2
+Ability,1,Cooldown,60
+
+[Polarity Field]
+Ability,2,Name,Polarity Field
+Ability,2,Points,3
+Ability,2,Toggle
+Ability,2,Page,3
+Ability,2,Slot,3
+Ability,2,Cooldown,60
+
+[Power Unconquered]
+Ability,3,Name,Power Unconquered
+Ability,3,Points,20
+
+//ROTATION
+
+[TeamUp]
+Ability,4,TeamUp
+
+//[Subspace Slipstream]
+//Ability,5,Name,Subspace Slipstream
+//Ability,5,Points,0
+//Ability,5,Page,2
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YHPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
+
+[Subspace Slipstream]
+Ability,6,Name,Subspace Slipstream
+Ability,6,Points,0
+Ability,6,Page,2
+Ability,6,Slot,8
+Ability,6,MinRange,600
+Ability,6,Cooldown,3
+Ability,6,YHPGT,10
+
+//[Board Dash]
+//Ability,7,Name,Board Dash
+//Ability,7,Points,0
+//Ability,7,Page,1
+//Ability,7,Slot,8
+//Ability,7,MaxRange,200
+//Ability,7,AimAt,45,400
+//Ability,7,YSPGT,10
+//Ability,7,Cooldown,3
+//Ability,7,Boss
+
+[Board Dash]
+Ability,8,Name,Board Dash
+Ability,8,Points,0
+Ability,8,Page,1
+Ability,8,Slot,8
+Ability,8,MinRange,600
+Ability,8,Cooldown,3
+Ability,8,YSPGT,10
+
+[Subspace Rift]
+Ability,9,Name,Subspace Rift
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,4
+Ability,9,Cooldown,5
+Ability,9,MaxRange,625
+
+[Convergence]
+Ability,10,Name,Convergence
+Ability,10,Page,2
+Ability,10,Slot,2
+Ability,10,Boss
+Ability,10,MaxRange,250
+
+[Singularity]
+Ability,11,Name,Singularity
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,3
+
+[Reconstruct]
+Ability,12,Name,Reconstruct
+Ability,12,Points,1
+Ability,12,YSPLT,65
+Ability,12,Page,1
+Ability,12,Slot,2
+
+[Deconstruct]
+Ability,13,Name,Deconstruct
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,6
+Ability,13,MaxRange,550
+
+[Temporal Recall]
+Ability,14,Name,Temporal Recall
+Ability,14,Points,1
+Ability,14,Page,2
+Ability,14,Slot,4
+Ability,14,Boss
+
+[Repulse]
+Ability,15,Name,Repulse
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,5
+Ability,15,MaxRange,750
+//Ability,15,AimAt,180,0
+
+[Electromagnetic Flux]
+Ability,16,Name,Electromagnetic Flux
+Ability,16,Points,20
+Ability,16,Page,2
+Ability,16,Slot,5
+//Ability,16,MaxRange,
+//Ability,16,Hold,2000
+
+[Event Horion]
+Ability,17,Name,Event Horizon
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,7
+Ability,17,MiniBoss
+Ability,17,Boss
+
+[Cosmic Beam Array]
+Ability,18,Name,Cosmic Beam Array
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MouseTarget
+
+[Singularity]
+Ability,19,Name,Singularity
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,3
+Ability,19,Movement
+
+[Subspace Slipstream]
+Ability,20,Name,Subspace Slipstream
+Ability,20,Points,1
+Ability,20,Page,2
+Ability,20,Slot,3
+Ability,20,Movement
+
+[Board Dash]
+Ability,21,Name,Board Dash
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
+
+END
+
+[Build: marvelheroes.info/build/33358/]
