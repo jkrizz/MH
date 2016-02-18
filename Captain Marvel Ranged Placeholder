@@ -28,114 +28,139 @@ Ability,4,Cooldown,5
 [TeamUp]
 Ability,5,TeamUp
 
-[Ziggurat]
-Ability,6,Name,Ziggurat of Kargul
-Ability,6,Points,0
-Ability,6,Page,2
-Ability,6,Slot,8
-Ability,6,Cooldown,3
-Ability,6,YHPGT,40
-Ability,6,MinRange,200
-
-[Flying Lunge]
-Ability,7,Name,Flying Lunge
-Ability,7,Points,7
-Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,Cooldown,3
-Ability,7,MinRange,200
-Ability,7,YSPGT,20
+//[Ziggurat] 
+18 //Ability,6,Name,Ziggurat of Kargul 
+19 //Ability,6,Points,0 
+20 //Ability,6,Page,2 
+21 //Ability,6,Slot,8 
+22 //Ability,6,MaxRange,200 
+23 //Ability,6,AimAt,45,400 
+24 //Ability,6,YHPGT,10 
+25 //Ability,6,Cooldown,3 
+26 //Ability,6,Boss 
+27 
+ 
+28 [Ziggurat] 
+29 Ability,7,Name,Ziggurat of Kargul 
+30 Ability,7,Points,0 
+31 Ability,7,Page,2 
+32 Ability,7,Slot,8 
+33 Ability,7,MinRange,600 
+34 Ability,7,Cooldown,3 
+35 Ability,7,YHPGT,10 
+36 
+ 
+37 //[Flying Escape] 
+38 //Ability,8,Name,Flying Escape 
+39 //Ability,8,Points,0 
+40 //Ability,8,Page,1 
+41 //Ability,8,Slot,8 
+42 //Ability,8,MaxRange,200 
+43 //Ability,8,AimAt,45,400 
+44 //Ability,8,YSPGT,10 
+45 //Ability,8,Cooldown,3 
+46 //Ability,8,Boss 
+47 
+ 
+48 [Flying Escape] 
+49 Ability,9,Name,Flying Escape
+50 Ability,9,Points,0 
+51 Ability,9,Page,1 
+52 Ability,9,Slot,8 
+53 Ability,9,MinRange,600 
+54 Ability,9,Cooldown,3 
+55 Ability,9,YSPGT,10 
 
 [Cosmic Challenge]
-Ability,8,Name,Cosmic Challenge
-Ability,8,Points,1
-Ability,8,Page,2
-Ability,8,Slot,4
-Ability,8,Cooldown,5
+Ability,10,Name,Cosmic Challenge
+Ability,10,Points,1
+Ability,10,Page,2
+Ability,10,Slot,4
+Ability,10,Cooldown,5
 
 [Binary Overdrive]
-Ability,9,Name,Binary Overdrive
-Ability,9,Boss
-Ability,9,Page,1
-Ability,9,Slot,7
-Ability,9,MaxRange,300
+Ability,11,Name,Binary Overdrive
+Ability,11,Boss
+Ability,11,Page,1
+Ability,11,Slot,7
+Ability,11,MaxRange,300
 
 [Mighty Punch]
-Ability,10,Name,Mighty Punch
-Ability,10,Slot,1
-Ability,10,Page,1
-Ability,10,Points,0
-Ability,10,MaxRange,100
-Ability,10,YSPLT,15
+Ability,12,Name,Mighty Punch
+Ability,12,Slot,1
+Ability,12,Page,1
+Ability,12,Points,0
+Ability,12,MaxRange,100
+Ability,12,YSPLT,15
 
 [Crashdown Strike]
-Ability,11,Name,Crashdown Strike
-Ability,11,Points,20
-Ability,11,Slot,3
-Ability,11,Page,1
-Ability,11,MaxRange,600
+Ability,13,Name,Crashdown Strike
+Ability,13,Points,20
+Ability,13,Slot,3
+Ability,13,Page,1
+Ability,13,MaxRange,600
 
 [Stellar Flare]
-Ability,12,Name,Stellar Flare
-Ability,12,Points,20
-Ability,12,Slot,4
-Ability,12,Page,1
-Ability,12,MaxRange,300
-Ability,12,SECEQ,100
+Ability,14,Name,Stellar Flare
+Ability,14,Points,20
+Ability,14,Slot,4
+Ability,14,Page,1
+Ability,14,MaxRange,300
+Ability,14,SECEQ,100
 
 [Radiant Cascade]
-Ability,13,Name,Radiant Cascade
-Ability,13,Points,20
-Ability,13,Slot,2
-Ability,13,Page,1
-Ability,13,Boss
-Ability,13,Elite
-Ability,13,MaxRange,300
-
-[Photonic Wave]
-Ability,14,Name,Photonic Wave
-Ability,14,Points,20
-Ability,14,Page,2
-Ability,14,Slot,2
-Ability,14,MaxLevel,8
-
-[Photonic Wave]
-Ability,15,Name,Photonic Wave
+Ability,15,Name,Radiant Cascade
 Ability,15,Points,20
-Ability,15,Page,2
 Ability,15,Slot,2
-Ability,15,Cooldown,6
+Ability,15,Page,1
+Ability,15,Boss
+Ability,15,Elite
+Ability,15,MaxRange,300
+
+[Photonic Wave]
+Ability,16,Name,Photonic Wave
+Ability,16,Points,20
+Ability,16,Page,2
+Ability,16,Slot,2
+Ability,16,MaxLevel,8
+
+[Photonic Wave]
+Ability,17,Name,Photonic Wave
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,2
+Ability,17,Cooldown,6
 
 [Stellar Beam]
-Ability,16,Name,Stellar Beam
-Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,6
-Ability,16,Hold,1000,AsPrimary
-//Ability,16,MaxRange,
-//Ability,16,MouseTarget
+Ability,18,Name,Stellar Beam
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,6
+Ability,18,Hold,1000,AsPrimary
+//Ability,18,MaxRange,
+//Ability,18,MouseTarget
 
 [Mighty Punch]
-Ability,17,Name,Mighty Punch
-Ability,17,Slot,1
-Ability,17,Page,1
-Ability,17,MaxRange,100
-Ability,17,Points,0
+Ability,19,Name,Mighty Punch
+Ability,19,Slot,1
+Ability,19,Page,1
+Ability,19,MaxRange,100
+Ability,19,Points,0
 
 [Ziggurat]
-Ability,18,Name,Ziggurat of Kargul
-Ability,18,Points,0
-Ability,18,Page,2
-Ability,18,Slot,8
-Ability,18,Movement
-Ability,18,YHPGT,40
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
+Ability,20,Page,2
+Ability,20,Slot,8
+Ability,20,Movement
+Ability,20,YHPGT,40
 
 [Flying Lunge]
-Ability,19,Name,Flying Lunge
-Ability,19,Points,7
-Ability,19,Slot,8
-Ability,19,Page,1
-Ability,19,Movement
+Ability,21,Name,Flying Lunge
+Ability,21,Points,7
+Ability,21,Slot,8
+Ability,21,Page,1
+Ability,21,Movement
 
 END
 
