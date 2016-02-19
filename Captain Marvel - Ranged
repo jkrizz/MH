@@ -90,43 +90,44 @@ Ability,12,Points,0
 Ability,12,MaxRange,100
 Ability,12,YSPLT,15
 
-[Crashdown Strike]
-Ability,13,Name,Crashdown Strike
+[Photonic Wave]
+Ability,13,Name,Photonic Wave
 Ability,13,Points,20
-Ability,13,Slot,3
 Ability,13,Page,1
-Ability,13,MaxRange,600
+Ability,13,Slot,5
+Ability,13,MaxLevel,8
+
+[Photonic Wave]
+Ability,14,Name,Photonic Wave
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,MinLevel,8
+Ability,14,Cooldown,6
+
+[Crashdown Strike]
+Ability,15,Name,Crashdown Strike
+Ability,15,Points,20
+Ability,15,Slot,3
+Ability,15,Page,1
+Ability,15,MaxRange,600
 
 [Stellar Flare]
-Ability,14,Name,Stellar Flare
-Ability,14,Points,20
-Ability,14,Slot,4
-Ability,14,Page,1
-Ability,14,MaxRange,300
-Ability,14,SECEQ,100
+Ability,16,Name,Stellar Flare
+Ability,16,Points,20
+Ability,16,Slot,4
+Ability,16,Page,1
+Ability,16,MaxRange,300
+Ability,16,SECEQ,100
 
 [Radiant Cascade]
-Ability,15,Name,Radiant Cascade
-Ability,15,Points,20
-Ability,15,Slot,2
-Ability,15,Page,1
-Ability,15,Boss
-Ability,15,Elite
-Ability,15,MaxRange,300
-
-[Photonic Wave]
-Ability,16,Name,Photonic Wave
-Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,2
-Ability,16,MaxLevel,8
-
-[Photonic Wave]
-Ability,17,Name,Photonic Wave
+Ability,17,Name,Radiant Cascade
 Ability,17,Points,20
-Ability,17,Page,2
 Ability,17,Slot,2
-Ability,17,Cooldown,6
+Ability,17,Page,1
+Ability,17,Boss
+Ability,17,Elite
+Ability,17,MaxRange,300
 
 [Stellar Beam]
 Ability,18,Name,Stellar Beam
@@ -134,8 +135,8 @@ Ability,18,Points,20
 Ability,18,Page,1
 Ability,18,Slot,6
 Ability,18,Hold,1000,AsPrimary
-//Ability,18,MaxRange,
-//Ability,18,MouseTarget
+Ability,18,MaxRange,725
+Ability,18,MouseTarget
 
 [Mighty Punch]
 Ability,19,Name,Mighty Punch
