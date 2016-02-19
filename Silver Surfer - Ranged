@@ -31,7 +31,7 @@ Ability,4,TeamUp
 
 //[Subspace Slipstream]
 //Ability,5,Name,Subspace Slipstream
-//Ability,5,Points,0
+//Ability,5,Points,1
 //Ability,5,Page,2
 //Ability,5,Slot,8
 //Ability,5,MaxRange,200
@@ -42,7 +42,7 @@ Ability,4,TeamUp
 
 [Subspace Slipstream]
 Ability,6,Name,Subspace Slipstream
-Ability,6,Points,0
+Ability,6,Points,1
 Ability,6,Page,2
 Ability,6,Slot,8
 Ability,6,MinRange,600
@@ -124,8 +124,9 @@ Ability,16,Name,Electromagnetic Flux
 Ability,16,Points,20
 Ability,16,Page,2
 Ability,16,Slot,5
-//Ability,16,MaxRange,
-//Ability,16,Hold,2000
+Ability,16,MaxRange,525
+Ability,16,MouseTarget
+Ability,16,Hold,1000
 
 [Event Horion]
 Ability,17,Name,Event Horizon
