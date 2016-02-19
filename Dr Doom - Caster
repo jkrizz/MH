@@ -15,46 +15,46 @@ Ability,2,Points,1
 //ROTATION
 
 [TeamUp]
-Ability,4,Teamup
+Ability,3,Teamup
 
 //[Impending Doom]
-//Ability,5,Name,Impending Doom
-//Ability,5,Points,0
-//Ability,5,Page,1
-//Ability,5,Slot,8
-//Ability,5,MaxRange,200
-//Ability,5,AimAt,45,400
-//Ability,5,YSPGT,10
-//Ability,5,Cooldown,3
-//Ability,5,Boss
+//Ability,4,Name,Impending Doom
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YSPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
 
 [Impending Doom]
-Ability,6,Name,Impending Doom
-Ability,6,Points,0
-Ability,6,Slot,8
-Ability,6,Page,1
-Ability,6,MinRange,600
-Ability,6,Cooldown,3
-Ability,6,YSPGT,10
+Ability,5,Name,Impending Doom
+Ability,5,Points,0
+Ability,5,Slot,8
+Ability,5,Page,1
+Ability,5,MinRange,600
+Ability,5,Cooldown,3
+Ability,5,YSPGT,10
 
 [The Will of Doom]
-Ability,7,Name,The Will of Doom
-Ability,7,Points,20
-//Ability,7,Specialization,0x872D90F5DCE513C0
-Ability,7,Slot,6
-Ability,7,Page,2
-Ability,7,YHPLT,50
-Ability,7,Cooldown,20
+Ability,6,Name,The Will of Doom
+Ability,6,Points,20
+Ability,6,Specialization,0x67795A4EC54C1322
+Ability,6,Slot,6
+Ability,6,Page,2
+Ability,6,YHPLT,50
+Ability,6,Cooldown,20
 
 [Mystical Master]
-Ability,1,Name,Mystical Master
-Ability,1,Points,20
-Ability,1,Page,2
-Ability,1,Slot,3
-//Ability,1,MaxRange,
-Ability,1,MiniBoss
-Ability,1,Boss
-//Ability,1,SECLT,
+Ability,7,Name,Mystical Master
+Ability,7,Points,20
+Ability,7,Page,2
+Ability,7,Slot,3
+Ability,7,MaxRange,600
+Ability,7,MiniBoss
+Ability,7,Boss
+Ability,7,SECLT,25
 
 [Declaration of War]
 Ability,8,Name,Declaration of War
@@ -68,7 +68,7 @@ Ability,8,Slot,2
 //Ability,9,Page,2
 //Ability,9,Slot,5
 //Ability,9,Boss
-//Ability,9,Hold,17000
+//Ability,9,Hold,17000,ShiftClick
 //Ability,9,MaxRange,600
 //Ability,9,MouseTarget
 
@@ -115,17 +115,17 @@ Ability,1,Name,Channeled Torment
 Ability,1,Points,20
 Ability,1,Page,2
 Ability,1,Slot,4
-//Ability,1,MaxRange,
-//Ability,1,MouseTarget
-Ability,1,Hold,4000
+Ability,1,MaxRange,625
+Ability,1,MouseTarget
+Ability,1,Hold,1000
 
 [Pierece the Veil]
 Ability,16,Name,Pierce the Veil
 Ability,16,Slot,1
 Ability,16,Page,1
 Ability,16,Points,20
-//Ability,16,MaxRange,
-//Ability,16,MouseTarget
+Ability,16,MaxRange,475
+Ability,16,MouseTarget
 Ability,16,Hold,1000,AsPrimary
 
 [Doom Blast]
