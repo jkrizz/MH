@@ -52,6 +52,9 @@ Ability,8,Name,Infernal Contract
 Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,7
+Ability,8,MiniBoss
+Ability,8,Boss
+Ability,8,CooldownCheck,15,False
 
 [Hell on Wheels]
 Ability,9,Name,Hell on Wheels
