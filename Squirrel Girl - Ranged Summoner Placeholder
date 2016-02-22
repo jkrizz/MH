@@ -145,6 +145,7 @@ Ability,19,Points,19
 Ability,19,Page,1
 Ability,19,Slot,1
 Ability,19,MaxRange,700
+Ability,19,Hold,1000,AsPrimary
 
 [Ziggurat]
 Ability,20,Name,Ziggurat of Kargul
