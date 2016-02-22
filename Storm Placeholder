@@ -1,0 +1,169 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Storm
+
+//PASSIVES
+
+[Eye of the Storm]
+Ability,1,Name,Eye of the Storm
+Ability,1,Points,20
+
+[Healing Winds]
+Ability,2,Name,Healing Winds
+Ability,2,Points,1
+
+[Arcing Tempest]
+Ability,3,Name,Arcing Tempest
+Ability,3,Points,20
+Ability,3,Page,2
+Ability,3,Slot,3
+Ability,3,Toggle
+
+//ROTATION
+
+[TeamUp]
+Ability,4,TeamUp
+
+//[Ziggurat]
+//Ability,5,Name,Ziggurat of Kargul
+//Ability,5,Points,0
+//Ability,5,Page,2
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YHPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
+
+[Ziggurat]
+Ability,6,Name,Ziggurat of Kargul
+Ability,6,Points,0
+Ability,6,Page,2
+Ability,6,Slot,8
+Ability,6,MinRange,600
+Ability,6,Cooldown,3
+Ability,6,YHPGT,10
+
+//[Sirocco Rush]
+//Ability,7,Name,Sirocco Rush
+//Ability,7,Points,0
+//Ability,7,Page,1
+//Ability,7,Slot,8
+//Ability,7,MaxRange,200
+//Ability,7,AimAt,45,400
+//Ability,7,YSPGT,10
+//Ability,7,Cooldown,3
+//Ability,7,Boss
+
+[Sirocco Rush]
+Ability,8,Name,Sirocco Rush
+Ability,8,Points,0
+Ability,8,Page,1
+Ability,8,Slot,8
+Ability,8,MinRange,600
+Ability,8,Cooldown,3
+Ability,8,YSPGT,10
+
+[Lightning Bolt]
+Ability,9,Name,Lightning Bolt
+Ability,9,Points,0
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,YSPLT,20
+
+[Obscuring Fog]
+Ability,10,Name,Obscuring Fog
+Ability,10,Points,20
+Ability,10,Page,2
+Ability,10,Slot,4
+Ability,10,MiniBoss
+Ability,10,Boss
+
+[Lightning Storm]
+Ability,11,Name,Lightning Storm
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,4
+Ability,11,Cooldown,6
+Ability,11,MaxRange,750
+
+[Typhoon]
+Ability,12,Name,Typhoon
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,MiniBoss
+Ability,12,Boss
+Ability,12,MaxRange,600
+
+[Goddess of Weather]
+Ability,13,Name,Goddess of Weather
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,Boss
+Ability,13,MaxRange,675
+
+[Microburst]
+Ability,14,Name,Microburst
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,MaxRange,800
+Ability,14,Cooldown,5
+
+[Storm Surge]
+Ability,15,Name,Storm Surge
+Ability,15,Points,6
+Ability,15,Page,1
+Ability,15,Slot,6
+Ability,15,MaxRange,375
+
+[Crashing Hail]
+Ability,16,Name,Crashing Hail
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,5
+Ability,16,Cooldown,7
+Ability,16,MaxRange,800
+
+[Sudden Tornadoes]
+Ability,17,Name,Sudden Tornadoes
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,2
+//Ability,17,MaxRange,
+//Ability,17,Cooldown,
+
+[Electrocute]
+Ability,18,Name,Electrocute
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,7
+Ability,18,MaxRange,550
+Ability,18,Hold,1000,AsPrimary
+
+[Lightning Bolt]
+Ability,19,Name,Lightning Bolt
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,MaxRange,600
+
+[Ziggurat]
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
+Ability,20,Page,2
+Ability,20,Slot,8
+Ability,20,YHPGT,10
+Ability,20,Movement
+
+[Sirocco Rush]
+Ability,21,Name,Sirocco Rush
+Ability,21,Points,0
+Ability,21,Slot,8
+Ability,21,Page,1
+Ability,21,Movement
+
+END
+
+[Build: marvelheroes.info/build/3718]
