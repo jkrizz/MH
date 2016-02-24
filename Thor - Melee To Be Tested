@@ -1,0 +1,134 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Thor
+
+//ROTATION
+
+[TeamUp]
+Ability,1,TeamUp
+
+[Ziggurat]
+Ability,2,Name,Ziggurat of Kargul
+Ability,2,Points,0
+Ability,2,Page,2
+Ability,2,Slot,8
+Ability,2,Cooldown,3
+Ability,2,YHPGT,40
+Ability,2,MinRange,200
+
+[Thunderous Charge]
+Ability,3,Name,Thunderous Charge
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,200
+Ability,3,YSPGT,20
+
+[Hammer Strike]
+Ability,4,Name,Hammer Strike
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,1
+Ability,4,Maxrange,100
+Ability,4,YSPLT,20
+
+[Yggdrasil's Boon]
+Ability,5,Name,Yggdrasil's Boon
+Ability,5,Points,20
+Ability,5,Page,2
+Ability,5,Slot,3
+Ability,5,MiniBoss
+Ability,5,Boss
+
+[Son of Odin]
+Ability,6,Name,Son of Odin
+Ability,6,Points,20
+Ability,6,Slot,4
+Ability,6,Page,1
+Ability,6,MaxRange,375
+
+[For Asgard!]
+Ability,7,Name,For Asgard!
+Ability,7,Points,20
+Ability,7,Page,1
+Ability,7,Slot,6
+
+[Bring the Thunder]
+Ability,8,Name,Bring the Thunder
+Ability,8,Points,20
+Ability,8,Slot,3
+Ability,8,Page,1
+Ability,8,MaxRange,550
+Ability,8,Cooldown,6
+
+[Rolling Thunder]
+Ability,9,Name,Rolling Thunder
+Ability,9,Points,20
+Ability,9,Slot,7
+Ability,9,Page,1
+Ability,9,MaxRange,625
+Ability,9,Cooldown,6
+
+[Asgardian Smite]
+Ability,10,Name,Asgardian Smite
+Ability,10,Points,3
+Ability,10,Page,2
+Ability,10,Slot,5
+//Ability,10,MaxRange,
+
+[God Blast]
+Ability,11,Name,God Blast
+Ability,11,Boss
+Ability,11,Page,2
+Ability,11,Slot,4
+Ability,11,MaxRange,625
+Ability,11,MouseTarget
+
+[The Anti-Force]
+Ability,12,Name,The Anti-Force
+Ability,12,Points,20
+Ability,12,Slot,5
+Ability,12,Page,1
+Ability,12,Maxrange,650
+
+[Spinning Strike]
+Ability,13,Name,Spinning Strike
+Ability,13,Points,20
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,MaxRange,125
+
+[Thundering Strike]
+Ability,14,Name,Thundering Strike
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,2
+Ability,14,MaxRange,100
+
+[Hammer Strike]
+Ability,15,Name,Hammer Strike
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,Maxrange,100
+
+[Ziggurat]
+Ability,16,Name,Ziggurat of Kargul
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,8
+Ability,16,Movement
+Ability,16,YHPGT,40
+
+[Thunderous Charge]
+Ability,17,Name,Thunderous Charge
+Ability,17,Points,0
+Ability,17,Slot,8
+Ability,17,Page,1
+Ability,17,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/6145/]
+
