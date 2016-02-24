@@ -25,7 +25,6 @@ Ability,2,Cooldown,60
 
 [TeamUp]
 Ability,3,TeamUp
-Ability,3,Cooldown,15
 
 [Laser Cutter]
 Ability,4,Name,Laser Cutter
