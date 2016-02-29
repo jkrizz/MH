@@ -105,7 +105,7 @@ Ability,13,MaxRange,675
 
 [Microburst]
 Ability,14,Name,Microburst
-Ability,14,Points,20
+Ability,14,Points,0
 Ability,14,Page,1
 Ability,14,Slot,5
 Ability,14,MaxRange,800
@@ -131,8 +131,8 @@ Ability,17,Name,Sudden Tornadoes
 Ability,17,Points,20
 Ability,17,Page,1
 Ability,17,Slot,2
-//Ability,17,MaxRange,
-//Ability,17,Cooldown,
+Ability,17,MaxRange,600
+Ability,17,Cooldown,3
 
 [Electrocute]
 Ability,18,Name,Electrocute
