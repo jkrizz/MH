@@ -71,8 +71,8 @@ Ability,10,Cooldown,6
 Ability,10,Points,20
 Ability,10,MaxRange,200
 
-[We Are Venom]
-Ability,11,Name,We Are Venom
+[We Are Venom!]
+Ability,11,Name,We Are Venom!
 Ability,11,Points,0
 Ability,11,Page,2
 Ability,11,Slot,2
