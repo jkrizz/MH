@@ -46,6 +46,8 @@ Ability,7,Name,Champion of K'un-Lun
 Ability,7,Points,20
 Ability,7,Page,2
 Ability,7,Slot,5
+Ability,7,MiniBoss
+Ability,7,Boss
 
 [Spirit of Shou-Lao]
 Ability,8,Name,Spirit of Shou-Lao
@@ -57,7 +59,7 @@ Ability,8,MaxRange,350
 [Chi Overload]
 Ability,9,Name,Chi Overload
 Ability,9,Points,20
-Ability,9,Page,2
+Ability,9,Page,1
 Ability,9,Slot,2
 Ability,9,CooldownCheck,3,False
 Ability,9,Specialization,0xB86DD10B7DD7117E
@@ -65,7 +67,7 @@ Ability,9,Specialization,0xB86DD10B7DD7117E
 [Chi Overload]
 Ability,10,Name,Chi Overload
 Ability,10,Points,20
-Ability,10,Page,2
+Ability,10,Page,1
 Ability,10,Slot,2
 Ability,10,CooldownCheck,4,False
 Ability,10,Specialization,0xB86DD10B7DD7117E
@@ -73,21 +75,21 @@ Ability,10,Specialization,0xB86DD10B7DD7117E
 [Dragon Tail]
 Ability,11,Name,Dragon Tail
 Ability,11,Points,1
-Ability,11,Page,2
+Ability,11,Page,1
 Ability,11,Slot,3
 Ability,11,MaxRange,175
 
 [Leopard Claw]
 Ability,12,Name,Leopard Claw
 Ability,12,Points,1
-Ability,12,Page,2
+Ability,12,Page,1
 Ability,12,Slot,4
 Ability,12,MaxRange,425
 
 [Crane Kick]
 Ability,13,Name,Crane Kick
 Ability,13,Points,0
-Ability,13,Page,2
+Ability,13,Page,1
 Ability,13,Slot,7
 Ability,13,MaxRange,175
 Ability,13,MaxLevel,8
@@ -102,7 +104,7 @@ Ability,14,Cooldown,6
 [Chi Blast]
 Ability,15,Name,Chi Blast
 Ability,15,Points,20
-Ability,15,Page,1
+Ability,15,Page,2
 Ability,15,Slot,3
 Ability,15,Cooldown,5
 Ability,15,MaxRange,500
@@ -110,7 +112,7 @@ Ability,15,MaxRange,500
 [Seven Armies Sundered]
 Ability,16,Name,Seven Armies Sundered
 Ability,16,Points,20
-Ability,16,Page,1
+Ability,16,Page,2
 Ability,16,Slot,4
 Ability,16,MaxRange,500
 
@@ -135,7 +137,7 @@ Ability,18,MaxRange,575
 [Like Unto Iron]
 Ability,19,Name,Like Unto Iron
 Ability,19,Points,20
-Ability,19,Page,1
+Ability,19,Page,2
 Ability,19,Slot,2
 Ability,19,Buff,marvelconditioneffect_ironfist_leopardstance,True,1
 Ability,19,MouseTarget
@@ -153,7 +155,7 @@ Ability,20,MaxRange,300
 [Fury of Five Forces]
 Ability,21,Name,Fury of Five Forces
 Ability,21,Points,20
-Ability,21,Page,1
+Ability,21,Page,2
 Ability,21,Slot,7
 Ability,21,MaxRange,125
 
@@ -167,7 +169,7 @@ Ability,22,MaxRange,125
 [Chi Overload]
 Ability,23,Name,Chi Overload
 Ability,23,Points,20
-Ability,23,Page,2
+Ability,23,Page,1
 Ability,23,Slot,2
 Ability,23,CooldownCheck,3,False
 Ability,23,Specialization,0xB86DD10B7DD7117E
@@ -176,7 +178,7 @@ Ability,23,Movement
 [Chi Overload]
 Ability,24,Name,Chi Overload
 Ability,24,Points,20
-Ability,24,Page,2
+Ability,24,Page,1
 Ability,24,Slot,2
 Ability,24,CooldownCheck,4,False
 Ability,24,Specialization,0xB86DD10B7DD7117E
@@ -185,7 +187,7 @@ Ability,24,Movement
 [Crane Kick]
 Ability,25,Name,Crane Kick
 Ability,25,Points,0
-Ability,25,Page,2
+Ability,25,Page,1
 Ability,25,Slot,7
 Ability,25,Movement
 Ability,25,MaxLevel,8
@@ -193,14 +195,14 @@ Ability,25,MaxLevel,8
 [Dragon Tail]
 Ability,26,Name,Dragon Tail
 Ability,26,Points,1
-Ability,26,Page,2
+Ability,26,Page,1
 Ability,26,Slot,3
 Ability,26,Movement
 
 [Leopard Claw]
 Ability,27,Name,Leopard Claw
 Ability,27,Points,1
-Ability,27,Page,2
+Ability,27,Page,1
 Ability,27,Slot,4
 Ability,27,Movement
 
