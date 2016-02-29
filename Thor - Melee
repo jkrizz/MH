@@ -75,7 +75,7 @@ Ability,10,Name,Asgardian Smite
 Ability,10,Points,3
 Ability,10,Page,2
 Ability,10,Slot,5
-//Ability,10,MaxRange,
+Ability,10,MaxRange,625
 
 [God Blast]
 Ability,11,Name,God Blast
@@ -131,4 +131,3 @@ Ability,17,Movement
 END
 
 [Build: http://marvelheroes.info/build/6145/]
-
