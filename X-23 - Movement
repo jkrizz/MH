@@ -4,7 +4,7 @@ hero,X-23
 
 //PASSIVES
 
-[Fluid Stance]
+[Fluid Stance]   //Buff Toggle
 Ability,1,Name,Fluid Stance
 Ability,1,Points,20
 Ability,1,Page,2
@@ -12,172 +12,171 @@ Ability,1,Slot,3
 Ability,1,Toggle
 Ability,1,Cooldown,60
 
-[Covert Assassin]
-Ability,2,Name,Covert Assassin
-Ability,2,Points,1
-
 //ROTATION
 
-[TeamUp]
-Ability,3,TeamUp
+[Ziggurat]   //Gap Close
+Ability,2,Name,Ziggurat of Kargul
+Ability,2,Points,0
+Ability,2,Page,2
+Ability,2,Slot,8
+Ability,2,Cooldown,3
+Ability,2,YHPGT,40
+Ability,2,MinRange,200
 
-[Ziggurat]
-Ability,4,Name,Ziggurat of Kargul
+[Graceful Maneuver]   //Gap Close
+Ability,3,Name,Graceful Maneuver
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,200
+Ability,3,YSPGT,20
+
+[Cleaving Claws]   //Low Level Spirit Regen Below 20%
+Ability,4,Name,Cleaving Claws
 Ability,4,Points,0
-Ability,4,Page,2
-Ability,4,Slot,8
-Ability,4,Cooldown,3
-Ability,4,YHPGT,40
-Ability,4,MinRange,200
+Ability,4,Page,1
+Ability,4,Slot,1
+Ability,4,MaxLevel,8
+Ability,4,MaxRange,125
+Ability,4,MouseTarget
+Ability,4,YSPLT,20
 
-[Graceful Maneuver]
-Ability,5,Name,Graceful Maneuver
-Ability,5,Points,0
+[Lethal Claws]   //High Level Spirit Regen Below 20%
+Ability,5,Name,Lethal Claws
+Ability,5,Points,20
 Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,MinRange,200
-Ability,5,YSPGT,20
+Ability,5,Slot,1
+Ability,5,MaxRange,125
+Ability,5,MouseTarget
+Ability,5,YSPLT,20
 
-[Heart of a Beast]
+[Heart of a Beast]   //Buff+CC Immune
 Ability,6,Name,Heart of a Beast
 Ability,6,Points,2
 Ability,6,Page,2
 Ability,6,Slot,2
+Ability,6,MiniBoss
 Ability,6,Boss
 
-[Graceful Maneuver]
-Ability,7,Name,Graceful Maneuver
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,Cooldown,4
-Ability,7,Buff,marvelconditioneffect_haste,False
+[Covert Assassin]   //Stealth Buff
+Ability,7,Name,Covert Assassin
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,5
+Ability,7,Buff,marvelconditioneffect_blackwidow_tumblestealth,False
 
-[Cleaving Claws]
-Ability,8,Name,Cleaving Claws
+[Graceful Maneuver]   //Haste Buff
+Ability,8,Name,Graceful Maneuver
 Ability,8,Points,0
 Ability,8,Page,1
-Ability,8,Slot,1
-Ability,8,MaxLevel,8
-Ability,8,MaxRange,125
-Ability,8,MouseTarget
-Ability,8,YSPLT,30
+Ability,8,Slot,8
+Ability,8,Cooldown,4
+Ability,8,Buff,marvelconditioneffect_haste,False
 
-[Lethal Claws]
-Ability,9,Name,Lethal Claws
+[Crimson Sweep]   //Vuln+Dot
+Ability,9,Name,Crimson Sweep
 Ability,9,Points,20
 Ability,9,Page,1
-Ability,9,Slot,1
-Ability,9,MaxRange,125
-Ability,9,MouseTarget
-Ability,9,YSPLT,30
+Ability,9,Slot,2
+Ability,9,MaxRange,150
+Ability,9,Cooldown,6
 
-[Trigger Scent]
-Ability,10,Name,Trigger Scent
-Ability,10,Points,0
-Ability,10,Page,2
+[Rending Leap]   //Weaken
+Ability,10,Name,Rending Leap
+Ability,10,Points,20
+Ability,10,Page,1
 Ability,10,Slot,4
-Ability,10,Boss
+Ability,10,Cooldown,4
+Ability,10,MaxRange,425
 
-[Crimson Sweep]
-Ability,11,Name,Crimson Sweep
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,2
-Ability,11,MaxRange,150
-Ability,11,Cooldown,6
+[Trigger Scent]   //Buff+Ult
+Ability,11,Name,Trigger Scent
+Ability,11,Points,0
+Ability,11,Page,2
+Ability,11,Slot,4
+Ability,11,Boss
 
-[Rending Leap]
-Ability,12,Name,Rending Leap
+[Whirling Dervish]   //Spirit Restore + Buff
+Ability,12,Name,Whirling Dervish
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,Cooldown,4
-Ability,12,MaxRange,425
+Ability,12,Slot,7
+Ability,12,Boss
+Ability,12,CooldownCheck,3,True
 
-[Whirling Dervish]
-Ability,13,Name,Whirling Dervish
+[Cyclone Kick]   //Spender Benefiting from Sig
+Ability,13,Name,Cyclone Kick
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,7
-Ability,13,Boss
-Ability,13,CooldownCheck,3,True
+Ability,13,Slot,5
+Ability,13,MaxRange,125
+Ability,13,Buff,marvelconditioneffect_x23hastetrance,True
 
-[Cyclone Kick]
-Ability,14,Name,Cyclone Kick
+[Open the Jugular]   //Spender Benefiting from Sig
+Ability,14,Name,Open the Jugular
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,MaxRange,125
-Ability,14,CooldownCheck,3,True
-Ability,14,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
+Ability,14,Slot,6
+Ability,14,MaxRange,175
+Ability,14,Buff,marvelconditioneffect_x23hastetrance,True
 
-[Open the Jugular]
-Ability,15,Name,Open the Jugular
+[Dancing Blades]   //Dot + Sig
+Ability,15,Name,Dancing Blades
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,6
-Ability,15,MaxRange,175
-Ability,15,CooldownCheck,3,True
-Ability,15,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
+Ability,15,Slot,3
+Ability,15,Boss
+Ability,15,MaxRange,275
+Ability,15,Delay,100
 
-[Dancing Blades]
-Ability,16,Name,Dancing Blades
+[Cyclone Kick]   //Spender Benefiting from Movement
+Ability,16,Name,Cyclone Kick
 Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,3
-Ability,16,Boss
-Ability,16,MaxRange,275
-Ability,16,Delay,100
+Ability,16,Slot,5
+Ability,16,MaxRange,125
+Ability,16,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
 
-[Cyclone Kick]
-Ability,17,Name,Cyclone Kick
+[Open the Jugular]   //Spender Benefiting from Movement
+Ability,17,Name,Open the Jugular
 Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,5
-Ability,17,MaxRange,125
+Ability,17,Slot,6
+Ability,17,MaxRange,175
 Ability,17,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
 
-[Open the Jugular]
-Ability,18,Name,Open the Jugular
-Ability,18,Points,20
+[Cleaving Claws]   //Low Level Basic
+Ability,18,Name,Cleaving Claws
+Ability,18,Points,0
 Ability,18,Page,1
-Ability,18,Slot,6
-Ability,18,MaxRange,175
-Ability,18,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
+Ability,18,Slot,1
+Ability,18,MaxLevel,8
+Ability,18,MouseTarget
+Ability,18,MaxRange,125
 
-[Cleaving Claws]
-Ability,19,Name,Cleaving Claws
-Ability,19,Points,0
+[Lethal Claws]   //High Level Basic
+Ability,19,Name,Lethal Claws
+Ability,19,Points,20
 Ability,19,Page,1
 Ability,19,Slot,1
-Ability,19,MaxLevel,8
 Ability,19,MouseTarget
 Ability,19,MaxRange,125
 
-[Lethal Claws]
-Ability,20,Name,Lethal Claws
-Ability,20,Points,20
-Ability,20,Page,1
-Ability,20,Slot,1
-Ability,20,MouseTarget
-Ability,20,MaxRange,125
+[Ziggurat]   //Movement
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
+Ability,20,Page,2
+Ability,20,Slot,8
+Ability,20,Movement
+Ability,20,YHPGT,40
 
-[Ziggurat]
-Ability,21,Name,Ziggurat of Kargul
+[Graceful Maneuver]   //Movement
+Ability,21,Name,Graceful Maneuver
 Ability,21,Points,0
-Ability,21,Page,2
+Ability,21,Page,1
 Ability,21,Slot,8
 Ability,21,Movement
-Ability,21,YHPGT,40
-
-[Graceful Maneuver]
-Ability,22,Name,Graceful Maneuver
-Ability,22,Points,0
-Ability,22,Page,1
-Ability,22,Slot,8
-Ability,22,Movement
 
 END
 
