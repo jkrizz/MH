@@ -96,12 +96,16 @@ Ability,11,Name,Concealed Combat
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,7
+Ability,11,MiniBoss
+Ability,11,Boss
 
 [Relentless Pursuit]
 Ability,12,Name,Relentless Pursuit
 Ability,12,Points,20
 Ability,12,Page,2
 Ability,12,Slot,2
+Ability,12,MiniBoss
+Ability,12,Boss
 
 [Underslung Grenade]
 Ability,13,Name,Underslung Grenade
