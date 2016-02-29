@@ -17,7 +17,7 @@ Ability,2,TeamUp
 Ability,3,Name,Yggdrasil's Boon
 Ability,3,Points,20
 Ability,3,Page,2
-Ability,3,Slot,7
+Ability,3,Slot,5
 Ability,3,MiniBoss
 Ability,3,Boss
 
@@ -88,7 +88,7 @@ Ability,10,MaxRange,600
 [For Asgard!]
 Ability,11,Name,For Asgard!
 Ability,11,Points,20
-Ability,11,Page,2
+Ability,11,Page,1
 Ability,11,Slot,5
 
 [Bring the Thunder]
@@ -134,7 +134,7 @@ Ability,16,MaxLevel,18
 Ability,17,Name,Lightning Hammer
 Ability,17,Points,20
 Ability,17,Page,2
-Ability,17,Slot,6
+Ability,17,Slot,3
 Ability,17,MaxRange,625
 Ability,17,MouseTarget
 
