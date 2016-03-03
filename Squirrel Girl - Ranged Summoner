@@ -103,6 +103,7 @@ Ability,13,MouseTarget
 
 [Tiny Hug Barrage]
 Ability,14,Name,Tiny Hug Barrage
+Ability,14,Points,0
 Ability,14,Page,2
 Ability,14,Slot,2
 Ability,14,Boss
