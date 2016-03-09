@@ -36,6 +36,8 @@ Ability,5,Name,Think Small
 Ability,5,Points,20
 Ability,5,Page,2
 Ability,5,Slot,2
+Ability,5,MiniBoss
+Ability,5,Boss
 
 [Shrinking Strike]
 Ability,6,Name,Shrinking Strike
@@ -126,6 +128,33 @@ Ability,17,Page,1
 Ability,17,Slot,8
 Ability,17,Movement
 
+[Omegas]
+Omega,1,S.P.I.N. Tech,10
+Omega,2,Terrigen Crystals,1
+Omega,3,Xerogenesis,5
+Omega,4,Precognition,1
+Omega,5,Psychometry,1
+Omega,6,Psionic Exoskeleton,1
+Omega,7,Psionic Charge,1
+Omega,8,Preview,1
+Omega,9,Psyche Blasts,1
+Omega,10,Psionic Overload,5
+Omega,11,Shadow King's Possession,1
+Omega,12,Telepathic Immunity,1
+Omega,13,Focused Strength of Grom,1
+Omega,14,Deathlok Program,21
+Omega,15,Reaver Program,10
+Omega,16,ExTechOp Cybernetic Body Upgrade,1
+Omega,17,Goblin Formula,5
+Omega,18,Arcane Attunement,1
+Omega,19,Neurobotics,15
+Omega,20,S.H.I.E.L.D. Uniform,3
+Omega,21,Angel,1
+Omega,22,Warpath,10
+Omega,23,Clairsentience,1
+Omega,24,Melt Face,20
+
 END
 
 [Build: http://marvelheroes.info/build/22395/]
+[Omegas: http://marvelheroes.info/build/24062/]
