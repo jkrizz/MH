@@ -102,8 +102,8 @@ Ability,14,Slot,4
 [Phased Out]
 Ability,15,Name,Phased Out
 Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,6
+Ability,15,Page,2
+Ability,15,Slot,5
 Ability,15,MouseTarget
 Ability,15,Boss
 Ability,15,Hold,5000
