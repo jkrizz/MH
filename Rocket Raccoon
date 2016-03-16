@@ -27,6 +27,7 @@ Ability,4,Boss
 Ability,4,Page,1
 Ability,4,Slot,5
 Ability,4,MaxRange,700
+Ability,4,Specialization,0xC95AE34A40E71589
 
 [Laser Drill Burrow]
 Ability,5,Name,Laser Drill Burrow
