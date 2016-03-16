@@ -97,16 +97,15 @@ Ability,11,Name,My Friend Groot
 Ability,11,Points,0
 Ability,11,Page,2
 Ability,11,Slot,2
-Ability,11,Cooldown,20
+Ability,11,MouseTarget
 
 [Laser Drill Burrow]   //Attack and Movespeed Buff
 Ability,12,Name,Laser Drill Burrow
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,8
-//Ability,12,PanelBuff,   //Att+MovSpd Buff
+Ability,12,Buff,marvelconditioneffect_rocketraccoonhastebuff,False
 
-//CAN THIS ABILITY BE TOSSED OR DOES IT SPAWN AT ROCKET
 [Time Warp Turret]   //AOE SLOW
 Ability,13,Name,Time Warp Turret
 Ability,13,Points,1
@@ -128,17 +127,14 @@ Ability,15,Points,20
 Ability,15,Page,2
 Ability,15,Slot,6
 Ability,15,Cooldown,8
-//Ability,15,MaxRange,
+Ability,15,MaxRange,575
 
-//DOES THIS POWER GIVE BUFF EVEN IF NOT FULLY CHARGED?
 [Heavy Gauss Rifle]   //Damage Buff to Gun Powers
 Ability,16,Name,Heavy Gauss Rifle
 Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,4
-Ability,16,Hold,1000
 Ability,16,MaxRange,700
-//Ability,16,Specialization,  //ASSAULT SPEC
 
 [M78 Plasma Launcher]   //Dot
 Ability,17,Name,M78 Plasma Launcher
@@ -156,6 +152,8 @@ Ability,18,Slot,5
 Ability,18,MiniBoss
 Ability,18,Boss
 Ability,18,MaxRange,700
+Ability,18,Delay,50
+Ability,18,Specialization,0xC95AE34A40E71589
 
 //[Mechfall]   //Ult+Hotbar Change
 //Ability,19,Name,Mechfall
