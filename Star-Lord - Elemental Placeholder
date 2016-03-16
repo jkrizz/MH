@@ -1,0 +1,204 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection].
+
+hero,Star-Lord
+
+//ROTATION
+
+[TeamUp]   //TeamUp
+Ability,1,TeamUp
+
+//[Ziggurat]   //Gap-Close
+//Ability,2,Name,Ziggurat of Kargul
+//Ability,2,Points,0
+//Ability,2,Page,2
+//Ability,2,Slot,8
+//Ability,2,MaxRange,200
+//Ability,2,AimAt,45,400
+//Ability,2,YHPGT,10
+//Ability,2,Cooldown,3
+//Ability,2,Boss
+
+[Ziggurat]   //Gap-Close
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,MinRange,600
+Ability,3,Cooldown,3
+Ability,3,YHPGT,10
+
+//[Jet Dash]   //Gap-Close
+//Ability,4,Name,Jet Dash
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YSPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
+
+[Jet Dash]   //Gap-Close
+Ability,5,Name,Jet Dash
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,MinRange,600
+Ability,5,Cooldown,3
+Ability,5,YSPGT,10
+
+[Snapshot]   //Spirit Regen Below 20%
+Ability,6,Name,Snapshot
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,YSPLT,20
+Ability,6,MaxRange,675
+
+[Spartoi Grit]   //CC-Immunity
+Ability,7,Name,Spartoi Grit
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,2
+Ability,7,MiniBoss
+Ability,7,Boss
+
+[Secret Weapon]   //Ult+Endless Resource
+Ability,9,Name,Secret Weapon
+Ability,9,Points,0
+Ability,9,Page,2
+Ability,9,Slot,4
+Ability,9,MaxRange,400
+Ability,9,Boss
+
+[Orbital Strike]   //SIG
+Ability,10,Name,Orbital Strike
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,7
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,MaxRange,600
+
+[Incendiary Cluster Bomb]   //Dot
+Ability,11,Name,Incendiary Cluster Bomb
+Ability,11,Points,19
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,MaxRange,625
+
+[Strafe]   //CD Spender
+Ability,12,Name,Strafe
+Ability,12,Points,19
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,MaxRange,675
+
+[Starship Uplink]   //Cooldowns Refresh
+Ability,13,Name,Starship Uplink
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,CooldownCheck,7,True
+
+[Fire]   //Ammo
+Ability,8,Name,Fire
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,2
+//Ability,8,MaxRange,
+//Ability,8,MouseTarget
+//Ability,8,SECLT,  //30 ammo
+
+[AIR]   //Ammo
+Ability,8,Name,Air
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,5
+//Ability,8,MaxRange,
+//Ability,8,MouseTarget
+//Ability,8,SECLT,  //30 ammo
+
+//DOES THIS ABILITY NAME CHANGE WHEN ELEMENT IS ACTIVE
+[Elemental Barrage]   //Dot and/or Attack Speed Buff
+Ability,14,Name,Elemental Barrage
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,3
+Ability,14,Hold,1000,AsPrimary
+//Ability,14,MaxRange,
+//Ability,14,PanelBuff,  //WHILE FIRE STACK LESS THAN 5
+//Ability,14,PanelBuff,  //WHILE AIR STACK LESS THAN 5
+
+//DOES THIS ABILITY NAME CHANGE WHEN ELEMENT IS ACTIVE
+[Elemental Blast]   //Fire Ammo Spender
+Ability,15,Name,Elemental Blast
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,4
+//Ability,15,MaxRange,
+//Ability,15,PanelBuff,  //WHILE FIRE STACK IS 5
+
+//DOES THIS ABILITY NAME CHANGE WHEN ELEMENT IS ACTIVE
+[Elemental Blast]   //Air Ammo Spender
+Ability,15,Name,Elemental Blast
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,4
+//Ability,15,MaxRange,
+//Ability,15,PanelBuff,  //WHILE AIR STACK IS 5
+
+//DOES THIS ABILITY NAME CHANGE WHEN ELEMENT IS ACTIVE
+[Elemental Barrage]   //Keep Stacks Up
+Ability,14,Name,Elemental Barrage
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,3
+Ability,14,Hold,1000,AsPrimary
+//Ability,14,MaxRange,
+
+[Snapshot]   //Basic
+Ability,16,Name,Snapshot
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,675
+
+[Fire]   //Ammo Between Fights
+Ability,8,Name,Fire
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,2
+Ability,8,TargetSelf
+Ability,8,SECLT,100 ammo
+Ability,8,Movement
+
+[AIR]   //Ammo Between Fights
+Ability,8,Name,Air
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,5
+Ability,8,TargetSelf
+Ability,8,SECLT,100
+Ability,8,Movement
+
+[Ziggurat]   //Movement
+Ability,17,Name,Ziggurat of Kargul
+Ability,17,Points,0
+Ability,17,Page,2
+Ability,17,Slot,8
+Ability,17,YHPGT,10
+Ability,17,Movement
+
+[Jet Dash]   //Movement
+Ability,18,Name,Jet Dash
+Ability,18,Points,0
+Ability,18,Slot,8
+Ability,18,Page,1
+Ability,18,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/1889/]
