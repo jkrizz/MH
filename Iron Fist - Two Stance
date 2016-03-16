@@ -157,7 +157,7 @@ Ability,21,Name,Fury of Five Forces
 Ability,21,Points,20
 Ability,21,Page,2
 Ability,21,Slot,7
-Ability,21,MaxRange,125
+Ability,21,MaxRange,100
 
 [K'un-Lun Strike]
 Ability,22,Name,K'un-Lun Strike
