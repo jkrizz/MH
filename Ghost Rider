@@ -27,8 +27,8 @@ Ability,3,MinRange,600
 Ability,3,Cooldown,3
 Ability,3,YHPGT,10
 
-//[Wheelie]   //Gap-Close
-//Ability,4,Name,Wheelie
+//[Infernal Wheelie]   //Gap-Close
+//Ability,4,Name,Infernal Wheelie
 //Ability,4,Points,0
 //Ability,4,Page,1
 //Ability,4,Slot,8
@@ -38,8 +38,8 @@ Ability,3,YHPGT,10
 //Ability,4,Cooldown,3
 //Ability,4,Boss
 
-[Wheelie]   //Gap-Close
-Ability,5,Name,Wheelie
+[Infernal Wheelie]   //Gap-Close
+Ability,5,Name,Infernal Wheelie
 Ability,5,Points,0
 Ability,5,Slot,8
 Ability,5,Page,1
@@ -52,7 +52,7 @@ Ability,6,Name,Hellfire
 Ability,6,Points,7
 Ability,6,Page,1
 Ability,6,Slot,1
-//Ability,6,MaxRange,
+Ability,6,MaxRange,650
 Ability,6,YSPLT,20
 
 [Protect the Innocent]
@@ -69,7 +69,7 @@ Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,2
 Ability,8,Cooldown,6
-//Ability,8,MaxRange,575
+Ability,8,MaxRange,600
 
 [Chain Snare]   //Dot+Immobilize
 Ability,9,Name,Chain Snare
@@ -77,23 +77,23 @@ Ability,9,Points,20
 Ability,9,Page,1
 Ability,9,Slot,3
 Ability,9,Cooldown,6
-//Ability,9,MaxRange,
+Ability,9,MaxRange,700
 
 [Burn the Treads]   //Charged+Dot
-Ability,10,Name,Hell From Above
+Ability,10,Name,Burn the Treads
 Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,6
 Ability,10,Cooldown,6
-//Ability,10,MaxRange,
-//Ability,10,MouseTarget
+Ability,10,MaxRange,700
+Ability,10,MouseTarget
 
 [Flay]   //CD Spender
 Ability,11,Name,Flay
-Ability,11,points,20
+Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,4
-//Ability,11,Maxrange,
+Ability,11,Maxrange,550
 
 [Spirit of Vengeance]   //Damage Buff
 Ability,12,Name,Spirit of Vengeance
@@ -101,18 +101,18 @@ Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,7
 Ability,12,Cooldown,8
-//Ability,12,Specialization   //Infernal Contract
+Ability,12,Specialization,0x183854D3C8791330
 //Ability,12,MiniBoss
 //Ability,12,Boss
 //Ability,12,CooldownCheck,15,False
 
-//WHAT DOES THIS ABILITY DO NOW
 [Hell on Wheels]   //Ult
 Ability,13,Name,Hell on Wheels
 Ability,13,Points,0
-Ability,13,Slot,2
 Ability,13,Page,2
+Ability,13,Slot,2
 Ability,13,Boss
+Ability,13,Hold,15000,ShiftClick
 
 [Penance Stare]   //SIG+Execute
 Ability,14,Name,Penance Stare
@@ -120,22 +120,22 @@ Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,5
 Ability,14,Hold,1300
-//Ability,14,MaxRange,500
-//Ability,14,MouseTarget
+Ability,14,MaxRange,525
+Ability,14,MouseTarget
 
 [Hellfire Beam]   //Spender
 Ability,15,Name,Hellfire Beam
 Ability,15,Points,20
 Ability,15,Page,2
 Ability,15,Slot,4
-//Ability,15,MaxRange,
+Ability,15,MaxRange,625
 
 [Hellfire]   //Basic
 Ability,16,Name,Hellfire
 Ability,16,Points,7
 Ability,16,Page,1
 Ability,16,Slot,1
-Ability,16,MaxRange,125
+Ability,16,MaxRange,650
 
 [Ziggurat]   //Movement
 Ability,17,Name,Ziggurat of Kargul
@@ -145,8 +145,8 @@ Ability,17,Slot,8
 Ability,17,YHPGT,40
 Ability,17,Movement
 
-[Wheelie]   //Movement
-Ability,18,Name,Wheelie
+[Infernal Wheelie]   //Movement
+Ability,18,Name,Infernal Wheelie
 Ability,18,Points,0
 Ability,18,Page,1
 Ability,18,Slot,8
