@@ -47,7 +47,7 @@ Ability,7,Points,0
 Ability,7,Page,1
 Ability,7,Slot,1
 Ability,7,YSPLT,20
-//Ability,7,MaxRange,
+Ability,7,MaxRange,125
 Ability,7,MaxLevel,22
 
 [Savage Swipe]
@@ -56,14 +56,14 @@ Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,1
 Ability,8,YSPLT,20
-//Ability,8,MaxRange,
+Ability,8,MaxRange,125
 
-[Forestwalk]
-Ability,9,Name,Forestwalk
-Ability,9,Points,0
-Ability,9,Page,1
-Ability,9,Slot,8
-Ability,9,Buff,marvelconditioneffect_haste,False
+//[Forestwalk]
+//Ability,9,Name,Forestwalk
+//Ability,9,Points,0
+//Ability,9,Page,1
+//Ability,9,Slot,8
+//Ability,9,Buff,marvelconditioneffect_haste,False
 
 [Squirrel Friends]
 Ability,10,Name,Squirrel Friends
@@ -85,7 +85,7 @@ Ability,12,Name,Dive Bomb
 Ability,12,Points,1
 Ability,12,Page,2
 Ability,12,Slot,5
-//Ability,12,MaxRange,
+Ability,12,MaxRange,750
 Ability,12,Cooldown,8
 
 [Sic'em!]
@@ -110,7 +110,7 @@ Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,3
 Ability,15,Cooldown,5
-//Ability,15,MaxRange,
+Ability,15,MaxRange,125
 
 //[Hulkbuster Squirrels]
 //Ability,16,Name,Hulkbuster Squirrels
@@ -142,7 +142,7 @@ Ability,19,Name,Claw, Claw, Kick
 Ability,19,Points,0
 Ability,19,Page,1
 Ability,19,Slot,1
-Ability,19,MaxRange,700
+Ability,19,MaxRange,125
 Ability,19,Hold,1000,AsPrimary
 Ability,19,MaxLevel,22
 
@@ -151,7 +151,7 @@ Ability,20,Name,Savage Swipe
 Ability,20,Points,20
 Ability,20,Page,1
 Ability,20,Slot,1
-Ability,20,MaxRange,700
+Ability,20,MaxRange,125
 Ability,20,Hold,1000,AsPrimary
 
 [Squirrel Friends]
@@ -180,5 +180,3 @@ Ability,23,Movement
 END
 
 [Build: Custom]
-
-
