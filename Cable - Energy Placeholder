@@ -76,12 +76,12 @@ Ability,9,Cooldown,6
 //Ability,9,Specialization,
 
 [Psychic Haze]   //Dot+Immobilize+Power Doop Proc
-Ability,12,Name,Psychic Haze
-Ability,12,Points,1
-Ability,12,Page,1
-Ability,12,Slot,5
-Ability,12,Cooldown,8
-Ability,12,MaxRange,500
+Ability,10,Name,Psychic Haze
+Ability,10,Points,1
+Ability,10,Page,1
+Ability,10,Slot,5
+Ability,10,Cooldown,8
+Ability,10,MaxRange,500
 
 [Particle Accelerator]   //Capstone Damage+Buff
 Ability,11,Name,Particle Accelerator
@@ -91,61 +91,61 @@ Ability,11,Slot,7
 //Ability,11,MaxRange,
 
 [Vortex Grenade]   //Dot
-Ability,13,Name,Vortex Grenade
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,6
-//Ability,13,MaxRange,
-Ability,13,Cooldown,6
+Ability,12,Name,Vortex Grenade
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+//Ability,12,MaxRange,
+Ability,12,Cooldown,6
 
 [Foresight Bomb]   //SIG
-Ability,14,Name,Foresight Bomb
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,4
-Ability,14,MiniBoss
+Ability,13,Name,Foresight Bomb
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,4
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,MaxRange,525
+
+[Greymalkin Bombardment]   //Ult
+Ability,14,Name,Greymalkin Bombardment
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,5
 Ability,14,Boss
 Ability,14,MaxRange,525
 
-[Greymalkin Bombardment]   //Ult
-Ability,17,Name,Greymalkin Bombardment
-Ability,17,Points,0
-Ability,17,Page,2
-Ability,17,Slot,5
-Ability,17,Boss
-Ability,17,MaxRange,525
-
 [Concussion Blast]   //Pre-Spec Stun
-Ability,10,Name,Concussion Blast
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,Cooldown,6
-Ability,10,MaxLevel,32
-
-[Concussion Blast]   //Post-Spec Stun
-Ability,10,Name,Concussion Blast
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,MinLevel,32
-
-[Viper Beam]   //Early-Game Spender
-Ability,15,Name,Viper Beam
+Ability,15,Name,Concussion Blast
 Ability,15,Points,20
-Ability,15,Page,2
-Ability,15,Slot,4
-Ability,15,Hold,1000,AsPrimary
-//Ability,15,MaxRange,
+Ability,15,Page,1
+Ability,15,Slot,2
+Ability,15,Cooldown,6
 Ability,15,MaxLevel,32
 
-[Hyper Viper Beam]   //Late-Game CD Spender
-Ability,16,Name,Hyper Viper Beam
+[Concussion Blast]   //Post-Spec Stun
+Ability,16,Name,Concussion Blast
 Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,4
-//Ability,16,MaxRange,
+Ability,16,Page,1
+Ability,16,Slot,2
 Ability,16,MinLevel,32
+
+[Viper Beam]   //Early-Game Spender
+Ability,17,Name,Viper Beam
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,4
+Ability,17,Hold,1000,AsPrimary
+//Ability,17,MaxRange,
+Ability,17,MaxLevel,32
+
+[Hyper Viper Beam]   //Late-Game CD Spender
+Ability,18,Name,Hyper Viper Beam
+Ability,18,Points,20
+Ability,18,Page,2
+Ability,18,Slot,4
+//Ability,18,MaxRange,
+Ability,18,MinLevel,32
 
 [Pulse Rifle]   //End-Game Basic
 Ability,19,Name,Pulse Rifle
@@ -156,20 +156,20 @@ Ability,19,Slot,3
 Ability,19,MinLevel,32
 
 [Plasma Submachine Guns]   //Early-Game Spender Prior to Viper Beam
-Ability,18,Name,Plasma Submachine Guns
-Ability,18,Points,1
-Ability,18,Page,2
-Ability,18,Slot,4
-Ability,18,MaxRange,725
-Ability,18,MaxLevel,10
-Ability,18,MouseTarget
+Ability,20,Name,Plasma Submachine Guns
+Ability,20,Points,1
+Ability,20,Page,2
+Ability,20,Slot,4
+Ability,20,MaxRange,725
+Ability,20,MaxLevel,10
+Ability,20,MouseTarget
 
 [Phase Magnum]   //Early-Game Basic
-Ability,20,Name,Phase Magnum
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,1
-Ability,20,MaxRange,625
+Ability,21,Name,Phase Magnum
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,1
+Ability,21,MaxRange,625
 
 [Quick Bodyslide]   //Movement
 Ability,22,Name,Quick Bodyslide
@@ -181,4 +181,3 @@ Ability,22,Movement
 END
 
 [Build http://marvelheroes.info/build/25495/]
-
