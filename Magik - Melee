@@ -1,0 +1,156 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+//Acquire a minion from anywhere once you are able to put a point into Eternal Servitude.  This will change the ability name to Back From Limbo.  A re-prep may be necessary.  Also be sure to level the minion up as you level.  Not super crucial, but don't be level 60 with a level 10 minion.
+
+hero,Magik
+
+//PRIORITY POINTS
+
+[Soul Shockwave]
+Ability,1,Name,Soul Shockwave
+Ability,1,Points,20
+
+[Eternal Servitude]
+Ability,2,Name,Eternal Servitude
+Ability,2,Points,20
+
+//PASSIVES
+
+[Fist of N'astirh]
+Ability,3,Name,Fist of N'astirh
+Ability,3,Points,1
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Buff,marvelconditioneffect_magik_darkpactbfldbuff,False
+
+[Dark Pact]
+Ability,4,Name,Dark Pact
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,6
+Ability,4,Toggle
+Ability,4,Cooldown,5
+Ability,4,Buff,Ability,2,Buff,marvelconditioneffect_magik_darkpactbfldbuff,False
+
+[Mastery of the Soulsword]
+Ability,5,Name,Mastery of the Soulsword
+Ability,5,Points,20
+Ability,5,Page,2
+Ability,5,Slot,7
+Ability,5,Toggle
+Ability,5,Cooldown,30
+
+[Eldritch Armor]
+Ability,6,Name,Eldritch Armor
+Ability,6,Points,1
+
+//ROTATION
+
+[TeamUp]   //TeamUp
+Ability,7,TeamUp
+
+[Stepping Disc]   //Gap-Close
+Ability,8,Name,Stepping Disc
+Ability,8,Points,0
+Ability,8,Page,1
+Ability,8,Slot,8
+Ability,8,Cooldown,3
+Ability,8,MinRange,300
+Ability,8,YSPGT,20
+
+[Soul Slashing]   //Spirit Regen Below 20%
+Ability,9,Name,Soul Slashing
+Ability,9,Points,0
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,YSPLT,20
+Ability,9,MaxRange,125
+
+[Soul Sever]   //Spender at Max Stacks Only
+Ability,10,Name,Soul Sever
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,6
+Ability,10,PanelBuff,MarvelUIIcons.Power_Magik_VengefulSpirit,True,5
+Ability,10,MaxRange,675
+
+[Soulblaze]   //CC-Immunity
+Ability,11,Name,Soulblaze
+Ability,11,Points,1
+Ability,11,Page,2
+Ability,11,Slot,2
+Ability,11,MiniBoss
+Ability,11,Boss
+
+[Vampiric Incantation]   //Vulnerability
+Ability,12,Name,Vampiric Incantation
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,7
+Ability,12,Cooldown,6
+Ability,12,MaxRange,675
+Ability,12,Specialization,0x6FF6CCEDFBB81422
+
+[Back From Limbo]   //Temporary Pet
+Ability,13,Name,Back From Limbo
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MiniBoss
+Ability,13,Boss
+
+[Darkchylde]   //Ult
+Ability,14,Name,Darkchylde
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,3
+Ability,14,Boss
+
+[Otherworldly Nova]   //SIG+HP/Spirit Restore
+Ability,15,Name,Otherworldly Nova
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,4
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,MaxRange,250
+
+[Soul Shockwave]   //CD Spender
+Ability,16,Name,Soul Shockwave
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,2
+Ability,16,MaxRange,675
+
+[Seven League Step]   //CD Spender
+Ability,17,Name,Seven League Step
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,4
+Ability,17,MaxRange,1000
+
+[Rending Swings]   //Spender
+Ability,18,Name,Rending Swings
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,5
+Ability,18,MaxRange,125
+Ability,18,Hold,1000,AsPrimary
+
+[Soul Slashing]   //Basic
+Ability,19,Name,Soul Slashing
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,MaxRange,125
+
+[Stepping Disc]   //Movement
+Ability,20,Name,Stepping Disc
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/30297/]
