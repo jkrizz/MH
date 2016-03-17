@@ -36,8 +36,6 @@ Ability,5,Name,Think Small
 Ability,5,Points,20
 Ability,5,Page,2
 Ability,5,Slot,2
-Ability,5,MiniBoss
-Ability,5,Boss
 
 [Shrinking Strike]
 Ability,6,Name,Shrinking Strike
@@ -61,124 +59,80 @@ Ability,8,Page,2
 Ability,8,Slot,3
 Ability,8,MaxRange,125
 
-[The Definite Particle]
-Ability,9,Name,The Definite Particle
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,3
-Ability,9,MaxRange,300
+[Antnado]
+Ability,9,Name,Antnado
+Ability,9,Points,0
+Ability,9,Page,2
+Ability,9,Slot,5
+Ability,9,Hold,10000,ShiftClick
 
-[Red Hots]
-Ability,10,Name,Red Hots
+[The Definite Particle]
+Ability,10,Name,The Definite Particle
 Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,5
-Ability,10,MaxRange,950
-Ability,10,Cooldown,4
+Ability,10,Slot,3
+Ability,10,MaxRange,300
 
-[Drone Strike]
-Ability,11,Name,Drone Strike
+[Red Hots]
+Ability,11,Name,Red Hots
 Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,6
-Ability,11,Cooldown,4
+Ability,11,Slot,5
 Ability,11,MaxRange,950
+Ability,11,Cooldown,4
 
-[Inch-High Good-Bye]
-Ability,12,Name,Inch-High Good-Bye
+[Drone Strike]
+Ability,12,Name,Drone Strike
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,7
-Ability,12,MaxRange,125
+Ability,12,Slot,6
+Ability,12,Cooldown,4
+Ability,12,MaxRange,950
+
+[Inch-High Good-Bye]
+Ability,13,Name,Inch-High Good-Bye
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,7
+Ability,13,MaxRange,125
 
 [Fistful of Ants]
-Ability,13,Name,Fistful of Ants
-Ability,13,Points,20
-Ability,13,Page,2
-Ability,13,Slot,4
-Ability,13,MaxRange,950
+Ability,14,Name,Fistful of Ants
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,4
+Ability,14,MaxRange,950
 
 [Tiny Takedown]
-Ability,14,Name,Tiny Takedown
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,4
-Ability,14,MaxRange,125
-Ability,14,Hold,1000,AsPrimary
+Ability,15,Name,Tiny Takedown
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,4
+Ability,15,MaxRange,125
+Ability,15,Hold,1000,AsPrimary
 
 [Shrinking Strike]
-Ability,15,Name,Shrinking Strike
-Ability,15,Points,0
-Ability,15,Page,1
-Ability,15,Slot,1
-Ability,15,Maxrange,125
+Ability,16,Name,Shrinking Strike
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,Maxrange,125
 
 [Ziggurat]
-Ability,16,Name,Ziggurat of Kargul
-Ability,16,Points,0
-Ability,16,Page,2
-Ability,16,Slot,8
-Ability,16,Movement
-Ability,16,YHPGT,40
-
-[Can't Catch Me]
-Ability,17,Name,Can't Catch Me
+Ability,17,Name,Ziggurat of Kargul
 Ability,17,Points,0
-Ability,17,Page,1
+Ability,17,Page,2
 Ability,17,Slot,8
 Ability,17,Movement
+Ability,17,YHPGT,40
 
-[Omegas]
-Omega,1,Name,S.P.I.N. Tech
-Omega,1,Points,10
-Omega,2,Name,Terrigen Crystals
-Omega,2,Points,1
-Omega,3,Name,Xerogenesis
-Omega,3,Points,5
-Omega,4,Name,Precognition
-Omega,4,Points,1
-Omega,5,Name,Psychometry
-Omega,5,Points,1
-Omega,6,Name,Psionic Exoskeleton
-Omega,6,Points,1
-Omega,7,Name,Psionic Charge
-Omega,7,Points,1
-Omega,8,Name,Preview
-Omega,8,Points,1
-Omega,9,Name,Psyche Blasts
-Omega,9,Points,1
-Omega,10,Name,Psionic Overload
-Omega,10,Points,5
-Omega,11,Name,Shadow King's Possession
-Omega,11,Points,1
-Omega,12,Name,Telepathic Immunity
-Omega,12,Points,1
-Omega,13,Name,Focused Strength of Grom
-Omega,13,Points,1
-Omega,14,Name,Deathlok Program
-Omega,14,Points,20
-Omega,15,Name,Reaver Program
-Omega,15,Points,10
-Omega,16,Name,ExTechOp Cybernetic Body Upgrade
-Omega,16,Points,1
-Omega,17,Name,Goblin Formula
-Omega,17,Points,5
-Omega,18,Name,Arcane Attunement
-Omega,18,Points,1
-Omega,19,Name,Neurobotics
-Omega,19,Points,15
-Omega,20,Name,S.H.I.E.L.D. Uniform
-Omega,20,Points,3
-Omega,21,Name,Angel
-Omega,21,Points,1
-Omega,22,Name,Warpath
-Omega,22,Points,10
-Omega,23,Name,Clairsentience
-Omega,23,Points,1
-Omega,24,Name,Melt Face
-Omega,24,Points,20
+[Can't Catch Me]
+Ability,18,Name,Can't Catch Me
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,8
+Ability,18,Movement
 
 END
 
 [Build: http://marvelheroes.info/build/22395/]
-[Omegas: http://marvelheroes.info/build/24062/]
