@@ -64,6 +64,8 @@ Ability,9,Name,Antnado
 Ability,9,Points,0
 Ability,9,Page,2
 Ability,9,Slot,5
+Ability,9,Boss
+Ability,9,MouseTarget
 Ability,9,Hold,10000,ShiftClick
 
 [The Definite Particle]
