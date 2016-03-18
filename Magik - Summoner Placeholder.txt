@@ -61,24 +61,24 @@ Ability,8,Page,1
 Ability,8,Slot,7
 Ability,8,Cooldown,6
 Ability,8,MaxRange,675
-Ability,8,Specialization,0x6FF6CCEDFBB81422
+//Ability,8,Specialization,
 
-//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
 //CHECK MINION SUMMONING ORDER
 [N'astirh]   //Summon
 Ability,9,Name,N'astirh
 Ability,9,Points,1
 Ability,9,Page,2
 Ability,9,Slot,8
+Ability,9,SECLT,9
 //Ability,9,MaxRange,
 
-//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
 //CHECK MINION SUMMONING ORDER
 [Spitting Demon]
 Ability,10,Name,Spitting Demon
 Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,4
+Ability,10,SECLT,4
 //Ability,10,MaxRange,
 
 [Back From Limbo]   //Temporary Pet
@@ -89,7 +89,7 @@ Ability,11,Slot,3
 Ability,11,MiniBoss
 Ability,11,Boss
 
-//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
+//WHAT HAPPENS IF YOU HAVE FULL LESSER DEMONS AND YOU RESPEC?  WHAT HAPPENS IF YOU TRY TO SUMMON NASTIRH?
 //CHECK MINION SUMMONING ORDER
 [Lesser Demon]
 Ability,12,Name,Lesser Demon
@@ -97,6 +97,7 @@ Ability,12,Points,0
 Ability,12,Page,1
 Ability,12,Slot,6
 //Ability,12,MaxRange,
+Ability,12,SECLT,9
 Ability,12,MaxLevel,22
 
 [Vengeful Spirit]   //Spender at Max Stacks Only
