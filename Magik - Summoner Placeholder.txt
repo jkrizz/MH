@@ -1,0 +1,150 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+//Acquire a minion from anywhere once you are able to put a point into Eternal Servitude.  This will change the ability name to Back From Limbo.  A re-prep may be necessary.  Also be sure to level the minion up as you level.  Not super crucial, but don't be level 60 with a level 10 minion.
+
+hero,Magik
+
+//PRIORITY POINTS
+
+[Eternal Servitude]
+Ability,1,Name,Eternal Servitude
+Ability,1,Points,20
+
+//PASSIVES
+
+[Mastery of the Soulsword]
+Ability,2,Name,Mastery of the Soulsword
+Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,7
+Ability,2,Toggle
+Ability,2,Cooldown,30
+
+[Eldritch Armor]
+Ability,3,Name,Eldritch Armor
+Ability,3,Points,8
+
+//ROTATION
+
+[TeamUp]   //TeamUp
+Ability,4,TeamUp
+
+[Stepping Disc]   //Gap-Close
+Ability,5,Name,Stepping Disc
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,300
+Ability,5,YSPGT,20
+
+[Soul Slashing]   //Spirit Regen Below 20%
+Ability,6,Name,Soul Slashing
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,YSPLT,20
+Ability,6,MaxRange,125
+
+[Soulblaze]   //CC-Immunity
+Ability,7,Name,Soulblaze
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,2
+Ability,7,MiniBoss
+Ability,7,Boss
+
+[Vampiric Incantation]   //Vulnerability
+Ability,8,Name,Vampiric Incantation
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,7
+Ability,8,Cooldown,6
+Ability,8,MaxRange,675
+Ability,8,Specialization,0x6FF6CCEDFBB81422
+
+//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
+//CHECK MINION SUMMONING ORDER
+[N'astirh]   //Summon
+Ability,9,Name,N'astirh
+Ability,9,Points,1
+Ability,9,Page,2
+Ability,9,Slot,8
+//Ability,9,MaxRange,
+
+//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
+//CHECK MINION SUMMONING ORDER
+[Spitting Demon]
+Ability,10,Name,Spitting Demon
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,4
+//Ability,10,MaxRange,
+
+[Back From Limbo]   //Temporary Pet
+Ability,11,Name,Back From Limbo
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,3
+Ability,11,MiniBoss
+Ability,11,Boss
+
+//DO MAGIK'S SUMMONS HAVE HP?  DO THEY EXPIRE?  NEED A SEC TAG?
+//CHECK MINION SUMMONING ORDER
+[Lesser Demon]
+Ability,12,Name,Lesser Demon
+Ability,12,Points,0
+Ability,12,Page,1
+Ability,12,Slot,6
+//Ability,12,MaxRange,
+Ability,12,MaxLevel,22
+
+[Vengeful Spirit]   //Spender at Max Stacks Only
+Ability,13,Name,Vengeful Spirit
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,2
+//Ability,13,MaxRange,
+//Ability,13,PanelBuff,,True,5   //PANELBUFF
+
+[Darkchylde]   //Ult
+Ability,14,Name,Darkchylde
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,3
+Ability,14,Boss
+
+[Otherworldly Nova]   //SIG+HP/Spirit Restore
+Ability,15,Name,Otherworldly Nova
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,4
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,MaxRange,250
+
+[Spirit Fangs]   //Spender
+Ability,16,Name,Spirit Fangs
+Ability,16,Points,19
+Ability,16,Page,1
+Ability,16,Slot,5
+//Ability,16,MaxRange,
+
+[Soul Slashing]   //Basic
+Ability,17,Name,Soul Slashing
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,MaxRange,125
+
+[Stepping Disc]   //Movement
+Ability,18,Name,Stepping Disc
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,8
+Ability,18,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/31521/]
+[Removed Bone Wall, Point placed in Eldritch Armor]
