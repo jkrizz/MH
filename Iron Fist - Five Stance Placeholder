@@ -31,6 +31,14 @@ Ability,6,Cooldown,3
 Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
+//GIVE THIS ABILITY THE ENEMY BUFF CHECK
+[Ninjutsu Dash]   //Vulnerability
+Ability,14,Name,Ninjutsu Dash
+Ability,14,Points,0
+Ability,14,Page,1
+Ability,14,Slot,8
+Ability,14,Cooldown,6
+
 [Champion of K'un-Lun]   //CC-Immunity
 Ability,7,Name,Champion of K'un-Lun
 Ability,7,Points,20
@@ -47,28 +55,21 @@ Ability,8,Boss
 Ability,8,MaxRange,350
 
 //USE THIS ON A SPECIFIC OPENER ONLY?
-[Chi Overload]
+[Chi Overload]   //STANCE STORE
 Ability,9,Name,Chi Overload
 Ability,9,Points,4
 Ability,9,Page,1
 Ability,9,Slot,2
 //Ability,9,Specialization,
 
-[Dragon Tail]
-Ability,11,Name,Dragon Tail
-Ability,11,Points,1
-Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,MaxRange,175
-
-[Leopard Claw]
+[Leopard Claw]   //Opener 1
 Ability,12,Name,Leopard Claw
 Ability,12,Points,1
 Ability,12,Page,1
 Ability,12,Slot,4
 Ability,12,MaxRange,425
 
-[Crane Kick]
+[Crane Kick]   //Opener 2
 Ability,13,Name,Crane Kick
 Ability,13,Points,0
 Ability,13,Page,1
@@ -76,43 +77,28 @@ Ability,13,Slot,7
 Ability,13,MaxRange,175
 Ability,13,MaxLevel,8
 
-[Ninjutsu Dash]
-Ability,14,Name,Ninjutsu Dash
-Ability,14,Points,0
-Ability,14,Page,1
-Ability,14,Slot,8
-Ability,14,Cooldown,6
+[Dragon Tail]   //Opener 3
+Ability,11,Name,Dragon Tail
+Ability,11,Points,1
+Ability,11,Page,1
+Ability,11,Slot,3
+Ability,11,MaxRange,175
 
-[Chi Blast]
-Ability,15,Name,Chi Blast
-Ability,15,Points,20
-Ability,15,Page,2
-Ability,15,Slot,3
-Ability,15,Cooldown,5
-Ability,15,MaxRange,500
-
-[]
-Ability,16,Name,
-Ability,16,Points,
-Ability,16,Page,2
-Ability,16,Slot,4
+[Serpent Fang]   //Opener 4
+Ability,16,Name,Serpent Fang
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,6
 //Ability,16,MaxRange,
 
-[]
-Ability,17,Name,
-Ability,17,Points,
-Ability,17,Page,1
-Ability,17,Slot,5
-Ability,17,MaxRange,
+[Tiger Scratch]   //Opener 5
+Ability,15,Name,Tiger Scratch
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,5
+//Ability,15,MaxRange,
 
-[]
-Ability,18,Name,
-Ability,18,Points,
-Ability,18,Page,1
-Ability,18,Slot,6
-Ability,18,MaxRange,575
-
-[Like Unto Iron]
+[Like Unto Iron]   //SIG+Opener Refresh
 Ability,19,Name,Like Unto Iron
 Ability,19,Points,20
 Ability,19,Page,2
@@ -121,68 +107,26 @@ Ability,19,Buff,marvelconditioneffect_ironfist_leopardstance,True,1
 Ability,19,MouseTarget
 Ability,19,MaxRange,500
 
-[Chi Burst]
-Ability,20,Name,Chi Burst
-Ability,20,Points,0
+[]
+Ability,20,Name,
+Ability,20,Points,
 Ability,20,Page,3
 Ability,20,Slot,2
-Ability,20,MaxLevel,10
-Ability,20,Cooldown,2
-Ability,20,MaxRange,300
+//Ability,20,MaxRange,
 
-[Fury of Five Forces]
+[Fury of Five Forces]   //Spender
 Ability,21,Name,Fury of Five Forces
 Ability,21,Points,20
 Ability,21,Page,2
 Ability,21,Slot,7
 Ability,21,MaxRange,100
 
-[K'un-Lun Strike]
+[K'un-Lun Strike]   //Basic
 Ability,22,Name,K'un-Lun Strike
 Ability,22,Points,0
 Ability,22,Page,1
 Ability,22,Slot,1
 Ability,22,MaxRange,125
-
-[Chi Overload]
-Ability,23,Name,Chi Overload
-Ability,23,Points,20
-Ability,23,Page,1
-Ability,23,Slot,2
-Ability,23,CooldownCheck,3,False
-Ability,23,Specialization,0xB86DD10B7DD7117E
-Ability,23,Movement
-
-[Chi Overload]
-Ability,24,Name,Chi Overload
-Ability,24,Points,20
-Ability,24,Page,1
-Ability,24,Slot,2
-Ability,24,CooldownCheck,4,False
-Ability,24,Specialization,0xB86DD10B7DD7117E
-Ability,24,Movement
-
-[Crane Kick]
-Ability,25,Name,Crane Kick
-Ability,25,Points,0
-Ability,25,Page,1
-Ability,25,Slot,7
-Ability,25,Movement
-Ability,25,MaxLevel,8
-
-[Dragon Tail]
-Ability,26,Name,Dragon Tail
-Ability,26,Points,1
-Ability,26,Page,1
-Ability,26,Slot,3
-Ability,26,Movement
-
-[Leopard Claw]
-Ability,27,Name,Leopard Claw
-Ability,27,Points,1
-Ability,27,Page,1
-Ability,27,Slot,4
-Ability,27,Movement
 
 [Ziggurat]
 Ability,28,Name,Ziggurat of Kargul
