@@ -5,145 +5,140 @@ hero,Iron Fist
 //PASSIVES
 
 [Immortal Weapon]
-Ability,3,Name,Immortal Weapon
-Ability,3,Points,4
+Ability,1,Name,Immortal Weapon
+Ability,1,Points,4
 
 //ROTATION
 
 [TeamUp]   //TeamUp
-Ability,4,TeamUp
+Ability,2,TeamUp
 
 [Ziggurat]   //Gap-Close
-Ability,5,Name,Ziggurat of Kargul
-Ability,5,Points,0
-Ability,5,Page,2
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,YHPGT,40
-Ability,5,MinRange,200
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,YHPGT,40
+Ability,3,MinRange,200
 
 [Ninjutsu Dash]   //Gap-Close
-Ability,6,Name,Ninjutsu Dash
-Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,Cooldown,3
-Ability,6,MinRange,200
-Ability,6,YSPGT,20
+Ability,4,Name,Ninjutsu Dash
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
 
-//GIVE THIS ABILITY THE ENEMY BUFF CHECK
 [Ninjutsu Dash]   //Vulnerability
-Ability,14,Name,Ninjutsu Dash
-Ability,14,Points,0
-Ability,14,Page,1
-Ability,14,Slot,8
-Ability,14,Cooldown,6
+Ability,5,Name,Ninjutsu Dash
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,TargetBuff,marvelconditioneffect_damagevulnerability,False
 
 [Champion of K'un-Lun]   //CC-Immunity
-Ability,7,Name,Champion of K'un-Lun
-Ability,7,Points,20
-Ability,7,Page,2
-Ability,7,Slot,5
-Ability,7,MiniBoss
-Ability,7,Boss
+Ability,6,Name,Champion of K'un-Lun
+Ability,6,Points,20
+Ability,6,Page,2
+Ability,6,Slot,3
+Ability,6,MiniBoss
+Ability,6,Boss
 
 [Spirit of Shou-Lao]   //Ult
-Ability,8,Name,Spirit of Shou-Lao
-Ability,8,Page,2
-Ability,8,Slot,6
-Ability,8,Boss
-Ability,8,MaxRange,350
+Ability,7,Name,Spirit of Shou-Lao
+Ability,7,Page,2
+Ability,7,Slot,4
+Ability,7,Boss
+Ability,7,MaxRange,350
 
-//USE THIS ON A SPECIFIC OPENER ONLY?
-[Chi Overload]   //STANCE STORE
-Ability,9,Name,Chi Overload
-Ability,9,Points,4
-Ability,9,Page,1
-Ability,9,Slot,2
-//Ability,9,Specialization,
+[Chi Overload]   //TIGER STANCE STORE
+Ability,8,Name,Chi Overload
+Ability,8,Points,4
+Ability,8,Page,2
+Ability,8,Slot,2
+Ability,8,Specialization,0x2F135E4B7E1E1182
+Ability,8,Buff,marvelconditioneffect_ironfist_tigerstance,True
 
 [Leopard Claw]   //Opener 1
-Ability,12,Name,Leopard Claw
-Ability,12,Points,1
-Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,MaxRange,425
+Ability,9,Name,Leopard Claw
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,4
+Ability,9,MaxRange,425
 
 [Crane Kick]   //Opener 2
-Ability,13,Name,Crane Kick
-Ability,13,Points,0
-Ability,13,Page,1
-Ability,13,Slot,7
-Ability,13,MaxRange,175
-Ability,13,MaxLevel,8
+Ability,10,Name,Crane Kick
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,7
+Ability,10,MaxRange,175
 
 [Dragon Tail]   //Opener 3
 Ability,11,Name,Dragon Tail
-Ability,11,Points,1
+Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,3
 Ability,11,MaxRange,175
 
 [Serpent Fang]   //Opener 4
-Ability,16,Name,Serpent Fang
-Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,6
-//Ability,16,MaxRange,
+Ability,12,Name,Serpent Fang
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,MaxRange,125
 
 [Tiger Scratch]   //Opener 5
-Ability,15,Name,Tiger Scratch
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,5
-//Ability,15,MaxRange,
+Ability,13,Name,Tiger Scratch
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,MaxRange,125
 
-[Like Unto Iron]   //SIG+Opener Refresh
-Ability,19,Name,Like Unto Iron
-Ability,19,Points,20
-Ability,19,Page,2
-Ability,19,Slot,2
-Ability,19,Buff,marvelconditioneffect_ironfist_leopardstance,True,1
-Ability,19,MouseTarget
-Ability,19,MaxRange,500
-
-[]
-Ability,20,Name,
-Ability,20,Points,
-Ability,20,Page,3
-Ability,20,Slot,2
-//Ability,20,MaxRange,
+[Like Unto Iron]   //SIG+Opener Refresh When All Openers on CD
+Ability,14,Name,Like Unto Iron
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,2
+Ability,14,PanelBuff,MarvelUIIcons.Power_IronFist_IronFistPunch,True
+Ability,14,MouseTarget
+Ability,14,MaxRange,500
+Ability,14,CooldownCheck,3,True
+Ability,14,CooldownCheck,4,True
+Ability,14,CooldownCheck,5,True
+Ability,14,CooldownCheck,6,True
+Ability,14,CooldownCheck,7,True
 
 [Fury of Five Forces]   //Spender
-Ability,21,Name,Fury of Five Forces
-Ability,21,Points,20
-Ability,21,Page,2
-Ability,21,Slot,7
-Ability,21,MaxRange,100
+Ability,15,Name,Fury of Five Forces
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,5
+Ability,15,MaxRange,100
 
 [K'un-Lun Strike]   //Basic
-Ability,22,Name,K'un-Lun Strike
-Ability,22,Points,0
-Ability,22,Page,1
-Ability,22,Slot,1
-Ability,22,MaxRange,125
+Ability,16,Name,K'un-Lun Strike
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,125
 
-[Ziggurat]
-Ability,28,Name,Ziggurat of Kargul
-Ability,28,Points,0
-Ability,28,Page,2
-Ability,28,Slot,8
-Ability,28,Movement
-Ability,28,YHPGT,40
+[Ziggurat]   //Movement
+Ability,17,Name,Ziggurat of Kargul
+Ability,17,Points,0
+Ability,17,Page,2
+Ability,17,Slot,8
+Ability,17,Movement
+Ability,17,YHPGT,40
 
-[Ninjutsu Dash]
-Ability,29,Name,Ninjutsu Dash
-Ability,29,Points,0
-Ability,29,Page,1
-Ability,29,Slot,8
-Ability,29,Movement
+[Ninjutsu Dash]   //Movement
+Ability,18,Name,Ninjutsu Dash
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,8
+Ability,18,Movement
 
 END
 
 [Build: http://marvelheroes.info/build/31578/]
-
