@@ -79,7 +79,7 @@ Ability,9,MaxRange,250
 
 [Sliding Strike]   //Extra Combo Points At 0
 Ability,10,Name,Sliding Strike
-Ability,10,Points,8
+Ability,10,Points,1
 Ability,10,Page,2
 Ability,10,Slot,2
 Ability,10,SECLT,1
