@@ -39,44 +39,44 @@ Ability,5,Slot,1
 Ability,5,YSPLT,20
 Ability,5,MaxRange,100
 
-[Sweepkick]   //Vulnerability
-Ability,6,Name,Sweepkick
+[Kevlar Reinforced Bodysuit]   //CC-Immunity
+Ability,6,Name,Kevlar Reinforced Bodysuit
 Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,2
-Ability,6,Cooldown,6
-Ability,6,MaxRange,175
+Ability,6,Page,2
+Ability,6,Slot,3
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Twilight Cloaking Device]   //SIG+Buffs
-Ability,7,Name,Twilight Cloaking Device
+[Sweepkick]   //Vulnerability
+Ability,7,Name,Sweepkick
 Ability,7,Points,20
 Ability,7,Page,1
-Ability,7,Slot,6
-Ability,7,YHPLT,30
-
-[Kevlar Reinforced Bodysuit]   //CC-Immunity
-Ability,8,Name,Kevlar Reinforced Bodysuit
-Ability,8,Points,20
-Ability,8,Page,2
-Ability,8,Slot,3
-Ability,8,MiniBoss
-Ability,8,Boss
-
-[S.H.I.E.L.D. Assault]   //Ult
-Ability,9,Name,S.H.I.E.L.D. Assault
-Ability,9,Points,0
-Ability,9,Page,2
-Ability,9,Slot,2
-Ability,9,Boss
-Ability,9,MaxRange,625
+Ability,7,Slot,2
+Ability,7,Cooldown,6
+Ability,7,MaxRange,175
 
 [Widow's Kiss]   //Dot+Weaken
-Ability,10,Name,Widow's Kiss
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,3
-Ability,10,Cooldown,6
-Ability,10,MaxRange,500
+Ability,8,Name,Widow's Kiss
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,3
+Ability,8,Cooldown,6
+Ability,8,MaxRange,500
+
+[Twilight Cloaking Device]   //SIG+Buffs
+Ability,9,Name,Twilight Cloaking Device
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,6
+Ability,9,YHPLT,30
+
+[S.H.I.E.L.D. Assault]   //Ult
+Ability,10,Name,S.H.I.E.L.D. Assault
+Ability,10,Points,0
+Ability,10,Page,2
+Ability,10,Slot,2
+Ability,10,Boss
+Ability,10,MaxRange,625
 
 [Deadly Kick]   //CD Spender+Buff
 Ability,11,Name,Deadly Kick
@@ -92,7 +92,7 @@ Ability,12,Page,1
 Ability,12,Slot,5
 Ability,12,MaxRange,625
 
-[Twilight Cloaking Device]   //Sig
+[Twilight Cloaking Device]   //Sig+Stealth+Power Cooldown Refresh
 Ability,13,Name,Twilight Cloaking Device
 Ability,13,Points,20
 Ability,13,Page,1
