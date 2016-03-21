@@ -10,10 +10,10 @@ Ability,1,Points,20
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,3,Name,Ziggurat of Kargul
 Ability,3,Points,0
 Ability,3,Page,2
@@ -22,7 +22,7 @@ Ability,3,Cooldown,3
 Ability,3,YHPGT,40
 Ability,3,MinRange,200
 
-[Heroic Charge]
+[Heroic Charge]   //Gap-Close
 Ability,4,Name,Heroic Charge
 Ability,4,Points,0
 Ability,4,Page,1
@@ -31,7 +31,7 @@ Ability,4,Cooldown,3
 Ability,4,MinRange,200
 Ability,4,YSPGT,20
 
-[Heroic Strike]
+[Heroic Strike]   //Spirit Regen Below 20%
 Ability,5,Name,Heroic Strike
 Ability,5,Page,1
 Ability,5,Slot,1
@@ -39,59 +39,62 @@ Ability,5,Points,0
 Ability,5,MaxRange,100
 Ability,5,YSPLT,20
 
-[Finest Hour]
+[Finest Hour]   //CC-Immunity
 Ability,6,Name,Finest Hour
 Ability,6,Points,1
 Ability,6,Page,2
 Ability,6,Slot,6
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Indestructible Shield]
+[Indestructible Shield]   //Buff
 Ability,7,Name,Indestructible Shield
-Ability,7,Points,0
+Ability,7,Points,6
 Ability,7,Page,2
 Ability,7,Slot,2
+Ability,7,YHPLT,65
 
-[Patriotic Soldier]
-Ability,8,Name,Patriotic Soldier
-Ability,8,Points,1
-Ability,8,Cost,10
-Ability,8,Cooldown,6
-Ability,8,Page,2
-Ability,8,Slot,5
+[Airborne Assault]   //Vulnerability
+Ability,8,Name,Airborne Assault
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,6
+Ability,8,MaxRange,500
+Ability,8,SECGT,4
 
-[Avengers Assemble]
-Ability,9,Name,Avengers Assemble
+[Patriotic Soldier]   //Weaken
+Ability,9,Name,Patriotic Soldier
+Ability,9,Points,1
 Ability,9,Page,2
-Ability,9,Slot,3
-Ability,9,Boss
-Ability,9,Points,20
-Ability,9,Hold,8000
-Ability,9,MouseTarget
+Ability,9,Slot,5
+Ability,9,Cooldown,5
 
-[Vibranium Bash]
-Ability,10,Name,Vibranium Bash
-Ability,10,Slot,2
-Ability,10,Page,1
-Ability,10,SECLT,5
-Ability,10,Points,20
-Ability,10,MaxRange,100
+[Avengers Assemble]   //Ult
+Ability,10,Name,Avengers Assemble
+Ability,10,Points,0
+Ability,10,Page,2
+Ability,10,Slot,3
+Ability,10,Boss
+Ability,10,Hold,8000,ShiftClick
+Ability,10,MouseTarget
 
-[Star-spangled Strike]
-Ability,11,Name,Star-spangled Strike
-Ability,11,Slot,3
+[Vibranium Bash]   //Spender+Generate Serum
+Ability,11,Name,Vibranium Bash
+Ability,11,Slot,2
 Ability,11,Page,1
-Ability,11,MaxRange,275
+Ability,11,SECLT,5
 Ability,11,Points,20
+Ability,11,MaxRange,100
 
-[Airborne Assault]
-Ability,12,Name,Airborne Assault
-Ability,12,Page,1
-Ability,12,Slot,6
-Ability,12,MaxRange,500
-Ability,12,SECGT,4
+[Star-spangled Strike]   //Sig+Spirit Restore
+Ability,12,Name,Star-spangled Strike
 Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,MaxRange,275
+Ability,12,SECGT,0
 
-[Meteor Kick]
+[Meteor Kick]   //CD Spender+Execute at Max Stacks
 Ability,13,Name,Meteor Kick
 Ability,13,Page,1
 Ability,13,Slot,4
@@ -99,21 +102,21 @@ Ability,13,SECGT,4
 Ability,13,MaxRange,400
 Ability,13,Points,20
 
-[Torqued Shield Throw]
+[Torqued Shield Throw]   //CD Spender
 Ability,14,Name,Torqued Shield Throw
 Ability,14,Page,2
 Ability,14,Slot,4
 Ability,14,MaxRange,230
 Ability,14,Points,20
 
-[Shield Bash]
+[Shield Bash]   //CD Spender
 Ability,15,Name,Shield Bash
 Ability,15,Page,1
 Ability,15,Slot,5
 Ability,15,MaxRange,125
 Ability,15,Points,20
 
-[Shield Toss]
+[Shield Toss]   //Spender+Stun
 Ability,16,Name,Shield Toss
 Ability,16,Page,1
 Ability,16,Slot,7
@@ -121,14 +124,14 @@ Ability,16,MaxRange,750
 Ability,16,Points,20
 Ability,16,MouseTarget
 
-[Heroic Strike]
+[Heroic Strike]   //Basic
 Ability,17,Name,Heroic Strike
 Ability,17,Page,1
 Ability,17,Slot,1
 Ability,17,Points,0
 Ability,17,MaxRange,100
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,18,Name,Ziggurat of Kargul
 Ability,18,Points,0
 Ability,18,Page,2
@@ -136,7 +139,7 @@ Ability,18,Slot,8
 Ability,18,YHPGT,40
 Ability,18,Movement
 
-[Heroic Charge]
+[Heroic Charge]   //Movement
 Ability,19,Name,Heroic Charge
 Ability,19,Points,0
 Ability,19,Page,1
@@ -145,4 +148,4 @@ Ability,19,Movement
 
 END
 
-[Build: https://forums.marvelheroes.com/discussion/187194/mocs-cosmic-midtown-and-genosha-raid-tested-cap-build-4-54-high-health-raid-dummy-ttk]
+[Build: marvelheroes.info/build/30844/]
