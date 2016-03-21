@@ -7,7 +7,7 @@ hero,Blade
 [TeamUp]   //TeamUp
 Ability,1,TeamUp
 
-[Ziggurat]   //Gap-Close
+[Ziggurat]  //Gap-Close
 Ability,2,Name,Ziggurat of Kargul
 Ability,2,Points,0
 Ability,2,Page,2
