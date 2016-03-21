@@ -65,6 +65,7 @@ Ability,8,YSPGT,10
 
 [Psi Bolt]
 Ability,9,Name,Psi Bolt
+Ability,9,Points,0
 Ability,9,Page,1
 Ability,9,Slot,1
 Ability,9,MaxRange,375
@@ -133,6 +134,7 @@ Ability,17,MouseTarget
 
 [Psi Bolt]
 Ability,18,Name,Psi Bolt
+Ability,18,Points,0
 Ability,18,Page,1
 Ability,18,Slot,1
 Ability,18,MaxRange,375
