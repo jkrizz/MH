@@ -21,7 +21,7 @@ Ability,3,Points,20
 [TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-[Ziggurat]   //Gap-Close
+[Ziggurat]  //Gap-Close
 Ability,5,Name,Ziggurat of Kargul
 Ability,5,Points,0
 Ability,5,Page,2
