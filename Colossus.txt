@@ -10,25 +10,26 @@ Ability,1,Points,20
 
 Bulwark of Steel
 Ability,2,Name,Bulwark of Steel
-Ability,2,Points,20
+Ability,2,Points,3
 
 Osmium Skin
 Ability,3,Name,Osmium Skin
-Ability,3,Points,1
+Ability,3,Points,20
 
 Vanguard Aura
 Ability,4,Name,Vanguard Aura
+Ability,4,Points,1
 Ability,4,Page,2
 Ability,4,Slot,4
-Ability,4,Points,1
 Ability,4,Toggle
+Ability,4,Cooldown,60
 
 //ROTATION
 
-[Teamup]
+[Teamup]   //TeamUp
 Ability,5,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,6,Name,Ziggurat of Kargul
 Ability,6,Points,0
 Ability,6,Page,2
@@ -37,7 +38,7 @@ Ability,6,Cooldown,3
 Ability,6,YHPGT,40
 Ability,6,MinRange,200
 
-[Osmium Charge]
+[Osmium Charge]   //Gap-Close
 Ability,7,Name,Osmium Charge
 Ability,7,Points,0
 Ability,7,Page,1
@@ -46,7 +47,7 @@ Ability,7,Cooldown,3
 Ability,7,MinRange,200
 Ability,7,YSPGT,20
 
-[Osmium Punch]
+[Osmium Punch]   //Spirit Regen Below 20%
 Ability,8,Name,Osmium Punch
 Ability,8,Points,0
 Ability,8,Page,1
@@ -54,84 +55,99 @@ Ability,8,Slot,1
 Ability,8,MaxRange,100
 Ability,8,YSPLT,20
 
-[Heavy Metal]
-Ability,9,Name,Heavy Metal
-Ability,9,Boss
+[Break the Chains]   //CC-Immunity
+Ability,9,Name,Break the Chains
+Ability,9,Points,1
 Ability,9,Page,2
-Ability,9,Slot,3
+Ability,9,Slot,5
+Ability,9,MiniBoss
+Ability,9,Boss
 
-[Demolition Stomp]
-Ability,10,Name,Demolition Stomp
-Ability,10,Points,4
-Ability,10,Page,1
+[Heavy Metal]   //Ult+Buff
+Ability,10,Name,Heavy Metal
+Ability,10,Points,0
+Ability,10,Page,2
 Ability,10,Slot,3
-Ability,10,Cooldown,6
-Ability,10,MaxRange,200
+Ability,10,Boss
 
-[Fissure]
-Ability,11,Name,Fissure
-Ability,11,Points,20
+[Demolition Stomp]  //Vulnerability
+Ability,11,Name,Demolition Stomp
+Ability,11,Points,4
 Ability,11,Page,1
-Ability,11,Slot,4
+Ability,11,Slot,3
 Ability,11,Cooldown,6
-Ability,11,MaxRange,450
+Ability,11,MaxRange,200
 
-[Fastball Special]
-Ability,12,Name,Fastball Special
+[Fissure]   //Dot
+Ability,12,Name,Fissure
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,5
-Ability,12,MaxRange,750
+Ability,12,Slot,4
+Ability,12,Cooldown,6
+Ability,12,MaxRange,450
 
-[Colossal Roar]
-Ability,13,Name,Colossal Roar
+[Fastball Special]   //Temporary Summon
+Ability,13,Name,Fastball Special
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,6
-Ability,13,MaxRange,425
+Ability,13,Slot,5
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,MaxRange,750
 
-[Crushing Smite]
-Ability,14,Name,Crushing Smite
+[Colossal Roar]   //Sig+SEC Regen
+Ability,14,Name,Colossal Roar
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,7
-Ability,14,MaxRange,140
+Ability,14,Slot,6
+Ability,14,MaxRange,425
+Ability,14,SECLT,5
 
-[Titanic Slam]
-Ability,15,Name,Titanic Slam
+[Crushing Smite]   //CD Spender+Execute+Spirit Restore
+Ability,15,Name,Crushing Smite
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,2
-Ability,15,MaxRange,600
+Ability,15,Slot,7
+Ability,15,MaxRange,140
+Ability,15,SECGT,0
 
-[Colossal Punch]
-Ability,16,Name,Colossal Punch
+[Titanic Slam]   //SEC Regen+Crushing Smite Reset
+Ability,16,Name,Titanic Slam
 Ability,16,Points,20
-Ability,16,Page,2
+Ability,16,Page,1
 Ability,16,Slot,2
-Ability,16,MaxRange,125
-Ability,16,Hold,1000,AsPrimary
+Ability,16,MaxRange,600
+Ability,16,CooldownCheck,7,True
 
-[Osmium Punch]
-Ability,17,Name,Osmium Punch
-Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,1
-Ability,17,MaxRange,100
+[Colossal Punch]   //Spender
+Ability,17,Name,Colossal Punch
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,2
+Ability,17,MaxRange,125
+Ability,17,Hold,1000,AsPrimary
 
-[Ziggurat]
-Ability,18,Name,Ziggurat of Kargul
+[Osmium Punch]   //Basic
+Ability,18,Name,Osmium Punch
 Ability,18,Points,0
-Ability,18,Page,2
-Ability,18,Slot,8
-Ability,18,YHPGT,40
-Ability,18,Movement
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,100
 
-[Osmium Charge]
-Ability,19,Name,Osmium Charge
-Ability,19,Page,1
+[Ziggurat]   //Movement
+Ability,19,Name,Ziggurat of Kargul
+Ability,19,Points,0
+Ability,19,Page,2
 Ability,19,Slot,8
+Ability,19,YHPGT,40
 Ability,19,Movement
+
+[Osmium Charge]   //Movement
+Ability,20,Name,Osmium Charge
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
 
 END
 
