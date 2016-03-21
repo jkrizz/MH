@@ -4,10 +4,10 @@ hero,Blade
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,1,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,2,Name,Ziggurat of Kargul
 Ability,2,Points,0
 Ability,2,Page,2
@@ -16,7 +16,7 @@ Ability,2,Cooldown,3
 Ability,2,YHPGT,40
 Ability,2,MinRange,200
 
-[Deadly Dash]
+[Deadly Dash]   //Gap-Close
 Ability,3,Name,Deadly Dash
 Ability,3,Points,0
 Ability,3,Page,1
@@ -25,15 +25,15 @@ Ability,3,Cooldown,3
 Ability,3,MinRange,200
 Ability,3,YSPGT,20
 
-[Hack 'n' Slash]
+[Hack 'n' Slash]   //Spirit Regen Below 20%
 Ability,4,Name,Hack 'n' Slash
+Ability,4,Points,0
 Ability,4,Page,1
 Ability,4,Slot,1
 Ability,4,MaxRange,125
-Ability,4,Points,0
 Ability,4,YSPLT,20
 
-[The Serum]
+[The Serum]   //HP Regen Below 40% and Full SEC
 Ability,5,Name,The Serum
 Ability,5,Points,20
 Ability,5,Page,1
@@ -42,13 +42,46 @@ Ability,5,Specialization,0x8555510166D810E8
 Ability,5,YHPLT,40
 Ability,5,SECEQ,100
 
-[Long-Lived]
+[Long-Lived]   //CC-Immunity
 Ability,6,Name,Long-Lived
 Ability,6,Points,20
 Ability,6,Page,2
 Ability,6,Slot,3
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Just Stay Down]
+[Deadly Dash]   //Buff
+Ability,10,Name,Deadly Dash
+Ability,10,Points,0
+Ability,10,Page,1
+Ability,10,Slot,8
+Ability,10,Movement
+Ability,10,Buff,marvelconditioneffect_dodgeincreasebuff,False
+
+[Hyper-Toxin Grenade]   //Vulnerability
+Ability,11,Name,Hyper-Toxin Grenade
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,6
+Ability,11,MaxRange,950
+
+[Party Crasher]   //Vulnerability
+Ability,12,Name,Party Crasher
+Ability,12,Points,20
+Ability,12,Page,2
+Ability,12,Slot,4
+Ability,12,MaxRange,1000
+Ability,12,MouseTarget
+
+[Whip Lash]  //Weaken
+Ability,13,Name,Whip Lash
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,2
+Ability,13,MaxRange,150
+Ability,13,Cooldown,6
+
+[Just Stay Down]   //Ult+Buffs
 Ability,7,Name,Just Stay Down
 Ability,7,Points,0
 Ability,7,Page,2
@@ -56,7 +89,7 @@ Ability,7,Slot,5
 Ability,7,Boss
 Ability,7,Buff,marvelconditioneffect_bladeseruminjectionbuff,True
 
-[The Serum]
+[The Serum]   //Buff at Full Stacks
 Ability,8,Name,The Serum
 Ability,8,Points,20
 Ability,8,Page,1
@@ -64,7 +97,7 @@ Ability,8,Slot,7
 Ability,8,Specialization,0x8555510166D810E8
 Ability,8,PanelBuff,MarvelUIIcons.Power_Blade_JustStayDown,True,10
 
-[Advanced Technique]
+[Advanced Technique]   //Sig
 Ability,9,Name,Advanced Technique
 Ability,9,Points,20
 Ability,9,Page,1
@@ -74,59 +107,28 @@ Ability,9,CooldownCheck,7,True
 Ability,9,Delay,50
 Ability,9,MaxRange,125
 
-[Deadly Dash]
-Ability,10,Name,Deadly Dash
-Ability,10,Points,0
-Ability,10,Page,1
-Ability,10,Slot,8
-Ability,10,Movement
-Ability,10,Buff,marvelconditioneffect_dodgeincreasebuff,False
-
-[Hyper-Toxin Grenade]
-Ability,11,Name,Hyper-Toxin Grenade
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,6
-Ability,11,MaxRange,950
-
-[Party Crasher]
-Ability,12,Name,Party Crasher
-Ability,12,Points,20
-Ability,12,Page,2
-Ability,12,Slot,4
-Ability,12,MaxRange,1000
-Ability,12,MouseTarget
-
-[Whip Lash]
-Ability,13,Name,Whip Lash
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,2
-Ability,13,MaxRange,150
-Ability,13,Cooldown,6
-
-[Stake Through the Heart]
+[Stake Through the Heart]   //CD Spender
 Ability,14,Name,Stake Through the Heart
 Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,3
 Ability,14,MaxRange,125
 
-[Any Means Necessary]
+[Any Means Necessary]   //Spender
 Ability,15,Name,Any Means Necessary
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,4
 Ability,15,MaxRange,125
 
-[Hack 'n' Slash]
+[Hack 'n' Slash]   //Basic
 Ability,16,Name,Hack 'n' Slash
+Ability,16,Points,0
 Ability,16,Page,1
 Ability,16,Slot,1
 Ability,16,MaxRange,125
-Ability,16,Points,0
 
-[The Serum]
+[The Serum]   //Remove Thirst While Moving at Low Health
 Ability,17,Name,The Serum
 Ability,17,Points,20
 Ability,17,Page,1
@@ -136,7 +138,7 @@ Ability,17,SECEQ,100
 Ability,17,Movement
 Ability,17,YHPLT,20
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,18,Name,Ziggurat of Kargul
 Ability,18,Points,0
 Ability,18,Page,2
@@ -144,7 +146,7 @@ Ability,18,Slot,8
 Ability,18,Movement
 Ability,18,YHPGT,40
 
-[Deadly Dash]
+[Deadly Dash]   //Movement
 Ability,19,Name,Deadly Dash
 Ability,19,Points,0
 Ability,19,Page,1
