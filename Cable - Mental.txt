@@ -20,7 +20,7 @@ Ability,2,Specialization,0xF5659DD5FC1B1433
 [TeamUp]   //TeamUp
 Ability,3,TeamUp
 
-//[Quick Bodyslide]   //Gap-Close
+//[Quick Bodyslide]  //Gap-Close
 //Ability,4,Name,Quick Bodyslide
 //Ability,4,Points,0
 //Ability,4,Page,1
@@ -31,7 +31,7 @@ Ability,3,TeamUp
 //Ability,4,Cooldown,3
 //Ability,4,Boss
 
-[Quick Bodyslide]   //Gap-Close
+[Quick Bodyslide]  //Gap-Close
 Ability,5,Name,Quick Bodyslide
 Ability,5,Points,0
 Ability,5,Page,1
@@ -49,7 +49,7 @@ Ability,6,MaxRange,625
 Ability,6,YSPLT,20
 Ability,6,MaxLevel,32
 
-[Mind Bullets]   //Late-Game Post-Specialization Spirit Regen Below 20%
+[Mind Bullets]  //Late-Game Post-Specialization Spirit Regen Below 20%
 Ability,7,Name,Mind Bullets
 Ability,7,Points,20
 Ability,7,Page,1
