@@ -52,7 +52,8 @@ Ability,8,Name,Defiant Escape
 Ability,8,Points,1
 Ability,8,Page,2
 Ability,8,Slot,3
-Ability,8,Cooldown,5
+Ability,8,MiniBoss
+Ability,8,Boss
 
 [Crashdown Strike]   //Vulnerability+Dot
 Ability,9,Name,Crashdown Strike
