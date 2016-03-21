@@ -10,10 +10,10 @@ Ability,1,Points,20
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,3,Name,Ziggurat of Kargul
 Ability,3,Points,0
 Ability,3,Page,2
@@ -22,7 +22,7 @@ Ability,3,Cooldown,3
 Ability,3,YHPGT,40
 Ability,3,MinRange,200
 
-[Silent Killer]
+[Silent Killer]   //Gap-Close
 Ability,4,Name,Silent Killer
 Ability,4,Points,0
 Ability,4,Page,1
@@ -31,43 +31,46 @@ Ability,4,Cooldown,3
 Ability,4,MinRange,200
 Ability,4,YSPGT,20
 
-[Twilight Cloaking Device]
-Ability,5,Name,Twilight Cloaking Device
-Ability,5,Points,20
+[Stinging Strikes]   //Spirit Regen Below 20%
+Ability,5,Name,Stringing Strikes
+Ability,5,Points,0
 Ability,5,Page,1
-Ability,5,Slot,6
-Ability,5,YHPLT,30
+Ability,5,Slot,1
+Ability,5,YSPLT,20
+Ability,5,MaxRange,100
 
-[Kevlar Reinforced Bodysuit]
-Ability,6,Name,Kevlar Reinforced Bodysuit
+[Sweepkick]   //Vulnerability
+Ability,6,Name,Sweepkick
 Ability,6,Points,20
-Ability,6,Page,2
-Ability,6,Slot,3
+Ability,6,Page,1
+Ability,6,Slot,2
+Ability,6,Cooldown,6
+Ability,6,MaxRange,175
 
-[Stinging Strikes]
-Ability,7,Name,Stringing Strikes
-Ability,7,Points,0
+[Twilight Cloaking Device]   //SIG+Buffs
+Ability,7,Name,Twilight Cloaking Device
+Ability,7,Points,20
 Ability,7,Page,1
-Ability,7,Slot,1
-Ability,7,YSPLT,20
-Ability,7,MaxRange,100
+Ability,7,Slot,6
+Ability,7,YHPLT,30
 
-[S.H.I.E.L.D. Assault]
-Ability,8,Name,S.H.I.E.L.D. Assault
-Ability,8,Boss
+[Kevlar Reinforced Bodysuit]   //CC-Immunity
+Ability,8,Name,Kevlar Reinforced Bodysuit
+Ability,8,Points,20
 Ability,8,Page,2
-Ability,8,Slot,2
-Ability,8,MaxRange,625
+Ability,8,Slot,3
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Sweepkick]
-Ability,9,Name,Sweepkick
-Ability,9,Points,20
-Ability,9,Page,1
+[S.H.I.E.L.D. Assault]   //Ult
+Ability,9,Name,S.H.I.E.L.D. Assault
+Ability,9,Points,0
+Ability,9,Page,2
 Ability,9,Slot,2
-Ability,9,Cooldown,6
-Ability,9,MaxRange,175
+Ability,9,Boss
+Ability,9,MaxRange,625
 
-[Widow's Kiss]
+[Widow's Kiss]   //Dot+Weaken
 Ability,10,Name,Widow's Kiss
 Ability,10,Points,20
 Ability,10,Page,1
@@ -75,27 +78,29 @@ Ability,10,Slot,3
 Ability,10,Cooldown,6
 Ability,10,MaxRange,500
 
-[Deadly Kick]
+[Deadly Kick]   //CD Spender+Buff
 Ability,11,Name,Deadly Kick
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,4
 Ability,11,MaxRange,140
 
-[Micro-Drones]
+[Micro-Drones]   //CD Spender
 Ability,12,Name,Micro-Drones
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,5
 Ability,12,MaxRange,625
 
-[Twilight Cloaking Device]
+[Twilight Cloaking Device]   //Sig
 Ability,13,Name,Twilight Cloaking Device
 Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,6
+Ability,13,MiniBoss
+Ability,13,Boss
 
-[Coup de Grace]
+[Coup de Grace]   //Early-Game Spender
 Ability,14,Name,Coup de Grace
 Ability,14,Points,0
 Ability,14,Page,1
@@ -104,7 +109,7 @@ Ability,14,MouseTarget
 Ability,14,MaxRange,750
 Ability,14,MaxLevel,8
 
-[Deadly Blade]
+[Deadly Blade]   //Spender
 Ability,15,Name,Deadly Blade
 Ability,15,Points,20
 Ability,15,Page,1
@@ -112,14 +117,14 @@ Ability,15,Slot,7
 Ability,15,MaxRange,100
 Ability,15,Hold,1000,AsPrimary
 
-[Stinging Strikes]
+[Stinging Strikes]   //Basic
 Ability,16,Name,Stinging Strikes
 Ability,16,Points,0
 Ability,16,Page,1
 Ability,16,Slot,1
 Ability,16,MaxRange,100
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,17,Name,Ziggurat of Kargul
 Ability,17,Points,0
 Ability,17,Page,2
@@ -127,7 +132,7 @@ Ability,17,Slot,8
 Ability,17,Movement
 Ability,17,YHPGT,40
 
-[Silent Killer]
+[Silent Killer]   //Movement
 Ability,18,Name,Silent Killer
 Ability,18,Points,0
 Ability,18,Page,1
