@@ -17,10 +17,10 @@ Ability,2,Specialization,0xF5659DD5FC1B1433
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,3,TeamUp
 
-//[Quick Bodyslide]
+//[Quick Bodyslide]   //Gap-Close
 //Ability,4,Name,Quick Bodyslide
 //Ability,4,Points,0
 //Ability,4,Page,1
@@ -31,7 +31,7 @@ Ability,3,TeamUp
 //Ability,4,Cooldown,3
 //Ability,4,Boss
 
-[Quick Bodyslide]
+[Quick Bodyslide]   //Gap-Close
 Ability,5,Name,Quick Bodyslide
 Ability,5,Points,0
 Ability,5,Page,1
@@ -40,7 +40,7 @@ Ability,5,MinRange,600
 Ability,5,Cooldown,3
 Ability,5,YSPGT,10
 
-[Phase Magnum]
+[Phase Magnum]   //Early-Game Spirit Regen Below 20%
 Ability,6,Name,Phase Magnum
 Ability,6,Points,0
 Ability,6,Slot,1
@@ -49,7 +49,7 @@ Ability,6,MaxRange,625
 Ability,6,YSPLT,20
 Ability,6,MaxLevel,32
 
-[Mind Bullets]
+[Mind Bullets]   //Late-Game Post-Specialization Spirit Regen Below 20%
 Ability,7,Name,Mind Bullets
 Ability,7,Points,20
 Ability,7,Page,1
@@ -58,13 +58,15 @@ Ability,7,MinLevel,32
 Ability,7,MaxRange,600
 Ability,7,YSPLT,20
 
-[Telekinetic Repulsion]
+[Telekinetic Repulsion]   //CC-Immunity
 Ability,8,Name,Telekinetic Repulsion
 Ability,8,Points,5
 Ability,8,Page,2
 Ability,8,Slot,3
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Veteran Warrior]
+[Veteran Warrior]   //Vulnerability+Weakness
 Ability,9,Name,Veteran Warrior
 Ability,9,Points,20
 Ability,9,Page,2
@@ -73,21 +75,21 @@ Ability,9,MaxRange,600
 Ability,9,Cooldown,6
 Ability,9,Specialization,0xF5659DD5FC1B1433
 
-[Concussion Blast]
+[Concussion Blast]   //Stun
 Ability,10,Name,Concussion Blast
 Ability,10,Points,1
 Ability,10,Page,1
 Ability,10,Slot,2
 Ability,10,Cooldown,6
 
-[Telekinetic Overload]
+[Telekinetic Overload]   //Capstone Damage+Buff
 Ability,11,Name,Telekinetic Overload
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,7
 Ability,11,MaxRange,600
 
-[Psychic Haze]
+[Psychic Haze]   //Dot
 Ability,12,Name,Psychic Haze
 Ability,12,Points,20
 Ability,12,Page,1
@@ -95,7 +97,7 @@ Ability,12,Slot,5
 Ability,12,Cooldown,8
 Ability,12,MaxRange,500
 
-[Psychokinetic Barrier]
+[Psychokinetic Barrier]   //Dot
 Ability,13,Name,Psychokinetic Barrier
 Ability,13,Points,20
 Ability,13,Page,1
@@ -103,7 +105,7 @@ Ability,13,Slot,6
 Ability,13,Cooldown,6
 Ability,13,MaxRange,475
 
-[Foresight Bomb]
+[Foresight Bomb]   //Sig+Spirit Restore
 Ability,14,Name,Foresight Bomb
 Ability,14,Points,20
 Ability,14,Page,1
@@ -112,21 +114,21 @@ Ability,14,MiniBoss
 Ability,14,Boss
 Ability,14,MaxRange,525
 
-[Telepathic Illusion]
+[Telepathic Illusion]   //Illusions+Taunt
 Ability,15,Name,Telepathic Illusion
 Ability,15,Points,20
 Ability,15,Page,2
 Ability,15,Slot,4
 Ability,15,MaxRange,475
 
-[Psionic Illusion]
+[Psionic Illusion]   //Illusions+Taunt
 Ability,16,Name,Psionic Illusion
 Ability,16,Points,20
 Ability,16,Page,2
 Ability,16,Slot,4
 Ability,16,MaxRange,475
 
-[Greymalkin Bombardment]
+[Greymalkin Bombardment]   //Ult
 Ability,17,Name,Greymalkin Bombardment
 Ability,17,Points,0
 Ability,17,Page,2
@@ -134,7 +136,7 @@ Ability,17,Slot,7
 Ability,17,Boss
 Ability,17,MaxRange,525
 
-[Plasma Submachine Guns]
+[Plasma Submachine Guns]  //Early-Game Spender
 Ability,18,Name,Plasma Submachine Guns
 Ability,18,Points,20
 Ability,18,Page,1
@@ -143,21 +145,21 @@ Ability,18,MaxRange,725
 Ability,18,MaxLevel,12
 Ability,18,MouseTarget
 
-[Mind Bullets]
+[Mind Bullets]   //Mid-Game Spender/Late-Game Basic
 Ability,19,Name,Mind Bullets
 Ability,19,Points,20
 Ability,19,Page,1
 Ability,19,Slot,3
 Ability,19,MaxRange,600
 
-[Phase Magnum]
+[Phase Magnum]   //Early-Game Basic
 Ability,20,Name,Phase Magnum
 Ability,20,Points,0
 Ability,20,Page,1
 Ability,20,Slot,1
 Ability,20,MaxRange,625
 
-[Telekinetic Overload]
+[Telekinetic Overload]   //Damage Reduction While Moving
 Ability,21,Name,Telekinetic Overload
 Ability,21,Points,20
 Ability,21,Page,1
@@ -165,7 +167,7 @@ Ability,21,Slot,7
 Ability,21,Movement
 Ability,21,TargetSelf
 
-[Quick Bodyslide]
+[Quick Bodyslide]   //Movement
 Ability,22,Name,Quick Bodyslide
 Ability,22,Points,0
 Ability,22,Slot,8
