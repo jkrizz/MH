@@ -8,150 +8,143 @@ hero,Black Panther
 Ability,1,Name,Panther Soul
 Ability,1,Points,20
 
+[Dora Milaje]
+Ability,2,Name,Dora Milaje
+Ability,2,Points,1
+Ability,2,Specialization,0xEB5C4BCD40C315A8
+
 //ROTATION
 
-[TeamUp]
-Ability,2,TeamUp
+[TeamUp]   //TeamUp
+Ability,3,TeamUp
 
-[Ziggurat]
-Ability,3,Name,Ziggurat of Kargul
-Ability,3,Points,0
-Ability,3,Page,2
-Ability,3,Slot,8
-Ability,3,Cooldown,3
-Ability,3,YHPGT,40
-Ability,3,MinRange,200
-
-[Stealthy Escape]
-Ability,4,Name,Stealthy Escape
+[Ziggurat]   //Gap-Close
+Ability,4,Name,Ziggurat of Kargul
 Ability,4,Points,0
-Ability,4,Page,1
+Ability,4,Page,2
 Ability,4,Slot,8
 Ability,4,Cooldown,3
+Ability,4,YHPGT,40
 Ability,4,MinRange,200
-Ability,4,YSPGT,20
 
-[Knockdown  Sweep]
-Ability,5,Name,Knockdown Sweep
-Ability,5,Points,20
+[Stealthy Escape]   //Gap-Close
+Ability,5,Name,Stealthy Escape
+Ability,5,Points,0
 Ability,5,Page,1
-Ability,5,Slot,7
-Ability,5,MaxRange,125
-Ability,5,Cooldown,2
-Ability,5,Buff,marvelconditioneffect_tumble_blackpanther,True
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,200
+Ability,5,YSPGT,20
 
-[Unseen Predator]
-Ability,6,Name,Unseen Predator
-Ability,6,Points,5
-Ability,6,Page,2
-Ability,6,Slot,5
-Ability,6,Specialization,0x7130098AB15012A0
+[Claw Slash]   //Spirit Regen Below 20%
+Ability,6,Name,Claw Slash
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,Maxrange,125
+Ability,6,YSPLT,20
 
-[Panther Grace]
+[Panther Grace]   //CC-Immunity
 Ability,7,Name,Panther Grace
 Ability,7,Points,20
 Ability,7,Page,2
 Ability,7,Slot,2
+Ability,7,MiniBoss
+Ability,7,Boss
 
-[Claw Slash]
-Ability,8,Name,Claw Slash
-Ability,8,Points,0
+[Jungle Snare]   //Vulnerability
+Ability,8,Name,Jungle Snare
+Ability,8,Points,20
 Ability,8,Page,1
-Ability,8,Slot,1
-Ability,8,Maxrange,100
-Ability,8,YSPLT,20
+Ability,8,Slot,3
+Ability,8,MaxRange,150
+Ability,8,Cooldown,5
 
-[Exalted of Bast]
-Ability,9,Name,Exalted of Bast
-Ability,9,Boss
-Ability,9,Page,2
-Ability,9,Slot,3
-Ability,9,MaxRange,475
+[Savage Strike]   //Dot
+Ability,9,Name,Savage Strike
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,6
+Ability,9,Cooldown,6
+Ability,9,MaxRange,125
 
-[Dora Milaje]
-Ability,10,Name,Dora Milaje
-Ability,10,Points,1
+[Knockdown  Sweep]   //CD Spender While Stealthed
+Ability,10,Name,Knockdown Sweep
+Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,4
-Ability,10,Cooldown,30
-Ability,10,Specialization,0xEB5C4BCD40C315A8
+Ability,10,Slot,7
+Ability,10,MaxRange,125
+Ability,10,Buff,marvelconditioneffect_tumble_blackpanther,True
 
-[Wrath of Bast]
-Ability,11,Name,Wrath of Bast
-Ability,11,Points,20
-Ability,11,Page,1
+[Unseen Predator]   //Stealth+Buff
+Ability,11,Name,Unseen Predator
+Ability,11,Points,5
+Ability,11,Page,2
 Ability,11,Slot,5
-Ability,11,MaxRange,500
+Ability,11,MiniBoss
+Ability,11,Boss
+Ability,11,Specialization,0x7130098AB15012A0
 
-[Panther Leap]
-Ability,12,Name,Panther Leap
-Ability,12,Points,20
-Ability,12,Page,1
-Ability,12,Slot,4
-Ability,12,MaxRange,425
-Ability,12,Cooldown,8
-Ability,12,MaxLevel,47
+[Exalted of Bast]   //Ult
+Ability,12,Name,Exalted of Bast
+Ability,12,Points,0
+Ability,12,Page,2
+Ability,12,Slot,3
+Ability,12,MaxRange,475
+Ability,12,Boss
 
-[Panther Leap]
-Ability,13,Name,Panther Leap
+[Wrath of Bast]   //Sig+Buffs
+Ability,13,Name,Wrath of Bast
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,4
-Ability,13,MaxRange,425
+Ability,13,Slot,5
+Ability,13,MaxRange,500
 
-[Knockdown  Sweep]
-Ability,14,Name,Knockdown Sweep
+[Panther Leap]   //CD Spender+Execute Post-Specialization
+Ability,14,Name,Panther Leap
 Ability,14,Points,20
-Ability,14,Slot,7
 Ability,14,Page,1
-Ability,14,MaxRange,125
-Ability,14,Cooldown,3
+Ability,14,Slot,4
+Ability,14,MaxRange,425
+Ability,14,MinLevel,47
 
-[Jungle Snare]
-Ability,15,Name,Jungle Snare
+[Knockdown  Sweep]   //CD Spender
+Ability,15,Name,Knockdown Sweep
 Ability,15,Points,20
+Ability,15,Slot,7
 Ability,15,Page,1
-Ability,15,Slot,3
-Ability,15,MaxRange,150
+Ability,15,MaxRange,125
 Ability,15,Cooldown,3
 
-[Savage Strike]
-Ability,16,Name,Savage Strike
+[Predator's Frenzy]   //Spender
+Ability,16,Name,Predator's Frenzy
 Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,6
-Ability,16,Cooldown,5
-Ability,16,MaxRange,110
+Ability,16,Page,2
+Ability,16,Slot,4
+Ability,16,MaxRange,100
+Ability,16,Hold,1000,AsPrimary
 
-[Predator's Frenzy]
-Ability,17,Name,Predator's Frenzy
-Ability,17,Points,20
-Ability,17,Page,2
-Ability,17,Slot,4
-Ability,17,MaxRange,100
-Ability,17,Hold,1000,AsPrimary
+[Claw Slash]   //Basic
+Ability,17,Name,Claw Slash
+Ability,17,Points,0
+Ability,17,Slot,1
+Ability,17,Page,1
+Ability,17,MaxRange,125
 
-[Claw Slash]
-Ability,18,name,Claw Slash
-Ability,18,points,0
-Ability,18,slot,1
-Ability,18,page,1
-Ability,18,maxrange,100
+[Ziggurat]   //Movement
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,Movement
+Ability,18,YHPGT,40
 
-[Ziggurat]
-Ability,19,Name,Ziggurat of Kargul
+[Stealthy Escape]   //Movement
+Ability,19,Name,Stealthy Escape
 Ability,19,Points,0
-Ability,19,Page,2
+Ability,19,Page,1
 Ability,19,Slot,8
 Ability,19,Movement
-Ability,19,YHPGT,40
-
-[Stealthy Escape]
-Ability,20,Name,Stealthy Escape
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,8
-Ability,20,Movement
 
 END
 
