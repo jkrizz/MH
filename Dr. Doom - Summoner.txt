@@ -48,7 +48,7 @@ Ability,6,Specialization,0x872D90F5DCE513C0
 //Doom Blast   //Spirit Regen Below 20%
 Ability,7,Name,Doom Blast
 Ability,7,Points,0
-Ability,7,Page,2
+Ability,7,Page,1
 Ability,7,Slot,1
 Ability,7,YSPLT,20
 Ability,7,MaxRange,500
