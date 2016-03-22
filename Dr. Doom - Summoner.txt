@@ -1,145 +1,166 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
 hero,Doctor Doom
+
 //PASSIVES
 
-[Ingenious Defense]
-Ability,1,Name,Ingenious Defense
+[Latverian Inferno]
+Ability,1,Name,Latverian Inferno
 Ability,1,Points,1
 
-[Latverian Inferno]
-Ability,2,Name,Latverian Inferno
-Ability,2,Points,1
-
 //PRIORITY POINT
-Ability,3,Name,Conjured Barrage
-Ability,3,Points,1
+Ability,2,Name,Conjured Barrage
+Ability,2,Points,1
 
 //ROTATION
 
-[TeamUp]
-Ability,4,Teamup
+[TeamUp]   //TeamUp
+Ability,3,Teamup
 
-//[Impending Doom]
-//Ability,5,Name,Impending Doom
-//Ability,5,Points,0
-//Ability,5,Page,1
-//Ability,5,Slot,8
-//Ability,5,MaxRange,200
-//Ability,5,AimAt,45,400
-//Ability,5,YSPGT,10
-//Ability,5,Cooldown,3
-//Ability,5,Boss
+//[Impending Doom]   //Gap-Close
+//Ability,4,Name,Impending Doom
+//Ability,4,Points,0
+//Ability,4,Page,1
+//Ability,4,Slot,8
+//Ability,4,MaxRange,200
+//Ability,4,AimAt,45,400
+//Ability,4,YSPGT,10
+//Ability,4,Cooldown,3
+//Ability,4,Boss
 
-[Impending Doom]
-Ability,6,Name,Impending Doom
-Ability,6,Points,0
-Ability,6,Slot,8
-Ability,6,Page,1
-Ability,6,MinRange,600
-Ability,6,Cooldown,3
-Ability,6,YSPGT,10
+[Impending Doom]   //Gap-Close
+Ability,5,Name,Impending Doom
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,MinRange,600
+Ability,5,Cooldown,3
+Ability,5,YSPGT,10
 
-[The Will of Doom]
-Ability,7,Name,The Will of Doom
-Ability,7,Points,20
-Ability,7,Specialization,0x872D90F5DCE513C0
-Ability,7,Slot,6
+[The Will of Doom]   //Invulnerability Below 50%
+Ability,6,Name,The Will of Doom
+Ability,6,Points,20
+Ability,6,Page,2
+Ability,6,Slot,6
+Ability,6,YHPLT,50
+Ability,6,Specialization,0x872D90F5DCE513C0
+
+//Doom Blast   //Spirit Regen Below 20%
+Ability,7,Name,Doom Blast
+Ability,7,Points,0
 Ability,7,Page,2
-Ability,7,YHPLT,50
-Ability,7,Cooldown,20
+Ability,7,Slot,1
+Ability,7,YSPLT,20
+Ability,7,MaxRange,500
 
-[Declaration of War]
-Ability,8,Name,Declaration of War
-Ability,8,Slot,2
+[Ingenious Defense]   //CC-Immunity
+Ability,8,Name,Ingenious Defense
+Ability,8,Points,1
 Ability,8,Page,2
-Ability,8,Points,20
+Ability,8,Slot,3
+Ability,8,MiniBoss
+Ability,8,Boss
 
-//[Doom's Day]
-//Ability,9,Name,Doom's Day
-//Ability,9,Slot,5
-//Ability,9,Page,2
-//Ability,9,Boss
-//Ability,9,Hold,17000
-//Ability,9,MaxRange,600
-//Ability,9,MouseTarget
+[Eldritch Reckoning]   //Vulnerability
+Ability,9,Name,Eldritch Reckoning
+Ability,9,Points,3
+Ability,9,Page,1
+Ability,9,Slot,7
+Ability,9,Cooldown,8
+Ability,9,MaxRange,625
 
-[Eldritch Reckoning]
-Ability,10,Name,Eldritch Reckoning
-Ability,10,Slot,7
+[Unthinkable]   //Dot
+Ability,10,Name,Unthinkable
+Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Cooldown,8
-Ability,10,Points,3
-Ability,10,MaxRange,625
+Ability,10,Slot,6
+Ability,10,MaxRange,675
+Ability,10,Cooldown,5
 
-[Latverian Air Defense]
-Ability,11,Name,Latverian Air Defense
+[Declaration of War]   //Summons
+Ability,11,Name,Declaration of War
 Ability,11,Slot,2
-Ability,11,Page,1
+Ability,11,Page,2
 Ability,11,Points,20
-Ability,11,MaxRange,625
-Ability,11,MouseTarget
 
-[Latverian Blockade]
+[Latverian Blockade]   //Summons
 Ability,12,Name,Latverian Blockade
-Ability,12,Slot,3
-Ability,12,Page,1
 Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,3
 
-[Lord of Latveria]
+[Lord of Latveria]   //Sig+Summons
 Ability,13,Name,Lord of Latveria
-Ability,13,Slot,4
-Ability,13,Page,1
-Ability,13,Boss
 Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,4
+Ability,13,Boss
 
-[Worthless Cretin]
-Ability,14,Name,Worthless Cretin
-Ability,14,Slot,5
-Ability,14,Page,1
-Ability,14,MouseTarget
+[Latverian Air Defense]   //CD Spender
+Ability,14,Name,Latverian Air Defense
 Ability,14,Points,20
-Ability,14,MaxRange,750
+Ability,14,Page,1
+Ability,14,Slot,2
+Ability,14,MaxRange,625
+Ability,14,MouseTarget
 
-[Unthinkable]
-Ability,15,Name,Unthinkable
-Ability,15,Slot,6
-Ability,15,Page,1
+[Worthless Cretin]   //CD Spender
+Ability,15,Name,Worthless Cretin
 Ability,15,Points,20
-Ability,15,MaxRange,675
-Ability,15,Cooldown,5
+Ability,15,Page,1
+Ability,15,Slot,5
+Ability,15,MouseTarget
+Ability,15,MaxRange,750
 
-[Conjured Barrage]
-Ability,16,Name,Conjured Barrage
-Ability,16,Slot,1
-Ability,16,Page,1
-Ability,16,Points,20
-Ability,16,MaxRange,550
-Ability,16,Hold,1000,AsPrimary
+[Doom's Day]   //Ult
+Ability,16,Name,Doom's Day
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,5
+Ability,16,Boss
+Ability,16,Hold,17000,ShiftClick
+Ability,16,MaxRange,600
+Ability,16,MouseTarget
 
-[Doom Blast]
-Ability,17,Name,doom blast
-Ability,17,Points,0
+[Conjured Barrage]   //Spender
+Ability,17,Name,Conjured Barrage
 Ability,17,Page,2
 Ability,17,Slot,1
-Ability,17,MaxRange,500
+Ability,17,Points,20
+Ability,17,MaxRange,550
 Ability,17,Hold,1000,AsPrimary
 
-[Declaration of War]
-Ability,18,Name,Declaration of War
-Ability,18,Slot,2
-Ability,18,Page,2
-Ability,18,Points,20
-Ability,18,Movement
-Ability,18,Cooldown,2
+[Doom Blast]   //Basic
+Ability,18,Name,doom blast
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,500
+Ability,18,Hold,1000,AsPrimary
 
-[Impending Doom]
-Ability,19,Name,Impending Doom
-Ability,19,Points,0
-Ability,19,Slot,8
-Ability,19,Page,1
+[Declaration of War]   //Summons Active Pre-Fight
+Ability,19,Name,Declaration of War
+Ability,19,Page,2
+Ability,19,Slot,2
+Ability,19,Points,20
 Ability,19,Movement
+Ability,19,Cooldown,3
+
+[Latverian Blockade]   //Summons Active Pre-Fight
+Ability,20,Name,Latverian Blockade
+Ability,20,Points,20
+Ability,20,Page,1
+Ability,20,Slot,3
+Ability,20,Movement
+Ability,20,Cooldown,3
+
+[Impending Doom]   //Movement
+Ability,21,Name,Impending Doom
+Ability,21,Points,0
+Ability,21,Slot,8
+Ability,21,Page,1
+Ability,21,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/18269/]
+[Build: http://marvelheroes.info/build/25648/]
