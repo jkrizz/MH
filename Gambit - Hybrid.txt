@@ -18,10 +18,10 @@ Ability,3,Points,1
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,5,Name,Ziggurat of Kargul
 Ability,5,Points,0
 Ability,5,Page,2
@@ -30,7 +30,7 @@ Ability,5,Cooldown,3
 Ability,5,YHPGT,40
 Ability,5,MinRange,200
 
-[Good Times Roll]
+[Good Times Roll]   //Gap-Close
 Ability,6,Name,Good Times Roll
 Ability,6,Points,0
 Ability,6,Page,1
@@ -39,7 +39,7 @@ Ability,6,Cooldown,3
 Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
-[Cheat Death]
+[Cheat Death]   //CC-Immunity
 Ability,7,Name,Cheat Death
 Ability,7,Points,2
 Ability,7,Page,2
@@ -47,7 +47,7 @@ Ability,7,Slot,2
 Ability,7,MiniBoss
 Ability,7,Boss
 
-[Bo Strike]
+[Bo Strike]   //Spirit Regen Below 20%
 Ability,8,Name,Bo Strike
 Ability,8,Points,0
 Ability,8,Page,1
@@ -55,65 +55,65 @@ Ability,8,Slot,1
 Ability,8,YSPLT,20
 Ability,8,MaxRange,125
 
-[Street Sweep]
-Ability,9,Name,Street Sweep
+[Ragin' Cajun]   //Buff
+Ability,9,Name,Ragin' Cajun
 Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,2
-Ability,9,Cooldown,6
-Ability,9,MaxRange,500
+Ability,9,Page,2
+Ability,9,Slot,3
+Ability,9,MiniBoss
+Ability,9,Boss
 
-[Ragin' Cajun]
-Ability,10,Name,Ragin' Cajun
+[Street Sweep]   //Vulnerability+Dot
+Ability,10,Name,Street Sweep
 Ability,10,Points,20
-Ability,10,Page,2
-Ability,10,Slot,3
-Ability,10,MiniBoss
-Ability,10,Boss
+Ability,10,Page,1
+Ability,10,Slot,2
+Ability,10,Cooldown,6
+Ability,10,MaxRange,500
 
-[Cherie]
-Ability,11,Name,Cherie
-Ability,11,Points,0
+[Bo Vault]   //Weaken
+Ability,11,Name,Bo Vault
+Ability,11,Points,1
 Ability,11,Page,1
-Ability,11,Slot,7
-Ability,11,Boss
-Ability,11,MaxRange,375
+Ability,11,Slot,5
+Ability,11,Mousetarget
+Ability,11,MaxRange,500
+Ability,11,Cooldown,6
 
-[52 Pickup]
-Ability,12,Name,52 Pickup
+[House of Cards]   //Dot
+Ability,12,Name,House of Cards
 Ability,12,Points,20
-Ability,12,Slot,4
-Ability,12,Page,2
-Ability,12,Boss
-Ability,12,Miniboss
-Ability,12,Hold,4000
-Ability,12,Mousetarget
-Ability,12,MaxRange,625
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,MaxRange,500
 
-[House of Cards]
-Ability,13,Name,House of Cards
-Ability,13,Points,20
+[Cherie]   //Ult
+Ability,13,Name,Cherie
+Ability,13,Points,0
 Ability,13,Page,1
-Ability,13,Slot,3
-Ability,13,MaxRange,500
+Ability,13,Slot,7
+Ability,13,Boss
+Ability,13,MaxRange,375
 
-[Grand Slam]
-Ability,14,Name,Grand Slam
+[52 Pickup]   //Sig+Buffs
+Ability,14,Name,52 Pickup
 Ability,14,Points,20
-Ability,14,Page,1
 Ability,14,Slot,4
-Ability,14,MaxRange,125
+Ability,14,Page,2
+Ability,14,Boss
+Ability,14,Miniboss
+Ability,14,Hold,4000,ShiftClick
+Ability,14,Mousetarget
+Ability,14,MaxRange,625
 
-[Bo Vault]
-Ability,15,Name,Bo Vault
-Ability,15,Points,1
+[Grand Slam]   //CD Spender
+Ability,15,Name,Grand Slam
+Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,5
-Ability,15,Mousetarget
-Ability,15,MaxRange,500
-Ability,15,Cooldown,6
+Ability,15,Slot,4
+Ability,15,MaxRange,125
 
-[Royal Flush]
+[Royal Flush]   //Early-Game Spender
 Ability,16,Name,Royal Flush
 Ability,16,Points,0
 Ability,16,Page,1
@@ -121,7 +121,7 @@ Ability,16,Slot,6
 Ability,16,MaxRange,350
 Ability,16,MaxLevel,4
 
-[Bo Beatdown]
+[Bo Beatdown]   //Late-Game Spender
 Ability,17,Name,Bo Beatdown
 Ability,17,Points,20
 Ability,17,Page,2
@@ -130,14 +130,14 @@ Ability,17,Mousetarget
 Ability,17,Hold,500,AsPrimary
 Ability,17,MaxRange,125
 
-[Bo Strike]
+[Bo Strike]   //Basic
 Ability,18,Name,Bo Strike
 Ability,18,Points,0
 Ability,18,Page,1
 Ability,18,Slot,1
 Ability,18,MaxRange,125
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,19,Name,Ziggurat of Kargul
 Ability,19,Points,0
 Ability,19,Page,2
@@ -145,7 +145,7 @@ Ability,19,Slot,8
 Ability,19,Movement
 Ability,19,YHPGT,40
 
-[Good Times Roll]
+[Good Times Roll]   //Movement
 Ability,20,Name,Good Times Roll
 Ability,20,Points,0
 Ability,20,Page,1
