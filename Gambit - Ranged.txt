@@ -18,10 +18,10 @@ Ability,3,Points,1
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-//[Ziggurat]
+//[Ziggurat]   //Gap-Close
 //Ability,5,Name,Ziggurat of Kargul
 //Ability,5,Points,0
 //Ability,5,Page,2
@@ -32,7 +32,7 @@ Ability,4,TeamUp
 //Ability,5,Cooldown,3
 //Ability,5,Boss
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,6,Name,Ziggurat of Kargul
 Ability,6,Points,0
 Ability,6,Page,2
@@ -41,7 +41,7 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YHPGT,10
 
-//[Good Times Roll]
+//[Good Times Roll]   //Gap-Close
 //Ability,7,Name,Good Times Roll
 //Ability,7,Points,0
 //Ability,7,Page,1
@@ -52,7 +52,7 @@ Ability,6,YHPGT,10
 //Ability,7,Cooldown,3
 //Ability,7,Boss
 
-[Good Times Roll]
+[Good Times Roll]   //Gap-Close
 Ability,8,Name,Good Times Roll
 Ability,8,Points,0
 Ability,8,Page,1
@@ -61,7 +61,7 @@ Ability,8,MinRange,600
 Ability,8,Cooldown,3
 Ability,8,YSPGT,10
 
-[Cheat Death]
+[Cheat Death]   //CC-Immunity
 Ability,9,Name,Cheat Death
 Ability,9,Points,2
 Ability,9,Page,2
@@ -77,23 +77,23 @@ Ability,10,Slot,1
 Ability,10,YSPLT,20
 Ability,10,MaxRange,125
 
-[Street Sweep]
-Ability,11,Name,Street Sweep
+[Ragin' Cajun]   //Buff
+Ability,11,Name,Ragin' Cajun
 Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,2
-Ability,11,Cooldown,6
-Ability,11,MaxRange,500
+Ability,11,Slot,3
+Ability,11,MiniBoss
+Ability,11,Boss
 
-[Ragin' Cajun]
-Ability,12,Name,Ragin' Cajun
+[Street Sweep]   //Vulnerability+Dot
+Ability,12,Name,Street Sweep
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,3
-Ability,12,MiniBoss
-Ability,12,Boss
+Ability,12,Slot,2
+Ability,12,Cooldown,6
+Ability,12,MaxRange,500
 
-[Royal Flush]
+[Royal Flush]   //Buff
 Ability,13,Name,Royal Flush
 Ability,13,Points,20
 Ability,13,Page,1
@@ -101,69 +101,77 @@ Ability,13,Slot,6
 Ability,13,MaxRange,350
 Ability,13,PanelBuff,MarvelUIIcons.Power_Gambit_RoyalFlush,False
 
-[Cherie]
-Ability,14,Name,Cherie
-Ability,14,Points,0
+[House of Cards]   //Dot
+Ability,14,Name,House of Cards
+Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,7
-Ability,14,Boss
-Ability,14,MaxRange,375
+Ability,14,Slot,4
+Ability,14,MaxRange,500
 
-[52 Pickup]
-Ability,15,Name,52 Pickup
-Ability,15,Points,20
-Ability,15,Slot,4
-Ability,15,Page,2
+[Cherie]   //Ult
+Ability,15,Name,Cherie
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,7
 Ability,15,Boss
-Ability,15,Miniboss
-Ability,15,Hold,4000
-Ability,15,Mousetarget
-Ability,15,MaxRange,625
+Ability,15,MaxRange,375
 
-[House of Cards]
-Ability,16,Name,House of Cards
+[52 Pickup]   //Sig+Buffs
+Ability,16,Name,52 Pickup
 Ability,16,Points,20
-Ability,16,Page,1
 Ability,16,Slot,4
-Ability,16,MaxRange,500
+Ability,16,Page,2
+Ability,16,Boss
+Ability,16,Miniboss
+Ability,16,Hold,4000
+Ability,16,Mousetarget
+Ability,16,MaxRange,625
 
-[Ace of Spades]
+[Ace of Spades]   //CD Spender
 Ability,17,Name,Ace of Spades
 Ability,17,Points,20
 Ability,17,Page,1
 Ability,17,Slot,5
 Ability,17,MaxRange,650
 
-[Dead Man's Hand]
-Ability,18,Name,Dead Man's Hand
-Ability,18,Points,20
-Ability,18,Page,2
-Ability,18,Slot,3
-Ability,18,Mousetarget
-Ability,18,Hold,500,AsPrimary
-Ability,18,MaxRange,650
+[Royal Flush]   //Early-Game Spender 
+Ability,18,Name,Royal Flush 
+Ability,18,Points,20 
+Ability,18,Page,1 
+Ability,18,Slot,6 
+Ability,18,MaxRange,350 
+Ability,18,MaxLevel,10
 
-[Bo Strike]
-Ability,19,Name,Bo Strike
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,MaxRange,125
+[Dead Man's Hand]   //Late-Game Spender
+Ability,19,Name,Dead Man's Hand
+Ability,19,Points,20
+Ability,19,Page,2
+Ability,19,Slot,3
+Ability,19,Mousetarget
+Ability,19,Hold,500,AsPrimary
+Ability,19,MaxRange,650
 
-[Ziggurat]
-Ability,20,Name,Ziggurat of Kargul
+[Bo Strike]   //Basic
+Ability,20,Name,Bo Strike
 Ability,20,Points,0
-Ability,20,Page,2
-Ability,20,Slot,8
-Ability,20,Movement
-Ability,20,YHPGT,40
+Ability,20,Page,1
+Ability,20,Slot,1
+Ability,20,MaxRange,125
 
-[Good Times Roll]
-Ability,21,Name,Good Times Roll
+[Ziggurat]   //Movement
+Ability,21,Name,Ziggurat of Kargul
 Ability,21,Points,0
-Ability,21,Page,1
+Ability,21,Page,2
 Ability,21,Slot,8
 Ability,21,Movement
+Ability,21,YHPGT,40
+
+[Good Times Roll]   //Movement
+Ability,22,Name,Good Times Roll
+Ability,22,Points,0
+Ability,22,Page,1
+Ability,22,Slot,8
+Ability,22,Movement
 
 END
 
