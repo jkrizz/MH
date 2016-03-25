@@ -51,7 +51,7 @@ Ability,6,MiniBoss
 Ability,6,Boss
 Ability,6,SECLT,25
 
-//Doom Blast   //Spirit Regen Below 20% 
+[Doom Blast]   //Spirit Regen Below 20% 
 Ability,7,Name,Doom Blast 
 Ability,7,Points,0 
 Ability,7,Page,1
