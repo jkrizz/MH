@@ -73,7 +73,7 @@ Ability,10,MaxRange,500
 
 [Bo Vault]   //Weaken
 Ability,11,Name,Bo Vault
-Ability,11,Points,1
+Ability,11,Points,13
 Ability,11,Page,1
 Ability,11,Slot,5
 Ability,11,Mousetarget
