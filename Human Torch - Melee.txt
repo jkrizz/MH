@@ -18,10 +18,10 @@ Ability,3,Points,20
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,5,Name,Ziggurat of Kargul
 Ability,5,Points,0
 Ability,5,Page,2
@@ -30,7 +30,7 @@ Ability,5,Cooldown,3
 Ability,5,YHPGT,40
 Ability,5,MinRange,200
 
-[Blazing Charge]
+[Blazing Charge]   //Gap-Close
 Ability,6,Name,Blazing Charge
 Ability,6,Points,0
 Ability,6,Page,1
@@ -39,23 +39,25 @@ Ability,6,Cooldown,3
 Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
-[Searing Arcfire]
+[Searing Arcfire]   //Spirit Regen Below 20%
 Ability,7,Name,Searing Arcfire
 Ability,7,Points,0
 Ability,7,Page,1
 Ability,7,Slot,1
 Ability,7,YSPLT,20
-Ability,7,MaxRange,325
+Ability,7,MaxRange,375
 Ability,7,Hold,500
 Ability,7,MouseTarget
 
-[Cleansing Fire]
+[Cleansing Fire]   //CC-Immunity
 Ability,8,Name,Cleansing Fire
 Ability,8,Points,1
 Ability,8,Page,2
 Ability,8,Slot,3
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Scorching Pyre]
+[Scorching Pyre]   //Vulnerability+Dot
 Ability,9,Name,Scorching Pyre
 Ability,9,Points,20
 Ability,9,Page,1
@@ -63,7 +65,7 @@ Ability,9,Slot,3
 Ability,9,Cooldown,6
 Ability,9,MaxRange,425
 
-[Scorching Wall]
+[Scorching Wall]   //Weaken+Dot
 Ability,10,Name,Scorching Wall
 Ability,10,Points,20
 Ability,10,Page,1
@@ -71,7 +73,7 @@ Ability,10,Slot,6
 Ability,10,Cooldown,6
 Ability,10,MaxRange,425
 
-[Flame On]
+[Flame On]   //Sig+Dot+Buffs
 Ability,11,Name,Flame On
 Ability,11,Points,20
 Ability,11,Page,1
@@ -80,7 +82,7 @@ Ability,11,MiniBoss
 Ability,11,Boss
 Ability,11,MaxRange,425
 
-[Going Supernova]
+[Going Supernova]   //Ult+Dot
 Ability,12,Name,Going Supernova
 Ability,12,Points,0
 Ability,12,Page,2
@@ -88,7 +90,7 @@ Ability,12,Slot,2
 Ability,12,Boss
 Ability,12,MaxRange,600
 
-[Scattering Blaze]
+[Scattering Blaze]   //Dot
 Ability,13,Name,Scattering Blaze
 Ability,13,Points,20
 Ability,13,Page,1
@@ -96,14 +98,14 @@ Ability,13,Slot,2
 Ability,13,Cooldown,6
 Ability,13,MaxRange,625
 
-[Fiery Uppercut]
+[Fiery Uppercut]   //Spender
 Ability,14,Name,Fiery Uppercut
 Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,5
 Ability,14,MaxRange,125
 
-[Searing Arcfire]
+[Searing Arcfire]   //Basic
 Ability,15,Name,Searing Arcfire
 Ability,15,Points,0
 Ability,15,Page,1
@@ -112,14 +114,14 @@ Ability,15,Hold,500,AsPrimary
 Ability,15,MaxRange,325
 Ability,15,MouseTarget
 
-[Fiery Rejuvenation]
+[Fiery Rejuvenation]   //HP+Spirit Regen Post Combat
 Ability,16,Name,Fiery Rejuvenation
 Ability,16,Points,1
 Ability,16,Page,2
 Ability,16,Slot,7
 Ability,16,Movement
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,17,Name,Ziggurat of Kargul
 Ability,17,Points,0
 Ability,17,Page,2
@@ -127,7 +129,7 @@ Ability,17,Slot,8
 Ability,17,Movement
 Ability,17,YHPGT,10
 
-[Blazing Charge]
+[Blazing Charge]   //Movement
 Ability,18,Name,Blazing Charge
 Ability,18,Points,0
 Ability,18,Page,1
