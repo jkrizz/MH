@@ -55,7 +55,7 @@ Ability,6,Slot,1
 Ability,6,MaxRange,650
 Ability,6,YSPLT,20
 
-[Protect the Innocent]
+[Protect the Innocent]   //CC-Immunity
 Ability,7,Name,Protect the Innocent
 Ability,7,Points,20
 Ability,7,Page,2
