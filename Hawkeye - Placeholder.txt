@@ -120,28 +120,28 @@ Ability,15,Slot,5
 Ability,15,YHPLT,75
 //Ability,15,MaxRange,
 
-[Flash Bomb]   //CC-Immunity+Stealth+Buff
-Ability,16,Name,Flash Bomb
-Ability,16,Points,1
-Ability,16,Page,1
-Ability,16,Slot,2
-Ability,16,MiniBoss
-Ability,16,Boss
-//Ability,16,MaxRange,
-
 [Acrobatic Roll]   //Buffs
-Ability,17,Name,Acrobatic Roll
-Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,8
-//Ability,17,PanelBuff,,False
+Ability,16,Name,Acrobatic Roll
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,8
+//Ability,16,PanelBuff,,False
 
 [Shrieking Arrow]   //Taunt
-Ability,18,Name,Shrieking Arrow
-Ability,18,Points,20
-Ability,18,Page,2
-Ability,18,Slot,6
-Ability,18,Cooldown,4
+Ability,17,Name,Shrieking Arrow
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,6
+Ability,17,Cooldown,4
+//Ability,17,MaxRange,
+
+[Flash Bomb]   //CC-Immunity+Stealth+Buff
+Ability,18,Name,Flash Bomb
+Ability,18,Points,1
+Ability,18,Page,1
+Ability,18,Slot,2
+Ability,18,MiniBoss
+Ability,18,Boss
 //Ability,18,MaxRange,
 
 [StarkTech Claymore Turret]   //Sig
