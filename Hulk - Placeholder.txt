@@ -148,6 +148,8 @@ Ability,18,Slot,8
 Ability,18,YHPGT,40
 Ability,18,Movement
 
+//CHECK THESE MOVEMENT ABILITIES
+
 [Demolishing Charge]   //Early-Game Movement
 Ability,19,Name,Demolishing Charge
 Ability,19,Points,0
