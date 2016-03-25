@@ -1,0 +1,242 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+//I highly recommend (at least with this ability file) only playing Hawkeye in a combat only gamestep.  That is to say that I don't recommend having him level automatically through terminals, but through manual movement and only activating the gamestep for combat.  All of Hawkeye's abilites (again, in this ability file) have LOS issues with all the terrain in the game and he was easily the slowest to level in terminals.  Midtown leveling on Monday's may be fine, but he's just too squishy and combined with the LOS issues is the only character I've run into so far that I don't recommend afk botting.
+
+hero,Hawkeye
+
+//PASSIVES
+
+[World's Greatest Archer]
+Ability,1,Name,World's Greatest Archer
+Ability,1,Points,20
+Ability,1,Page,2
+Ability,1,Slot,2
+Ability,1,Toggle
+Abiilty,1,Cooldown,60
+
+[Combat Training]
+Ability,2,Name,Combat Training
+Ability,2,Points,20
+
+//PRIORITY POINTS
+
+[Explosive Arrow]
+Ability,3,Name,Explosive Arrow
+Ability,3,Points,1
+
+[Three Arrow Burst]
+Ability,4,Name,Three Arrow Burst
+Ability,4,Points,20
+
+[Electric Arrow]
+Ability,5,Name,Electric Arrow
+Ability,5,Points,1
+
+[Nerve Gas Arrow]
+Ability,6,Name,Nerve Gas Arrow
+Ability,6,Points,20
+
+//ROTATION
+
+[TeamUp]  //TeamUp
+Ability,7,TeamUp
+
+//[Ziggurat]   //Gap-Close
+//Ability,8,Name,Ziggurat of Kargul
+//Ability,8,Points,0
+//Ability,8,Page,2
+//Ability,8,Slot,8
+//Ability,8,MaxRange,200
+//Ability,8,AimAt,45,400
+//Ability,8,YHPGT,10
+//Ability,8,Cooldown,3
+//Ability,8,Boss
+
+[Ziggurat]   //Gap-Close
+Ability,9,Name,Ziggurat of Kargul
+Ability,9,Points,0
+Ability,9,Page,2
+Ability,9,Slot,8
+Ability,9,MinRange,600
+Ability,9,Cooldown,3
+Ability,9,YHPGT,10
+
+//[Acrobatic Roll]   //Early-Game Gap-Close
+//Ability,10,Name,Acrobatic Roll
+//Ability,10,Points,0
+//Ability,10,Page,1
+//Ability,10,Slot,8
+//Ability,10,MaxRange,200
+//Ability,10,AimAt,45,400
+//Ability,10,YSPGT,10
+//Ability,10,Cooldown,3
+//Ability,10,Boss
+//Ability,10,MaxLevel,28
+
+[Acrobatic Roll]   //Early-Game Gap-Close
+Ability,11,Name,Acrobatic Roll
+Ability,11,Points,0
+Ability,11,Page,1
+Ability,11,Slot,8
+Ability,11,MinRange,600
+Ability,11,Cooldown,3
+Ability,11,YSPGT,10
+Ability,11,MaxLevel,28
+
+//[Ronin Lunge]   //Late-Game Gap-Close
+//Ability,12,Name,Ronin Lunge
+//Ability,12,Points,1
+//Ability,12,Page,2
+//Ability,12,Slot,7
+//Ability,12,MaxRange,200
+//Ability,12,AimAt,45,400
+//Ability,12,YSPGT,10
+//Ability,12,Cooldown,3
+//Ability,12,Boss
+
+[Ronin Lunge]   //Late-Game Gap Close
+Ability,13,Name,Ronin Lunge
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,7
+Ability,13,MinRange,600
+Ability,13,Cooldown,3
+Ability,13,YSPGT,10
+
+[Serrated Arrow]   //Spirit Regen Below 20%
+Ability,14,Name,Serrated Arrow
+Ability,14,Points,0
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,YSPLT,20
+//Ability,14,MaxRange,
+
+[StarkTech Medical Arrow]   //HP Regen Below 75%
+Ability,15,Name,StarkTech Medical Arrow
+Ability,15,Points,1
+Ability,15,Page,2
+Ability,15,Slot,5
+//Ability,15,TargetSelf   //?
+Ability,15,YHPLT,75
+//Ability,15,MaxRange,
+
+[Flash Bomb]   //CC-Immunity+Stealth+Buff
+Ability,16,Name,Flash Bomb
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,2
+Ability,16,MiniBoss
+Ability,16,Boss
+//Ability,16,MaxRange,
+
+[Acrobatic Roll]   //Buffs
+Ability,17,Name,Acrobatic Roll
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,8
+//Ability,17,PanelBuff,,False
+
+[Shrieking Arrow]   //Taunt
+Ability,18,Name,Shrieking Arrow
+Ability,18,Points,20
+Ability,18,Page,2
+Ability,18,Slot,6
+Ability,18,Cooldown,4
+//Ability,18,MaxRange,
+
+[StarkTech Claymore Turret]   //Sig
+Ability,19,Name,StarkTech Claymore Turret
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,3
+Ability,19,MiniBoss
+Ability,19,Boss
+//Ability,19,MaxRange,
+
+[Freeze Arrow]   //Stun
+Ability,20,Name,Freeze Arrow
+Ability,20,Points,3
+Ability,20,Page,2
+Ability,20,Slot,4
+Ability,20,Cooldown,6
+Ability,20,MiniBoss
+Ability,20,Boss
+//Ability,20,MaxRange,
+
+[Speed Loader Volley]   //CD Spender
+Ability,21,Name,Speed Loader Volley
+Ability,21,Points,20
+Ability,21,Page,1
+Ability,21,Slot,4
+//Ability,21,MaxRange,
+
+[Rocket Arrow]   //Early-Game Charged+Spender
+Ability,22,Name,Rocket Arrow
+Ability,22,Points,14
+Ability,22,Page,1
+Ability,22,Slot,5
+Ability,22,MouseTarget
+//Ability,22,MaxRange,
+Ability,22,MaxLevel,8
+
+[Avenging Arrow]   //Ult
+Ability,23,Name,Avenging Arrow
+Ability,23,Points,0
+Ability,23,Page,2
+Ability,23,Slot,3
+Ability,23,Boss
+//Ability,23,MaxRange,
+
+[Wave of Arrows]   //AOE Spender
+Ability,24,Name,Wave of Arrows
+Ability,24,Points,20
+Ability,24,Page,1
+Ability,24,Slot,7
+//Ability,24,MaxRange,
+Ability,24,AOE
+Ability,24,AOETYPE,Target
+//Ability,24,AOERANGE,
+Ability,24,AOECOUNT,2
+
+[Three Arrow Burst]   //Spender
+Ability,25,Name,Three Arrow Burst
+Ability,25,Points,20
+Ability,25,Page,1
+Ability,25,Slot,6
+Ability,25,Hold,1000,AsPrimary
+//Ability,25,MaxRange,
+
+[Serrated Arrow]   //Basic
+Ability,26,Name,Serrated Arrow
+Ability,26,Points,0
+Ability,26,Page,1
+Ability,26,Slot,1
+//Ability,26,MaxRange,
+
+[Ziggurat]   //Movement
+Ability,27,Name,Ziggurat of Kargul
+Ability,27,Points,0
+Ability,27,Page,2
+Ability,27,Slot,8
+Ability,27,Movement
+Ability,27,YHPGT,40
+
+[Acrobatic Roll]   //Early-Game Movement
+Ability,28,Name,Acrobatic Roll
+Ability,28,Points,0
+Ability,28,Page,1
+Ability,28,Slot,8
+Ability,28,Movement
+Ability,28,MaxLevel,28
+
+[Ronin Lunge]   //Late-Game Movement
+Ability,29,Name,Ronin Lunge
+Ability,29,Points,1
+Ability,29,Page,2
+Ability,29,Slot,7
+Ability,29,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/13912/]
+[Points Removed from Rocket Arrow Late-Game, Points Added to Speed Loader Volley, Shrieking Arrow, Freeze Arrow
