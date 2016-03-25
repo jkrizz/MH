@@ -55,20 +55,12 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YSPGT,10
 
-[Invisibility]   //Resets Resonating Wave CD+Spirit/HP Regen+Stealth+CC-Immunity
-Ability,7,Name,Invisibility
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,7
-Ability,7,CooldownCheck,2,True
-Ability,7,SECGT,0
-
 [Resonating Wave]   //Weakness+Spirit Regen When Stealthed
 Ability,8,Name,Resonating Wave
 Ability,8,Page,1
 Ability,8,Slot,2
 Ability,8,Points,20
-Ability,8,Buff,marvelconditioneffect_invisiblewoman_stealth,True
+Ability,8,Cooldown,6
 Ability,8,MaxRange,325
 
 [Force Disc]   //Spirit Regen Below 20%
@@ -80,7 +72,7 @@ Ability,9,YSPLT,20
 Ability,9,MaxRange,600
 
 [Shield Dome]   //HP Regen Below 75%
-Ability,10,Shield Dome
+Ability,10,Name,Shield Dome
 Ability,10,Points,1
 Ability,10,Page,2
 Ability,10,Slot,3
@@ -139,8 +131,8 @@ Ability,16,SECEQ,0
 [The Crusher]   //CD Spender
 Ability,17,Name,The Crusher
 Ability,17,Points,1
-Ability,17,Page,3
-Ability,17,Slot,1
+Ability,17,Page,1
+Ability,17,Slot,7
 Ability,17,MaxRange,700
 
 [Force Pillar]   //Vulnerability to Crushing Force
