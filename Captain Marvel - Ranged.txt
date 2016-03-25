@@ -113,7 +113,7 @@ Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,5
 Ability,15,MaxLevel,8
-//Ability,15,MaxRange,
+Ability,15,MaxRange,450
 
 [Photonic Wave]   //Late-Game Photonic Spender
 Ability,16,Name,Photonic Wave
@@ -121,8 +121,8 @@ Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,5
 Ability,16,MinLevel,8
-//Ability,16,MaxRange,
-Ability,16,Cooldown,6
+Ability,16,MaxRange,450
+Ability,16,SECEQ,100
 
 [Radiant Cascade]   //Sig+Buff
 Ability,17,Name,Radiant Cascade
