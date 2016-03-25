@@ -1,7 +1,5 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
-//I highly recommend (at least with this ability file) only playing Hawkeye in a combat only gamestep.  That is to say that I don't recommend having him level automatically through terminals, but through manual movement and only activating the gamestep for combat.  All of Hawkeye's abilites (again, in this ability file) have LOS issues with all the terrain in the game and he was easily the slowest to level in terminals.  Midtown leveling on Monday's may be fine, but he's just too squishy and combined with the LOS issues is the only character I've run into so far that I don't recommend afk botting.
-
 hero,Hawkeye
 
 //PASSIVES
@@ -192,8 +190,8 @@ Ability,24,Page,1
 Ability,24,Slot,7
 Ability,24,AOE
 Ability,24,AOETYPE,Target
-Ability,24,AOERANGE,250
-Ability,24,AOECOUNT,2
+Ability,24,AOERANGE,350
+Ability,24,AOECOUNT,1
 
 [Three Arrow Burst]   //Spender
 Ability,25,Name,Three Arrow Burst
@@ -210,21 +208,21 @@ Ability,26,Page,1
 Ability,26,Slot,1
 Ability,26,MaxRange,700
 
-[Ziggurat]   //Movement
-Ability,27,Name,Ziggurat of Kargul
+[Acrobatic Roll]   //Early-Game Movement
+Ability,27,Name,Acrobatic Roll
 Ability,27,Points,0
-Ability,27,Page,2
+Ability,27,Page,1
 Ability,27,Slot,8
 Ability,27,Movement
-Ability,27,YHPGT,40
+Ability,27,MaxLevel,28
 
-[Acrobatic Roll]   //Early-Game Movement
-Ability,28,Name,Acrobatic Roll
+[Ziggurat]   //Movement
+Ability,28,Name,Ziggurat of Kargul
 Ability,28,Points,0
-Ability,28,Page,1
+Ability,28,Page,2
 Ability,28,Slot,8
 Ability,28,Movement
-Ability,28,MaxLevel,28
+Ability,28,YHPGT,40
 
 [Ronin Lunge]   //Late-Game Movement
 Ability,29,Name,Ronin Lunge
