@@ -93,7 +93,7 @@ Ability,13,Points,20
 Ability,13,Page,2
 Ability,13,Slot,2
 Ability,13,MaxLevel,8
-//Ability,13,MaxRange,
+Ability,13,MaxRange,450
 
 [Photonic Wave]   //Photonic Spender
 Ability,14,Name,Photonic Wave
@@ -101,7 +101,7 @@ Ability,14,Points,20
 Ability,14,Page,2
 Ability,14,Slot,2
 Ability,14,Cooldown,6
-//Ability,14,MaxRange,
+Ability,14,MaxRange,450
 
 [Infused Uppercut]   //Late-Game Photonic Spender
 Ability,15,Name,Infused Uppercut
