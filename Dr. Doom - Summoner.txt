@@ -45,7 +45,7 @@ Ability,6,Slot,6
 Ability,6,YHPLT,50
 Ability,6,Specialization,0x872D90F5DCE513C0
 
-//Doom Blast   //Spirit Regen Below 20%
+[Doom Blast]   //Spirit Regen Below 20%
 Ability,7,Name,Doom Blast
 Ability,7,Points,0
 Ability,7,Page,1
