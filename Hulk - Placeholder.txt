@@ -1,0 +1,168 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Hulk
+
+//PASSIVES
+
+[Unbridled Rampage]
+Ability,1,name,Unbridled Rampage
+Ability,1,points,20
+
+[Hulk Tough!]
+Ability,2,Name,Hulk Tough!
+Ability,2,Points,20
+
+//ROTATION
+
+[TeamUp]   //TeamUp
+Ability,3,Teamup
+
+[Ziggurat]   //Gap-Close
+Ability,4,Name,Ziggurat of Kargul
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,YHPGT,40
+Ability,4,MinRange,200
+
+[Demolishing Charge]   //Early-Game Gap-Close
+Ability,5,Name,Demolishing Charge
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,8
+Ability,5,Cooldown,3
+Ability,5,MinRange,200
+Ability,5,YSPGT,20
+Ability,5,MaxLevel,10
+
+[Hulk Fast!]   //Late-Game Gap-Close
+Ability,6,Name,Hulk Fast!
+Ability,6,Points,1
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,Cooldown,3
+Ability,6,MinRange,200
+Ability,6,YSPGT,20
+
+[Deafening Roar]   //Anger Regen Below 100%
+Ability,7,Name,Deafening Roar
+Ability,7,Points,1
+Ability,7,Page,2
+Ability,7,Slot,2
+Ability,7,Maxrange,375
+Ability,7,YSPLT,100
+
+[Avalanche Leap]   //Vulnerability
+Ability,8,Name,Avalanche Leap
+Ability,8,Points,7
+Ability,8,Page,1
+Ability,8,Slot,6
+Ability,8,Cooldown,6
+Ability,8,MouseTarget
+Ability,8,MaxRange,1000
+
+[Knuckledusters]   //Buff
+Ability,9,Name,Knuckledusters
+Ability,9,Points,20
+Ability,9,Page,1
+Ability,9,Slot,3
+Ability,9,MiniBoss
+Ability,9,Boss
+Ability,9,Buff,marvelconditioneffect_hulk_carfists,False
+
+[Worldbreaker]   //Ult
+Ability,10,Name,Worldbreaker
+Ability,10,Points,0
+Ability,10,Page,3
+Ability,10,Slot,3
+Ability,10,Boss
+Ability,10,MaxRange,750
+
+[Cratering Stomp]   //Weaken+Buff
+Ability,11,Name,Cratering Stomp
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,MaxRange,375
+Ability,11,YSPGT,99
+Ability,11,Cooldown,6
+Ability,11,PanelBuff,MarvelUIIcons.Power_Hulk_DeathFromAbove,False   //WHAT IS THIS
+
+[Vicious Headbutt]   //Dot
+Ability,12,Name,Vicious Headbutt
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,2
+Ability,12,YSPGT,99
+Ability,12,Cooldown,6
+Ability,12,MaxRange,100
+
+[Thunderous Handclap]   //Sig
+Ability,13,Name,Thunderous Handclap
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,4
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,MaxRange,425
+
+[Meteor Strike]   //Stun+CD Refresher
+Ability,14,Name,Meteor Strike
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,7
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,MaxRange,275
+
+[Brutal Swing]   //Anger Regen Below 100%
+Ability,15,Name,Brutal Swing
+Ability,15,Points,0
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,MaxRange,125
+Ability,15,YSPLT,100
+
+[Tremor Fist]  //Early-Game "Spender"
+Ability,16,Name,Tremor Fist
+Ability,16,Points,20
+Ability,16,Slot,3
+Ability,16,Page,2
+//Ability,16,MaxRange,
+Ability,16,MaxLevel,4
+
+[Gamma Strike]   //"Spender"
+Ability,17,Name,Gamma Strike
+Ability,17,Points,20
+Ability,17,Slot,3
+Ability,17,Page,2
+Ability,17,MaxRange,125
+Ability,17,MinLevel,4
+
+[Ziggurat]   //Movement
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,YHPGT,40
+Ability,18,Movement
+
+[Demolishing Charge]   //Early-Game Movement
+Ability,19,Name,Demolishing Charge
+Ability,19,Points,0
+Ability,19,Page,1
+Ability,19,Slot,8
+Ability,19,Movement
+Ability,19,MaxLevel,10
+
+[Hulk Fast!]   //Late-Game Movement
+Ability,20,Name,Hulk Fast!
+Ability,20,Points,1
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
+
+END
+
+[Build: http://marvelheroes.info/build/28538/]
