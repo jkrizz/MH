@@ -109,23 +109,22 @@ Ability,14,Points,0
 Ability,14,Page,1
 Ability,14,Slot,1
 Ability,14,YSPLT,20
-//Ability,14,MaxRange,
+Ability,14,MaxRange,700
 
 [StarkTech Medical Arrow]   //HP Regen Below 75%
 Ability,15,Name,StarkTech Medical Arrow
 Ability,15,Points,1
 Ability,15,Page,2
 Ability,15,Slot,5
-//Ability,15,TargetSelf   //?
+Ability,15,TargetSelf
 Ability,15,YHPLT,75
-//Ability,15,MaxRange,
 
 [Acrobatic Roll]   //Buffs
 Ability,16,Name,Acrobatic Roll
 Ability,16,Points,0
 Ability,16,Page,1
 Ability,16,Slot,8
-//Ability,16,PanelBuff,,False
+Ability,16,Buff,marvelconditioneffect_haste,False
 
 [Shrieking Arrow]   //Taunt
 Ability,17,Name,Shrieking Arrow
@@ -133,7 +132,7 @@ Ability,17,Points,20
 Ability,17,Page,2
 Ability,17,Slot,6
 Ability,17,Cooldown,4
-//Ability,17,MaxRange,
+Ability,17,MaxRange,700
 
 [Flash Bomb]   //CC-Immunity+Stealth+Buff
 Ability,18,Name,Flash Bomb
@@ -142,7 +141,6 @@ Ability,18,Page,1
 Ability,18,Slot,2
 Ability,18,MiniBoss
 Ability,18,Boss
-//Ability,18,MaxRange,
 
 [StarkTech Claymore Turret]   //Sig
 Ability,19,Name,StarkTech Claymore Turret
@@ -151,7 +149,7 @@ Ability,19,Page,1
 Ability,19,Slot,3
 Ability,19,MiniBoss
 Ability,19,Boss
-//Ability,19,MaxRange,
+Ability,19,MaxRange,600
 
 [Freeze Arrow]   //Stun
 Ability,20,Name,Freeze Arrow
@@ -161,14 +159,14 @@ Ability,20,Slot,4
 Ability,20,Cooldown,6
 Ability,20,MiniBoss
 Ability,20,Boss
-//Ability,20,MaxRange,
+Ability,20,MaxRange,600
 
 [Speed Loader Volley]   //CD Spender
 Ability,21,Name,Speed Loader Volley
 Ability,21,Points,20
 Ability,21,Page,1
 Ability,21,Slot,4
-//Ability,21,MaxRange,
+Ability,21,MaxRange,700
 
 [Rocket Arrow]   //Early-Game Charged+Spender
 Ability,22,Name,Rocket Arrow
@@ -176,7 +174,7 @@ Ability,22,Points,14
 Ability,22,Page,1
 Ability,22,Slot,5
 Ability,22,MouseTarget
-//Ability,22,MaxRange,
+Ability,22,MaxRange,1000
 Ability,22,MaxLevel,8
 
 [Avenging Arrow]   //Ult
@@ -185,17 +183,16 @@ Ability,23,Points,0
 Ability,23,Page,2
 Ability,23,Slot,3
 Ability,23,Boss
-//Ability,23,MaxRange,
+Ability,23,MaxRange,500
 
 [Wave of Arrows]   //AOE Spender
 Ability,24,Name,Wave of Arrows
 Ability,24,Points,20
 Ability,24,Page,1
 Ability,24,Slot,7
-//Ability,24,MaxRange,
 Ability,24,AOE
 Ability,24,AOETYPE,Target
-//Ability,24,AOERANGE,
+Ability,24,AOERANGE,250
 Ability,24,AOECOUNT,2
 
 [Three Arrow Burst]   //Spender
@@ -204,14 +201,14 @@ Ability,25,Points,20
 Ability,25,Page,1
 Ability,25,Slot,6
 Ability,25,Hold,1000,AsPrimary
-//Ability,25,MaxRange,
+Ability,25,MaxRange,700
 
 [Serrated Arrow]   //Basic
 Ability,26,Name,Serrated Arrow
 Ability,26,Points,0
 Ability,26,Page,1
 Ability,26,Slot,1
-//Ability,26,MaxRange,
+Ability,26,MaxRange,700
 
 [Ziggurat]   //Movement
 Ability,27,Name,Ziggurat of Kargul
