@@ -87,7 +87,6 @@ Ability,11,Slot,5
 Ability,11,MaxRange,375
 Ability,11,YSPGT,99
 Ability,11,Cooldown,6
-Ability,11,PanelBuff,MarvelUIIcons.Power_Hulk_DeathFromAbove,False   //WHAT IS THIS
 
 [Vicious Headbutt]   //Dot
 Ability,12,Name,Vicious Headbutt
@@ -129,7 +128,7 @@ Ability,16,Name,Tremor Fist
 Ability,16,Points,20
 Ability,16,Slot,3
 Ability,16,Page,2
-//Ability,16,MaxRange,
+Ability,16,MaxRange,450
 Ability,16,MaxLevel,4
 
 [Gamma Strike]   //"Spender"
@@ -147,8 +146,6 @@ Ability,18,Page,2
 Ability,18,Slot,8
 Ability,18,YHPGT,40
 Ability,18,Movement
-
-//CHECK THESE MOVEMENT ABILITIES
 
 [Demolishing Charge]   //Early-Game Movement
 Ability,19,Name,Demolishing Charge
