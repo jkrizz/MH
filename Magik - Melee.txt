@@ -30,7 +30,7 @@ Ability,4,Page,2
 Ability,4,Slot,6
 Ability,4,Toggle
 Ability,4,Cooldown,5
-Ability,4,Buff,Ability,2,Buff,marvelconditioneffect_magik_darkpactbfldbuff,False
+Ability,4,Buff,marvelconditioneffect_magik_darkpactbfldbuff,False
 
 [Mastery of the Soulsword]
 Ability,5,Name,Mastery of the Soulsword
