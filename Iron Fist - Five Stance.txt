@@ -48,6 +48,7 @@ Ability,6,Boss
 
 [Spirit of Shou-Lao]   //Ult
 Ability,7,Name,Spirit of Shou-Lao
+Ability,7,Points,0
 Ability,7,Page,2
 Ability,7,Slot,4
 Ability,7,Boss
