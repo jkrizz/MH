@@ -10,7 +10,7 @@ Ability,1,Points,1
 
 //PRIORITY POINT
 Ability,2,Name,Conjured Barrage
-Ability,2,Points,1
+Ability,2,Points,20
 
 //ROTATION
 
@@ -124,9 +124,9 @@ Ability,16,MouseTarget
 
 [Conjured Barrage]   //Spender
 Ability,17,Name,Conjured Barrage
+Ability,17,Points,20
 Ability,17,Page,2
 Ability,17,Slot,1
-Ability,17,Points,20
 Ability,17,MaxRange,550
 Ability,17,Hold,1000,AsPrimary
 
