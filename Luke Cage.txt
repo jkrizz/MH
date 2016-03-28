@@ -27,144 +27,144 @@ Ability,5,Points,5
 //HEROES FOR HIRE
 
 [Jessica Jones]
-Ability,7,Name,Jessica Jones
-Ability,7,Points,1
+Ability,6,Name,Jessica Jones
+Ability,6,Points,1
 
 [Colleen Wing]
-Ability,8,Name,Colleen Wing
-Ability,8,Points,1
+Ability,7,Name,Colleen Wing
+Ability,7,Points,1
 
 //ROTATION
 
-[TeamUp]
-Ability,9,TeamUp
+[TeamUp]   //TeamUp
+Ability,8,TeamUp
 
-[Ziggurat]
-Ability,10,Name,Ziggurat of Kargul
+[Ziggurat]   //Gap-Close
+Ability,9,Name,Ziggurat of Kargul
+Ability,9,Points,0
+Ability,9,Page,2
+Ability,9,Slot,8
+Ability,9,Cooldown,3
+Ability,9,YHPGT,40
+Ability,9,MinRange,200
+
+[Cold Shoulder]   //Gap-Close
+Ability,10,Name,Cold Shoulder
 Ability,10,Points,0
-Ability,10,Page,2
+Ability,10,Page,1
 Ability,10,Slot,8
 Ability,10,Cooldown,3
-Ability,10,YHPGT,40
 Ability,10,MinRange,200
+Ability,10,YSPGT,20
 
-[Cold Shoulder]
-Ability,11,Name,Cold Shoulder
-Ability,11,Points,0
+[Crowbar Beatdown]   //Spirit Regen Below 20%
+Ability,11,Name,Crowbar Beatdown
+Ability,11,Slot,1
 Ability,11,Page,1
-Ability,11,Slot,8
-Ability,11,Cooldown,3
-Ability,11,MinRange,200
-Ability,11,YSPGT,20
+Ability,11,Points,0
+Ability,11,MaxRange,125
+Ability,11,YSPLT,20
 
-[Crowbar Beatdown]
-Ability,12,Name,Crowbar Beatdown
-Ability,12,Slot,1
-Ability,12,Page,1
+[Cold Shoulder]   //Buff
+Ability,12,Name,Cold Shoulder
 Ability,12,Points,0
-Ability,12,MaxRange,125
-Ability,12,YSPLT,20
+Ability,12,Page,1
+Ability,12,Slot,8
+Ability,12,Buff,marvelconditioneffect_sprint,False
 
-[Cold Shoulder]
-Ability,13,Name,Cold Shoulder
+[Sweet Christmas]   //Ult+Buffs
+Ability,13,Name,Sweet Christmas
 Ability,13,Points,0
-Ability,13,Page,1
-Ability,13,Slot,8
-Ability,13,Buff,marvelconditioneffect_sprint,False
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,Boss
 
-[Sweet Christmas]
-Ability,14,Name,Sweet Christmas
-Ability,14,Points,0
-Ability,14,Page,2
+[Hero's Call]   //Summons
+Ability,14,Name,Hero's Call
+Ability,14,Points,20
+Ability,14,Page,1
 Ability,14,Slot,2
+Ability,14,MiniBoss
 Ability,14,Boss
 
-[Hero's Call]
-Ability,15,Name,Hero's Call
-Ability,15,Points,20
+[Misty Knight]   //Late-Game Summon
+Ability,15,Name,Misty Knight
+Ability,15,Points,1
 Ability,15,Page,1
-Ability,15,Slot,2
-Ability,15,MiniBoss
-Ability,15,Boss
+Ability,15,Slot,3
+Ability,15,CooldownCheck,2,True
+Ability,15,MinLevel,30
 
-[Misty Knight]
+[Misty Knight]   //Early-Game Summon
 Ability,16,Name,Misty Knight
 Ability,16,Points,1
 Ability,16,Page,1
 Ability,16,Slot,3
-Ability,16,CooldownCheck,2,True
-Ability,16,MinLevel,30
+Ability,16,Cooldown,20
+Ability,16,MaxLevel,30
 
-[Misty Knight]
-Ability,17,Name,Misty Knight
-Ability,17,Points,1
+[Vehicular Manslaughter]   //CD Combo Generator Below 3 Combo Points
+Ability,17,Name,Vehicular Manslaughter
+Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,3
-Ability,17,Cooldown,20
-Ability,17,MaxLevel,30
+Ability,17,Slot,4
+Ability,17,MaxRange,600
+Ability,17,SECLT,3
 
-[Vehicular Manslaughter]
-Ability,18,Name,Vehicular Manslaughter
+[Harlem Dropkick]   //Priority Finisher When Buff Doesn't Exist
+Ability,18,Name,Harlem Dropkick
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,4
-Ability,18,MaxRange,600
-Ability,18,SECLT,3
+Ability,18,Slot,5
+Ability,18,SECGT,3
+Ability,18,MaxRange,125
+Ability,18,Buff,marvelconditioneffect_buffcritchance,False
+Ability,18,MinLevel,26
 
-[Harlem Dropkick]
+[Harlem Dropkick]  //Priority Finisher
 Ability,19,Name,Harlem Dropkick
 Ability,19,Points,20
 Ability,19,Page,1
 Ability,19,Slot,5
 Ability,19,SECGT,3
 Ability,19,MaxRange,125
-Ability,19,Buff,marvelconditioneffect_buffcritchance,False
-Ability,19,MinLevel,26
+Ability,19,MaxLevel,26
 
-[Harlem Dropkick]
-Ability,20,Name,Harlem Dropkick
+[Cage Fighting]   //Secondary Finisher
+Ability,20,Name,Cage Fighting
 Ability,20,Points,20
 Ability,20,Page,1
-Ability,20,Slot,5
+Ability,20,Slot,6
 Ability,20,SECGT,3
 Ability,20,MaxRange,125
-Ability,20,MaxLevel,26
 
-[Cage Fighting]
-Ability,21,Name,Cage Fighting
-Ability,21,Points,20
+[Tactical Defense]   //Summons Power Reset
+Ability,21,Name,Tactical Defense
+Ability,21,Points,1
 Ability,21,Page,1
-Ability,21,Slot,6
-Ability,21,SECGT,3
-Ability,21,MaxRange,125
+Ability,21,Slot,7
 
-[Tactical Defense]
-Ability,22,Name,Tactical Defense
-Ability,22,Points,1
+[Crowbar Beatdown]   //Basic
+Ability,22,Name,Crowbar Beatdown
+Ability,22,Points,0
 Ability,22,Page,1
-Ability,22,Slot,7
+Ability,22,Slot,1
+Ability,22,MaxRange,125
 
-[Crowbar Beatdown]
-Ability,23,Name,Crowbar Beatdown
+[Ziggurat]   //Movement
+Ability,23,Name,Ziggurat of Kargul
 Ability,23,Points,0
-Ability,23,Page,1
-Ability,23,Slot,1
-Ability,23,MaxRange,125
+Ability,23,Page,2
+Ability,23,Slot,8
+Ability,23,YHPGT,40
+Ability,23,Movement
 
-[Ziggurat]
-Ability,24,Name,Ziggurat of Kargul
+[Cold Shoulder]   //Movement
+Ability,24,Name,Cold Shoulder
 Ability,24,Points,0
-Ability,24,Page,2
+Ability,24,Page,1
 Ability,24,Slot,8
-Ability,24,YHPGT,40
 Ability,24,Movement
-
-[Cold Shoulder]
-Ability,25,Name,Cold Shoulder
-Ability,25,Points,0
-Ability,25,Page,1
-Ability,25,Slot,8
-Ability,25,Movement
 
 END
 
