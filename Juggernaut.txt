@@ -4,144 +4,151 @@ hero,Juggernaut
 
 //PASSIVES
 
-[Don't You Know Who I Am]
-Ability,2,Name,Don't You Know Who I Am
-Ability,2,Points,1
-
 [Human Juggernaut]
-Ability,3,Name,Human Juggernaut
-Ability,3,Points,20
-Ability,3,Page,2
-Ability,3,Slot,2
-Ability,3,Toggle
+Ability,1,Name,Human Juggernaut
+Ability,1,Points,20
+Ability,1,Page,2
+Ability,1,Slot,2
+Ability,1,Toggle
+Ability,1,Cooldown,60
 
 //ROTATION
 
-[TeamUp]
-Ability,4,TeamUp
+[TeamUp]   //TeamUp
+Ability,2,TeamUp
 
-[Ziggurat]
-Ability,5,Name,Ziggurat of Kargul
-Ability,5,Points,0
+[Ziggurat]   //Gap-Close
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,YHPGT,40
+Ability,3,MinRange,200
+
+[Lariat]   //Gap-Close
+Ability,4,Name,Lariat
+Ability,4,Points,20
+Ability,4,Page,1
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
+
+[Can't Be Stopped]   //CC-Immunity
+Ability,5,Name,Can't Be Stopped
+Ability,5,Points,20
 Ability,5,Page,2
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,YHPGT,40
-Ability,5,MinRange,200
+Ability,5,Slot,4
+Ability,5,MiniBoss
+Ability,5,Boss
 
-[Lariat]
-Ability,6,Name,Lariat
-Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,Cooldown,3
-Ability,6,MinRange,200
-Ability,6,YSPGT,20
+[Crimson Force Field]  //Invulnerability Below 70% HP
+Ability,6,Name,Crimson Force Field
+Ability,6,Points,7
+Ability,6,Page,2
+Ability,6,Slot,5
+Ability,6,YHPLT,70
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Crimson Force Field]
-Ability,7,Name,Crimson Force Field
+[Round of Applause]   //Vulnerability
+Ability,7,Name,Round of Applause
 Ability,7,Points,1
-Ability,7,Page,2
-Ability,7,Slot,5
-Ability,7,YHPLT,70
+Ability,7,Page,1
+Ability,7,Slot,3
+Ability,7,YSPLT,30
+Ability,7,MaxRange,400
+Ability,7,Cooldown,6
 
-[Can't Be Stopped]
-Ability,8,Name,Can't Be Stopped
-Ability,8,Points,20
+[Don't You Know Who I Am]   //Taunt+Weaken
+Ability,8,Name,Don't You Know Who I Am
+Ability,8,Points,1
 Ability,8,Page,2
-Ability,8,Slot,4
+Ability,8,Slot,7
+Ability,8,Cooldown,4
+Ability,8,MaxRange,475
 
-[Enter the Fray]
-Ability,9,Name,Enter the Fray
-Ability,9,Points,20
-Ability,9,Slot,6
+[Devastating Charge]   //CD+Momentum Regen Below 100%
+Ability,9,Name,Devastating Charge
+Ability,9,Points,1
 Ability,9,Page,1
-Ability,9,MaxRange,400
+Ability,9,Slot,2
+Ability,9,MaxRange,700
+Ability,9,YSPLT,100
+Ability,9,MouseTarget
 
-[Devastating Charge]
-Ability,10,Name,Devastating Charge
+[Scion of Cyttorak]   //Buffs+Momentum Regen Below 20%
+Ability,10,Name,Scion of Cyttorak
 Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,MaxRange,700
-Ability,10,YSPLT,50
-Ability,10,MouseTarget
+Ability,10,Slot,4
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,YSPLT,20
 
-[Full Power]
+[Full Power]   //Ult+CC-Immunity+Buff
 Ability,11,Name,Full Power
-Ability,11,Boss
+Ability,11,Points,0
 Ability,11,Page,2
 Ability,11,Slot,3
+Ability,11,Boss
 
-[Round of Applause]
-Ability,12,Name,Round of Applause
-Ability,12,Points,1
-Ability,12,Slot,3
+[Enter the Fray]   //CD
+Ability,12,Name,Enter the Fray
+Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,YSPGT,30
+Ability,12,Slot,6
 Ability,12,MaxRange,400
-Ability,12,Cooldown,6
 
-[Don't You Know Who I Am]
-Ability,13,Name,Don't You Know Who I Am
-Ability,13,Points,1
-Ability,13,Page,2
-Ability,13,Slot,6
-Ability,13,Cooldown,4
-Ability,13,MaxRange,475
+[Big Elbow Drop]   //Spender Above 70% Momentum
+Ability,13,Name,Big Elbow Drop
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,Mousetarget
+Ability,13,YSPGT,70
+Ability,13,MaxRange,375
 
-[Scion of Cyttorak]
-Ability,14,Name,Scion of Cyttorak
+[Unstoppable Charge]   //Sig+CC-Immunity
+Ability,14,Name,Unstoppable Charge
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,4
+Ability,14,Slot,7
+Ability,14,Mousetarget
+Ability,14,Hold,6000,ShiftClick
+Ability,14,MiniBoss
+Ability,14,Boss
 
-[Big Elbow Drop]
-Ability,15,Name,Big Elbow Drop
+[Lariat]   //Basic - Movement
+Ability,15,Name,Lariat
 Ability,15,Points,20
-Ability,15,Slot,5
 Ability,15,Page,1
-Ability,15,Mousetarget
-Ability,15,YSPGT,70
-Ability,15,MaxRange,375
+Ability,15,Slot,8
+Ability,15,MouseTarget
 
-//ANY SUGGESTIONS ON GETTING THIS ABILITY TO WORK PROPERLY?
-//[Unstoppable Charge]
-//Ability,16,Name,Unstoppable Charge
-//Ability,16,Points,20
-//Ability,16,Slot,7
-//Ability,16,Page,1
-//Ability,16,Mousetarget
-//Ability,16,Boss
+[Rope-A-Dope]   //Basic
+Ability,16,Name,Rope-A-Dope
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,1
+Ability,16,MaxRange,125
 
-[Lariat]
-Ability,17,Name,Lariat
-Ability,17,Points,20
-Ability,17,Page,1
+[Ziggurat]   //Movement
+Ability,17,Name,Ziggurat of Kargul
+Ability,17,Points,0
+Ability,17,Page,2
 Ability,17,Slot,8
-Ability,17,MouseTarget
+Ability,17,YHPGT,40
+Ability,17,Movement
 
-[Ziggurat]
-Ability,18,Name,Ziggurat of Kargul
-Ability,18,Points,0
-Ability,18,Page,2
+[Lariat]   //Movement
+Ability,18,Name,Lariat
+Ability,18,Points,20
+Ability,18,Page,1
 Ability,18,Slot,8
-Ability,18,YHPGT,40
 Ability,18,Movement
-
-[Lariat]
-Ability,19,Name,Lariat
-Ability,19,Points,20
-Ability,19,Page,1
-Ability,19,Slot,8
-Ability,19,Movement
-
-//MOVEMENT ABILITIES ARE ANNOYING IN SLOT 1
-Ability,20,Name,Rope-A-Dope
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,1
 
 END
 
-[Build: http://marvelheroes.info/build/7927/]
+[Build: http://marvelheroes.info/build/14867/]
