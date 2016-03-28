@@ -2,59 +2,62 @@
 
 hero,Magneto
 
+//PASSIVES
+
+[Superiority] 
+Ability,1,Name,Superiority
+Ability,1,Points,20
+Ability,1,Page,2
+Ability,1,Slot,2
+Ability,1,Toggle
+Ability,1,Cooldown,60
+
 //ROTATION
 
-[TeamUp]
-Ability,1,TeamUp
+[TeamUp]   //TeamUp
+Ability,2,TeamUp
 
-//[Ziggurat]
-//Ability,2,Name,Ziggurat of Kargul
-//Ability,2,Points,0
-//Ability,2,Page,2
-//Ability,2,Slot,8
-//Ability,2,MaxRange,200
-//Ability,2,AimAt,45,400
-//Ability,2,YHPGT,10
-//Ability,2,Cooldown,3
-//Ability,2,Boss
+//[Ziggurat]   /Gap-Close
+//Ability,3,Name,Ziggurat of Kargul
+//Ability,3,Points,0
+//Ability,3,Page,2
+//Ability,3,Slot,8
+//Ability,3,MaxRange,200
+//Ability,3,AimAt,45,400
+//Ability,3,YHPGT,10
+//Ability,3,Cooldown,3
+//Ability,3,Boss
 
-[Ziggurat]
-Ability,3,Name,Ziggurat of Kargul
-Ability,3,Points,0
-Ability,3,Page,2
-Ability,3,Slot,8
-Ability,3,MinRange,600
-Ability,3,Cooldown,3
-Ability,3,YHPGT,10
+[Ziggurat]   //Gap-Close
+Ability,4,Name,Ziggurat of Kargul
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,8
+Ability,4,MinRange,600
+Ability,4,Cooldown,3
+Ability,4,YHPGT,10
 
-//[Ferromagnetic Blitz]
-//Ability,4,Name,Ferromagnetic Blitz
-//Ability,4,Points,0
-//Ability,4,Page,1
-//Ability,4,Slot,8
-//Ability,4,MaxRange,200
-//Ability,4,AimAt,45,400
-//Ability,4,YSPGT,10
-//Ability,4,Cooldown,3
-//Ability,4,Boss
+//[Ferromagnetic Blitz]   //Gap-Close
+//Ability,5,Name,Ferromagnetic Blitz
+//Ability,5,Points,0
+//Ability,5,Page,1
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YSPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
 
-[Ferromagnetic Blitz]
-Ability,5,Name,Ferromagnetic Blitz
-Ability,5,Points,0
-Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,MinRange,600
-Ability,5,Cooldown,3
-Ability,5,YSPGT,10
+[Ferromagnetic Blitz]   //Gap-Close
+Ability,6,Name,Ferromagnetic Blitz
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,MinRange,600
+Ability,6,Cooldown,3
+Ability,6,YSPGT,10
 
-[God Among Insects]
-Ability,6,Name,God Among Insects
-Ability,6,Points,20
-Ability,6,Page,2
-Ability,6,Slot,6
-Ability,6,Cooldown,6
-
-[Scrap Shot]
+[Scrap Shot]   //Spirit Regen Below 20%+Debris Regen
 Ability,7,Name,Scrap Shot
 Ability,7,Points,0
 Ability,7,Page,1
@@ -62,20 +65,24 @@ Ability,7,Slot,1
 Ability,7,MaxRange,625
 Ability,7,YSPLT,20
 
-[Indomitable]
+[Indomitable]   //CC-Immunity
 Ability,8,Name,Indomitable
-Ability,8,Points,3
+Ability,8,Points,20
 Ability,8,Page,2
 Ability,8,Slot,4
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Electromagnetic Field]
+[Electromagnetic Field]   //Irresistable Stun
 Ability,9,Name,Electromagnetic Field
-Ability,9,Points,20
+Ability,9,Points,8
 Ability,9,Page,2
 Ability,9,Slot,5
 Ability,9,MaxRange,500
+Ability,9,MiniBoss
+Ability,9,Boss
 
-[Imprison]
+[Imprison]   //Dot+Vulnerability
 Ability,10,Name,Imprison
 Ability,10,Points,20
 Ability,10,Page,1
@@ -83,7 +90,7 @@ Ability,10,Slot,3
 Ability,10,Cooldown,6
 Ability,10,MaxRange,500
 
-[The Fall of Man]
+[The Fall of Man]   //Ult+Dot
 Ability,11,Name,The Fall of Man
 Ability,11,Points,0
 Ability,11,Page,2
@@ -91,7 +98,7 @@ Ability,11,Slot,7
 Ability,11,Boss
 Ability,11,MaxRange,800
 
-[Meat Grinder]
+[Meat Grinder]   //Debris Spender+Dot
 Ability,12,Name,Meat Grinder
 Ability,12,Points,20
 Ability,12,Page,1
@@ -99,67 +106,63 @@ Ability,12,Slot,7
 Ability,12,MaxRange,600
 Ability,12,Cooldown,6
 
-[Superiority]
-Ability,13,Name,Superiority
-Ability,13,Points,1
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,Cooldown,6
+[Storm of Steel]   //Sig
+Ability,13,Name,Storm of Steel
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,Hold,6000,ShiftClick
+Ability,13,MaxRange,500
+Ability,13,MouseTarget
 
-[Storm of Steel]
-Ability,14,Name,Storm of Steel
+[Blunt Instrument]   //CD+Debris Regen
+Ability,14,Name,Blunt Instrument
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,Hold,6000
+Ability,14,Slot,4
 Ability,14,MaxRange,500
-Ability,14,MouseTarget
-Ability,14,Boss
 
-[Blunt Instrument]
-Ability,16,Name,Blunt Instrument
+[Wrecking Ball]   //Early-Game Spender
+Ability,15,Name,Wrecking Ball
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,2
+Ability,15,Hold,1000,AsPrimary
+Ability,15,MaxRange,950
+Ability,15,MaxLevel,6
+
+[Shrapnel Barrage]   //Late-Game Spender+Debris Regen
+Ability,16,Name,Shrapnel Barrage
 Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,4
-Ability,16,MaxRange,500
+Ability,16,Slot,6
+Ability,16,Hold,1000,AsPrimary
+//Ability,16,MaxRange,
 
-[Spike Impale]
-Ability,17,Name,Spike Impale
-Ability,17,Points,20
-Ability,17,Page,2
-Ability,17,Slot,3
-Ability,17,MaxRange,525
-Ability,17,SECGT,50
+[Scrap Shot]   //Basic+Debris Regen
+Ability,17,Name,Scrap Shot
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,MaxRange,625
 
-[Wrecking Ball]
-Ability,18,Name,Wrecking Ball
-Ability,18,Points,20
-Ability,18,Page,1
-Ability,18,Slot,2
-Ability,18,MaxRange,950
+[Ziggurat]   //Movement
+Ability,18,Name,Ziggurat of Kargul
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,8
+Ability,18,YHPGT,40
+Ability,18,Movement
 
-[Scrap Shot]
-Ability,19,Name,Scrap Shot
-Ability,19,Points,0
+[Ferromagnetic Blitz]   //Movement
+Ability,19,Name,Ferromagnetic Blitz
+Ability,19,Movement
 Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,MaxRange,625
-
-[Ziggurat]
-Ability,23,Name,Ziggurat of Kargul
-Ability,23,Points,0
-Ability,23,Page,2
-Ability,23,Slot,8
-Ability,23,YHPGT,40
-Ability,23,Movement
-
-[Ferromagnetic Blitz]
-Ability,24,Name,Ferromagnetic Blitz
-Ability,24,Movement
-Ability,24,Slot,8
-Ability,24,Page,1
-Ability,24,Points,1
+Ability,19,Slot,8
+Ability,19,Points,1
 
 END
 
-[Build http://marvelheroes.info/build/19737/]
+[Build http://marvelheroes.info/build/2767/]
