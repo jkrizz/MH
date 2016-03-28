@@ -4,177 +4,174 @@ hero,Iron Man
 
 //PASSIVES
 
+[Adaptive Armor]
+Ability,1,Name,Adaptive Armor
+Ability,1,Points,1
+Ability,1,Page,2
+Ability,1,Slot,4
+Ability,1,Toggle
+Ability,1,Cooldown,60
+
+[Missile Control System]
+Ability,2,Name,Missile Control System
+Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,5
+Ability,2,Toggle
+Ability,2,Cooldown,60
+
+[Life Support Systems]   //
+Ability,3,Name,Life Support Systems
+Ability,3,Points,2
+Ability,3,Page,2
+Ability,3,Slot,6
+Ability,3,Toggle
+Ability,3,Cooldown,60
+
+[Arc Reactor Enhancement]  //
+Ability,4,Name,Arc Reactor Enhancement
+Ability,4,Points,20
+Ability,4,Page,2
+Ability,4,Slot,7
+Ability,4,Toggle
+Ability,4,Cooldown,60
+
 //ROTATION
 
-//[Ziggurat]
-//Ability,1,Name,Ziggurat of Kargul
-//Ability,1,Points,0
-//Ability,1,Page,2
-//Ability,1,Slot,8
-//Ability,1,MaxRange,200
-//Ability,1,AimAt,45,400
-//Ability,1,YHPGT,10
-//Ability,1,Cooldown,3
-//Ability,1,Boss
+[TeamUp]   //TeamUp
+Ability,5,TeamUp
 
-[Ziggurat]
-Ability,2,Name,Ziggurat of Kargul
-Ability,2,Points,0
-Ability,2,Page,2
-Ability,2,Slot,8
-Ability,2,MinRange,600
-Ability,2,Cooldown,3
-Ability,2,YHPGT,10
+//[Ziggurat]   //Gap-Close
+//Ability,6,Name,Ziggurat of Kargul
+//Ability,6,Points,0
+//Ability,6,Page,2
+//Ability,6,Slot,8
+//Ability,6,MaxRange,200
+//Ability,6,AimAt,45,400
+//Ability,6,YHPGT,10
+//Ability,6,Cooldown,3
+//Ability,6,Boss
 
-//[Hyper-Velocity Charge]
-//Ability,3,Name,Hyper-Velocity Charge
-//Ability,3,Points,0
-//Ability,3,Page,1
-//Ability,3,Slot,8
-//Ability,3,MaxRange,200
-//Ability,3,AimAt,45,400
-//Ability,3,YSPGT,10
-//Ability,3,Cooldown,3
-//Ability,3,Boss
+[Ziggurat]   //Gap-Close
+Ability,7,Name,Ziggurat of Kargul
+Ability,7,Points,0
+Ability,7,Page,2
+Ability,7,Slot,8
+Ability,7,MinRange,600
+Ability,7,Cooldown,3
+Ability,7,YHPGT,10
 
-[Hyper-Velocity Charge]
-Ability,4,Name,Hyper-Velocity Charge
-Ability,4,Points,0
-Ability,4,Page,1
-Ability,4,Slot,8
-Ability,4,MinRange,600
-Ability,4,Cooldown,3
-Ability,4,YSPGT,10
+//[Hyper-Velocity Charge]   //Gap-Close
+//Ability,8,Name,Hyper-Velocity Charge
+//Ability,8,Points,0
+//Ability,8,Page,1
+//Ability,8,Slot,8
+//Ability,8,MaxRange,200
+//Ability,8,AimAt,45,400
+//Ability,8,YSPGT,10
+//Ability,8,Cooldown,3
+//Ability,8,Boss
 
-[Repulsor Blast]
-Ability,5,Name,Repulsor Blast
-Ability,5,Points,0
-Ability,5,Page,1
-Ability,5,Slot,1
-Ability,5,MaxRange,500
-Ability,5,YSPLT,20
+[Hyper-Velocity Charge]   //Gap-Close
+Ability,9,Name,Hyper-Velocity Charge
+Ability,9,Points,0
+Ability,9,Page,1
+Ability,9,Slot,8
+Ability,9,MinRange,600
+Ability,9,Cooldown,3
+Ability,9,YSPGT,10
 
-[Arc Reactor Overload]
-Ability,6,Name,Arc Reactor Overload
-Ability,6,Page,1
-Ability,6,Slot,7
-Ability,6,Points,20
+[Arc Reactor Overload]   //Spirit Regen Below 20%
+Ability,10,Name,Arc Reactor Overload
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,7
+Ability,10,YSPLT,40
 
-[TeamUp]
-Ability,7,TeamUp
+[Repulsor Blast]   //Spirit Regen Below 20%
+Ability,11,Name,Repulsor Blast
+Ability,11,Points,0
+Ability,11,Page,1
+Ability,11,Slot,1
+Ability,11,MaxRange,500
+Ability,11,YSPLT,20
 
-[Jericho Bombardment]
-Ability,8,Name,Jericho Bombardment
-Ability,8,Page,1
-Ability,8,Slot,6
-Ability,8,Cooldown,3
-Ability,8,Points,20
+[Jericho Bombardment]   //Vulnerability
+Ability,12,Name,Jericho Bombardment
+Ability,12,2Points,20
+Ability,12,Page,1
+Ability,12,Slot,6
+//Ability,12,MaxRange,
 
-[House Party]
+[House Party]   //Ult
 Ability,9,Name,House Party
+Ability,9,Points,0
 Ability,9,Page,2
 Ability,9,Slot,1
 Ability,9,Boss
 Ability,9,MaxRange,750
 
-[Adaptive Armor]
-Ability,10,Name,Adaptive Armor
-Ability,10,Toggle
-Ability,10,Page,2
-Ability,10,Slot,4
-Ability,10,Cooldown,60
-Ability,10,Points,1
+[Micro-Missiles]   //CD Spender
+Ability,10,Name,Micro-Missiles
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,2
+Ability,10,MaxRange,625
 
-[Missile Control System]
-Ability,11,Name,Missile Control System
-Ability,11,Toggle
-Ability,11,Page,2
-Ability,11,Slot,5
-Ability,11,Cooldown,60
+[The One-Off]  //Sig
+Ability,11,Name,The One-Off
 Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,4
+Ability,11,MiniBoss
+Ability,11,Boss
+Ability,11,MaxRange,450
 
-[Life Support Systems]
-Ability,12,Name,Life Support Systems
-Ability,12,Toggle
+[Wrist Rocket]   //CD Spender
+Ability,12,Name,Wrist Rocket
+Ability,12,Points,20
 Ability,12,Page,2
-Ability,12,Slot,6
-Ability,12,Cooldown,60
-Ability,12,Points,1
+Ability,12,Slot,2
+Ability,12,MaxRange,875
+Ability,12,Cooldown,5   //PANELBUFF?
 
-[Arc Reactor Enhancement]
-Ability,13,Name,Arc Reactor Enhancement
-Ability,13,Toggle
-Ability,13,Page,2
-Ability,13,Slot,7
-Ability,13,Cooldown,60
-Ability,13,Points,20
+[Repulsor Barrage]   //Spender
+Ability,13,Name,Repulsor Barrage
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MouseTarget
+Ability,13,Hold,1000,AsPrimary
+Ability,13,MaxRange,500
 
-[Micro-Missiles]
-Ability,14,Name,Micro-Missiles
+[Repulsor Blast]   //Basic
+Ability,14,Name,Repulsor Blast
+Ability,14,Points,0
 Ability,14,Page,1
-Ability,14,Slot,2
-Ability,14,Points,20
-Ability,14,MaxRange,625
+Ability,14,Slot,1
+Ability,14,MaxRange,500
 
-[Coolant Blast]
-Ability,15,Name,Coolant Blast
+[Arc Reactor Overload]   //Spirit Regen Below 100% While Moving
+Ability,15,Name,Arc Reactor Overload
+Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,5
-Ability,15,MaxRange,200
-Ability,15,Cooldown,4
-Ability,15,Points,1
+Ability,15,Slot,7
+Ability,15,YSPLT,100
+Ability,15,Movement
 
-[The One-Off]
-Ability,16,Name,The One-Off
-Ability,16,Page,1
-Ability,16,Slot,4
-Ability,16,Points,20
-Ability,16,MaxRange,450
+[Ziggurat]   //Movement
+Ability,16,Name,Ziggurat of Kargul
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,8
+Ability,16,YHPGT,10
+Ability,16,Movement
 
-[Wrist Rocket]
-Ability,17,Name,Wrist Rocket
-Ability,17,Page,2
-Ability,17,Slot,2
-Ability,17,Points,20
-Ability,17,MaxRange,875
-//Ability,17,Cooldown,5
-
-[Repulsor Barrage]
-Ability,18,Name,Repulsor Barrage
-Ability,18,Page,1
-Ability,18,Slot,3
-Ability,18,MouseTarget
-Ability,18,Hold,1000,AsPrimary
-Ability,18,MaxRange,500
-
-[Repulsor Blast]
-Ability,19,Name,Repulsor Blast
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,MaxRange,500
-
-[Arc Reactor Overload]
-Ability,20,Name,Arc Reactor Overload
-Ability,20,Page,1
-Ability,20,Slot,7
-Ability,20,Points,20
-Ability,20,Movement
-
-[Ziggurat]
-Ability,21,Name,Ziggurat of Kargul
-Ability,21,Points,0
-Ability,21,Page,2
-Ability,21,Slot,8
-Ability,21,YHPGT,10
-Ability,21,Movement
-
-[Hyper-Velocity Charge]
-Ability,22,Name,Hyper-Velocity Charge
-Ability,22,Points,0
-Ability,22,Page,1
-Ability,22,Slot,8
-Ability,22,Movement
+[Hyper-Velocity Charge]   //Movement
+Ability,17,Name,Hyper-Velocity Charge
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,8
+Ability,17,Movement
 
 END
 
