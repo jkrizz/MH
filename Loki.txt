@@ -12,63 +12,65 @@ Ability,2,Name,Jotun Blood
 Ability,2,Points,1
 
 Ability,3,Name,Lord of Deception
-Ability,3,Points,1
+Ability,3,Points,20
 
 [Arcane Shield]
 Ability,4,Name,Arcane Shield
 Ability,4,Points,20
-Ability,4,Slot,2
 Ability,4,Page,2
+Ability,4,Slot,2
 Ability,4,Toggle
+Ability,4,Cooldown,60
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,5,TeamUp
 
-[Misdirection]
+[Misdirection]   //Gap-Close
 Ability,6,Name,Misdirection
 Ability,6,Points,0
 Ability,6,Page,1
 Ability,6,Slot,8
 Ability,6,Cooldown,3
-Ability,6,MinRange,150
+Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
-[Spatial Deception]
+[Spatial Deception]   //Spirit Regen Below 20%
 Ability,7,Name,Spatial Deception
 Ability,7,Points,20
 Ability,7,Slot,1
 Ability,7,Page,1
 Ability,7,YSPLT,20
-Ability,7,MaxRange,110
+Ability,7,MaxRange,125
 
-[Unyielding Power]
+[Unyielding Power]   //Sig+CC-Immunity+Buffs
 Ability,8,Name,Unyielding Power
 Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,6
+Ability,8,MiniBoss
 Ability,8,Boss
 Ability,8,Maxrange,300
 
-[Arcane Ruin]
-Ability,9,Name,Arcane Ruin
-Ability,9,Points,20
+[Permafrost Spikes]   //Vulnerability
+Ability,9,Name,Permafrost Spikes
+Ability,9,Points,1
 Ability,9,Page,1
-Ability,9,Slot,7
-Ability,9,MaxRange,1000
-Ability,9,SECGT,5
+Ability,9,Slot,3
+Ability,9,Cooldown,5
+Ability,9,Mousetarget
+Ability,9,MaxRange,500
 
-[Permafrost Spikes]
-Ability,10,Name,Permafrost Spikes
-Ability,10,Points,1
+[Arcane Ruin]  //Summon Spender at 6 SEC
+Ability,10,Name,Arcane Ruin
+Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,3
-Ability,10,Cooldown,5
-Ability,10,Mousetarget
-Ability,10,MaxRange,500
+Ability,10,Slot,7
+Ability,10,MaxRange,1000
+Ability,10,SECGT,5
 
-[Arcane Binding]
+[Arcane Binding]   //Dot+Immobilize
 Ability,11,Name,Arcane Binding
 Ability,11,Points,20
 Ability,11,Page,1
@@ -76,7 +78,7 @@ Ability,11,Slot,4
 Ability,11,Cooldown,5
 Ability,11,MaxRange,575
 
-[Enthrall]
+[Enthrall]   //Dot+Confuse
 Ability,12,Name,Enthrall
 Ability,12,Points,20
 Ability,12,Page,1
@@ -84,29 +86,28 @@ Ability,12,Slot,2
 Ability,12,Cooldown,6
 Ability,12,MaxRange,125
 
-[Meteoric Illusion]
+[Meteoric Illusion]   //CD Spender
 Ability,13,Name,Meteoric Illusion
 Ability,13,Points,1
 Ability,13,Page,1
 Ability,13,Slot,5
 Ability,13,MaxRange,700
 
-[Winter's Breath]
-Ability,14,Name,Winter's Breath
-Ability,14,Points,20
+[Illusionary Projection]   //Spender
+Ability,14,Name,Illusionary Projection
+Ability,14,Points,8
 Ability,14,Page,2
 Ability,14,Slot,3
-Ability,14,SECGT,5
-Ability,14,Hold,1000,AsPrimary
+//Ability,14,MaxRange,
 
-[Spatial Deception]
+[Spatial Deception]   //Basic
 Ability,15,Name,Spatial Deception
 Ability,15,Points,20
 Ability,15,Slot,1
 Ability,15,Page,1
-Ability,15,MaxRange,110
+Ability,15,MaxRange,125
 
-[Arcane Ruin]
+[Arcane Ruin]   //Spirit Regen While Moving
 Ability,16,Name,Arcane Ruin
 Ability,16,Points,20
 Ability,16,Page,1
@@ -116,7 +117,7 @@ Ability,16,YSPLT,50
 Ability,16,Movement
 Ability,16,TargetSelf
 
-[Misdirection]
+[Misdirection]   //Movement
 Ability,17,Name,Misdirection
 Ability,17,Page,1
 Ability,17,Slot,8
