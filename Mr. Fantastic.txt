@@ -12,125 +12,124 @@ Ability,1,Slot,3
 Ability,1,Toggle
 Ability,1,Cooldown,60
 
-[H.E.R.B.I.E. Assistant]
-Ability,2,Name,H.E.R.B.I.E. Assistant
-Ability,2,Points,1
-Ability,2,Page,2
-Ability,2,Slot,7
-Ability,2,Cooldown,20
-
 //ROTATION
 
-[TeamUp]
-Ability,3,Teamup
+[TeamUp]   //TeamUp
+Ability,2,Teamup
 
-[Ziggurat]
-Ability,4,Name,Ziggurat of Kargul
+[Ziggurat]   //Gap-Close
+Ability,3,Name,Ziggurat of Kargul
+Ability,3,Points,0
+Ability,3,Page,2
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,YHPGT,40
+Ability,3,MinRange,200
+
+[Stretch Dash]   //Gap-Close
+Ability,4,Name,Stretch Dash
 Ability,4,Points,0
-Ability,4,Page,2
+Ability,4,Page,1
 Ability,4,Slot,8
 Ability,4,Cooldown,3
-Ability,4,YHPGT,40
 Ability,4,MinRange,200
+Ability,4,YSPGT,20
 
-[Stretch Dash]
-Ability,5,Name,Stretch Dash
-Ability,5,Points,0
+[Elastic-Punch]  //Spirit Regen Below 20%
+Ability,5,Name,Elastic-Punch
+Ability,5,Points,20
 Ability,5,Page,1
-Ability,5,Slot,8
-Ability,5,Cooldown,3
-Ability,5,MinRange,200
-Ability,5,YSPGT,20
+Ability,5,Slot,1
+Ability,5,MaxRange,625
+Ability,5,YSPLT,20
 
-[Elastic-Punch]
-Ability,6,Name,Elastic-Punch
-Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,1
-Ability,6,MaxRange,625
-Ability,6,YSPLT,20
+[Elastic Body]   //CC-Immunity
+Ability,6,Name,Elastic Body
+Ability,6,Points,1
+Ability,6,Page,2
+Ability,6,Slot,2
+Ability,6,MiniBoss
+Ability,6,Boss
 
-[Elastic Body]
-Ability,7,Name,Elastic Body
-Ability,7,Points,1
-Ability,7,Page,2
-Ability,7,Slot,2
-Ability,7,MiniBoss
-Ability,7,Boss
+[Gravitation Emitter]   //CD+Vulnerability
+Ability,7,Name,Gravitation Emitter
+Ability,7,Points,20
+Ability,7,Page,1
+Ability,7,Slot,4
+Ability,7,MaxRange,625
 
-[Gravitation Emitter]
-Ability,8,Name,Gravitation Emitter
-Ability,8,Points,20
-Ability,8,Page,1
-Ability,8,Slot,4
-Ability,8,MaxRange,625
+[H.E.R.B.I.E. Assistant]   //Summon
+Ability,8,Name,H.E.R.B.I.E. Assistant
+Ability,8,Points,1
+Ability,8,Page,2
+Ability,8,Slot,7
+Ability,8,Cooldown,30
 
-[The Fantastic Four]
+[The Fantastic Four]   //Ult+Buffs
 Ability,9,Name,The Fantastic Four
 Ability,9,Points,0
 Ability,9,Page,2
 Ability,9,Slot,5
 Ability,9,Boss
 Ability,9,MouseTarget
-Ability,9,Hold,6000,ShiftClick
 Ability,9,MaxRange,625
 
-[Hyperstatic Inducer]
+[Hyperstatic Inducer]   //CD+Dot
 Ability,10,Name,Hyperstatic Inducer
 Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,5
 Ability,10,MaxRange,450
 
-[Giant Punch]
+[Giant Punch]   //CD Spender
 Ability,11,Name,Giant Punch
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,2
 Ability,11,MaxRange,250
 
-[Inflate]
-Ability,12,Name,Inflate
-Ability,12,Points,19
+[Super Stomp]   //CD Spender
+Ability,12,Name,Super Stomp
+Ability,12,Points,4
 Ability,12,Page,1
-Ability,12,Slot,3
-Ability,12,MaxRange,200
+Ability,12,Slot,7
+Ability,12,MaxRange,750
 
-[Spectacular Spheroid]
-Ability,13,Name,Spectacular Spheroid
-Ability,13,Points,20
-Ability,13,Page,2
-Ability,13,Slot,6
-Ability,13,MaxRange,125
-Ability,13,Delay,50
-Ability,13,MiniBoss
-Ability,13,Boss
-Ability,13,MouseTarget
+[Inflate]   //CD+HP/Spirit Regen
+Ability,13,Name,Inflate
+Ability,13,Points,19
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MaxRange,200
 
-[Outwit]
-Ability,14,Name,Outwit
+[Spectacular Spheroid]   //Sig+Multi-Activate
+Ability,14,Name,Spectacular Spheroid
 Ability,14,Points,20
 Ability,14,Page,2
-Ability,14,Slot,4
-Ability,14,CooldownCheck,6,True
+Ability,14,Slot,6
+Ability,14,MaxRange,125
+Ability,14,Delay,50
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,MouseTarget
 
-[Positron Emitter]
-Ability,15,Name,Positron Emitter
+[Outwit]   //Refresh All CD's
+Ability,15,Name,Outwit
 Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,6
-Ability,15,Hold,2000
-Ability,15,MouseTarget
-Ability,15,MaxRange,525
+Ability,15,Page,2
+Ability,15,Slot,4
+Ability,15,CooldownCheck,6,True
 
-[Super Stomp]
-Ability,16,Name,Super Stomp
-Ability,16,Points,4
+[Positron Emitter]   //SEC Spender
+Ability,16,Name,Positron Emitter
+Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,7
-Ability,16,MaxRange,750
+Ability,16,Slot,6
+Ability,16,Hold,2000
+Ability,16,MouseTarget
+Ability,16,MaxRange,525
 
-[Elastic-Punch]
+[Elastic-Punch]   //Basic
 Ability,17,Name,Elastic-Punch
 Ability,17,Points,20
 Ability,17,Page,1
@@ -138,7 +137,7 @@ Ability,17,Slot,1
 Ability,17,Hold,1000,AsPrimary
 Ability,17,MaxRange,625
 
-[Ziggurat]
+[Ziggurat]    //Movement
 Ability,18,Name,Ziggurat of Kargul
 Ability,18,Points,0
 Ability,18,Page,2
@@ -146,7 +145,7 @@ Ability,18,Slot,8
 Ability,18,YHPGT,40
 Ability,18,Movement
 
-[Stretch Dash]
+[Stretch Dash]    //Movement
 Ability,19,Name,Stretch Dash
 Ability,19,Points,0
 Ability,19,Slot,8
@@ -155,4 +154,4 @@ Ability,19,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/884/]
+[Build: http://marvelheroes.info/build/218/]
