@@ -98,7 +98,7 @@ Ability,14,Name,Illusionary Projection
 Ability,14,Points,8
 Ability,14,Page,2
 Ability,14,Slot,3
-//Ability,14,MaxRange,
+Ability,14,MaxRange,700
 
 [Spatial Deception]   //Basic
 Ability,15,Name,Spatial Deception
