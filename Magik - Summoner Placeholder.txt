@@ -1,6 +1,7 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
 //Acquire a minion from anywhere once you are able to put a point into Eternal Servitude.  This will change the ability name to Back From Limbo.  A re-prep may be necessary.  Also be sure to level the minion up as you level.  Not super crucial, but don't be level 60 with a level 10 minion.
+//EVERY TIME Magik get's respecced, it erases her pet.  You'll have to go get another one.
 
 hero,Magik
 
@@ -15,10 +16,6 @@ Ability,1,Points,20
 [Mastery of the Soulsword]
 Ability,2,Name,Mastery of the Soulsword
 Ability,2,Points,20
-Ability,2,Page,2
-Ability,2,Slot,7
-Ability,2,Toggle
-Ability,2,Cooldown,30
 
 [Eldritch Armor]
 Ability,3,Name,Eldritch Armor
@@ -61,16 +58,16 @@ Ability,8,Page,1
 Ability,8,Slot,7
 Ability,8,Cooldown,6
 Ability,8,MaxRange,675
-//Ability,8,Specialization,
+Ability,8,Specialization,0x6FF6CCEDFBB81422
 
 //CHECK MINION SUMMONING ORDER
 [N'astirh]   //Summon
 Ability,9,Name,N'astirh
-Ability,9,Points,1
+Ability,9,Points,20
 Ability,9,Page,2
 Ability,9,Slot,8
 Ability,9,SECLT,9
-//Ability,9,MaxRange,
+Ability,9,MaxRange,625
 
 //CHECK MINION SUMMONING ORDER
 [Spitting Demon]
@@ -79,24 +76,22 @@ Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,4
 Ability,10,SECLT,4
-//Ability,10,MaxRange,
+Ability,10,MaxRange,625
 
 [Back From Limbo]   //Temporary Pet
 Ability,11,Name,Back From Limbo
 Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,3
+Ability,11,Slot,6
 Ability,11,MiniBoss
 Ability,11,Boss
 
-//WHAT HAPPENS IF YOU HAVE FULL LESSER DEMONS AND YOU RESPEC?  WHAT HAPPENS IF YOU TRY TO SUMMON NASTIRH?
-//CHECK MINION SUMMONING ORDER
 [Lesser Demon]
 Ability,12,Name,Lesser Demon
 Ability,12,Points,0
 Ability,12,Page,1
-Ability,12,Slot,6
-//Ability,12,MaxRange,
+Ability,12,Slot,3
+Ability,12,MaxRange,625
 Ability,12,SECLT,9
 Ability,12,MaxLevel,22
 
@@ -105,8 +100,8 @@ Ability,13,Name,Vengeful Spirit
 Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,2
-//Ability,13,MaxRange,
-//Ability,13,PanelBuff,,True,5   //PANELBUFF
+Ability,13,MaxRange,700
+Ability,13,PanelBuff,MarvelUIIcons.Power_Magik_VengefulSpirit,True,5
 
 [Darkchylde]   //Ult
 Ability,14,Name,Darkchylde
@@ -129,7 +124,7 @@ Ability,16,Name,Spirit Fangs
 Ability,16,Points,19
 Ability,16,Page,1
 Ability,16,Slot,5
-//Ability,16,MaxRange,
+Ability,16,MaxRange,700
 
 [Soul Slashing]   //Basic
 Ability,17,Name,Soul Slashing
