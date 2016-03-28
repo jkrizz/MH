@@ -98,7 +98,7 @@ Ability,11,YSPLT,20
 
 [Jericho Bombardment]   //Vulnerability
 Ability,12,Name,Jericho Bombardment
-Ability,12,2Points,20
+Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,6
 //Ability,12,MaxRange,
