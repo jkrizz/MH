@@ -20,7 +20,7 @@ Ability,2,Slot,5
 Ability,2,Toggle
 Ability,2,Cooldown,60
 
-[Life Support Systems]   //
+[Life Support Systems] 
 Ability,3,Name,Life Support Systems
 Ability,3,Points,1
 Ability,3,Page,2
@@ -28,7 +28,7 @@ Ability,3,Slot,6
 Ability,3,Toggle
 Ability,3,Cooldown,60
 
-[Arc Reactor Enhancement]  //
+[Arc Reactor Enhancement] 
 Ability,4,Name,Arc Reactor Enhancement
 Ability,4,Points,7
 Ability,4,Page,2
@@ -59,12 +59,12 @@ Ability,7,Cooldown,3
 Ability,7,MinRange,200
 Ability,7,YSPGT,20
 
-[Arc Reactor Overload]   //Spirit Regen Below 20%
+[Arc Reactor Overload]   //Spirit Regen Below 60%
 Ability,8,Name,Arc Reactor Overload
 Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,7
-Ability,8,YSPLT,40
+Ability,8,YSPLT,60
 
 [Repulsor Blast]   //Spirit Regen Below 20%
 Ability,9,Name,Repulsor Blast
@@ -79,7 +79,7 @@ Ability,10,Name,Jericho Bombardment
 Ability,10,Points,1
 Ability,10,Page,1
 Ability,10,Slot,6
-//Ability,10,MaxRange,
+Ability,10,MaxRange,600
 
 [House Party]   //Ult
 Ability,11,Name,House Party
@@ -111,21 +111,21 @@ Ability,14,Points,20
 Ability,14,Page,2
 Ability,14,Slot,2
 Ability,14,MaxRange,875
-//Ability,14,PanelBuff,
+Ability,14,Cooldown,5
 
 [Death From Above]   //CD Spender
 Ability,15,Name,Death From Above
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,3
-//Ability,15,MaxRange,
+Ability,15,MaxRange,600
 
 [Jet-Thrust Punch]   //Spender
 Ability,16,Name,Jet-Thrust Punch
 Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,5
-//Ability,16,MaxRange,
+Ability,16,MaxRange,125
 
 [Repulsor Blast]   //Basic
 Ability,17,Name,Repulsor Blast
