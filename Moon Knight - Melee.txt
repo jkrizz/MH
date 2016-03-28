@@ -2,7 +2,7 @@
 
 Hero,Moon Knight
 
-//Points
+//PASSIVES
 
 [Fist of Khonshu]
 Ability,1,Name,Fist of Khonshu
@@ -14,10 +14,10 @@ Ability,2,Points,5
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,3,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,4,Name,Ziggurat of Kargul
 Ability,4,Points,0
 Ability,4,Page,2
@@ -26,7 +26,7 @@ Ability,4,Cooldown,3
 Ability,4,YHPGT,40
 Ability,4,MinRange,200
 
-[Combat Maneuvers]
+[Combat Maneuvers]   //Gap-Close
 Ability,5,Name,Combat Maneuvers
 Ability,5,Points,0
 Ability,5,Page,1
@@ -35,7 +35,7 @@ Ability,5,Cooldown,3
 Ability,5,MinRange,200
 Ability,5,YSPGT,20
 
-[Avatar of Vengeance]
+[Avatar of Vengeance]   //Invulnerability+HP Regen
 Ability,6,Name,Avatar of Vengeance
 Ability,6,Points,20
 Ability,6,Page,2
@@ -43,7 +43,7 @@ Ability,6,Slot,3
 Ability,6,SECEQ,100
 Ability,6,YHPLT,25
 
-[Spiked Gauntlets]
+[Spiked Gauntlets]   //Spirit Regen Below 20%
 Ability,7,Name,Spiked Gauntlets
 Ability,7,Page,1
 Ability,7,Slot,1
@@ -51,103 +51,116 @@ Ability,7,Points,20
 Ability,7,MaxRange,125
 Ability,7,YSPLT,20
 
-[Khonshu Unbound]
+[Khonshu Unbound]   //CC-Immunity
 Ability,8,Name,Khonshu Unbound
 Ability,8,Points,1
 Ability,8,Page,2
 Ability,8,Slot,7
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Avatar of Vengeance]
-Ability,9,Name,Avatar of Vengeance
-Ability,9,Points,20
+[Statue of Khonshu]   //Buff
+Ability,9,Name,Statue of Khonshu
+Ability,9,Points,4
 Ability,9,Page,2
-Ability,9,Slot,3
+Ability,9,Slot,4
 Ability,9,Boss
 Ability,9,MiniBoss
-Ability,9,SECEQ,100
+Ability,9,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
 
-[Statue of Khonshu]
-Ability,10,Name,Statue of Khonshu
-Ability,10,Points,1
-Ability,10,Page,1
-Ability,10,Slot,7
+[Gruesome Frenzy]   //Sig+Multi-Activate
+Ability,10,Name,Gruesome Frenzy
+Ability,10,Points,20
+Ability,10,Page,2
+Ability,10,Slot,5
 Ability,10,Boss
 Ability,10,MiniBoss
+Ability,10,Delay,50
+Ability,10,MaxRange,125
 Ability,10,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
 
-[Moon Copter]
-Ability,11,Name,Moon Copter
+[Avatar of Vengeance]   //Buff while Statue of Khonshu and Sig are active
+Ability,11,Name,Avatar of Vengeance
+Ability,11,Points,20
+Ability,11,Page,2
+Ability,11,Slot,3
 Ability,11,Boss
 Ability,11,MiniBoss
-Ability,11,Page,2
-Ability,11,Slot,2
-Ability,11,MaxRange,450
+Ability,11,SECEQ,100
+Ability,11,CooldownCheck,5,False
 
-[Gruesome Frenzy]
-Ability,12,Name,Gruesome Frenzy
+[Moon Copter]   //Ult
+Ability,12,Name,Moon Copter
+Ability,12,Points,0
+Ability,12,Page,2
+Ability,12,Slot,2
 Ability,12,Boss
-Ability,12,MiniBoss
-//Ability,12,Activate,14
-Ability,12,Delay,50
-Ability,12,Page,1
-Ability,12,Slot,6
-Ability,12,Points,20
-Ability,12,MaxRange,125
-Ability,12,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
+Ability,12,MaxRange,450
 
-[Tripwire Bolas]
+[Tripwire Bolas]   //Dot
 Ability,13,Name,Tripwire Bolas
-Ability,13,Cooldown,5
+Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,3
-Ability,13,Points,20
+Ability,13,Cooldown,6
 Ability,13,MaxRange,600
 
-[Crescent Fan]
+[Crescent Fan]   //Dot
 Ability,14,Name,Crescent Fan
-Ability,14,Cooldown,5
+Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,5
-Ability,14,Points,20
+Ability,14,Cooldown,5
 Ability,14,MaxRange,525
 
-[Crescent Dart Throw]
+[Crescent Dart Throw]   //Dot
 Ability,15,Name,Crescent Dart Throw
-Ability,15,Cooldown,5
+Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,4
-Ability,15,Points,20
+Ability,15,Cooldown,5
 Ability,15,MaxRange,600
 
-[Cestus Gauntlet Punch]
-Ability,16,Name,Cestus Gauntlet Punch
-Ability,16,Page,1
-Ability,16,Slot,2
+[Crescent Fan]   //AOE Spender+Dot
+Ability,16,Name,Crescent Fan
 Ability,16,Points,20
-Ability,16,MaxRange,125
+Ability,16,Page,1
+Ability,16,Slot,5
+Ability,16,MaxRange,525
+Ability,16,AOE
+Ability,16,AOETYPE,Target
+Ability,16,AOERANGE,300
+Ability,16,AOECOUNT,2
 
-[Spiked Gauntlets]
-Ability,17,Name,Spiked Gauntlets
+[Cestus Gauntlet Punch]   //Spender+Dot
+Ability,17,Name,Cestus Gauntlet Punch
 Ability,17,Page,1
-Ability,17,Slot,1
+Ability,17,Slot,2
 Ability,17,Points,20
 Ability,17,MaxRange,125
 
-[Ziggurat]
-Ability,18,Name,Ziggurat of Kargul
-Ability,18,Points,0
-Ability,18,Page,2
-Ability,18,Slot,8
-Ability,18,Movement
-Ability,18,YHPGT,40
+[Spiked Gauntlets]   //Basic
+Ability,18,Name,Spiked Gauntlets
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,Points,20
+Ability,18,MaxRange,125
 
-[Combat Maneuvers]
-Ability,19,Name,Combat Maneuvers
+[Ziggurat]   //Movement
+Ability,19,Name,Ziggurat of Kargul
 Ability,19,Points,0
-Ability,19,Page,1
+Ability,19,Page,2
 Ability,19,Slot,8
 Ability,19,Movement
+Ability,19,YHPGT,40
+
+[Combat Maneuvers]   //Movement
+Ability,20,Name,Combat Maneuvers
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
 
 END
 
-[Build: https://forums.marvelheroes.com/discussion/144603/khonshus-tribute-a-moon-knight-build]
+[Build: marvelheroes.info/build/1818]
