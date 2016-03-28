@@ -81,7 +81,7 @@ Ability,9,MinRange,600
 Ability,9,Cooldown,3
 Ability,9,YSPGT,10
 
-[Arc Reactor Overload]   //Spirit Regen Below 20%
+[Arc Reactor Overload]   //Spirit Regen Below 60%
 Ability,10,Name,Arc Reactor Overload
 Ability,10,Points,20
 Ability,10,Page,1
