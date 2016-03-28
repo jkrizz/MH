@@ -81,13 +81,13 @@ Ability,10,Slot,7
 Ability,10,MiniBoss
 Ability,10,Boss
 
-[Explosive Dart Throw]
-Ability,11,Name,Explosive Dart Throw
+[Explosive Crescent Dart]
+Ability,11,Name,Explosive Crescent Dart
 Ability,11,Points,1
 Ability,11,Page,1
 Ability,11,Slot,6
 Ability,11,Cooldown,6
-//Ability,11,MaxRange,
+Ability,11,MaxRange,700
 
 [Statue of Khonshu]   //Buff
 Ability,12,Name,Statue of Khonshu
