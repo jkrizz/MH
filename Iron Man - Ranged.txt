@@ -86,7 +86,7 @@ Ability,10,Name,Arc Reactor Overload
 Ability,10,Points,20
 Ability,10,Page,1
 Ability,10,Slot,7
-Ability,10,YSPLT,40
+Ability,10,YSPLT,60
 
 [Repulsor Blast]   //Spirit Regen Below 20%
 Ability,11,Name,Repulsor Blast
@@ -101,78 +101,78 @@ Ability,12,Name,Jericho Bombardment
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,6
-//Ability,12,MaxRange,
+Ability,12,MaxRange,600
 
 [House Party]   //Ult
-Ability,9,Name,House Party
-Ability,9,Points,0
-Ability,9,Page,2
-Ability,9,Slot,1
-Ability,9,Boss
-Ability,9,MaxRange,750
+Ability,13,Name,House Party
+Ability,13,Points,0
+Ability,13,Page,2
+Ability,13,Slot,1
+Ability,13,Boss
+Ability,13,MaxRange,750
 
 [Micro-Missiles]   //CD Spender
-Ability,10,Name,Micro-Missiles
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,MaxRange,625
+Ability,14,Name,Micro-Missiles
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,2
+Ability,14,MaxRange,625
 
 [The One-Off]  //Sig
-Ability,11,Name,The One-Off
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,4
-Ability,11,MiniBoss
-Ability,11,Boss
-Ability,11,MaxRange,450
-
-[Wrist Rocket]   //CD Spender
-Ability,12,Name,Wrist Rocket
-Ability,12,Points,20
-Ability,12,Page,2
-Ability,12,Slot,2
-Ability,12,MaxRange,875
-//Ability,12,PanelBuff,
-
-[Repulsor Barrage]   //Spender
-Ability,13,Name,Repulsor Barrage
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,3
-Ability,13,MouseTarget
-Ability,13,Hold,1000,AsPrimary
-Ability,13,MaxRange,500
-
-[Repulsor Blast]   //Basic
-Ability,14,Name,Repulsor Blast
-Ability,14,Points,0
-Ability,14,Page,1
-Ability,14,Slot,1
-Ability,14,MaxRange,500
-
-[Arc Reactor Overload]   //Spirit Regen Below 100% While Moving
-Ability,15,Name,Arc Reactor Overload
+Ability,15,Name,The One-Off
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,7
-Ability,15,YSPLT,100
-Ability,15,Movement
+Ability,15,Slot,4
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,MaxRange,450
+
+[Wrist Rocket]   //CD Spender
+Ability,16,Name,Wrist Rocket
+Ability,16,Points,20
+Ability,16,Page,2
+Ability,16,Slot,2
+Ability,16,MaxRange,875
+Ability,16,Cooldown,6
+
+[Repulsor Barrage]   //Spender
+Ability,17,Name,Repulsor Barrage
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,3
+Ability,17,MouseTarget
+Ability,17,Hold,1000,AsPrimary
+Ability,17,MaxRange,500
+
+[Repulsor Blast]   //Basic
+Ability,18,Name,Repulsor Blast
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,500
+
+[Arc Reactor Overload]   //Spirit Regen Below 100% While Moving
+Ability,19,Name,Arc Reactor Overload
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,7
+Ability,19,YSPLT,100
+Ability,19,Movement
 
 [Ziggurat]   //Movement
-Ability,16,Name,Ziggurat of Kargul
-Ability,16,Points,0
-Ability,16,Page,2
-Ability,16,Slot,8
-Ability,16,YHPGT,10
-Ability,16,Movement
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
+Ability,20,Page,2
+Ability,20,Slot,8
+Ability,20,YHPGT,10
+Ability,20,Movement
 
 [Hyper-Velocity Charge]   //Movement
-Ability,17,Name,Hyper-Velocity Charge
-Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,8
-Ability,17,Movement
+Ability,21,Name,Hyper-Velocity Charge
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
 
 END
 
