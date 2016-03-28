@@ -137,6 +137,7 @@ Ability,12,Cooldown,5   //PANELBUFF?
 
 [Repulsor Barrage]   //Spender
 Ability,13,Name,Repulsor Barrage
+Ability,13,Points,20
 Ability,13,Page,1
 Ability,13,Slot,3
 Ability,13,MouseTarget
