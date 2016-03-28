@@ -12,55 +12,51 @@ Ability,1,Points,20
 Ability,2,Name,Master Swordsman
 Ability,2,Points,20
 
-[Heartseeker Guard]
-Ability,3,Name,Heartseeker Guard
+[Advancing Guard]
+Ability,3,Name,Advancing Guard
 Ability,3,Points,20
 Ability,3,Page,3
 Ability,3,Slot,2
 Ability,3,Toggle
+Ability,3,Cooldown,60
+
+[Incredible Acrobatics]
+Ability,4,Name,Incredible Acrobatics
+Ability,4,Points,4
 
 //ROTATION
 
-[TeamUp]
-Ability,4,TeamUp
+[TeamUp]   //TeamUp
+Ability,5,TeamUp
 
-//Recommend uncommenting the below if you don't have a Zola's
-//[Shadowmeld]
-//Ability,5,Name,Shadowmeld
-//Ability,5,Points,1
-//Ability,5,Page,1
-//Ability,5,Slot,6
-//Ability,5,YSPLT,20
-//Ability,5,Delay,4000
-
-[Shadowmeld]
-Ability,6,Name,Shadowmeld
-Ability,6,Points,1
+[Teleport]   //Gap-Close
+Ability,6,Name,Teleport
+Ability,6,Points,0
 Ability,6,Page,1
-Ability,6,Slot,6
-Ability,6,YSPLT,20
-Ability,6,Delay,4000
-Ability,6,Movement
+Ability,6,Slot,8
+Ability,6,Cooldown,3
+Ability,6,MinRange,200
+Ability,6,YSPGT,20
 
-//Uncomment the below if you feel you need to slip into the shadows to heal, possibly useful early game
-//[Shadowmeld]
-//Ability,7,Name,Shadowmeld
-//Ability,7,Points,1
-//Ability,7,Page,1
-//Ability,7,Slot,6
-//Ability,7,YHPLT,60
-//Ability,7,Delay,4000
+[Shadowmeld]   //Spirit Regen Below 20%
+Ability,7,Name,Shadowmeld
+Ability,7,Points,1
+Ability,7,Page,1
+Ability,7,Slot,6
+Ability,7,YSPLT,20
+Ability,7,PanelBuff,MarvelUIIcons.Power_Nightcrawler_BamfStealth,False
+Ability,7,Delay,4000
 
-[Teleport]
-Ability,8,Name,Stealthy Escape
-Ability,8,Points,0
+[Shadowmeld]   //HP Regen Below 50%
+Ability,8,Name,Shadowmeld
+Ability,8,Points,1
 Ability,8,Page,1
-Ability,8,Slot,8
-Ability,8,Cooldown,3
-Ability,8,MinRange,150
-Ability,8,YSPGT,20
+Ability,8,Slot,6
+Ability,8,YHPLT,50
+Ability,8,PanelBuff,MarvelUIIcons.Power_Nightcrawler_BamfStealth,false
+Ability,8,Delay,4000
 
-[Agile Strike]
+[Agile Strike]   //Spirit Regen Below 20%
 Ability,9,Name,Agile Strike
 Ability,9,Points,0
 Ability,9,Page,1
@@ -68,65 +64,62 @@ Ability,9,Slot,1
 Ability,9,MaxRange,100
 Ability,9,YSPLT,20
 
-[Infernal Brimstone]
-Ability,10,Name,Infernal Brimstone
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,Cooldown,5
-Ability,10,MaxRange,200
+[Acrobatic Escape]   //CC-Immunity
+Ability,10,Name,Acrobatic Escape
+Ability,10,Points,1
+Ability,10,Page,2
+Ability,10,Slot,4
+Ability,10,MiniBoss
+Ability,10,Boss
 
-[Obscuring Brimstone]
-Ability,11,Name,Obscuring Brimstone
-Ability,11,Points,1
+[Infernal Brimstone]   //Vulnerability
+Ability,11,Name,Infernal Brimstone
+Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,Boss
+Ability,11,Slot,2
+Ability,11,Cooldown,5
+Ability,11,MaxRange,200
 
-[Brimstone Blitz]
-Ability,12,Name,Brimstone Blitz
+[Flash and Grab]   //Weaken
+Ability,12,Name,Flash and Grab
+Ability,12,Points,1
 Ability,12,Page,2
-Ability,12,Slot,2
-Ability,12,Boss
-Ability,12,Maxrange,200
+Ability,12,Slot,5
+Ability,12,Cooldown,4
 
-[Righteous Frenzy]
-Ability,13,Name,Righteous Frenzy
+[Obscuring Brimstone]   //Buffs+Stealth
+Ability,13,Name,Obscuring Brimstone
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,4
+Ability,13,Slot,3
 Ability,13,MiniBoss
 Ability,13,Boss
-Ability,13,Delay,50
 
-[Death Blow]
-Ability,14,Name,Death Blow
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,MaxRange,150
+[Brimstone Blitz]   //Ult
+Ability,14,Name,Brimstone Blitz
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,2
+Ability,14,Boss
+Ability,14,Maxrange,200
 
-[Brimstone Beatdown]
-Ability,15,Name,Brimstone Beatdown
+[Righteous Frenzy]   //Sig+Buffs
+Ability,15,Name,Righteous Frenzy
 Ability,15,Points,20
-Ability,15,Page,2
-Ability,15,Slot,3
-Ability,15,Elite
+Ability,15,Page,1
+Ability,15,Slot,4
 Ability,15,MiniBoss
 Ability,15,Boss
-Ability,15,MouseTarget
-Ability,15,Hold,1000,AsPrimary
-Ability,15,MaxRange,90
-Ability,15,Delay,100
+Ability,15,Delay,50
 
-[Blink Strike]
-Ability,16,Name,Blink Strike
+[Death Blow]   //CD+Execute
+Ability,16,Name,Death Blow
 Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,7
-Ability,16,MaxRange,325
+Ability,16,Slot,5
+Ability,16,MaxRange,150
 
-[Sabre Swipe]
+[Sabre Swipe]   //Early-Game Spender
 Ability,17,Name,Sabre Swipe
 Ability,17,Points,0
 Ability,17,Page,2
@@ -134,21 +127,61 @@ Ability,17,Slot,3
 Ability,17,MaxLevel,14
 Ability,17,MaxRange,100
 
-[Agile Strike]
-Ability,18,Name,Agile Strike
-Ability,18,Points,0
+[Blink Strike]   //AOE Spender
+Ability,18,Name,Blink Strike
+Ability,18,Points,1
 Ability,18,Page,1
-Ability,18,Slot,1
-Ability,18,MaxRange,100
+Ability,18,Slot,7
+Ability,18,MaxRange,325
+Ability,18,AOE
+Ability,18,AOETYPE,Target
+Ability,18,AOERANGE,300
+Ability,18,AOECOUNT,2
 
-[Teleport]
-Ability,19,Name,Teleport
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,8
-Ability,19,Movement
-Ability,19,Buff,marvelconditioneffect_nightcrawler_stealthpunchtrigger,False
-Ability,19,Buff,marvelconditioneffect_nightcrawler_bamfstealth,False
+[Brimstone Beatdown]   //Late-Game Spender
+Ability,19,Name,Brimstone Beatdown
+Ability,19,Points,20
+Ability,19,Page,2
+Ability,19,Slot,3
+Ability,19,MouseTarget
+Ability,19,Hold,1000,AsPrimary
+Ability,19,MaxRange,125
+Ability,19,MinLevel,14
+
+[Agile Strike]   //Basic
+Ability,20,Name,Agile Strike
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,1
+Ability,20,MaxRange,100
+
+[Shadowmeld]   //Spirit Regen Below 20% While Moving
+Ability,21,Name,Shadowmeld
+Ability,21,Points,1
+Ability,21,Page,1
+Ability,21,Slot,6
+Ability,21,YSPLT,20
+Ability,21,PanelBuff,MarvelUIIcons.Power_Nightcrawler_BamfStealth,False
+Ability,21,Movement
+Ability,21,Delay,4000
+
+[Shadowmeld]   //HP Regen Below 50% While Moving
+Ability,22,Name,Shadowmeld
+Ability,22,Points,1
+Ability,22,Page,1
+Ability,22,Slot,6
+Ability,22,YHPLT,50
+Ability,22,PanelBuff,MarvelUIIcons.Power_Nightcrawler_BamfStealth,false
+Ability,22,Movement
+Ability,22,Delay,4000
+
+[Teleport]   //Movement
+Ability,23,Name,Teleport
+Ability,23,Points,0
+Ability,23,Page,1
+Ability,23,Slot,8
+Ability,23,Movement
+Ability,23,Buff,marvelconditioneffect_nightcrawler_bamfstealth,False
 
 END
 
