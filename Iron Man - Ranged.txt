@@ -20,7 +20,7 @@ Ability,2,Slot,5
 Ability,2,Toggle
 Ability,2,Cooldown,60
 
-[Life Support Systems]   //
+[Life Support Systems]
 Ability,3,Name,Life Support Systems
 Ability,3,Points,2
 Ability,3,Page,2
@@ -28,7 +28,7 @@ Ability,3,Slot,6
 Ability,3,Toggle
 Ability,3,Cooldown,60
 
-[Arc Reactor Enhancement]  //
+[Arc Reactor Enhancement] 
 Ability,4,Name,Arc Reactor Enhancement
 Ability,4,Points,20
 Ability,4,Page,2
@@ -133,7 +133,7 @@ Ability,12,Points,20
 Ability,12,Page,2
 Ability,12,Slot,2
 Ability,12,MaxRange,875
-Ability,12,Cooldown,5   //PANELBUFF?
+//Ability,12,PanelBuff,
 
 [Repulsor Barrage]   //Spender
 Ability,13,Name,Repulsor Barrage
