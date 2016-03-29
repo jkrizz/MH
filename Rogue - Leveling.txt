@@ -1,6 +1,7 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
 //This Rogue ability file is solely used to level without gaining any stolen powers whatsoever.  I highly recommend leveling her on a Monday in Midtown to take advantage of the massive xp acquireable there.
+//I've also added Vanish teleport support from Kirigi.  I highly recommend acquiring his teleport if possible.
 
 hero,Rogue
 
@@ -8,10 +9,10 @@ hero,Rogue
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,1,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,2,Name,Ziggurat of Kargul
 Ability,2,Points,0
 Ability,2,Page,2
@@ -20,114 +21,136 @@ Ability,2,Cooldown,3
 Ability,2,YHPGT,40
 Ability,2,MinRange,200
 
-[Kree Charge]
-Ability,3,Name,Kree Charge
-Ability,3,Points,0
-Ability,3,Page,1
-Ability,3,Slot,8
+[Vanish]   //Gap-Close
+//KIRIGI - INDUSTRY CITY / X-DEFENSE
+Ability,3,Name,Vanish
+Ability,3,Points,1
+Ability,3,Page,3
+Ability,3,Slot,7
 Ability,3,Cooldown,3
 Ability,3,MinRange,200
 Ability,3,YSPGT,20
 
-[Draining Punch]
-Ability,4,Name,Draining Punch
+[Kree Charge]   //Gap-Close
+Ability,4,Name,Kree Charge
 Ability,4,Points,0
 Ability,4,Page,1
-Ability,4,Slot,1
-Ability,4,MaxRange,125
-Ability,4,YSPLT,20
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
 
-[Rubble Slam]
-Ability,5,Name,Rubble Slam
-Ability,5,Points,20
+[Draining Punch]   //Spirit Regen Below 20%
+Ability,5,Name,Draining Punch
+Ability,5,Points,0
 Ability,5,Page,1
-Ability,5,Slot,6
-Ability,5,MaxRange,625
+Ability,5,Slot,1
+Ability,5,MaxRange,125
+Ability,5,YSPLT,20
 
-[Gloves Off]
-Ability,6,Name,Gloves Off
+[Kree Resilience]   //CC-Immunity
+Ability,6,Name,Kree Resilience
 Ability,6,Points,20
-Ability,6,Page,1
-Ability,6,Slot,7
+Ability,6,Page,2
+Ability,6,Slot,2
 Ability,6,MiniBoss
 Ability,6,Boss
 
-//[Final Form]
-//Ability,7,Name,Final Form
-//Ability,7,Points,0
-//Ability,7,Page,2
-//Ability,7,Slot,3
-//Ability,7,Boss
+[Rubble Slam]   //CD Spender+Vulnerability
+Ability,7,Name,Rubble Slam
+Ability,7,Points,20
+Ability,7,Page,1
+Ability,7,Slot,6
+Ability,7,MaxRange,625
 
-[Kree Resilience]
-Ability,8,Name,Kree Resilience
+[Gloves Off]   //Buffs
+Ability,8,Name,Gloves Off
 Ability,8,Points,20
-Ability,8,Page,2
-Ability,8,Slot,2
+Ability,8,Page,1
+Ability,8,Slot,7
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Recall Overload]
-Ability,9,Name,Recall Overload
-Ability,9,Points,20
-Ability,9,Page,2
-Ability,9,Slot,4
-Ability,9,MiniBoss
-Ability,9,Boss
-Ability,9,MaxRange,250
+//[Final Form]   //Ult
+//Ability,9,Name,Final Form
+//Ability,9,Points,0
+//Ability,9,Page,2
+//Ability,9,Slot,3
+//Ability,9,Boss
 
-[Drain Life]
-Ability,10,Name,Drain Life
+[Recall Overload]   //Sig+CC-Immunity+Spirit Restore
+Ability,10,Name,Recall Overload
 Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,MaxRange,125
-Ability,10,Cooldown,5
+Ability,10,Page,2
+Ability,10,Slot,4
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,MaxRange,250
 
-[Aerial Onslaught]
-Ability,11,Name,Aerial Onslaught
-Ability,11,Points,14
+[Drain Life]   //HP Regen
+Ability,11,Name,Drain Life
+Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,3
+Ability,11,Slot,2
 Ability,11,MaxRange,125
-Ability,11,Cooldown,4
+Ability,11,Cooldown,5
 
-[Vaulting Uppercut]
-Ability,12,Name,Vaulting Uppercut
-Ability,12,Points,20
+[Aerial Onslaught]   //Dot
+Ability,12,Name,Aerial Onslaught
+Ability,12,Points,14
 Ability,12,Page,1
-Ability,12,Slot,4
+Ability,12,Slot,3
 Ability,12,MaxRange,125
 Ability,12,Cooldown,4
 
-[Crushing Blows]
-Ability,13,Name,Crushing Blows
+[Vaulting Uppercut]   //Dot
+Ability,13,Name,Vaulting Uppercut
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,5
+Ability,13,Slot,4
 Ability,13,MaxRange,125
+Ability,13,Cooldown,4
 
-[Draining Punch]
-Ability,14,Name,Draining Punch
-Ability,14,Points,0
+[Crushing Blows]   //Spender
+Ability,14,Name,Crushing Blows
+Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,1
+Ability,14,Slot,5
 Ability,14,MaxRange,125
 
-[Ziggurat]
-Ability,15,Name,Ziggurat of Kargul
+[Draining Punch]   //Basic
+Ability,15,Name,Draining Punch
 Ability,15,Points,0
-Ability,15,Page,2
-Ability,15,Slot,8
-Ability,15,Movement
-Ability,15,YHPGT,40
+Ability,15,Page,1
+Ability,15,Slot,1
+Ability,15,MaxRange,125
 
-[Kree Charge]
-Ability,16,Name,Kree Charge
+[Ziggurat]   //Movement
+Ability,16,Name,Ziggurat of Kargul
 Ability,16,Points,0
-Ability,16,Page,1
+Ability,16,Page,2
 Ability,16,Slot,8
 Ability,16,Movement
+Ability,16,YHPGT,40
+
+[Vanish]   //Movement
+//KIRIGI - INDUSTRY CITY / X-DEFENSE
+Ability,17,Name,Vanish
+Ability,17,Points,1
+Ability,17,Page,3
+Ability,17,Slot,7
+Ability,17,Cooldown,3
+Ability,17,MinRange,200
+Ability,17,YSPGT,20
+
+[Kree Charge]   //Movement
+Ability,18,Name,Kree Charge
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,8
+Ability,18,Movement
 
 END
 
-[Build: None]
+[Build: Custom Left-Tree Leveling]
 
