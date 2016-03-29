@@ -6,148 +6,177 @@ hero,She-Hulk
 
 [Defense Attorney]
 Ability,1,Name,Defense Attorney
-Ability,1,Points,1
+Ability,1,Points,15
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,3,Name,Ziggurat of Kargul
 Ability,3,Points,0
 Ability,3,Page,2
 Ability,3,Slot,8
 Ability,3,Cooldown,3
 Ability,3,YHPGT,40
-Ability,3,MinRange,300
+Ability,3,MinRange,200
 
-[Legal Lunge]
+[Legal Lunge]   //Gap-Close
 Ability,4,Name,Legal Lunge
 Ability,4,Points,0
 Ability,4,Page,1
 Ability,4,Slot,8
 Ability,4,Cooldown,3
-Ability,4,MinRange,300
+Ability,4,MinRange,200
 Ability,4,YSPGT,20
 
-[Lawyer Up]
+[Lawyer Up]   //HP Regen+Buff at 5 Combo Points and Below 50%
 Ability,5,Name,Lawyer Up
-Ability,5,Points,20
+Ability,5,Points,18
 Ability,5,Page,1
 Ability,5,Slot,5
 Ability,5,SECEQ,5
-Ability,5,YHPLT,40
+Ability,5,YHPLT,50
 
-[Cross Examination]
+[Cross Examination]   //Spirit Regen Below 20% and Less Than 5 Combo Points
 Ability,6,Name,Cross Examination
 Ability,6,Points,0
 Ability,6,Page,1
 Ability,6,Slot,1
-Ability,6,MaxRange,100
+Ability,6,MaxRange,125
 Ability,6,YSPLT,20
 Ability,6,SECLT,5
 
-[Contempt of Court]
+[Contempt of Court]   //CC-Immunity
 Ability,7,Name,Contempt of Court
 Ability,7,Points,20
 Ability,7,Page,2
 Ability,7,Slot,5
+Ability,7,MiniBoss
+Ability,7,Boss
 
-[Lawyer Up]
-Ability,8,Name,Lawyer Up
+[Cease and Desist]   //Irresistable Stun
+Ability,8,Name,Cease and Desist
 Ability,8,Points,20
 Ability,8,Page,1
-Ability,8,Slot,5
-Ability,8,SECEQ,5
-Ability,8,Buff,marvelconditioneffect_shehulk_lawyerup,false
+Ability,8,Slot,4
+Ability,8,MiniBoss
+Ability,8,Boss
+Ability,8,MaxRange,300
 
-[Move To Strike]
-Ability,9,Name,Move to Strike
-Ability,9,Points,20
+[Lawyer Up]   //Buffs at 5 Combo Points and Don't Already Have Buffs
+Ability,9,Name,Lawyer Up
+Ability,9,Points,18
 Ability,9,Page,1
-Ability,9,Slot,4
-Ability,9,MaxRange,600
-Ability,9,PanelBuff,MarvelUIIcons.TeamUp_SheHulk_Objection,True,1
+Ability,9,Slot,5
+Ability,9,SECEQ,5
+Ability,9,Buff,marvelconditioneffect_shehulk_lawyerup,false
 
-[Pillar of Justice]
-Ability,10,Name,Pillar of Justice
+[Bar Exam]   //CD Spender+Max Combo Regen
+Ability,10,Name,Bar Exam
+Ability,10,Points,15
 Ability,10,Page,2
-Ability,10,Slot,3
-Ability,10,Boss
-Ability,10,MaxRange,450
-Ability,10,Buff,marvelconditioneffect_shehulk_lawyerup,true
+Ability,10,Slot,4
+Ability,10,SECLT,3
+Ability,10,MaxRange,250
 
-[Opening Statement]
+[Opening Statement]   //Vulnerability+Combo Regen Below 3 Combo Points
 Ability,11,Name,Opening Statement
-Ability,11,Points,20
+Ability,11,Points,15
 Ability,11,Page,1
 Ability,11,Slot,2
-Ability,11,Cooldown,5
 Ability,11,MaxRange,500
-Ability,11,SECLT,5
+Ability,11,SECLT,3
 
-[Conviction]
-Ability,12,Name,Conviction
-Ability,12,Points,20
-Ability,12,Page,1
-Ability,12,Slot,6
+[Surprise Witness]   //Summon
+Ability,12,Name,Surprise Witness
+Ability,12,Points,1
+Ability,12,Page,2
+Ability,12,Slot,2
+Ability,12,MiniBoss
 Ability,12,Boss
-Ability,12,MouseTarget
-Ability,12,MaxRange,750
 
-[Surprise Witness]
-Ability,13,Name,Surprise Witness
-Ability,13,Points,1
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,Boss
+[Assault]   //Weaken+Combo Regen
+Ability,13,Name,Assault
+Ability,13,Points,15
+Ability,13,Page,1
+Ability,13,Slot,7
+Ability,13,Cooldown,6
+//Ability,13,MaxRange,
 
-[Bar Exam] 
-Ability,14,Name,Bar Exam
-Ability,14,Points,20
-Ability,14,Page,2
-Ability,14,Slot,4
-Ability,14,SECLT,3
-Ability,14,MaxRange,250
+[Opening Statement]   //Vulnerability+Combo Regen Below 5 Combo Points
+Ability,14,Name,Opening Statement
+Ability,14,Points,15
+Ability,14,Page,1
+Ability,14,Slot,2
+Ability,14,MaxRange,500
+Ability,14,SECLT,5
 
-[Closing Argument] 
-Ability,15,Name,Closing Argument
-Ability,15,Points,20
-Ability,15,Page,1
+[Barrister Beatdown]   //CD+SEC Spender
+Ability,15,Name,Barrister Beatdown
+Ability,15,Points,15
+Ability,15,Page,2
 Ability,15,Slot,7
+//Ability,15,MaxRange,
 Ability,15,SECGT,4
-Ability,15,MaxRange,100
 
-[Objection!]
-Ability,16,Name,Objection!
+[Final Verdict]   //Finisher+No Spirit Cost at 5 Combo Points
+Ability,16,Name,Final Verdict
 Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,3
-Ability,16,MaxRange,700
+Ability,16,Page,2
+Ability,16,Slot,6
+//Ability,16,MaxRange,
+Ability,16,SECGT,4
 
-[Cross Examination]
-Ability,17,Name,Cross Examination
+[Pillar of Justice]   //Ult+Buffs
+Ability,17,Name,Pillar of Justice
 Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,1
-Ability,17,MaxRange,100
+Ability,17,Page,2
+Ability,17,Slot,3
+Ability,17,Boss
+Ability,17,MaxRange,450
+Ability,17,Buff,marvelconditioneffect_shehulk_lawyerup,true
 
-[Ziggurat]
-Ability,18,Name,Ziggurat of Kargul
-Ability,18,Points,0
-Ability,18,Page,2
-Ability,18,Slot,8
-Ability,18,YHPGT,40
-Ability,18,Movement
+[Conviction]   //Sig
+Ability,18,Name,Conviction
+Ability,18,Points,15
+Ability,18,Page,1
+Ability,18,Slot,6
+Ability,18,MiniBoss
+Ability,18,Boss
+Ability,18,MouseTarget
+Ability,18,MaxRange,750
 
-[Legal Lunge]
-Ability,19,Name,Legal Lunge
+[Objection!]  //CD Spender
+Ability,19,Name,Objection!
 Ability,19,Points,0
 Ability,19,Page,1
-Ability,19,Slot,8
-Ability,19,Movement
+Ability,19,Slot,3
+Ability,19,MaxRange,700
+
+[Cross Examination]   //Basic
+Ability,20,Name,Cross Examination
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,1
+Ability,20,MaxRange,125
+
+[Ziggurat]   //Movement
+Ability,21,Name,Ziggurat of Kargul
+Ability,21,Points,0
+Ability,21,Page,2
+Ability,21,Slot,8
+Ability,21,YHPGT,40
+Ability,21,Movement
+
+[Legal Lunge]  //Movement
+Ability,22,Name,Legal Lunge
+Ability,22,Points,0
+Ability,22,Page,1
+Ability,22,Slot,8
+Ability,22,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/11924/#p0]
+[Build: http://marvelheroes.info/build/12239/]
