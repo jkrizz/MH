@@ -11,10 +11,6 @@ Ability,1,Points,20
 [Deadly Assassin]
 Ability,2,Name,Deadly Assassin
 Ability,2,Points,20
-Ability,2,Page,2
-Ability,2,Slot,6
-Ability,2,Toggle
-Ability,2,Cooldown,60
 
 [Psionic Resilience]
 Ability,3,Name,Psionic Resilience
@@ -22,124 +18,147 @@ Ability,3,Points,1
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-[Shadow Dash]
+[Shadow Dash]   //Gap-Close
 Ability,5,Name,Shadow Dash
 Ability,5,Points,0
 Ability,5,Page,1
 Ability,5,Slot,8
 Ability,5,Cooldown,3
-Ability,5,MinRange,150
+Ability,5,MinRange,200
 Ability,5,YSPGT,20
 
-[Ninjutsu Strike]
+[Ninjutsu Strike]   //Early-Game Spirit Regen Below 20%
 Ability,6,Name,Ninjutsu Strike
 Ability,6,Points,0
 Ability,6,Slot,1
 Ability,6,Page,1
-Ability,6,MaxRange,100
+Ability,6,MaxRange,125
 Ability,6,YSPLT,20
+Ability,6,MaxLevel,4
 
-[Shadowstep]
-Ability,7,Name,Shadowstep
+[Psi-Knife]   //Late-Game Spirit Regen Below 20%
+Ability,7,Name,Psi-Knife
 Ability,7,Points,1
 Ability,7,Page,1
-Ability,7,Slot,5
+Ability,7,Slot,1
+Ability,7,MaxRange,125
+Ability,7,YSPLT,20
+Ability,7,MinLevel,4
 
-[Ethereal Butterflies]
-Ability,8,Name,Ethereal Butterflies
-Ability,8,Points,20
-Ability,8,Slot,3
+[Shadowstep]   //CC-Immunity+Invisibility
+Ability,8,Name,Shadowstep
+Ability,8,Points,1
 Ability,8,Page,2
-Ability,8,YSPLT,60
-Ability,8,MaxRange,600
+Ability,8,Slot,4
+Ability,8,MiniBoss
+Ability,8,Boss
 
-[Psionic Projection]
-Ability,9,Name,Psionic Projection
-Ability,9,Points,20
-Ability,9,Slot,4
+[Psi-Thrust]   //Spirit/Psionic Barrier Regen on Next Hit
+Ability,9,Name,Psi-Thrust
+Ability,9,Points,1
 Ability,9,Page,1
-Ability,9,Cooldown,3
+Ability,9,Slot,5
+Ability,9,Buff,marvelconditioneffect_buffattack,False
+Ability,9,CooldownCheck,6,False
 
-[Psionic Vortex]
-Ability,10,Name,Psionic Vortex
-Ability,10,Points,4
-Ability,10,Slot,2
+[Assassinate]  //CD Spender+Execute When Stealthed
+Ability,10,Name,Assassinate
+Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Cooldown,6
-Ability,10,Maxrange,600
+Ability,10,Slot,6
+Ability,10,MaxRange,700
+Ability,10,Buff,marvelconditioneffect_psylocke_psistealth,true
+Ability,10,MouseTarget
 
-[Psionic Maelstrom]
-Ability,11,Name,Psionic Maelstrom
-Ability,11,Page,2
-Ability,11,Slot,2
-Ability,11,Boss
-Ability,11,MaxRange,500
+[Psionic Projection]   //Stealth
+Ability,11,Name,Psionic Projection
+Ability,11,Points,6
+Ability,11,Page,1
+Ability,11,Slot,4
+Ability,11,Cooldown,3
 
-[Psionic Assault]
-Ability,12,Name,Psionic Assault
+[Katana Typhoon]   //CD Spender
+Ability,12,Name,Katana Typhoon
 Ability,12,Points,20
-Ability,12,Slot,5
-Ability,12,Page,2
-Ability,12,Cooldown,6
-Ability,12,Maxrange,600
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,Maxrange,150
 
-[Assassinate]
-Ability,13,Name,Assassinate
-Ability,13,Points,20
-Ability,13,Slot,6
+[Psionic Vortex]   //Vulnerability
+Ability,13,Name,Psionic Vortex
+Ability,13,Points,16
 Ability,13,Page,1
-Ability,13,MaxRange,700
-Ability,13,Buff,marvelconditioneffect_psylocke_psi stealth,true
-Ability,13,MouseTarget
+Ability,13,Slot,2
+Ability,13,Cooldown,6
+Ability,13,Maxrange,600
 
-[Falling Lotus Strike]
-Ability,14,Name,Falling Lotus Strike
-Ability,14,Points,20
-Ability,14,Slot,3
-Ability,14,Page,1
-Ability,14,Cooldown,5
-Ability,14,Maxrange,425
+[Psionic Assault]   //Weaken
+Ability,14,Name,Psionic Assault
+Ability,14,Points,9
+Ability,14,Page,2
+Ability,14,Slot,5
+Ability,14,Cooldown,6
+Ability,14,Maxrange,600
 
-[Assassinate]
-Ability,15,Name,Assassinate
+[Ethereal Butterflies]   //Sig+Psionic Barrier/Sprit Regen
+Ability,15,Name,Ethereal Butterflies
 Ability,15,Points,20
-Ability,15,Slot,6
-Ability,15,Page,1
-Ability,15,MaxRange,700
-Ability,15,Buff,marvelconditioneffect_psylocke_psi stealth,false
-Ability,15,MouseTarget
+Ability,15,Page,2
+Ability,15,Slot,3
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,YSPLT,60
+Ability,15,MaxRange,600
 
-[Kirisute Gomen]
-Ability,16,Name,Kirisute Gomen
-Ability,16,Points,20
-Ability,16,Slot,4
+[Psionic Maelstrom]   //Ult
+Ability,16,Name,Psionic Maelstrom
+Ability,16,Points,0
 Ability,16,Page,2
-Ability,16,Maxrange,90
-Ability,16,YSPGT,15
+Ability,16,Slot,2
+Ability,16,Boss
+Ability,16,MaxRange,500
 
-[Psionic Assault]
-Ability,17,Name,Psionic Assault
+[Assassinate]   //CD Spender+Execute When Not Stealthed
+Ability,17,Name,Assassinate
 Ability,17,Points,20
-Ability,17,Slot,5
-Ability,17,Page,2
-Ability,17,Maxrange,600
+Ability,17,Slot,6
+Ability,17,Page,1
+Ability,17,MaxRange,700
+Ability,17,Buff,marvelconditioneffect_psylocke_psi stealth,false
+Ability,17,MouseTarget
 
-[Ninjutsu Strike]
-Ability,18,Name,Ninjutsu Strike
-Ability,18,Points,0
-Ability,18,Slot,1
+[Psi-Strike]   //Spender
+Ability,18,Name,Psi-Strike
+Ability,18,Points,19
 Ability,18,Page,1
-Ability,18,MaxRange,100
+Ability,18,Slot,7
+Ability,18,MaxRange,125
 
-[Shadow Dash]
-Ability,19,Name,Shadow Dash
+[Ninjutsu Strike]   //Early-Game Basic
+Ability,19,Name,Ninjutsu Strike
 Ability,19,Points,0
-Ability,19,Slot,8
+Ability,19,Slot,1
 Ability,19,Page,1
-Ability,19,Movement
+Ability,19,MaxRange,125
+Ability,19,MaxLevel,4
+
+[Psi-Knife]   //Late-Game Basic
+Ability,20,Name,Psi-Knife
+Ability,20,Points,1
+Ability,20,Page,1
+Ability,20,Slot,1
+Ability,20,MaxRange,125
+Ability,20,MinLevel,4
+
+[Shadow Dash]   //Movement
+Ability,21,Name,Shadow Dash
+Ability,21,Points,14
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
 
 END
 
