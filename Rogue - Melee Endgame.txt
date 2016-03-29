@@ -70,61 +70,61 @@ Ability,8,YSPGT,20
 
 [Demonic Barrier]   //HP Regen Below 50%
 //N'ASTIRH - LIMBO
-Ability,10,Name,Demonic Barrier
-Ability,10,Points,1
-Ability,10,Page,3
-Ability,10,Slot,4
-Ability,10,YHPLT,50
-Ability,10,Hold,5000
+Ability,9,Name,Demonic Barrier
+Ability,9,Points,1
+Ability,9,Page,3
+Ability,9,Slot,4
+Ability,9,YHPLT,50
+Ability,9,Hold,5000
 
 [Draining Punch]   //Spirit Regen Below 20%
-Ability,9,Name,Draining Punch
-Ability,9,Points,0
-Ability,9,Page,1
-Ability,9,Slot,1
-Ability,9,MaxRange,125
-Ability,9,YSPLT,20
+Ability,10,Name,Draining Punch
+Ability,10,Points,0
+Ability,10,Page,1
+Ability,10,Slot,1
+Ability,10,MaxRange,125
+Ability,10,YSPLT,20
 
 [Kree Resilience]   //CC-Immunity
-Ability,14,Name,Kree Resilience
-Ability,14,Points,3
-Ability,14,Page,2
-Ability,14,Slot,2
-Ability,14,MiniBoss
-Ability,14,Boss
-
-[Gloves Off]   //Buffs
-Ability,11,Name,Gloves Off
-Ability,11,Points,1
-Ability,11,Page,1
-Ability,11,Slot,7
+Ability,11,Name,Kree Resilience
+Ability,11,Points,3
+Ability,11,Page,2
+Ability,11,Slot,2
 Ability,11,MiniBoss
 Ability,11,Boss
 
-[Ragin' Cajun]   //Buffs
-//GAMBIT
-Ability,12,Name,Ragin' Cajun
-Ability,12,Points,20
-Ability,12,Page,2
-Ability,12,Slot,6
+[Gloves Off]   //Buffs
+Ability,12,Name,Gloves Off
+Ability,12,Points,1
+Ability,12,Page,1
+Ability,12,Slot,7
 Ability,12,MiniBoss
 Ability,12,Boss
 
+[Ragin' Cajun]   //Buffs
+//GAMBIT
+Ability,13,Name,Ragin' Cajun
+Ability,13,Points,20
+Ability,13,Page,2
+Ability,13,Slot,6
+Ability,13,MiniBoss
+Ability,13,Boss
+
 [Crimson Sweep]  //Vulnerability+Dot
 //X-23
-Ability,15,Name,Crimson Sweep
-Ability,15,Points,1
-Ability,15,Page,1
-Ability,15,Slot,4
-Ability,15,Cooldown,5
-Ability,15,MaxRange,125
+Ability,14,Name,Crimson Sweep
+Ability,14,Points,1
+Ability,14,Page,1
+Ability,14,Slot,4
+Ability,14,Cooldown,5
+Ability,14,MaxRange,125
 
 //[Final Form]   //Ult
-//Ability,13,Name,Final Form
-//Ability,13,Points,0
-//Ability,13,Page,2
-//Ability,13,Slot,3
-//Ability,13,Boss
+//Ability,15,Name,Final Form
+//Ability,15,Points,0
+//Ability,15,Page,2
+//Ability,15,Slot,3
+//Ability,15,Boss
 
 [Drain Life]   //HP Regen
 Ability,16,Name,Drain Life
