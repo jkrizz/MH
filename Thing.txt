@@ -47,23 +47,23 @@ Ability,6,Slot,2
 Ability,6,MiniBoss
 Ability,6,Boss
 
-[Guess What Time It Is?]   //Sig+SEC Restore+Spirit Regen+Resets The Ol' 1-2-3
-Ability,7,Name,Guess What Time It Is?
+[Unlimited Class Slam]   //Vulnerability
+Ability,7,Name,Unlimited Class Slam
 Ability,7,Points,20
 Ability,7,Page,1
-Ability,7,Slot,5
-Ability,7,MaxRange,675
-Ability,7,Boss
-Ability,7,MiniBoss
-Ability,7,SECLT,25
-Ability,7,CooldownCheck,4,True
+Ability,7,Slot,2
+Ability,7,MaxRange,600
 
-[Unlimited Class Slam]   //Vulnerability
-Ability,8,Name,Unlimited Class Slam
+[Guess What Time It Is?]   //Sig+SEC Restore+Spirit Regen+Resets The Ol' 1-2-3
+Ability,8,Name,Guess What Time It Is?
 Ability,8,Points,20
 Ability,8,Page,1
-Ability,8,Slot,2
-Ability,8,MaxRange,600
+Ability,8,Slot,5
+Ability,8,MaxRange,675
+Ability,8,Boss
+Ability,8,MiniBoss
+Ability,8,SECLT,25
+Ability,8,CooldownCheck,4,True
 
 [Quit It, Hothead!]   //Dot+Buff to Be Used Before Ult
 Ability,9,Name,Quit It, Hothead!
