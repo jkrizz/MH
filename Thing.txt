@@ -10,10 +10,10 @@ Ability,1,Points,20
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,Name,TeamUp
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,3,Name,Ziggurat of Kargul
 Ability,3,Points,0
 Ability,3,Page,2
@@ -22,7 +22,7 @@ Ability,3,Cooldown,3
 Ability,3,YHPGT,40
 Ability,3,MinRange,200
 
-[Rockslide Charge]
+[Rockslide Charge]   //Gap-Close
 Ability,4,Name,Rockslide Charge
 Ability,4,Points,0
 Ability,4,Page,1
@@ -31,15 +31,15 @@ Ability,4,Cooldown,3
 Ability,4,MinRange,200
 Ability,4,YSPGT,20
 
-[Sucker Punch]
+[Sucker Punch]   //Spirit Regen Below 20%
 Ability,5,Name,Sucker Punch
 Ability,5,Slot,1
 Ability,5,Page,1
 Ability,5,Points,0
-Ability,5,MaxRange,100
+Ability,5,MaxRange,125
 Ability,5,YSPLT,15
 
-[Thick Skinned]
+[Thick Skinned]   //CC-Immunity
 Ability,6,Name,Thick Skinned
 Ability,6,Points,20
 Ability,6,Page,2
@@ -47,7 +47,7 @@ Ability,6,Slot,2
 Ability,6,MiniBoss
 Ability,6,Boss
 
-[Guess What Time It Is?]
+[Guess What Time It Is?]   //Sig+SEC Restore+Spirit Regen+Resets The Ol' 1-2-3
 Ability,7,Name,Guess What Time It Is?
 Ability,7,Points,20
 Ability,7,Page,1
@@ -58,41 +58,44 @@ Ability,7,MiniBoss
 Ability,7,SECLT,25
 Ability,7,CooldownCheck,4,True
 
-[Unlimited Class Slam]
+[Unlimited Class Slam]   //Vulnerability
 Ability,8,Name,Unlimited Class Slam
 Ability,8,Points,20
 Ability,8,Page,1
 Ability,8,Slot,2
 Ability,8,MaxRange,600
 
-[Pulverizing Fury]
-Ability,9,Name,Pulverizing Fury
+[Quit It, Hothead!]   //Dot+Buff to Be Used Before Ult
+Ability,9,Name,Quit It, Hothead!
+Ability,9,Points,9
 Ability,9,Page,2
-Ability,9,Slot,2
-Ability,9,Boss
-Ability,9,Hold,8000
+Ability,9,Slot,4
+//Ability,9,MaxRange,
+Ability,9,CooldownCheck,3,False
 
-[Hammer Time, Stretch!]
-Ability,10,Name,Hammer Time, Stretch!
-Ability,10,Points,20
-Ability,10,Page,1
+[Pulverizing Fury]   //Ult
+Ability,10,Name,Pulverizing Fury
+Ability,10,Points,0
+Ability,10,Page,2
 Ability,10,Slot,3
-Ability,10,MaxLevel,47
+Ability,10,Boss
+Ability,10,Hold,8000
+Ability,10,MaxRange,300
 
-[Yancy Street Gang]
+[Yancy Street Gang]   //Summons
 Ability,11,Name,Yancy Street Gang
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,3
 
-[The Ol' 1-2-3]
+[The Ol' 1-2-3]   //CD Spender
 Ability,12,Name,The Ol' 1-2-3
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,4
 Ability,12,MaxRange,100
 
-[Brickyard Headbutt]
+[Brickyard Headbutt]   //Dot
 Ability,13,Name,Brickyard Headbutt
 Ability,13,Points,20
 Ability,13,Page,1
@@ -100,21 +103,21 @@ Ability,13,Slot,6
 Ability,13,Cooldown,8
 Ability,13,MaxRange,100
 
-[Bronx Beatdown]
+[Bronx Beatdown]   //Spender
 Ability,14,Name,Bronx Beatdown
 Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,7
 Ability,14,MaxRange,125
 
-[Sucker Punch]
+[Sucker Punch]   //Basic
 Ability,15,Name,Sucker Punch
 Ability,15,Points,0
 Ability,15,Page,1
 Ability,15,Slot,1
-Ability,15,MaxRange,100
+Ability,15,MaxRange,125
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,16,Name,Ziggurat of Kargul
 Ability,16,Points,0
 Ability,16,Page,2
@@ -122,7 +125,7 @@ Ability,16,Slot,8
 Ability,16,Movement
 Ability,16,YHPGT,40
 
-[Rockslide Charge]
+[Rockslide Charge]   //Movement
 Ability,17,Name,Rockslide Charge
 Ability,17,Points,0
 Ability,17,Slot,8
