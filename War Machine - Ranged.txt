@@ -4,7 +4,7 @@ Hero,War Machine
 
 //PASSIVES
 
-[Fire When Ready]   //Toggle Buff
+[Fire When Ready]
 Ability,1,Name,Fire When Ready
 Ability,1,Points,20
 Ability,1,Page,2
@@ -13,7 +13,7 @@ Ability,1,Toggle
 Ability,1,Specialization,0xF7DAF1B99DCD1765
 Ability,1,Cooldown,60
 
-[Starktech Upgrade]   //Toggle Buff
+[Starktech Upgrade]
 Ability,2,Name,Starktech Upgrade
 Ability,2,Points,20
 Ability,2,Page,2
@@ -23,10 +23,10 @@ Ability,2,Cooldown,60
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,3,TeamUp
 
-//[Ziggurat]
+//[Ziggurat]   //Gap-Close
 //Ability,4,Name,Ziggurat of Kargul
 //Ability,4,Points,0
 //Ability,4,Page,2
@@ -37,7 +37,7 @@ Ability,3,TeamUp
 //Ability,4,Cooldown,3
 //Ability,4,Boss
 
-[Ziggurat]  //Gap Close
+[Ziggurat]   //Gap-Close
 Ability,5,Name,Ziggurat of Kargul
 Ability,5,Points,0
 Ability,5,Page,2
@@ -46,7 +46,7 @@ Ability,5,MinRange,600
 Ability,5,Cooldown,3
 Ability,5,YHPGT,10
 
-//[Laser Cutter]
+//[Laser Cutter]   //Gap-Close
 //Ability,6,Name,Laser Cutter
 //Ability,6,Points,0
 //Ability,6,Page,1
@@ -57,7 +57,7 @@ Ability,5,YHPGT,10
 //Ability,6,Cooldown,3
 //Ability,6,Boss
 
-[Laser Cutter]   //Gap Close
+[Laser Cutter]   //Gap-Close
 Ability,7,Name,Laser Cutter
 Ability,7,Points,0
 Ability,7,Page,1
@@ -66,87 +66,93 @@ Ability,7,MinRange,600
 Ability,7,Cooldown,3
 Ability,7,YSPGT,10
 
-[Spit Fire]   //Heat Dump+Vuln
+[Spit Fire]   //Heat Dump+Vuln Above 90% SEC
 Ability,8,Name,Spit Fire
 Ability,8,Points,20
 Ability,8,MinRange,150
 Ability,8,MouseTarget
 Ability,8,Page,1
 Ability,8,Slot,4
-Ability,8,SECGT,60
+Ability,8,SECGT,90
 
-[Plasma Cannon]    //Dot+Buff
-Ability,9,Name,Plasma Cannon
+[Built for War]   //Weaken+CC-Immunity+Spirit Restore Below 60%
+Ability,9,Name,Built For War
 Ability,9,Points,20
 Ability,9,Page,1
-Ability,9,Slot,5
-Ability,9,MaxRange,750
-Ability,9,PanelBuff,MarvelUIIcons.Buff_WarWachine_PlasmaRounds,False,1
+Ability,9,Slot,3
+Ability,9,YSPLT,60
+Ability,9,Specialization,0xC2363B1EC6971329
 
-[Hammer of War]   //Dot
-Ability,10,Name,Hammer of War
-Ability,10,Points,20
+[Limited War]   //Spirit Regen Below 20%
+Ability,10,Name,Limited War
+Ability,10,Points,0
 Ability,10,Page,1
-Ability,10,Slot,2
-Ability,10,MaxRange,750
+Ability,10,Slot,1
+Ability,10,MouseTarget
+Ability,10,YSPLT,20
 
-[Sidekick]   //Buff+Damage+Ult
-Ability,11,Name,Sidekick
-Ability,11,Points,0
-Ability,11,Page,2
-Ability,11,Slot,3
-Ability,11,Boss
-Ability,11,MouseTarget
+[Plasma Cannon]    //CD+Dot+Buff If Plasma Cannon Buff Not Already Active
+Ability,11,Name,Plasma Cannon
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,5
+Ability,11,MaxRange,750
+Ability,11,PanelBuff,MarvelUIIcons.Buff_WarWachine_PlasmaRounds,False,1
 
-[Built for War]   //Weaken+CC Immune+Spirit Restore
-Ability,12,Name,Built For War
+[Hammer of War]   //CD+Dot
+Ability,12,Name,Hammer of War
 Ability,12,Points,20
-Ability,12,YSPLT,60
 Ability,12,Page,1
-Ability,12,Slot,3
-Ability,12,Specialization,0xC2363B1EC6971329
+Ability,12,Slot,2
+Ability,12,MaxRange,750
 
-[Clear the Room]   //AOE
-Ability,13,Name,Clear the Room
-Ability,13,Points,4
-Ability,13,Page,1
-Ability,13,Slot,6
-Ability,13,MaxRange,450
+[Sidekick]   //Ult+Buff+Damage
+Ability,13,Name,Sidekick
+Ability,13,Points,0
+Ability,13,Page,2
+Ability,13,Slot,3
+Ability,13,Boss
+Ability,13,MouseTarget
 
-[Army of One]   //Dot+Sig
+[Army of One]   //Sig+Dot
 Ability,14,Name,Army of One
 Ability,14,Points,20
 Ability,14,Page,1
 Ability,14,Slot,7
 Ability,14,MouseTarget
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,Hold,4000,ShiftClick
 Ability,14,MaxRange,850
 
-[Plasma Cannon]   //Dot
+[Plasma Cannon]   //CD+Dot+Buff
 Ability,15,Name,Plasma Cannon
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,5
 Ability,15,MaxRange,750
 
-[Spit Fire]   //Damage+Vuln
-Ability,16,Name,Spit Fire
-Ability,16,Points,20
-Ability,16,MaxRange,250
-Ability,16,MouseTarget
+[Clear the Room]   //CD+AOE Spender
+Ability,16,Name,Clear the Room
+Ability,16,Points,6
 Ability,16,Page,1
-Ability,16,Slot,4
+Ability,16,Slot,6
+Ability,16,AOE
+Ability,16,AOETYPE,SELF
+Ability,16,AOERANGE,450
+Ability,16,AOECOUNT,2
 
-[Limited War]   //Low Level Spender
-Ability,17,Name,Limited War
-Ability,17,Points,0
+[Total War]   //Spender
+Ability,17,Name,Total War
+Ability,17,Points,20
 Ability,17,Page,1
 Ability,17,Slot,1
 Ability,17,MouseTarget
 Ability,17,Hold,1000,AsPrimary
 
-[Total War]   //High Level Spender
-Ability,18,Name,Total War
-Ability,18,Points,20
+[Limited War]   //Basic
+Ability,18,Name,Limited War
+Ability,18,Points,0
 Ability,18,Page,1
 Ability,18,Slot,1
 Ability,18,MouseTarget
