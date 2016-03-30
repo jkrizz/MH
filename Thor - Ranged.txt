@@ -2,6 +2,8 @@
 
 hero,Thor
 
+//PASSIVES
+
 //PRIORITY SKILL
 
 [Lightning Strike]
@@ -10,104 +12,106 @@ Ability,1,Points,1
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,TeamUp
 
-[Yggdrasil's Boon]
-Ability,3,Name,Yggdrasil's Boon
-Ability,3,Points,20
-Ability,3,Page,2
-Ability,3,Slot,5
-Ability,3,MiniBoss
-Ability,3,Boss
+//[Ziggurat]   //Gap-Close
+//Ability,3,Name,Ziggurat of Kargul
+//Ability,3,Points,0
+//Ability,3,Page,2
+//Ability,3,Slot,8
+//Ability,3,MaxRange,200
+//Ability,3,AimAt,45,400
+//Ability,3,YHPGT,10
+//Ability,3,Cooldown,3
+//Ability,3,Boss
 
-//[Ziggurat]
-//Ability,4,Name,Ziggurat of Kargul
-//Ability,4,Points,0
-//Ability,4,Page,2
-//Ability,4,Slot,8
-//Ability,4,MaxRange,200
-//Ability,4,AimAt,45,400
-//Ability,4,YHPGT,10
-//Ability,4,Cooldown,3
-//Ability,4,Boss
+[Ziggurat]   //Gap-Close
+Ability,4,Name,Ziggurat of Kargul
+Ability,4,Points,0
+Ability,4,Page,2
+Ability,4,Slot,8
+Ability,4,MinRange,600
+Ability,4,Cooldown,3
+Ability,4,YHPGT,10
 
-[Ziggurat]
-Ability,5,Name,Ziggurat of Kargul
-Ability,5,Points,0
-Ability,5,Page,2
-Ability,5,Slot,8
-Ability,5,MinRange,600
-Ability,5,Cooldown,3
-Ability,5,YHPGT,10
+//[Thunderous Charge]   //Gap-Close
+//Ability,5,Name,Thunderous Charge
+//Ability,5,Points,0
+//Ability,5,Page,1
+//Ability,5,Slot,8
+//Ability,5,MaxRange,200
+//Ability,5,AimAt,45,400
+//Ability,5,YSPGT,10
+//Ability,5,Cooldown,3
+//Ability,5,Boss
 
-//[Thunderous Charge]
-//Ability,6,Name,Thunderous Charge
-//Ability,6,Points,0
-//Ability,6,Page,1
-//Ability,6,Slot,8
-//Ability,6,MaxRange,200
-//Ability,6,AimAt,45,400
-//Ability,6,YSPGT,10
-//Ability,6,Cooldown,3
-//Ability,6,Boss
+[Thunderous Charge]   //Gap-Close
+Ability,6,Name,Thunderous Charge
+Ability,6,Points,0
+Ability,6,Page,1
+Ability,6,Slot,8
+Ability,6,MinRange,600
+Ability,6,Cooldown,3
+Ability,6,YSPGT,10
 
-[Thunderous Charge]
-Ability,7,Name,Thunderous Charge
+[Hammer Strike]   //Early-Game Spirit Regen Below 20%
+Ability,7,Name,Hammer Strike
 Ability,7,Points,0
 Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,MinRange,600
-Ability,7,Cooldown,3
-Ability,7,YSPGT,10
+Ability,7,Slot,1
+Ability,7,Maxrange,125
+Ability,7,YSPLT,20
+Ability,7,MaxLevel,12
 
-[Hammer Strike]
-Ability,8,Name,Hammer Strike
-Ability,8,Points,0
+[Lightning Strike]   //Late-Game Spirit Regen Below 20%
+Ability,8,Name,Lightning Strike
+Ability,8,Points,1
 Ability,8,Page,1
 Ability,8,Slot,1
-Ability,8,Maxrange,100
+Ability,8,MaxRange,625
 Ability,8,YSPLT,20
-Ability,8,MaxLevel,12
 
-[Lightning Strike]
-Ability,9,Name,Lightning Strike
-Ability,9,Points,1
-Ability,9,Page,1
-Ability,9,Slot,1
-Ability,9,MaxRange,625
-Ability,9,YSPLT,20
+[Yggdrasil's Boon]   //CC-Immunity
+Ability,9,Name,Yggdrasil's Boon
+Ability,9,Points,20
+Ability,9,Page,2
+Ability,9,Slot,5
+Ability,9,MiniBoss
+Ability,9,Boss
 
-[Son of Odin]
+[Son of Odin]   //Buffs
 Ability,10,Name,Son of Odin
 Ability,10,Points,20
 Ability,10,Slot,2
 Ability,10,Page,2
 Ability,10,MaxRange,600
 
-[For Asgard!]
+[For Asgard!]   //Buffs
 Ability,11,Name,For Asgard!
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,5
+Ability,11,MiniBoss
+Ability,11,Boss
 
-[Bring the Thunder]
+[Bring the Thunder]   //Vulnerability
 Ability,12,Name,Bring the Thunder
 Ability,12,Points,20
-Ability,12,Slot,3
 Ability,12,Page,1
+Ability,12,Slot,3
 Ability,12,MaxRange,550
-Ability,12,Cooldown,4
+Ability,12,Cooldown,6
 
-[Rolling Thunder]
+[Rolling Thunder]      //Dot
 Ability,13,Name,Rolling Thunder
 Ability,13,Points,20
-Ability,13,Slot,7
 Ability,13,Page,1
+Ability,13,Slot,7
 Ability,13,MaxRange,625
-Ability,13,Cooldown,4
+Ability,13,Cooldown,6
 
-[God Blast]
+[God Blast]   //Ult
 Ability,14,Name,God Blast
 Ability,14,Boss
 Ability,14,Page,1
@@ -115,53 +119,54 @@ Ability,14,Slot,4
 Ability,14,MaxRange,625
 Ability,14,MouseTarget
 
-[The Anti-Force]
+[The Anti-Force]   //Sig
 Ability,15,Name,The Anti-Force
 Ability,15,Points,20
-Ability,15,Slot,6
 Ability,15,Page,1
+Ability,15,Slot,6
 Ability,15,Maxrange,650
 
-[Forked Lightning]
-Ability,16,Name,Forked Lightning
-Ability,16,Points,0
+[Lightning Hammer]   //CD Spender+Dot
+Ability,16,Name,Lightning Hammer
+Ability,16,Points,20
 Ability,16,Page,2
-Ability,16,Slot,6
-Ability,16,MaxRange,600
-Ability,16,MaxLevel,18
+Ability,16,Slot,3
+Ability,16,MaxRange,625
+Ability,16,MouseTarget
 
-[Lightning Hammer]
-Ability,17,Name,Lightning Hammer
-Ability,17,Points,20
+[Forked Lightning]   //Early-Game Spender
+Ability,17,Name,Forked Lightning
+Ability,17,Points,0
 Ability,17,Page,2
-Ability,17,Slot,3
-Ability,17,MaxRange,625
-Ability,17,MouseTarget
+Ability,17,Slot,6
+Ability,17,MaxRange,600
+Ability,17,MaxLevel,18
 
-[Crack the Sky]
+[Crack the Sky]   //Spender
 Ability,18,Name,Crack the Sky
 Ability,18,Points,20
 Ability,18,Page,1
 Ability,18,Slot,2
 Ability,18,MaxRange,625
 Ability,18,Hold,5000,AsPrimary
+Ability,18,MinLevel,18
 
-[Hammer Strike]
+[Hammer Strike]   //Early-Game Basic
 Ability,19,Name,Hammer Strike
 Ability,19,Points,0
 Ability,19,Page,1
 Ability,19,Slot,1
-Ability,19,Maxrange,100
+Ability,19,Maxrange,125
 Ability,19,MaxLevel,12
 
-[Lightning Strike]
+[Lightning Strike]   //Late-Game Basic
 Ability,20,Name,Lightning Strike
 Ability,20,Points,1
 Ability,20,Page,1
 Ability,20,Slot,1
 Ability,20,MaxRange,625
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,21,Name,Ziggurat of Kargul
 Ability,21,Points,0
 Ability,21,Page,2
@@ -170,7 +175,7 @@ Ability,21,Movement
 Ability,21,YHPGT,40
 Ability,21,Delay,1500
 
-[Thunderous Charge]
+[Thunderous Charge]   //Movement
 Ability,22,Name,Thunderous Charge
 Ability,22,Points,0
 Ability,22,Slot,8
