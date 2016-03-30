@@ -2,6 +2,8 @@
 
 hero,Star-Lord
 
+//PASSIVES
+
 //ROTATION
 
 [TeamUp]   //TeamUp
@@ -47,7 +49,7 @@ Ability,5,MinRange,600
 Ability,5,Cooldown,3
 Ability,5,YSPGT,10
 
-[Fire]
+[Fire]  //Priority Fire Ammo SEC When Out of Elemental Ammo
 Ability,6,Name,Fire
 Ability,6,Points,20
 Ability,6,Page,1
@@ -56,7 +58,7 @@ Ability,6,MaxRange,700
 Ability,6,MouseTarget
 Ability,6,Buff,marvelconditioneffect_starlord_elementalgundefault,True
 
-[Air]
+[Air]   //Secondary Air Ammo SEC When Out of Elemental Ammo
 Ability,7,Name,Air
 Ability,7,Points,20
 Ability,7,Page,1
@@ -121,14 +123,14 @@ Ability,14,MiniBoss
 Ability,14,Boss
 Ability,14,CooldownCheck,7,True
 
-[Elemental Blast]   //Ammo Spender
+[Elemental Blast]   //CD Ammo Spender
 Ability,15,Name,Elemental Blast
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,4
 Ability,15,MaxRange,650
 
-[Elemental Barrage]   //Keep Stacks Up
+[Elemental Barrage]   //Ammo Spender
 Ability,16,Name,Elemental Barrage
 Ability,16,Points,20
 Ability,16,Page,2
@@ -143,7 +145,7 @@ Ability,17,Page,1
 Ability,17,Slot,1
 Ability,17,MaxRange,675
 
-[Fire]   //Ammo Between Fights
+[Fire]   //Priority Fire Ammo SEC While Moving If Less Than Full Ammo
 Ability,18,Name,Fire
 Ability,18,Points,20
 Ability,18,Page,1
@@ -152,7 +154,7 @@ Ability,18,TargetSelf
 Ability,18,SECLT,120
 Ability,18,Movement
 
-[Fire]   //Ammo Between Fights
+[Fire]   //Priority Fire Ammo SEC While Moving If Out of Elemental Ammo
 Ability,19,Name,Fire
 Ability,19,Points,20
 Ability,19,Page,1
@@ -161,7 +163,7 @@ Ability,19,TargetSelf
 Ability,19,Buff,marvelconditioneffect_starlord_elementalgundefault,True
 Ability,19,Movement
 
-[AIR]   //Ammo Between Fights
+[AIR]   //Secondary Air Ammo SEC While Moving If Less Than Full Ammo
 Ability,20,Name,Air
 Ability,20,Points,20
 Ability,20,Page,1
@@ -170,29 +172,29 @@ Ability,20,TargetSelf
 Ability,20,SECLT,120
 Ability,20,Movement
 
-[AIR]   //Ammo Between Fights
-Ability,20,Name,Air
-Ability,20,Points,20
-Ability,20,Page,1
-Ability,20,Slot,3
-Ability,20,TargetSelf
-Ability,20,Buff,marvelconditioneffect_starlord_elementalgundefault,True
-Ability,20,Movement
-
-[Ziggurat]   //Movement
-Ability,21,Name,Ziggurat of Kargul
-Ability,21,Points,0
-Ability,21,Page,2
-Ability,21,Slot,8
-Ability,21,YHPGT,10
+[AIR]   //Secondary Air Ammo SEC While Moving If Out of Elemental Ammo
+Ability,21,Name,Air
+Ability,21,Points,20
+Ability,21,Page,1
+Ability,21,Slot,3
+Ability,21,TargetSelf
+Ability,21,Buff,marvelconditioneffect_starlord_elementalgundefault,True
 Ability,21,Movement
 
-[Jet Dash]   //Movement
-Ability,22,Name,Jet Dash
+[Ziggurat]   //Movement
+Ability,22,Name,Ziggurat of Kargul
 Ability,22,Points,0
+Ability,22,Page,2
 Ability,22,Slot,8
-Ability,22,Page,1
+Ability,22,YHPGT,10
 Ability,22,Movement
+
+[Jet Dash]   //Movement
+Ability,23,Name,Jet Dash
+Ability,23,Points,0
+Ability,23,Slot,8
+Ability,23,Page,1
+Ability,23,Movement
 
 END
 
