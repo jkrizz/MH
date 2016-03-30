@@ -190,22 +190,22 @@ Ability,22,Slot,3
 Ability,22,TransformPower
 Ability,22,MaxRange,625
 
-[Missile Arm]   //Transform Power+Basic
-Ability,23,Name,Missile Armor
+[Rampart Arms Phasic Cannon]   //Transform Power+Dot
+Ability,23,Name,Rampart Arms Phasic Cannon
 Ability,23,Points,0
 Ability,23,Page,1
-Ability,23,Slot,2
+Ability,23,Slot,1
 Ability,23,TransformPower
-Ability,23,MaxRange,625
+Ability,23,MaxRange,600
+Ability,23,Cooldown,2
 
-[Rampart Arms Phasic Cannon]
-Ability,24,Name,Rampart Arms Phasic Cannon
+[Missile Arm]   //Transform Power+Basic
+Ability,24,Name,Missile Armor
 Ability,24,Points,0
 Ability,24,Page,1
-Ability,24,Slot,1
+Ability,24,Slot,2
 Ability,24,TransformPower
-Ability,24,MaxRange,600
-Ability,24,Cooldown,2
+Ability,24,MaxRange,625
 
 [Photon Minigun]   //Spender
 Ability,25,Name,Photon Minigun
