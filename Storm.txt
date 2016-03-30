@@ -21,10 +21,10 @@ Ability,3,Toggle
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,TeamUp
 
-//[Ziggurat]
+//[Ziggurat]   //Gap-Close
 //Ability,5,Name,Ziggurat of Kargul
 //Ability,5,Points,0
 //Ability,5,Page,2
@@ -35,7 +35,7 @@ Ability,4,TeamUp
 //Ability,5,Cooldown,3
 //Ability,5,Boss
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,6,Name,Ziggurat of Kargul
 Ability,6,Points,0
 Ability,6,Page,2
@@ -44,7 +44,7 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YHPGT,10
 
-//[Sirocco Rush]
+//[Sirocco Rush]   //Gap-Close
 //Ability,7,Name,Sirocco Rush
 //Ability,7,Points,0
 //Ability,7,Page,1
@@ -55,7 +55,7 @@ Ability,6,YHPGT,10
 //Ability,7,Cooldown,3
 //Ability,7,Boss
 
-[Sirocco Rush]
+[Sirocco Rush]   //Gap-Close
 Ability,8,Name,Sirocco Rush
 Ability,8,Points,0
 Ability,8,Page,1
@@ -64,77 +64,81 @@ Ability,8,MinRange,600
 Ability,8,Cooldown,3
 Ability,8,YSPGT,10
 
-[Lightning Bolt]
+[Lightning Bolt]   //Spirit Regen Below 20%
 Ability,9,Name,Lightning Bolt
 Ability,9,Points,0
 Ability,9,Page,1
 Ability,9,Slot,1
 Ability,9,YSPLT,20
+Ability,9,MaxRange,600
 
-[Obscuring Fog]
-Ability,10,Name,Obscuring Fog
-Ability,10,Points,20
-Ability,10,Page,2
-Ability,10,Slot,4
+[Storm Surge]   //CC-Immunity
+Ability,10,Name,Storm Surge
+Ability,10,Points,6
+Ability,10,Page,1
+Ability,10,Slot,6
 Ability,10,MiniBoss
 Ability,10,Boss
+Ability,10,MaxRange,375
 
-[Lightning Storm]
-Ability,11,Name,Lightning Storm
+[Obscuring Fog]   //Stealth
+Ability,11,Name,Obscuring Fog
 Ability,11,Points,20
-Ability,11,Page,1
+Ability,11,Page,2
 Ability,11,Slot,4
-Ability,11,Cooldown,6
-Ability,11,MaxRange,750
+Ability,11,MiniBoss
+Ability,11,Boss
 
-[Typhoon]
-Ability,12,Name,Typhoon
+[Lightning Storm]   //Vulnerability+Stun+Dot
+Ability,12,Name,Lightning Storm
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,3
-Ability,12,MiniBoss
-Ability,12,Boss
-Ability,12,MaxRange,600
+Ability,12,Slot,4
+Ability,12,Cooldown,6
+Ability,12,MaxRange,750
 
-[Goddess of Weather]
-Ability,13,Name,Goddess of Weather
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,Boss
-Ability,13,MaxRange,675
+[Microburst]   //Weaken
+Ability,13,Name,Microburst
+Ability,13,Points,0
+Ability,13,Page,1
+Ability,13,Slot,5
+Ability,13,MaxRange,800
+Ability,13,Cooldown,5
 
-[Microburst]
-Ability,14,Name,Microburst
-Ability,14,Points,0
+[Sudden Tornadoes]   //Summons
+Ability,14,Name,Sudden Tornadoes
+Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,MaxRange,800
-Ability,14,Cooldown,5
+Ability,14,Slot,2
+Ability,14,MaxRange,600
+Ability,14,Cooldown,3
 
-[Storm Surge]
-Ability,15,Name,Storm Surge
-Ability,15,Points,6
+[Typhoon]   //Sig+Buffs
+Ability,15,Name,Typhoon
+Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,6
-Ability,15,MaxRange,375
+Ability,15,Slot,3
+Ability,15,MiniBoss
+Ability,15,Boss
+Ability,15,MaxRange,600
 
-[Crashing Hail]
-Ability,16,Name,Crashing Hail
-Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,5
-Ability,16,Cooldown,7
-Ability,16,MaxRange,800
+[Goddess of Weather]   //Ult
+Ability,16,Name,Goddess of Weather
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,2
+Ability,16,Boss
+Ability,16,MaxRange,675
 
-[Sudden Tornadoes]
-Ability,17,Name,Sudden Tornadoes
+[Crashing Hail]   //Dot
+Ability,17,Name,Crashing Hail
 Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,2
-Ability,17,MaxRange,600
-Ability,17,Cooldown,3
+Ability,17,Slot,5
+Ability,17,Cooldown,7
+Ability,17,MaxRange,800
 
-[Electrocute]
+[Electrocute]   //Spender
 Ability,18,Name,Electrocute
 Ability,18,Points,20
 Ability,18,Page,1
@@ -142,14 +146,14 @@ Ability,18,Slot,7
 Ability,18,MaxRange,550
 Ability,18,Hold,1000,AsPrimary
 
-[Lightning Bolt]
+[Lightning Bolt]   //Basic
 Ability,19,Name,Lightning Bolt
 Ability,19,Points,0
 Ability,19,Page,1
 Ability,19,Slot,1
 Ability,19,MaxRange,600
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,20,Name,Ziggurat of Kargul
 Ability,20,Points,0
 Ability,20,Page,2
@@ -157,7 +161,7 @@ Ability,20,Slot,8
 Ability,20,YHPGT,10
 Ability,20,Movement
 
-[Sirocco Rush]
+[Sirocco Rush]   //Movement
 Ability,21,Name,Sirocco Rush
 Ability,21,Points,0
 Ability,21,Slot,8
