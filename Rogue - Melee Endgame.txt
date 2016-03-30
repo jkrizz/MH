@@ -140,7 +140,6 @@ Ability,17,Name,Swooping Flames
 Ability,17,Points,20
 Ability,17,Page,2
 Ability,17,Slot,7
-//Ability,17,MaxRange,
 
 [Blood and Thunder]   //CD Spender+Dot
 //BETA RAY BILL TEAMUP
@@ -165,8 +164,7 @@ Ability,20,Page,2
 Ability,20,Slot,4
 Ability,20,MiniBoss
 Ability,20,Boss
-Ability,20,MaxRange,250
-//Ability,20,Hold,5000,ShiftClick
+Ability,20,MaxRange,500
 Ability,20,MouseTarget
 
 [Infernal Meteor]   //CD Spender
@@ -182,7 +180,7 @@ Ability,22,Name,Wrath of Muspelheim
 Ability,22,Points,20
 Ability,22,Page,2
 Ability,22,Slot,1
-//Ability,22,MaxRange,
+Ability,22,MaxRange,500
 
 [Crushing Blows]   //Spender
 Ability,23,Name,Crushing Blows
