@@ -103,7 +103,7 @@ Ability,13,Points,15
 Ability,13,Page,1
 Ability,13,Slot,7
 Ability,13,Cooldown,6
-//Ability,13,MaxRange,
+Ability,13,MaxRange,175
 
 [Opening Statement]   //Vulnerability+Combo Regen Below 5 Combo Points
 Ability,14,Name,Opening Statement
@@ -111,14 +111,14 @@ Ability,14,Points,15
 Ability,14,Page,1
 Ability,14,Slot,2
 Ability,14,MaxRange,500
-Ability,14,SECLT,5
+Ability,14,SECLT,4
 
 [Barrister Beatdown]   //CD+SEC Spender
 Ability,15,Name,Barrister Beatdown
 Ability,15,Points,15
 Ability,15,Page,2
 Ability,15,Slot,7
-//Ability,15,MaxRange,
+Ability,15,MaxRange,125
 Ability,15,SECGT,4
 
 [Final Verdict]   //Finisher+No Spirit Cost at 5 Combo Points
@@ -126,7 +126,7 @@ Ability,16,Name,Final Verdict
 Ability,16,Points,20
 Ability,16,Page,2
 Ability,16,Slot,6
-//Ability,16,MaxRange,
+Ability,16,MaxRange,450
 Ability,16,SECGT,4
 
 [Pillar of Justice]   //Ult+Buffs
