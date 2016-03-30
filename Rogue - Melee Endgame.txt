@@ -15,15 +15,6 @@ Ability,1,Points,1
 //IRON MAN   //REMOVE THE PAGE, SLOT, TOGGLE AND COOLDOWN LINES OF THIS ABILITY IF YOU HAVE SHIFTING SANDS STANCE
 Ability,2,Name,Mechanical Genius
 Ability,2,Points,20
-Ability,2,Page,2
-Ability,2,Slot,5
-Ability,2,Toggle
-Ability,2,Cooldown,60
-
-[Weapons Specialist]
-//GAMORRA TEAM-UP   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE SHIFTING SANDS STANCE
-Ability,3,Name,Weapons Specialist
-Ability,3,Points,20
 
 [Shifting Sands Stance]
 //ROCK TROLL GLADIATOR - LIMBO
@@ -56,16 +47,6 @@ Ability,7,Slot,8
 Ability,7,Cooldown,3
 Ability,7,MinRange,200
 Ability,7,TransformPower
-
-[Vanish]   //"Early-Game" Gap-Close
-//KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
-Ability,8,Name,Vanish
-Ability,8,Points,1
-Ability,8,Page,3
-Ability,8,Slot,7
-Ability,8,Cooldown,3
-Ability,8,MinRange,200
-Ability,8,YSPGT,20
 
 [Teleportal]   //"Late-Game" Gap-Close
 //THE DECEIVER - LIMBO MIDTOWN
@@ -141,6 +122,7 @@ Ability,17,Points,0
 Ability,17,Page,1
 Ability,17,Slot,7
 Ability,17,TransformPower
+Ability,17,Buff,marvelconditioneffect_rogue_stolenpower_gambitragincajun,False
 
 [Righteous Fury]   //TransformPower+CD+Buff
 Ability,18,Name,Righteous Fury
@@ -206,14 +188,6 @@ Ability,25,Page,1
 Ability,25,Slot,6
 Ability,25,MaxRange,500
 
-[Empowered Shockwave]   //CD Spender
-//HYDE - BRONX ZOO  //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE DEMONIC BARRIER
-Ability,26,Name,Empowered Shockwave
-Ability,26,Points,1
-Ability,26,Page,2
-Ability,26,Slot,8
-Ability,26,MaxRange,525
-
 [Recall Overload]   //Sig+CC-Immunity+Buffs
 Ability,27,Name,Recall Overload
 Ability,27,Points,20
@@ -276,13 +250,6 @@ Ability,34,Page,1
 Ability,34,Slot,8
 Ability,34,TransformPower
 Ability,34,Movement
-
-[Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
-Ability,35,Name,Vanish
-Ability,35,Points,3
-Ability,35,Page,7
-Ability,35,Slot,8
-Ability,35,Movement
 
 [Teleportal]
 Ability,36,Name,Teleportal
