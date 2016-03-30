@@ -10,6 +10,7 @@ Ability,1,Points,20
 Ability,1,Page,2
 Ability,1,Slot,2
 Ability,1,Toggle
+Ability,1,Cooldown,60
 
 [Adamantium Skeleton]
 Ability,2,Name,Adamantium Skeleton
@@ -17,14 +18,14 @@ Ability,2,Points,20
 
 [Unstoppable Beast]
 Ability,3,Name,Unstoppable Beast
-Ability,3,Points,5
+Ability,3,Points,20
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,4,Teamup
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,5,Name,Ziggurat of Kargul
 Ability,5,Points,0
 Ability,5,Page,2
@@ -33,7 +34,7 @@ Ability,5,Cooldown,3
 Ability,5,YHPGT,40
 Ability,5,MinRange,200
 
-[Furious Lunge]
+[Furious Lunge]   //Gap-Close
 Ability,6,Name,Furious Lunge
 Ability,6,Points,0
 Ability,6,Page,1
@@ -42,22 +43,22 @@ Ability,6,Cooldown,3
 Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
-[Swift Claws]
-Ability,7,Name,Swift Claws
-Ability,7,Points,20
-Ability,7,Page,1
-Ability,7,Slot,1
-Ability,7,MaxRange,100
-Ability,7,YSPLT,20
+[The Best There Is]   //Ult+HP Restore Below 20%+Buffs
+Ability,7,Name,The Best There Is
+Ability,7,Page,2
+Ability,7,Slot,3
+Ability,7,Boss
+Ability,7,YHPLT,20
 
-[The Best There Is]
-Ability,8,Name,The Best There Is
-Ability,8,Page,2
-Ability,8,Slot,3
-Ability,8,Boss
-Ability,8,YHPLT,20
+[Swift Claws]   //Spirit Regen Below 20%
+Ability,8,Name,Swift Claws
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,1
+Ability,8,YSPLT,20
+Ability,8,MaxRange,125
 
-[Can't Keep Me Down]
+[Can't Keep Me Down]   //CC-Immunity
 Ability,9,Name,Can't Keep Me Down
 Ability,9,Points,1
 Ability,9,Page,2
@@ -65,43 +66,45 @@ Ability,9,Slot,4
 Ability,9,MiniBoss
 Ability,9,Boss
 
-[Wetwork]
+[Wetwork]   //Buffs
 Ability,10,Name,Wetwork
 Ability,10,Points,1
 Ability,10,Page,2
 Ability,10,Slot,7
+Ability,10,MiniBoss
+Ability,10,Boss
 
-[Rending Sweep]
-Ability,11,Name,Rending Sweep
+[Feral Roar]   //Weaken+Buffs+Spirit Regen
+Ability,11,Name,Feral Roar
 Ability,11,Points,1
-Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,Cooldown,4
-Ability,11,MaxRange,150
+Ability,11,Page,2
+Ability,11,Slot,5
 
-[Feral Roar]
-Ability,12,Name,Feral Roar
-Ability,12,Points,1
-Ability,12,Page,2
-Ability,12,Slot,5
+[Rending Sweep]   //Vulnerability
+Ability,12,Name,Rending Sweep
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,Cooldown,4
+Ability,12,MaxRange,150
 
-[Bloody Sweep]
-Ability,13,Name,Bloody Sweep
-Ability,13,Points,20
+[Bloody Claws]   //Dot+Spirit Regen
+Ability,13,Name,Bloody Claws
+Ability,13,Points,1
 Ability,13,Page,1
-Ability,13,Slot,4
+Ability,13,Slot,5
+Ability,13,MaxRange,125
 Ability,13,Cooldown,5
-Ability,13,MaxRange,150
 
-[Bloody Claws]
-Ability,14,Name,Bloody Claws
-Ability,14,Points,1
+[Bloody Sweep]   //Dot
+Ability,14,Name,Bloody Sweep
+Ability,14,Points,7
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,MaxRange,125
+Ability,14,Slot,4
 Ability,14,Cooldown,5
+Ability,14,MaxRange,150
 
-[Crimson Leap]
+[Crimson Leap]   //Dot
 Ability,15,Name,Crimson Leap
 Ability,15,Points,20
 Ability,15,Page,1
@@ -109,56 +112,49 @@ Ability,15,Slot,6
 Ability,15,Cooldown,5
 Ability,15,MaxRange,450
 
-[Furious Assault]
-Ability,16,Name,Furious Assault
+[Impale]   //CD Spender
+Ability,16,Name,Impale
 Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,6
+Ability,16,Page,1
+Ability,16,Slot,7
 Ability,16,MaxRange,125
-Ability,16,Delay,50
 
-[Impale]
-Ability,17,Name,Impale
+[Furious Assault]   //Sig+Multi-Activate+Spirit Regen
+Ability,17,Name,Furious Assault
 Ability,17,Points,20
-Ability,17,Page,1
-Ability,17,Slot,7
+Ability,17,Page,2
+Ability,17,Slot,6
 Ability,17,MaxRange,125
+Ability,17,Delay,50
 
-[Eviscerate]
-Ability,18,Name,Eviscerate
+[Swift Claws]   //Basic+Spirit Regen
+Ability,18,Name,Swift Claws
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,2
+Ability,18,Slot,1
 Ability,18,MaxRange,125
 
-[Swift Claws]
-Ability,19,Name,Swift Claws
+[Feral Roar]   //Spirit Regen While Moving
+Ability,19,Name,Feral Roar
 Ability,19,Points,20
-Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,MaxRange,100
+Ability,19,Page,2
+Ability,19,Slot,5
+Ability,19,Movement
 
-[Feral Roar]
-Ability,20,Name,Feral Roar
-Ability,20,Points,20
+[Ziggurat]   //Movement
+Ability,20,Name,Ziggurat of Kargul
+Ability,20,Points,0
 Ability,20,Page,2
-Ability,20,Slot,5
+Ability,20,Slot,8
+Ability,20,YHPGT,40
 Ability,20,Movement
 
-[Ziggurat]
-Ability,21,Name,Ziggurat of Kargul
+[Furious Lunge]   //Movement
+Ability,21,Name,Furious Lunge
 Ability,21,Points,0
-Ability,21,Page,2
 Ability,21,Slot,8
-Ability,21,YHPGT,40
+Ability,21,Page,1
 Ability,21,Movement
-
-[Furious Lunge]
-Ability,22,Name,Furious Lunge
-Ability,22,Points,0
-Ability,22,Slot,8
-Ability,22,Page,1
-Ability,22,Movement
 
 END
 
