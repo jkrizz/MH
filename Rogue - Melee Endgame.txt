@@ -12,7 +12,7 @@ Ability,1,Name,Weakpoint Targeting
 Ability,1,Points,1
 
 [Mechanical Genius]
-//IRON MAN   //REMOVE THE TOGGLE AND COOLDOWN LINES OF THIS ABILITY IF YOU HAVE SHIFTING SANDS STANCE
+//IRON MAN   //REMOVE THE PAGE, SLOT, TOGGLE AND COOLDOWN LINES OF THIS ABILITY IF YOU HAVE SHIFTING SANDS STANCE
 Ability,2,Name,Mechanical Genius
 Ability,2,Points,20
 Ability,2,Page,2
@@ -142,163 +142,154 @@ Ability,17,Page,1
 Ability,17,Slot,7
 Ability,17,TransformPower
 
-[Righteous Frenzy]   //TransformPower+CD+Buff
+[Righteous Fury]   //TransformPower+CD+Buff
 Ability,18,Name,Righteous Fury
 Ability,18,Points,0
 Ability,18,Page,1
-Ability,18,Slot,3
-Ability,18,MaxRange,750
-Ability,18,Delay,50
+Ability,18,Slot,6
+Ability,18,MaxRange,625
 Ability,18,TransformPower
 
-[Righteous Fury]   //TransformPower+CD+Buff
-Ability,19,Name,Righteous Fury
+[Ethereal Butterflies]   //TransformPower+CD+Buff
+Ability,19,Name,Ethereal Butterflies
 Ability,19,Points,0
 Ability,19,Page,1
-Ability,19,Slot,6
-Ability,19,MaxRange,625
+Ability,19,Slot,5
+Ability,19,MaxRange,700
 Ability,19,TransformPower
 
-[Ethereal Butterflies]   //TransformPower+CD+Buff
-Ability,20,Name,Ethereal Butterflies
+[Furious Assault]   //TransformPower+CD+Buff
+Ability,20,Name,Furious Assault
 Ability,20,Points,0
 Ability,20,Page,1
-Ability,20,Slot,5
-Ability,20,MaxRange,700
+Ability,20,Slot,2
+Ability,20,MaxRange,125
+Ability,20,Delay,50
 Ability,20,TransformPower
 
-[Furious Assault]   //TransformPower+CD+Buff
-Ability,21,Name,Furious Assault
+[Colossal Roar]   //TransformPower+CD+Buff
+Ability,21,Name,Colossal Roar
 Ability,21,Points,0
 Ability,21,Page,1
-Ability,21,Slot,2
-Ability,21,MaxRange,125
-Ability,21,Delay,50
+Ability,21,Slot,4
+Ability,21,MaxRange,375
 Ability,21,TransformPower
 
-[Colossal Roar]   //TransformPower+CD+Buff
-Ability,22,Name,Colossal Roar
+[Swift Claws]   //TransformPower+Basic
+Ability,22,Name,Swift Claws
 Ability,22,Points,0
 Ability,22,Page,1
-Ability,22,Slot,4
-Ability,22,MaxRange,375
+Ability,22,Slot,1
+Ability,22,MaxRange,125
 Ability,22,TransformPower
 
-[Swift Claws]   //TransformPower+Basic
-Ability,23,Name,Swift Claws
+[Drain Life]   //HP Regen
+Ability,23,Name,Drain Life
 Ability,23,Points,0
 Ability,23,Page,1
-Ability,23,Slot,1
+Ability,23,Slot,2
 Ability,23,MaxRange,125
-Ability,23,TransformPower
-
-[Drain Life]   //HP Regen
-Ability,24,Name,Drain Life
-Ability,24,Points,0
-Ability,24,Page,1
-Ability,24,Slot,2
-Ability,24,MaxRange,125
-Ability,24,Cooldown,5
+Ability,23,Cooldown,5
 
 [Swooping Flames]   //CD Spender+Buffs
 //SAURON - CHAPTER 7 DINOSAUR JUNGLE / MIDTOWN
-Ability,25,Name,Swooping Flames
-Ability,25,Points,20
-Ability,25,Page,2
-Ability,25,Slot,7
+Ability,24,Name,Swooping Flames
+Ability,24,Points,20
+Ability,24,Page,2
+Ability,24,Slot,7
 
 [Blood and Thunder]   //CD Spender+Dot
 //BETA RAY BILL TEAMUP
-Ability,26,Name,Blood and Thunder
-Ability,26,Points,20
-Ability,26,Page,1
-Ability,26,Slot,6
-Ability,26,MaxRange,500
+Ability,25,Name,Blood and Thunder
+Ability,25,Points,20
+Ability,25,Page,1
+Ability,25,Slot,6
+Ability,25,MaxRange,500
 
 [Empowered Shockwave]   //CD Spender
 //HYDE - BRONX ZOO  //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE DEMONIC BARRIER
-Ability,27,Name,Empowered Shockwave
-Ability,27,Points,1
-Ability,27,Page,2
-Ability,27,Slot,8
-Ability,27,MaxRange,525
+Ability,26,Name,Empowered Shockwave
+Ability,26,Points,1
+Ability,26,Page,2
+Ability,26,Slot,8
+Ability,26,MaxRange,525
 
 [Recall Overload]   //Sig+CC-Immunity+Buffs
-Ability,28,Name,Recall Overload
-Ability,28,Points,20
-Ability,28,Page,2
-Ability,28,Slot,4
-Ability,28,MiniBoss
-Ability,28,Boss
-Ability,28,MaxRange,500
-Ability,28,MouseTarget
+Ability,27,Name,Recall Overload
+Ability,27,Points,20
+Ability,27,Page,2
+Ability,27,Slot,4
+Ability,27,MiniBoss
+Ability,27,Boss
+Ability,27,MaxRange,500
+Ability,27,MouseTarget
 
 [Infernal Meteor]   //CD Spender
 //LORD BRIMSTONE - GREEN MUSPELHEIM (CAN SOLO)
-Ability,29,Name,Infernal Meteor
+Ability,28,Name,Infernal Meteor
+Ability,28,Points,20
+Ability,28,Page,2
+Ability,28,Slot,1
+Ability,28,MaxRange,625
+
+[Wrath of Muspelheim]   //CD Spender+Dot
+Ability,29,Name,Wrath of Muspelheim
 Ability,29,Points,20
 Ability,29,Page,2
 Ability,29,Slot,1
-Ability,29,MaxRange,625
-
-[Wrath of Muspelheim]   //CD Spender+Dot
-Ability,30,Name,Wrath of Muspelheim
-Ability,30,Points,20
-Ability,30,Page,2
-Ability,30,Slot,1
-Ability,30,MaxRange,500
+Ability,29,MaxRange,500
 
 [Crushing Blows]   //Spender
-Ability,31,Name,Crushing Blows
-Ability,31,Points,20
-Ability,31,Page,1
-Ability,31,Slot,5
-Ability,31,MaxRange,125
+Ability,30,Name,Crushing Blows
+Ability,30,Points,20
+Ability,30,Page,1
+Ability,30,Slot,5
+Ability,30,MaxRange,125
 
 [Draining Punch]   //Basic
-Ability,32,Name,Draining Punch
-Ability,32,Points,0
-Ability,32,Page,1
-Ability,32,Slot,1
-Ability,32,MaxRange,125
+Ability,31,Name,Draining Punch
+Ability,31,Points,0
+Ability,31,Page,1
+Ability,31,Slot,1
+Ability,31,MaxRange,125
 
 [Swooping Flames]   //SAURON - CHAPTER 7 DINOSAUR JUNGLE / MIDTOWN
-Ability,33,Name,Swooping Flames
-Ability,33,Points,20
-Ability,33,Page,2
-Ability,33,Slot,7
-Ability,33,Movement
-Ability,33,TargetSelf
+Ability,32,Name,Swooping Flames
+Ability,32,Points,20
+Ability,32,Page,2
+Ability,32,Slot,7
+Ability,32,Movement
+Ability,32,TargetSelf
 
 [Ziggurat]
-Ability,34,Name,Ziggurat of Kargul
-Ability,34,Points,0
-Ability,34,Page,3
-Ability,34,Slot,6
-Ability,34,Movement
-Ability,34,YHPGT,40
+Ability,33,Name,Ziggurat of Kargul
+Ability,33,Points,0
+Ability,33,Page,3
+Ability,33,Slot,6
+Ability,33,Movement
+Ability,33,YHPGT,40
 
 [Teleport]   //TransformPower+CD+Buff
-Ability,35,Name,Teleport
-Ability,35,Points,0
-Ability,35,Page,1
-Ability,35,Slot,8
-Ability,35,TransformPower
-Ability,35,Movement
+Ability,34,Name,Teleport
+Ability,34,Points,0
+Ability,34,Page,1
+Ability,34,Slot,8
+Ability,34,TransformPower
+Ability,34,Movement
 
 [Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL
-Ability,36,Name,Vanish
-Ability,36,Points,3
-Ability,36,Page,7
-Ability,36,Slot,8
-Ability,36,Movement
+Ability,35,Name,Vanish
+Ability,35,Points,3
+Ability,35,Page,7
+Ability,35,Slot,8
+Ability,35,Movement
 
 [Teleportal]
-Ability,37,Name,Teleportal
-Ability,37,Points,1
-Ability,37,Page,1
-Ability,37,Slot,8
-Ability,37,Movement
+Ability,36,Name,Teleportal
+Ability,36,Points,1
+Ability,36,Page,1
+Ability,36,Slot,8
+Ability,36,Movement
 
 END
 
