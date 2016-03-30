@@ -4,7 +4,7 @@ hero,X-23
 
 //PASSIVES
 
-[Fluid Stance]   //Buff Toggle
+[Fluid Stance]
 Ability,1,Name,Fluid Stance
 Ability,1,Points,20
 Ability,1,Page,2
@@ -32,7 +32,7 @@ Ability,3,Cooldown,3
 Ability,3,MinRange,200
 Ability,3,YSPGT,20
 
-[Cleaving Claws]   //Low Level Spirit Regen Below 20%
+[Cleaving Claws]   //Early-Game Spirit Regen Below 20%
 Ability,4,Name,Cleaving Claws
 Ability,4,Points,0
 Ability,4,Page,1
@@ -42,7 +42,7 @@ Ability,4,MaxRange,125
 Ability,4,MouseTarget
 Ability,4,YSPLT,20
 
-[Lethal Claws]   //High Level Spirit Regen Below 20%
+[Lethal Claws]   //Late-Game Spirit Regen Below 20%
 Ability,5,Name,Lethal Claws
 Ability,5,Points,20
 Ability,5,Page,1
@@ -50,8 +50,9 @@ Ability,5,Slot,1
 Ability,5,MaxRange,125
 Ability,5,MouseTarget
 Ability,5,YSPLT,20
+Ability,5,MinLevel,8
 
-[Heart of a Beast]   //Buff+CC Immune
+[Heart of a Beast]   //CC-Immunity+Buffs
 Ability,6,Name,Heart of a Beast
 Ability,6,Points,2
 Ability,6,Page,2
@@ -59,14 +60,14 @@ Ability,6,Slot,2
 Ability,6,MiniBoss
 Ability,6,Boss
 
-[Covert Assassin]   //Stealth Buff
+[Covert Assassin]   //Stealth When You Dont Have Stealth
 Ability,7,Name,Covert Assassin
 Ability,7,Points,1
 Ability,7,Page,2
 Ability,7,Slot,5
 Ability,7,Buff,marvelconditioneffect_blackwidow_tumblestealth,False
 
-[Graceful Maneuver]   //Haste Buff
+[Graceful Maneuver]   //Buff When You Don't Have Haste Buff
 Ability,8,Name,Graceful Maneuver
 Ability,8,Points,0
 Ability,8,Page,1
@@ -74,7 +75,7 @@ Ability,8,Slot,8
 Ability,8,Cooldown,4
 Ability,8,Buff,marvelconditioneffect_haste,False
 
-[Crimson Sweep]   //Vuln+Dot
+[Crimson Sweep]   //Vulnerability+Dot
 Ability,9,Name,Crimson Sweep
 Ability,9,Points,20
 Ability,9,Page,1
@@ -90,14 +91,14 @@ Ability,10,Slot,4
 Ability,10,Cooldown,4
 Ability,10,MaxRange,425
 
-[Trigger Scent]   //Buff+Ult
+[Trigger Scent]   //Ult+Buff
 Ability,11,Name,Trigger Scent
 Ability,11,Points,0
 Ability,11,Page,2
 Ability,11,Slot,4
 Ability,11,Boss
 
-[Whirling Dervish]   //Spirit Restore + Buff
+[Whirling Dervish]   //Spirit Regen+Buff When Dancing Blades on Cooldown
 Ability,12,Name,Whirling Dervish
 Ability,12,Points,20
 Ability,12,Page,1
@@ -105,7 +106,7 @@ Ability,12,Slot,7
 Ability,12,Boss
 Ability,12,CooldownCheck,3,True
 
-[Cyclone Kick]   //Spender Benefiting from Sig
+[Cyclone Kick]   //Spender When Sig On Cooldown
 Ability,13,Name,Cyclone Kick
 Ability,13,Points,20
 Ability,13,Page,1
@@ -113,7 +114,7 @@ Ability,13,Slot,5
 Ability,13,MaxRange,125
 Ability,13,Buff,marvelconditioneffect_x23hastetrance,True
 
-[Open the Jugular]   //Spender Benefiting from Sig
+[Open the Jugular]   //Spender When Sig on Cooldown
 Ability,14,Name,Open the Jugular
 Ability,14,Points,20
 Ability,14,Page,1
@@ -121,14 +122,14 @@ Ability,14,Slot,6
 Ability,14,MaxRange,175
 Ability,14,Buff,marvelconditioneffect_x23hastetrance,True
 
-[Dancing Blades]   //Dot + Sig
+[Dancing Blades]   //Sig+Dot+Multi-Activate
 Ability,15,Name,Dancing Blades
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,3
 Ability,15,Boss
 Ability,15,MaxRange,275
-Ability,15,Delay,100
+Ability,15,Delay,50
 
 [Cyclone Kick]   //Spender Benefiting from Movement
 Ability,16,Name,Cyclone Kick
@@ -146,7 +147,7 @@ Ability,17,Slot,6
 Ability,17,MaxRange,175
 Ability,17,PanelBuff,MarvelUIIcons.Power_X23_BasicMvmt,True,1
 
-[Cleaving Claws]   //Low Level Basic
+[Cleaving Claws]   //Early-Game Basic
 Ability,18,Name,Cleaving Claws
 Ability,18,Points,0
 Ability,18,Page,1
@@ -155,13 +156,14 @@ Ability,18,MaxLevel,8
 Ability,18,MouseTarget
 Ability,18,MaxRange,125
 
-[Lethal Claws]   //High Level Basic
+[Lethal Claws]   //Late-Game Basic
 Ability,19,Name,Lethal Claws
 Ability,19,Points,20
 Ability,19,Page,1
 Ability,19,Slot,1
 Ability,19,MouseTarget
 Ability,19,MaxRange,125
+Ability,19,MinLevel,8
 
 [Ziggurat]   //Movement
 Ability,20,Name,Ziggurat of Kargul
@@ -180,5 +182,5 @@ Ability,21,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/3377/#p7]
+[Build: http://marvelheroes.info/build/3377/]
 
