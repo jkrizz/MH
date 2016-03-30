@@ -103,6 +103,7 @@ Ability,12,Name,Whirling Dervish
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,7
+Ability,12,MiniBoss
 Ability,12,Boss
 Ability,12,CooldownCheck,3,True
 
@@ -127,6 +128,7 @@ Ability,15,Name,Dancing Blades
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,3
+Ability,15,MiniBoss
 Ability,15,Boss
 Ability,15,MaxRange,275
 Ability,15,Delay,50
