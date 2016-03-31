@@ -78,7 +78,7 @@ Ability,9,Name,Rip to Shreds
 Ability,9,Points,20
 Ability,9,Page,2
 Ability,9,Slot,7
-//Ability,9,MaxRange,
+Ability,9,MaxRange,125
 
 [Crimson Sweep]   //Vulnerability+Dot
 Ability,10,Name,Crimson Sweep
@@ -116,7 +116,7 @@ Ability,14,Name,Disembowel
 Ability,14,Points,20
 Ability,14,Page,2
 Ability,14,Slot,6
-//Ability,14,MaxRange,
+Ability,14,MaxRange,125
 
 [Dancing Blades]   //Sig+Dot+Multi-Activate
 Ability,15,Name,Dancing Blades
@@ -133,7 +133,7 @@ Ability,16,Name,Slash and Hack
 Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,5
-//Ability,16,MaxRange,
+Ability,16,MaxRange,125
 
 [Cleaving Claws]   //Basic
 Ability,17,Name,Cleaving Claws
