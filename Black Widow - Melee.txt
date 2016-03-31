@@ -139,6 +139,85 @@ Ability,18,Page,1
 Ability,18,Slot,8
 Ability,18,Movement
 
+[Uniques]
+lootrule,add,contains,Yelena's Bite
+lootrule,last,dontstash
+lootrule,add,contains,Natasha's Dual Subcompact Pistols
+lootrule,last,dontstash
+lootrule,add,contains,Raiden-Tech S.H.I.E.L.D. Prototype Armor
+lootrule,last,dontstash
+lootrule,add,contains,Drop Leg Holster Rig
+lootrule,last,dontstash
+lootrule,add,contains,Korshun Advanced Combat Knife
+lootrule,last,dontstash
+lootrule,add,contains,Balanced Reinforced Stilettos
+lootrule,last,dontstash
+lootrule,add,contains,Experimental Synthetic Explosive Pack
+lootrule,last,dontstash
+lootrule,add,contains,Gloves of the Siberian Winter
+lootrule,last,dontstash
+lootrule,add,contains,Natasha's S.H.I.E.L.D. Issued Gauntlets
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Yelena's Bite,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Natasha's Dual Subcompact Pistols,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Raiden-Tech S.H.I.E.L.D. Prototype Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Drop Leg Holster Rig,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Korshun Advanced Combat Knife,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Balanced Reinforced Stilettos,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Experimental Synthetic Explosive Pack,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Gloves of the Siberian Winter,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Natasha's S.H.I.E.L.D. Issued Gauntlets,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/14727/]
