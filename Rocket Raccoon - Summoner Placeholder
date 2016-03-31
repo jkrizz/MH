@@ -71,7 +71,7 @@ Ability,7,MaxLevel,14
 
 //[Laser Drill Burrow]   //Late-Game Gap Close
 //Ability,8,Name,Laser Drill Burrow
-//Ability,8,Points,0
+//Ability,8,Points,8
 //Ability,8,Page,1
 //Ability,8,Slot,8
 //Ability,8,MaxRange,200
@@ -82,7 +82,7 @@ Ability,7,MaxLevel,14
 
 [Laser Drill Burrow]   //Late-Game Gap Close
 Ability,9,Name,Laser Drill Burrow
-Ability,9,Points,0
+Ability,9,Points,8
 Ability,9,Page,1
 Ability,9,Slot,8
 Ability,9,MinRange,600
@@ -107,41 +107,22 @@ Ability,11,MaxRange,625
 [Razor-sharp Wits]   //CC Immunity
 Ability,12,Name,Razor-sharp Wits
 Ability,12,Points,20
-Ability,12,Page,2
+Ability,12,Page,1
 Ability,12,Slot,4
 Ability,12,MiniBoss
 Ability,12,Boss
 
 [My Friend Groot]   //Summon
 Ability,13,Name,My Friend Groot
-Ability,13,Points,0
+Ability,13,Points,19
 Ability,13,Page,2
 Ability,13,Slot,2
 Ability,13,MouseTarget
-
-[Blaster Turret]   //Pre-Specialization Summon Mob HP Above 75%
-Ability,10,Name,Blaster Turret
-Ability,10,Points,20
-Ability,10,Page,3
-Ability,10,Slot,3
-Ability,10,Activate,3
-Ability,10,ActivateCD,20
-Ability,10,MHPGT,75
-Ability,10,MaxLevel,30
-
-[Blaster Turret]   //Pre-Specialization Summon MOB HP Below 25%
-Ability,10,Name,Blaster Turret
-Ability,10,Points,20
-Ability,10,Page,3
-Ability,10,Slot,3
-Ability,10,Activate,3
-Ability,10,ActivateCD,20
-Ability,10,MHPLT,25
-Ability,10,MaxLevel,30
+//Ability,13,MaxRange,
 
 [Laser Drill Burrow]   //Attack and Movespeed Buff
 Ability,14,Name,Laser Drill Burrow
-Ability,14,Points,20
+Ability,14,Points,8
 Ability,14,Page,1
 Ability,14,Slot,8
 Ability,14,Buff,marvelconditioneffect_rocketraccoonhastebuff,False
@@ -151,7 +132,7 @@ Ability,15,Name,Time Warp Turret
 Ability,15,Points,1
 Ability,15,Page,2
 Ability,15,Slot,3
-Ability,15,Cooldown,20
+Ability,15,CooldownCheck,2,True
 
 [Gravity Mine]   //Vulnerability
 Ability,16,Name,Gravity Mine
@@ -161,119 +142,133 @@ Ability,16,Slot,3
 Ability,16,Cooldown,8
 Ability,16,MaxRange,625
 
-[C-12 Stun Grenade]   //Weaken
-Ability,17,Name,C-12 Stun Grenade
-Ability,17,Points,20
-Ability,17,Page,2
-Ability,17,Slot,6
-Ability,17,Cooldown,8
-Ability,17,MaxRange,575
-
-[Heavy Gauss Rifle]   //Damage Buff to Gun Powers
-Ability,18,Name,Heavy Gauss Rifle
-Ability,18,Points,20
-Ability,18,Page,1
-Ability,18,Slot,4
-Ability,18,MaxRange,700
-
 [M78 Plasma Launcher]   //Dot
-Ability,19,Name,M78 Plasma Launcher
-Ability,19,Points,20
-Ability,19,Page,1
-Ability,19,Slot,6
-Ability,19,MaxRange,500
-Ability,19,Cooldown,5
+Ability,17,Name,M78 Plasma Launcher
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,6
+Ability,17,MaxRange,500
+Ability,17,Cooldown,5
 
 [H7 Fleetslayer]   //SIG+Multi-Activate
-Ability,20,Name,H7 Fleetslayer
+Ability,18,Name,H7 Fleetslayer
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,5
+Ability,18,MiniBoss
+Ability,18,Boss
+Ability,18,MaxRange,700
+Ability,18,Delay,50
+Ability,18,Specialization,0x1052057F850B16DE
+
+[Suppression Turret]   //Weaken+Stun
+Ability,19,Name,Suppression Turret
+Ability,19,Points,20
+Ability,19,Page,2
+Ability,19,Slot,4
+Ability,19,Activate,2
+Ability,19,ActivateCD,6
+Ability,19,CooldownCheck,2,True
+
+[Blaster Turret]   //Pre-Specialization Summon
+Ability,20,Name,Blaster Turret
 Ability,20,Points,20
-Ability,20,Page,1
-Ability,20,Slot,5
-Ability,20,MiniBoss
-Ability,20,Boss
-Ability,20,MaxRange,700
-Ability,20,Delay,50
-Ability,20,Specialization,0x1052057F850B16DE
+Ability,20,Page,2
+Ability,20,Slot,6
+Ability,20,Activate,3
+Ability,20,ActivateCD,6
+Ability,20,MaxLevel,30
+Ability,20,CooldownCheck,2,True
+
+[Blaster Turret]   //Post-Specialization Summon
+Ability,21,Name,Blaster Turret
+Ability,21,Points,20
+Ability,21,Page,2
+Ability,21,Slot,6
+Ability,21,Activate,2
+Ability,21,ActivateCD,6
+Ability,21,MinLevel,30
+Ability,21,CooldownCheck,2,True
 
 [Mechfall]   //Ult+Hotbar Change
-Ability,21,Name,Mechfall
-Ability,21,Points,0
-Ability,21,Page,2
-Ability,21,Slot,5
-Ability,21,Boss
+Ability,22,Name,Mechfall
+Ability,22,Points,0
+Ability,22,Page,2
+Ability,22,Slot,5
+Ability,22,Boss
 
 [Rocket Jump]   //Transform Power+CD
-Ability,22,Name,Rocket Jump
-Ability,22,Points,0
-Ability,22,Page,1
-Ability,22,Slot,3
-Ability,22,TransformPower
-Ability,22,MaxRange,625
-
-[Rampart Arms Phasic Cannon]   //Transform Power+Dot
-Ability,23,Name,Rampart Arms Phasic Cannon
+Ability,23,Name,Rocket Jump
 Ability,23,Points,0
 Ability,23,Page,1
-Ability,23,Slot,1
+Ability,23,Slot,3
 Ability,23,TransformPower
-Ability,23,MaxRange,600
-Ability,23,Cooldown,2
+Ability,23,MaxRange,625
 
-[Missile Arm]   //Transform Power+Basic
-Ability,24,Name,Missile Armor
+[Rampart Arms Phasic Cannon]   //Transform Power+Dot
+Ability,24,Name,Rampart Arms Phasic Cannon
 Ability,24,Points,0
 Ability,24,Page,1
-Ability,24,Slot,2
+Ability,24,Slot,1
 Ability,24,TransformPower
-Ability,24,MaxRange,625
+Ability,24,MaxRange,600
+Ability,24,Cooldown,2
 
-[Photon Minigun]   //Spender
-Ability,25,Name,Photon Minigun
-Ability,25,Points,20
+[Missile Arm]   //Transform Power+Basic
+Ability,25,Name,Missile Armor
+Ability,25,Points,0
 Ability,25,Page,1
 Ability,25,Slot,2
-Ability,25,Hold,500,AsPrimary
-Ability,25,MaxRange,700
+Ability,25,TransformPower
+Ability,25,MaxRange,625
+
+[Photon Minigun]   //Spender
+Ability,26,Name,Photon Minigun
+Ability,26,Points,20
+Ability,26,Page,1
+Ability,26,Slot,2
+Ability,26,Hold,500,AsPrimary
+Ability,26,MaxRange,700
 
 [Photon Pistols]   //Basic
-Ability,26,Name,Photon Pistols
-Ability,26,Points,0
-Ability,26,Page,1
-Ability,26,Slot,1
-Ability,26,MaxRange,625
+Ability,27,Name,Photon Pistols
+Ability,27,Points,0
+Ability,27,Page,1
+Ability,27,Slot,1
+Ability,27,MaxRange,625
 
 [Ziggurat]   //Movement
-Ability,27,Name,Ziggurat of Kargul
-Ability,27,Points,0
-Ability,27,Page,2
-Ability,27,Slot,8
-Ability,27,Movement
-Ability,27,YHPGT,40
+Ability,28,Name,Ziggurat of Kargul
+Ability,28,Points,0
+Ability,28,Page,2
+Ability,28,Slot,8
+Ability,28,Movement
+Ability,28,YHPGT,40
 
 [Mech Dash]   //Transform Power+Movement
-Ability,28,Name,Mech Dash
-Ability,28,Points,0
-Ability,28,Page,1
-Ability,28,Slot,5
-Ability,28,TransformPower
-Ability,28,Movement
+Ability,29,Name,Mech Dash
+Ability,29,Points,0
+Ability,29,Page,1
+Ability,29,Slot,5
+Ability,29,TransformPower
+Ability,29,Movement
 
 [Rocket Dash]   //Early-Game Movement
-Ability,29,Name,Rocket Dash
-Ability,29,Points,0
-Ability,29,Slot,8
-Ability,29,Page,1
-Ability,29,Movement
-Ability,29,MaxLevel,14
-
-[Laser Drill Burrow]   //End-Game Movement
-Ability,30,Name,Laser Drill Burrow
-Ability,30,Points,1
+Ability,30,Name,Rocket Dash
+Ability,30,Points,0
 Ability,30,Slot,8
 Ability,30,Page,1
 Ability,30,Movement
+Ability,30,MaxLevel,14
+
+[Laser Drill Burrow]   //End-Game Movement
+Ability,31,Name,Laser Drill Burrow
+Ability,31,Points,8
+Ability,31,Slot,8
+Ability,31,Page,1
+Ability,31,Movement
 
 END
 
-[Build: http://marvelheroes.info/build/148/]
-[Points removed from Big Flarkin' Gun and added to C-12 Stun Grenade]
+[Build: http://marvelheroes.info/build/12855/]
+[1 Point removed from Laser Drill Burrow and added to Gravity Mine]
