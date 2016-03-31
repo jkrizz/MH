@@ -70,7 +70,7 @@ Ability,9,Name,Quit It, Hothead!
 Ability,9,Points,9
 Ability,9,Page,2
 Ability,9,Slot,4
-//Ability,9,MaxRange,
+Ability,9,MaxRange,200
 Ability,9,CooldownCheck,3,False
 
 [Pulverizing Fury]   //Ult
