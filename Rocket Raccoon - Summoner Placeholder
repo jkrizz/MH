@@ -31,7 +31,7 @@ Ability,3,YHPGT,10
 //Ability,4,Name,Mech Dash
 //Ability,4,Points,0
 //Ability,4,Page,1
-//Ability,4,Slot,5
+//Ability,4,Slot,8
 //Ability,4,MinRange,600
 //Ability,4,AimAt,45,400
 //Ability,4,Cooldown,3
@@ -79,6 +79,7 @@ Ability,7,MaxLevel,14
 //Ability,8,YSPGT,10
 //Ability,8,Cooldown,3
 //Ability,8,Boss
+//Ability,8,MinLevel,14
 
 [Laser Drill Burrow]   //Late-Game Gap Close
 Ability,9,Name,Laser Drill Burrow
@@ -88,6 +89,7 @@ Ability,9,Slot,8
 Ability,9,MinRange,600
 Ability,9,Cooldown,3
 Ability,9,YSPGT,10
+Ability,9,MinLevel,14
 
 [Combat Shield]   //Shield Restore
 Ability,10,Name,Combat Shield
@@ -267,6 +269,7 @@ Ability,31,Points,8
 Ability,31,Slot,8
 Ability,31,Page,1
 Ability,31,Movement
+Ability,31,MinLevel,14
 
 END
 
