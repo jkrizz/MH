@@ -178,7 +178,7 @@ Ability,20,Points,20
 Ability,20,Page,2
 Ability,20,Slot,6
 Ability,20,Activate,2
-Ability,20,ActivateCD,6
+Ability,20,ActivateCD,8
 Ability,20,MinLevel,30
 Ability,20,CooldownCheck,2,True
 
@@ -188,7 +188,7 @@ Ability,21,Points,20
 Ability,21,Page,2
 Ability,21,Slot,7
 Ability,21,Activate,3
-Ability,21,ActivateCD,6
+Ability,21,ActivateCD,8
 Ability,21,MaxLevel,30
 Ability,21,CooldownCheck,2,True
 
