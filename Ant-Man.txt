@@ -188,7 +188,7 @@ omega,add,name,Sabretooth
 omega,last,points,5
 omega,add,name,Apocalypse
 omega,last,points,1
-
+ 
 END
 
 [Build: http://marvelheroes.info/build/24062/]
