@@ -161,6 +161,70 @@ Ability,21,Slot,8
 Ability,21,Page,1
 Ability,21,Movement
 
+[Uniques]
+lootrule,add,contains,The Life Force
+lootrule,last,dontstash
+lootrule,add,contains,Armor of Hazareth Three
+lootrule,last,dontstash
+lootrule,add,contains,Mantle of the Future Warlord
+lootrule,last,dontstash
+lootrule,add,contains,The Ancient Horn of the Sea
+lootrule,last,dontstash
+lootrule,add,contains,Stolen Board of the Herald
+lootrule,last,dontstash
+lootrule,add,contains,The Portrait of Victor Von Doom
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Life Force,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Armor of Hazareth Three,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mantle of the Future Warlord,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Ancient Horn of the Sea,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Stolen Board of the Herald,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Portrait of Victor Von Doom,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/25648/]
