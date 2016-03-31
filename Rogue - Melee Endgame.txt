@@ -124,69 +124,78 @@ Ability,17,Slot,7
 Ability,17,TransformPower
 Ability,17,Buff,marvelconditioneffect_rogue_stolenpower_gambitragincajun,False
 
-[Righteous Fury]   //TransformPower+CD+Buff
-Ability,18,Name,Righteous Fury
+[Righteous Frenzy]   //TransformPower+CD+Buff
+Ability,18,Name,Righteous Frenzy
 Ability,18,Points,0
 Ability,18,Page,1
-Ability,18,Slot,6
+Ability,18,Slot,3
 Ability,18,MaxRange,625
+Ability,18,Delay,50
 Ability,18,TransformPower
 
-[Ethereal Butterflies]   //TransformPower+CD+Buff
-Ability,19,Name,Ethereal Butterflies
+[Righteous Fury]   //TransformPower+CD+Buff
+Ability,19,Name,Righteous Fury
 Ability,19,Points,0
 Ability,19,Page,1
-Ability,19,Slot,5
-Ability,19,MaxRange,700
+Ability,19,Slot,6
+Ability,19,MaxRange,625
 Ability,19,TransformPower
 
-[Furious Assault]   //TransformPower+CD+Buff
-Ability,20,Name,Furious Assault
+[Ethereal Butterflies]   //TransformPower+CD+Buff
+Ability,20,Name,Ethereal Butterflies
 Ability,20,Points,0
 Ability,20,Page,1
-Ability,20,Slot,2
-Ability,20,MaxRange,125
-Ability,20,Delay,50
+Ability,20,Slot,5
+Ability,20,MaxRange,700
 Ability,20,TransformPower
 
-[Colossal Roar]   //TransformPower+CD+Buff
-Ability,21,Name,Colossal Roar
+[Furious Assault]   //TransformPower+CD+Buff
+Ability,21,Name,Furious Assault
 Ability,21,Points,0
 Ability,21,Page,1
-Ability,21,Slot,4
-Ability,21,MaxRange,375
+Ability,21,Slot,2
+Ability,21,MaxRange,125
+Ability,21,Delay,50
 Ability,21,TransformPower
 
-[Swift Claws]   //TransformPower+Basic
-Ability,22,Name,Swift Claws
+[Colossal Roar]   //TransformPower+CD+Buff
+Ability,22,Name,Colossal Roar
 Ability,22,Points,0
 Ability,22,Page,1
-Ability,22,Slot,1
-Ability,22,MaxRange,125
+Ability,22,Slot,4
+Ability,22,MaxRange,375
 Ability,22,TransformPower
 
-[Drain Life]   //HP Regen
-Ability,23,Name,Drain Life
+[Swift Claws]   //TransformPower+Basic
+Ability,23,Name,Swift Claws
 Ability,23,Points,0
 Ability,23,Page,1
-Ability,23,Slot,2
+Ability,23,Slot,1
 Ability,23,MaxRange,125
-Ability,23,Cooldown,5
+Ability,23,TransformPower
+
+[Drain Life]   //HP Regen
+Ability,24,Name,Drain Life
+Ability,24,Points,0
+Ability,24,Page,1
+Ability,24,Slot,2
+Ability,24,MaxRange,125
+Ability,24,Cooldown,5
 
 [Swooping Flames]   //CD Spender+Buffs
 //SAURON - CHAPTER 7 DINOSAUR JUNGLE / MIDTOWN
-Ability,24,Name,Swooping Flames
-Ability,24,Points,20
-Ability,24,Page,2
-Ability,24,Slot,7
+Ability,25,Name,Swooping Flames
+Ability,25,Points,20
+Ability,25,Page,2
+Ability,25,Slot,7
 
 [Blood and Thunder]   //CD Spender+Dot
 //BETA RAY BILL TEAMUP
-Ability,25,Name,Blood and Thunder
-Ability,25,Points,20
-Ability,25,Page,1
-Ability,25,Slot,6
-Ability,25,MaxRange,500
+Ability,26,Name,Blood and Thunder
+Ability,26,Points,20
+Ability,26,Page,1
+Ability,26,Slot,6
+Ability,26,MaxRange,500
 
 [Recall Overload]   //Sig+CC-Immunity+Buffs
 Ability,27,Name,Recall Overload
@@ -252,11 +261,11 @@ Ability,34,TransformPower
 Ability,34,Movement
 
 [Teleportal]
-Ability,36,Name,Teleportal
-Ability,36,Points,1
-Ability,36,Page,1
-Ability,36,Slot,8
-Ability,36,Movement
+Ability,35,Name,Teleportal
+Ability,35,Points,1
+Ability,35,Page,1
+Ability,35,Slot,8
+Ability,35,Movement
 
 END
 
