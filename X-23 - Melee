@@ -5,7 +5,7 @@ hero,X-23
 //PASSIVES
 
 [Ferocious Stance]
-Ability,1,Name,Ferociouis Stance
+Ability,1,Name,Ferocious Stance
 Ability,1,Points,20
 Ability,1,Page,2
 Ability,1,Slot,3
