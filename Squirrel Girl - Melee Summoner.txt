@@ -79,7 +79,7 @@ Ability,11,Points,1
 Ability,11,Page,2
 Ability,11,Slot,5
 Ability,11,MaxRange,750
-//Ability,11,Cooldown,8
+Ability,11,Cooldown,6
 
 [Sic'em!]   //CD Spender+Buffs
 Ability,12,Name,Sic 'Em!
