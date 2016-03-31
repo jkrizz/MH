@@ -149,6 +149,98 @@ Ability,20,Page,1
 Ability,20,Slot,8
 Ability,20,Movement
 
+[Uniques]
+lootrule,add,contains,Mighty Fists of the Juggernaut
+lootrule,last,dontstash
+lootrule,add,contains,Kitty's Favorite Shirt
+lootrule,last,dontstash
+lootrule,add,contains,Dynasty of the Rasputins
+lootrule,last,dontstash
+lootrule,add,contains,Bands of Cyttorak
+lootrule,last,dontstash
+lootrule,add,contains,Courage of Colossus
+lootrule,last,dontstash
+lootrule,add,contains,Generation Next's Bandana
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mighty Fists of the Juggernaut,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Kitty's Favorite Shirt,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Dynasty of the Rasputins,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Bands of Cyttorak,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Courage of Colossus,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Generation Next's Bandana,5
+
+[Physical -Melee Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Frenzy
+omega,last,points,10
+omega,add,name,Shadow King's Possession
+omega,last,points,1
+omega,add,name,Telepathic Immunity
+omega,last,points,1
+omega,add,name,Focused Strength of Grom
+omega,last,points,1
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Deathlok Program
+omega,last,points,1
+omega,add,name,Reaver Program
+omega,last,points,10
+omega,add,name,Super Soldier Serum
+omega,last,points,5
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Hala
+omega,last,points,20
+omega,add,name,Skrullos
+omega,last,points,10
+omega,add,name,Neural Recovery
+omega,last,points,1
+omega,add,name,Tactical Neural Implant
+omega,last,points,10
+omega,add,name,Harpy
+omega,last,points,5
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,19
+omega,add,name,Neurobotics
+omega,last,points,10
+omega,add,name,High Capacity Magazine
+omega,last,points,1
+omega,add,name,Showstopper Ammo
+omega,last,points,20
+omega,add,name,ExTechOp Cybernetic Body Upgrades
+omega,last,points,20
+omega,add,name,Adamantium-Laced Skin
+omega,last,points,1
+omega,add,name,Omega Death Spores
+omega,last,points,1
+omega,add,name,Weapon X
+omega,last,points,20
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+
 END
 
 [Build: http://marvelheroes.info/build/20231/]
