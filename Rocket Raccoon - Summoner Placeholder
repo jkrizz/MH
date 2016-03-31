@@ -42,7 +42,7 @@ Ability,3,YHPGT,10
 Ability,5,Name,Laser Drill Burrow
 Ability,5,Points,0
 Ability,5,Page,1
-Ability,5,Slot,5
+Ability,5,Slot,8
 Ability,5,TransformPower
 Ability,5,MinRange,600
 Ability,5,Cooldown,3
@@ -249,15 +249,15 @@ Ability,28,YHPGT,40
 Ability,29,Name,Mech Dash
 Ability,29,Points,0
 Ability,29,Page,1
-Ability,29,Slot,5
+Ability,29,Slot,8
 Ability,29,TransformPower
 Ability,29,Movement
 
 [Rocket Dash]   //Early-Game Movement
 Ability,30,Name,Rocket Dash
 Ability,30,Points,0
-Ability,30,Slot,8
 Ability,30,Page,1
+Ability,30,Slot,8
 Ability,30,Movement
 Ability,30,MaxLevel,14
 
