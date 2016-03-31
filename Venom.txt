@@ -45,8 +45,8 @@ Ability,7,Points,6
 Ability,7,Page,2
 Ability,7,Slot,3
 Ability,7,AOE
-//Ability,7,AOETYPE,
-//Ability,7,AOERANGE,
+Ability,7,AOETYPE,Self
+Ability,7,AOERANGE,550
 Ability,7,AOECOUNT,2
 Ability,7,YHPLT,40
 Ability,7,Hold,3000,ShiftClick
@@ -124,7 +124,7 @@ Ability,16,Slot,1
 Ability,16,Points,0
 Ability,16,MaxRange,125
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,17,Name,Ziggurat of Kargul
 Ability,17,Points,0
 Ability,17,Page,2
@@ -132,7 +132,7 @@ Ability,17,Slot,8
 Ability,17,Movement
 Ability,17,YHPGT,40
 
-[Tendril Lunge]
+[Tendril Lunge]   //Movement
 Ability,18,Name,Tendril Lunge
 Ability,18,Points,0
 Ability,18,Page,1
