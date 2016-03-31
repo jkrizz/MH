@@ -39,7 +39,7 @@ Ability,3,YHPGT,10
 //Ability,4,TransformPower
 
 [Mech Dash]   //Transform Power+Gap-Close
-Ability,5,Name,Laser Drill Burrow
+Ability,5,Name,Mech Dash
 Ability,5,Points,0
 Ability,5,Page,1
 Ability,5,Slot,8
@@ -186,7 +186,7 @@ Ability,20,CooldownCheck,2,True
 Ability,21,Name,Blaster Turret
 Ability,21,Points,20
 Ability,21,Page,2
-Ability,21,Slot,6
+Ability,21,Slot,7
 Ability,21,Activate,2
 Ability,21,ActivateCD,6
 Ability,21,MinLevel,30
