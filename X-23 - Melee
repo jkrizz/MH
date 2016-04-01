@@ -158,6 +158,93 @@ Ability,19,Page,1
 Ability,19,Slot,8
 Ability,19,Movement
 
+[Uniques]
+lootrule,add,contains,Mark of the Uni-Power
+lootrule,last,dontstash
+lootrule,add,contains,All New X-Men Bodysuit
+lootrule,last,dontstash
+lootrule,add,contains,Kinney Family Locket
+lootrule,last,dontstash
+lootrule,add,contains,New X-Men Boots
+lootrule,last,dontstash
+lootrule,add,contains,X-Force Mask
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mark of the Uni-Power,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,All New X-Men Bodysuit,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Kinney Family Locket,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,New X-Men Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,X-Force Mask,5
+
+[Physical -Melee Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Frenzy
+omega,last,points,10
+omega,add,name,Shadow King's Possession
+omega,last,points,1
+omega,add,name,Telepathic Immunity
+omega,last,points,1
+omega,add,name,Focused Strength of Grom
+omega,last,points,1
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Deathlok Program
+omega,last,points,1
+omega,add,name,Reaver Program
+omega,last,points,10
+omega,add,name,Super Soldier Serum
+omega,last,points,5
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Hala
+omega,last,points,20
+omega,add,name,Skrullos
+omega,last,points,10
+omega,add,name,Neural Recovery
+omega,last,points,1
+omega,add,name,Tactical Neural Implant
+omega,last,points,10
+omega,add,name,Harpy
+omega,last,points,5
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,19
+omega,add,name,Neurobotics
+omega,last,points,10
+omega,add,name,High Capacity Magazine
+omega,last,points,1
+omega,add,name,Showstopper Ammo
+omega,last,points,20
+omega,add,name,ExTechOp Cybernetic Body Upgrades
+omega,last,points,20
+omega,add,name,Adamantium-Laced Skin
+omega,last,points,1
+omega,add,name,Omega Death Spores
+omega,last,points,1
+omega,add,name,Weapon X
+omega,last,points,20
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+
 END
 
 [Build: http://marvelheroes.info/build/28200/]
