@@ -136,6 +136,70 @@ Ability,18,Page,1
 Ability,18,Slot,8
 Ability,18,Movement
 
+[Uniques]
+lootrule,add,contains,Glove of the Light Brigade
+lootrule,last,dontstash
+lootrule,add,contains,Stark's Unstable Catalyst
+lootrule,last,dontstash
+lootrule,add,contains,Future Foundation Belt
+lootrule,last,dontstash
+lootrule,add,contains,Fantasticar
+lootrule,last,dontstash
+lootrule,add,contains,The Original Human Torch's Boots
+lootrule,last,dontstash
+lootrule,add,contains,Stellar Flare
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Glove of the Light Brigade,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Stark's Unstable Catalyst,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Future Foundation Belt,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Fantasticar,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Original Human Torch's Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Stellar Flare,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/24116/]
