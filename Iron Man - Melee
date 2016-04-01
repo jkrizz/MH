@@ -157,6 +157,75 @@ Ability,20,Page,1
 Ability,20,Slot,8
 Ability,20,Movement
 
+[Uniques]
+lootrule,add,contains,Experimental Overcharged Repulsors
+lootrule,last,dontstash
+lootrule,add,contains,Uru-Infused Armor
+lootrule,last,dontstash
+lootrule,add,contains,Hulkbuster-Plated Compact Armor
+lootrule,last,dontstash
+lootrule,add,contains,Extremis Undersheath
+lootrule,last,dontstash
+lootrule,add,contains,Tony Stark's Checkbook
+lootrule,last,dontstash
+lootrule,add,contains,Boots of the Galactic Guardian
+lootrule,last,dontstash
+lootrule,add,contains,ST-99 "Executioner" In-Helmet Targeting Software
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Experimental Overcharged Repulsors,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Uru-Infused Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Hulkbuster-Plated Compact Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Extremis Undersheath,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Tony Stark's Checkbook,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Boots of the Galactic Guardian,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,ST-99 "Executioner" In-Helmet Targeting Software,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/3177/]
