@@ -67,7 +67,7 @@ Ability,8,Boss
 
 [Master Thief]   //Invisibility+Buffs
 Ability,9,Name,Master Thief
-Ability,9,Points,1
+Ability,9,Points,7
 Ability,9,Page,1
 Ability,9,Slot,4
 Ability,9,MiniBoss
