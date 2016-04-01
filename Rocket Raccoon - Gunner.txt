@@ -253,6 +253,75 @@ Ability,30,Slot,8
 Ability,30,Page,1
 Ability,30,Movement
 
+[Uniques]
+lootrule,add,contains,Timely Inc. Desk-A-Matronic Staple Gun
+lootrule,last,dontstash
+lootrule,add,contains,Burrower's Body Armor
+lootrule,last,dontstash
+lootrule,add,contains,Apprehendroid Array
+lootrule,last,dontstash
+lootrule,add,contains,Chitauri Turret Control Device
+lootrule,last,dontstash
+lootrule,add,contains,Kree Turret Control Matrix
+lootrule,last,dontstash
+lootrule,add,contains,Quad-Plasma Cannon
+lootrule,last,dontstash
+lootrule,add,contains,Raccoonatics LW-60 "Commander" Minigun
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Timely Inc. Desk-A-Matronic Staple Gun,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Burrower's Body Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Apprehendroid Array,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Chitauri Turret Control Device,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Kree Turret Control Matrix,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Quad-Plasma Cannon,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Raccoonatics LW-60 "Commander" Minigun,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/148/]
