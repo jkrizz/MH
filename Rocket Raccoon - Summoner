@@ -310,35 +310,35 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Raccoonatics LW-60 "Commander" Minigun,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Summoner Omega]
+Omega,1,Name,S.H.I.E.L.D. Leadership
+Omega,1,Points,20
+Omega,2,Name,Squad Assault Weaponry
+Omega,2,Points,20
+Omega,3,Name,S.H.I.E.L.D. Uniform
+Omega,3,Points,3
+Omega,4,Name,S.P.I.N. Tech
+Omega,4,Points,10
+Omega,5,Name,Adamantium-Laced Skin
+Omega,5,Points,1
+Omega,6,Name,Elixir of Immortality
+Omega,6,Points,1
+Omega,7,Name,Mind Over Matter
+Omega,7,Points,5
+Omega,8,Name,Merge and Possess
+Omega,8,Points,17
+Omega,9,Name,Telepathic Immunity
+Omega,9,Points,2
+Omega,10,Name,The Stepford Cuckoos
+Omega,10,Points,10
+Omega,11,Name,Supreme Intelligence
+Omega,11,Points,10
+Omega,12,Name,Overmind's Power
+Omega,12,Points,1
+Omega,13,Name,Amphogenesis
+Omega,13,Points,10
+Omega,14,Name,Terrigen Crystals
+Omega,14,Points,1
 
 END
 
