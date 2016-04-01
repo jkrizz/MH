@@ -15,6 +15,14 @@ Ability,1,Points,1
 //IRON MAN   //REMOVE THE PAGE, SLOT, TOGGLE AND COOLDOWN LINES OF THIS ABILITY IF YOU HAVE SHIFTING SANDS STANCE
 Ability,2,Name,Mechanical Genius
 Ability,2,Points,20
+Ability,2,Page,2
+Ability,2,Slot,5
+Ability,2,Toggle
+Ability,2,Cooldown,60
+
+//GAMORRA TEAM-UP   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE SHIFTING SANDS STANCE 
+Ability,3,Name,Weapons Specialist 
+Ability,3,Points,20 
 
 [Shifting Sands Stance]
 //ROCK TROLL GLADIATOR - LIMBO
@@ -47,6 +55,16 @@ Ability,7,Slot,8
 Ability,7,Cooldown,3
 Ability,7,MinRange,200
 Ability,7,TransformPower
+
+[Vanish]   //"Early-Game" Gap-Close    
+//KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL    
+Ability,8,Name,Vanish    
+Ability,8,Points,1    
+Ability,8,Page,3    
+Ability,8,Slot,7    
+Ability,8,Cooldown,3    
+Ability,8,MinRange,200    
+Ability,8,YSPGT,20  
 
 [Teleportal]   //"Late-Game" Gap-Close
 //THE DECEIVER - LIMBO MIDTOWN
@@ -197,75 +215,90 @@ Ability,26,Page,1
 Ability,26,Slot,6
 Ability,26,MaxRange,500
 
+[Empowered Shockwave]   //CD Spender    
+//HYDE - BRONX ZOO  //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE DEMONIC BARRIER    
+Ability,27,Name,Empowered Shockwave    
+Ability,27,Points,1    
+Ability,27,Page,2    
+Ability,27,Slot,8    
+Ability,27,MaxRange,525  
+
 [Recall Overload]   //Sig+CC-Immunity+Buffs
-Ability,27,Name,Recall Overload
-Ability,27,Points,20
-Ability,27,Page,2
-Ability,27,Slot,4
-Ability,27,MiniBoss
-Ability,27,Boss
-Ability,27,MaxRange,500
-Ability,27,MouseTarget
+Ability,28,Name,Recall Overload
+Ability,28,Points,20
+Ability,28,Page,2
+Ability,28,Slot,4
+Ability,28,MiniBoss
+Ability,28,Boss
+Ability,28,MaxRange,500
+Ability,28,MouseTarget
 
 [Infernal Meteor]   //CD Spender
 //LORD BRIMSTONE - GREEN MUSPELHEIM (CAN SOLO)
-Ability,28,Name,Infernal Meteor
-Ability,28,Points,20
-Ability,28,Page,2
-Ability,28,Slot,1
-Ability,28,MaxRange,625
-
-[Wrath of Muspelheim]   //CD Spender+Dot
-Ability,29,Name,Wrath of Muspelheim
+Ability,29,Name,Infernal Meteor
 Ability,29,Points,20
 Ability,29,Page,2
 Ability,29,Slot,1
-Ability,29,MaxRange,500
+Ability,29,MaxRange,625
+
+[Wrath of Muspelheim]   //CD Spender+Dot
+Ability,30,Name,Wrath of Muspelheim
+Ability,30,Points,20
+Ability,30,Page,2
+Ability,30,Slot,1
+Ability,30,MaxRange,500
 
 [Crushing Blows]   //Spender
-Ability,30,Name,Crushing Blows
-Ability,30,Points,20
-Ability,30,Page,1
-Ability,30,Slot,5
-Ability,30,MaxRange,125
-
-[Draining Punch]   //Basic
-Ability,31,Name,Draining Punch
-Ability,31,Points,0
+Ability,31,Name,Crushing Blows
+Ability,31,Points,20
 Ability,31,Page,1
-Ability,31,Slot,1
+Ability,31,Slot,5
 Ability,31,MaxRange,125
 
+[Draining Punch]   //Basic
+Ability,32,Name,Draining Punch
+Ability,32,Points,0
+Ability,32,Page,1
+Ability,32,Slot,1
+Ability,32,MaxRange,125
+
 [Swooping Flames]   //SAURON - CHAPTER 7 DINOSAUR JUNGLE / MIDTOWN
-Ability,32,Name,Swooping Flames
-Ability,32,Points,20
-Ability,32,Page,2
-Ability,32,Slot,7
-Ability,32,Movement
-Ability,32,TargetSelf
+Ability,33,Name,Swooping Flames
+Ability,33,Points,20
+Ability,33,Page,2
+Ability,33,Slot,7
+Ability,33,Movement
+Ability,33,TargetSelf
 
 [Ziggurat]
-Ability,33,Name,Ziggurat of Kargul
-Ability,33,Points,0
-Ability,33,Page,3
-Ability,33,Slot,6
-Ability,33,Movement
-Ability,33,YHPGT,40
+Ability,34,Name,Ziggurat of Kargul
+Ability,34,Points,0
+Ability,34,Page,3
+Ability,34,Slot,6
+Ability,34,Movement
+Ability,34,YHPGT,40
 
 [Teleport]   //TransformPower+CD+Buff
-Ability,34,Name,Teleport
-Ability,34,Points,0
-Ability,34,Page,1
-Ability,34,Slot,8
-Ability,34,TransformPower
-Ability,34,Movement
-
-[Teleportal]
-Ability,35,Name,Teleportal
-Ability,35,Points,1
+Ability,35,Name,Teleport
+Ability,35,Points,0
 Ability,35,Page,1
 Ability,35,Slot,8
+Ability,35,TransformPower
 Ability,35,Movement
+
+[Vanish]   //KIRIGI - INDUSTRY CITY / X-DEFENSE   //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL    
+Ability,36,Name,Vanish    
+Ability,36,Points,3    
+Ability,36,Page,7    
+Ability,36,Slot,8    
+Ability,36,Movement  
+
+[Teleportal]
+Ability,37,Name,Teleportal
+Ability,37,Points,1
+Ability,37,Page,1
+Ability,37,Slot,8
+Ability,37,Movement
 
 [Uniques]
 lootrule,add,contains,Uncanny Avengers' Gloves
