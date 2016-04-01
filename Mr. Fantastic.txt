@@ -152,6 +152,98 @@ Ability,19,Slot,8
 Ability,19,Page,1
 Ability,19,Movement
 
+[Uniques]
+lootrule,add,contains,Earth-1610 Experimental Gloves
+lootrule,last,dontstash
+lootrule,add,contains,Future Foundation Bodysuit
+lootrule,last,dontstash
+lootrule,add,contains,Field-Ready Computation Device
+lootrule,last,dontstash
+lootrule,add,contains,Fantasticar
+lootrule,last,dontstash
+lootrule,add,contains,Dark Raider's Boots
+lootrule,last,dontstash
+lootrule,add,contains,Helmet of the Maker
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Earth-1610 Experimental Gloves,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Future Foundation Bodysuit,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Field-Ready Computation Device,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Fantasticar,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Dark Raider's Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Helmet of the Maker,5
+
+[Physical -Melee Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Frenzy
+omega,last,points,10
+omega,add,name,Shadow King's Possession
+omega,last,points,1
+omega,add,name,Telepathic Immunity
+omega,last,points,1
+omega,add,name,Focused Strength of Grom
+omega,last,points,1
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Deathlok Program
+omega,last,points,1
+omega,add,name,Reaver Program
+omega,last,points,10
+omega,add,name,Super Soldier Serum
+omega,last,points,5
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Hala
+omega,last,points,20
+omega,add,name,Skrullos
+omega,last,points,10
+omega,add,name,Neural Recovery
+omega,last,points,1
+omega,add,name,Tactical Neural Implant
+omega,last,points,10
+omega,add,name,Harpy
+omega,last,points,5
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,19
+omega,add,name,Neurobotics
+omega,last,points,10
+omega,add,name,High Capacity Magazine
+omega,last,points,1
+omega,add,name,Showstopper Ammo
+omega,last,points,20
+omega,add,name,ExTechOp Cybernetic Body Upgrades
+omega,last,points,20
+omega,add,name,Adamantium-Laced Skin
+omega,last,points,1
+omega,add,name,Omega Death Spores
+omega,last,points,1
+omega,add,name,Weapon X
+omega,last,points,20
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+
 END
 
 [Build: http://marvelheroes.info/build/218/]
