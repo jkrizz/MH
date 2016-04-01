@@ -171,6 +171,65 @@ Ability,20,Page,1
 Ability,20,Slot,8
 Ability,20,Points,1
 
+[Uniques]
+lootrule,add,contains,The Sins of Magnus
+lootrule,last,dontstash
+lootrule,add,contains,Headmaster's Tunic
+lootrule,last,dontstash
+lootrule,add,contains,Mantle of Fortress X
+lootrule,last,dontstash
+lootrule,add,contains,The Fury of Mutantkind
+lootrule,last,dontstash
+lootrule,add,contains,Age of Apocalypse Helmet
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Sins of Magnus,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Headmaster's Tunic,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mantle of Fortress X,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Fury of Mutantkind,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Age of Apocalypse Helmet,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build http://marvelheroes.info/build/2767/]
