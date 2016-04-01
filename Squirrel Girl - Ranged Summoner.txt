@@ -162,11 +162,11 @@ Ability,20,YHPGT,10
 Ability,20,Movement
 
 [Forestwalk]   //Movement
-Ability,20,Name,Forestwalk
-Ability,20,Points,0
-Ability,20,Slot,8
-Ability,20,Page,1
-Ability,20,Movement
+Ability,21,Name,Forestwalk
+Ability,21,Points,0
+Ability,21,Slot,8
+Ability,21,Page,1
+Ability,21,Movement
 
 [Uniques]
 lootrule,add,contains,Doreen's Dangerous Claws
