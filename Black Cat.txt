@@ -92,34 +92,34 @@ Ability,11,MaxRange,125
 Ability,11,Buff,marvelconditioneffect_blackcatstealth,True
 
 [Cat Scratch Fever]   //Sig
-Ability,11,Name,Cat Scratch Fever
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,MiniBoss
-Ability,11,Boss
-Ability,11,MaxRange,250
-
-[Foe Fillet]   //CD Spender+Buff
-Ability,12,Name,Foe Fillet
+Ability,12,Name,Cat Scratch Fever
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,5
-Ability,12,MaxRange,125
+Ability,12,Slot,3
+Ability,12,MiniBoss
+Ability,12,Boss
+Ability,12,MaxRange,250
 
-[C'Mere Kitty]   //CD Spender+Buff
-Ability,13,Name,C'mere Kitty
+[Foe Fillet]   //CD Spender+Buff
+Ability,13,Name,Foe Fillet
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,6
-Ability,13,MaxRange,350
+Ability,13,Slot,5
+Ability,13,MaxRange,125
+
+[C'Mere Kitty]   //CD Spender+Buff
+Ability,14,Name,C'mere Kitty
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,6
+Ability,14,MaxRange,350
 
 [Grappling Whip]   //Spender
-Ability,14,Name,Grappling Whip
-Ability,14,Points,20
-Ability,14,Page,2
-Ability,14,Slot,4
-Ability,14,MaxRange,150
+Ability,15,Name,Grappling Whip
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,4
+Ability,15,MaxRange,150
 
 [Cat's Claws]   //Basic
 Ability,16,Name,Cat's Claws
