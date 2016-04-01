@@ -140,6 +140,65 @@ Ability,18,Page,1
 Ability,18,Slot,8
 Ability,18,Movement
 
+[Uniques]
+lootrule,add,contains,Phoenix-Enhanced Soulsword
+lootrule,last,dontstash
+lootrule,add,contains,Phoenix Force Harness
+lootrule,last,dontstash
+lootrule,add,contains,Mantle of Limbo's Queen
+lootrule,last,dontstash
+lootrule,add,contains,Earth-4210 Boots
+lootrule,last,dontstash
+lootrule,add,contains,Illyana's Soul Armor
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Phoenix-Enhanced Soulsword,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Phoenix Force Harness,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mantle of Limbo's Queen,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Earth-4210 Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Illyana's Soul Armor,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/31521/]
