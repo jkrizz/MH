@@ -3,7 +3,7 @@ hero,Ant-Man
 
 //ROTATION
 
-[TeamUp]   //TeamUp
+[TeamUp]  //TeamUp
 Ability,2,TeamUp
 
 [Ziggurat]   //Gap-Close
