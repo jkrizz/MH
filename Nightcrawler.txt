@@ -183,6 +183,98 @@ Ability,23,Slot,8
 Ability,23,Movement
 Ability,23,Buff,marvelconditioneffect_nightcrawler_bamfstealth,False
 
+[Uniques]
+lootrule,add,contains,Excalibur's Saber
+lootrule,last,dontstash
+lootrule,add,contains,Kurt's Practice Sticks
+lootrule,last,dontstash
+lootrule,add,contains,The White Cloak of Paradise
+lootrule,last,dontstash
+lootrule,add,contains,Black Gloves of the Priesthood
+lootrule,last,dontstash
+lootrule,add,contains,Fairy Tale Swashbuckler's Boots
+lootrule,last,dontstash
+lootrule,add,contains,Great White Shark
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Excalibur's Saber,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Kurt's Practice Sticks,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The White Cloak of Paradise,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Black Gloves of the Priesthood,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Fairy Tale Swashbuckler's Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Great White Shark,5
+
+[Physical -Melee Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Frenzy
+omega,last,points,10
+omega,add,name,Shadow King's Possession
+omega,last,points,1
+omega,add,name,Telepathic Immunity
+omega,last,points,1
+omega,add,name,Focused Strength of Grom
+omega,last,points,1
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Deathlok Program
+omega,last,points,1
+omega,add,name,Reaver Program
+omega,last,points,10
+omega,add,name,Super Soldier Serum
+omega,last,points,5
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Hala
+omega,last,points,20
+omega,add,name,Skrullos
+omega,last,points,10
+omega,add,name,Neural Recovery
+omega,last,points,1
+omega,add,name,Tactical Neural Implant
+omega,last,points,10
+omega,add,name,Harpy
+omega,last,points,5
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,19
+omega,add,name,Neurobotics
+omega,last,points,10
+omega,add,name,High Capacity Magazine
+omega,last,points,1
+omega,add,name,Showstopper Ammo
+omega,last,points,20
+omega,add,name,ExTechOp Cybernetic Body Upgrades
+omega,last,points,20
+omega,add,name,Adamantium-Laced Skin
+omega,last,points,1
+omega,add,name,Omega Death Spores
+omega,last,points,1
+omega,add,name,Weapon X
+omega,last,points,20
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+
 END
 
 [Build: http://marvelheroes.info/build/17748/]
