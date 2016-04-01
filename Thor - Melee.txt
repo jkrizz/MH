@@ -132,6 +132,75 @@ Ability,17,Slot,8
 Ability,17,Page,1
 Ability,17,Movement
 
+[Uniques]
+lootrule,add,contains,Mighty Mjolnir
+lootrule,last,dontstash
+lootrule,add,contains,Jarnbjorn
+lootrule,last,dontstash
+lootrule,add,contains,Rune King Armor
+lootrule,last,dontstash
+lootrule,add,contains,Cape of Sigurd Dragonslayer
+lootrule,last,dontstash
+lootrule,add,contains,Humanitarian's Legwraps
+lootrule,last,dontstash
+lootrule,add,contains,Helm of the Skyfather
+lootrule,last,dontstash
+lootrule,add,contains,The All-Father's Eyepatch
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mighty Mjolnir,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Jarnbjorn,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Rune King Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Cape of Sigurd Dragonslayer,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Humanitarian's Legwraps,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Helm of the Skyfather,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The All-Father's Eyepatch,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/6145/]
