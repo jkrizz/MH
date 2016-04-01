@@ -168,6 +168,70 @@ Ability,21,Slot,8
 Ability,21,Page,1
 Ability,21,Movement
 
+[Uniques]
+lootrule,add,contains,Bands of the Skybreaker
+lootrule,last,dontstash
+lootrule,add,contains,Windreaver Pendant
+lootrule,last,dontstash
+lootrule,add,contains,Cape of the Stormcrafter
+lootrule,last,dontstash
+lootrule,add,contains,Cloak of the Sky Goddess
+lootrule,last,dontstash
+lootrule,add,contains,Punk Rock Leather Go-Go Boots
+lootrule,last,dontstash
+lootrule,add,contains,Strike Team Mohawk
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Bands of the Skybreaker,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Windreaver Pendant,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Cape of the Stormcrafter,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Cloak of the Sky Goddess,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Punk Rock Leather Go-Go Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Strike Team Mohawk,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: marvelheroes.info/build/3718]
