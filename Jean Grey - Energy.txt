@@ -181,6 +181,85 @@ Ability,22,Slot,8
 Ability,22,Page,1
 Ability,22,Movement
 
+[Uniques]
+lootrule,add,contains,Gloves of the Twelve
+lootrule,last,dontstash
+lootrule,add,contains,Cosmic Egg of the Phoenix
+lootrule,last,dontstash
+lootrule,add,contains,Crest of the Black Phoenix
+lootrule,last,dontstash
+lootrule,add,contains,Time Traveler's Uniform
+lootrule,last,dontstash
+lootrule,add,contains,Battle of the Atom Chain Belt
+lootrule,last,dontstash
+lootrule,add,contains,Golden Sash of the Cosmic Entity
+lootrule,last,dontstash
+lootrule,add,contains,1610 Brand Calf Skin Boots
+lootrule,last,dontstash
+lootrule,add,contains,M'Kraan Nexus Mask
+lootrule,last,dontstash
+lootrule,add,contains,Revolution's Red Face Mask
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Gloves of the Twelve,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Cosmic Egg of the Phoenix,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Crest of the Black Phoenix,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Time Traveler's Uniform,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Battle of the Atom Chain Belt,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Golden Sash of the Cosmic Entity,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,1610 Brand Calf Skin Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,M'Kraan Nexus Mask,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Revolution's Red Face Mask,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/23105/]
