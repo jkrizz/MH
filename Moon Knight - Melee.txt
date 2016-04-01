@@ -161,6 +161,93 @@ Ability,20,Page,1
 Ability,20,Slot,8
 Ability,20,Movement
 
+[Uniques]
+lootrule,add,contains,Marc Spector's Spiked Gauntlets
+lootrule,last,dontstash
+lootrule,add,contains,Lockley's Advanced Carbonadium Armor
+lootrule,last,dontstash
+lootrule,add,contains,Golden Mantle of Khonshu
+lootrule,last,dontstash
+lootrule,add,contains,Fist of Khonshu Boots
+lootrule,last,dontstash
+lootrule,add,contains,Crescent Launchers
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Marc Spector's Spiked Gauntlets,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Lockley's Advanced Carbonadium Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Golden Mantle of Khonshu,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Fist of Khonshu Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Crescent Launchers,5
+
+[Physical -Melee Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Frenzy
+omega,last,points,10
+omega,add,name,Shadow King's Possession
+omega,last,points,1
+omega,add,name,Telepathic Immunity
+omega,last,points,1
+omega,add,name,Focused Strength of Grom
+omega,last,points,1
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Deathlok Program
+omega,last,points,1
+omega,add,name,Reaver Program
+omega,last,points,10
+omega,add,name,Super Soldier Serum
+omega,last,points,5
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Hala
+omega,last,points,20
+omega,add,name,Skrullos
+omega,last,points,10
+omega,add,name,Neural Recovery
+omega,last,points,1
+omega,add,name,Tactical Neural Implant
+omega,last,points,10
+omega,add,name,Harpy
+omega,last,points,5
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,19
+omega,add,name,Neurobotics
+omega,last,points,10
+omega,add,name,High Capacity Magazine
+omega,last,points,1
+omega,add,name,Showstopper Ammo
+omega,last,points,20
+omega,add,name,ExTechOp Cybernetic Body Upgrades
+omega,last,points,20
+omega,add,name,Adamantium-Laced Skin
+omega,last,points,1
+omega,add,name,Omega Death Spores
+omega,last,points,1
+omega,add,name,Weapon X
+omega,last,points,20
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+
 END
 
 [Build: marvelheroes.info/build/1818]
