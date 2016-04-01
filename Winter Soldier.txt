@@ -196,6 +196,70 @@ Ability,23,Page,1
 Ability,23,Slot,8
 Ability,23,Movement
 
+[Uniques]
+lootrule,add,contains,Kazurr Sniper Rifle
+lootrule,last,dontstash
+lootrule,add,contains,Bucky's Tactical Knife
+lootrule,last,dontstash
+lootrule,add,contains,Bucky's WW2 Uniform
+lootrule,last,dontstash
+lootrule,add,contains,Original Sin Space Armor
+lootrule,last,dontstash
+lootrule,add,contains,Soviet Issue Bandolier
+lootrule,last,dontstash
+lootrule,add,contains,Bucky Barnes' WW2 Boots
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Kazurr Sniper Rifle,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Bucky's Tactical Knife,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Bucky's WW2 Uniform,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Original Sin Space Armor,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Soviet Issue Bandolier,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Bucky Barnes' WW2 Boots,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/7717/]
