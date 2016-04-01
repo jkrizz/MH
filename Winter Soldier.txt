@@ -53,7 +53,7 @@ Ability,6,Slot,8
 Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YSPGT,10
-Ability,5,MaxLevel,10
+Ability,6,MaxLevel,10
 
 //[Reposition]   //Late-Game Gap-Close+Stealth
 //Ability,7,Name,Reposition
