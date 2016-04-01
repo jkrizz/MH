@@ -151,6 +151,70 @@ Ability,18,Slot,8
 Ability,18,Page,1
 Ability,18,Movement
 
+[Uniques]
+lootrule,add,contains,Gloves of Infinite Entropy
+lootrule,last,dontstash
+lootrule,add,contains,Brotherhood of Evil Mutant's Gloves
+lootrule,last,dontstash
+lootrule,add,contains,Mark of the Nexus Being
+lootrule,last,dontstash
+lootrule,add,contains,Brotherhood of Evil Mutants Cape
+lootrule,last,dontstash
+lootrule,add,contains,Genoshan Royal Slippers
+lootrule,last,dontstash
+lootrule,add,contains,Chthonic Headdress
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Gloves of Infinite Entropy,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Brotherhood of Evil Mutant's Gloves,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mark of the Nexus Being,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Brotherhood of Evil Mutants Cape,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Genoshan Royal Slippers,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Chthonic Headdress,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build marvelheroes.info/build/5484/]
