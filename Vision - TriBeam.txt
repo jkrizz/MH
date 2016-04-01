@@ -196,6 +196,65 @@ Ability,24,Slot,8
 Ability,24,Page,1
 Ability,24,Movement
 
+[Uniques]
+lootrule,add,contains,Vision's Solar Gem
+lootrule,last,dontstash
+lootrule,add,contains,Uncanny Avengers Bodysuit
+lootrule,last,dontstash
+lootrule,add,contains,Victor Shade's Trenchcoat
+lootrule,last,dontstash
+lootrule,add,contains,Boots of the Anti-Vision
+lootrule,last,dontstash
+lootrule,add,contains,The Anti-Vision's Cape
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Vision's Solar Gem,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Uncanny Avengers Bodysuit,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Victor Shade's Trenchcoat,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Boots of the Anti-Vision,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,The Anti-Vision's Cape,5
+
+[GENERIC Omegas]
+omega,add,name,S.P.I.N. Tech
+omega,last,points,10
+omega,add,name,Angel
+omega,last,points,1
+omega,add,name,Warpath
+omega,last,points,10
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Shadow King's Possession
+omega,last,points,10
+omega,add,name,Clairsentience
+omega,last,points,1
+omega,add,name,Melt Face
+omega,last,points,10
+omega,add,name,Terrigen Crystals
+omega,last,points,1
+omega,add,name,Xerogenesis
+omega,last,points,5
+omega,add,name,Cochlear Implant
+omega,last,points,1
+omega,add,name,Guilt Suppression Research
+omega,last,points,5
+omega,add,name,Kakaranthara
+omega,last,points,30
+omega,add,name,Sabretooth
+omega,last,points,5
+omega,add,name,Apocalypse
+omega,last,points,1
+
 END
 
 [Build: http://marvelheroes.info/build/14426/#p7]
