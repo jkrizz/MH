@@ -63,7 +63,7 @@ Ability,8,Points,0
 Ability,8,Page,1
 Ability,8,Slot,1
 Ability,8,YSPLT,20
-//Ability,8,MaxRange,
+Ability,8,MaxRange,625
 
 [Force Multiplier]   //CC-Immunity
 Ability,9,Name,Force Multiplier
@@ -159,7 +159,7 @@ Ability,19,Name,Optic Blast
 Ability,19,Hold,1000
 Ability,19,Page,1
 Ability,19,Slot,1
-Ability,19,MaxRange,500
+Ability,19,MaxRange,625
 
 [Ziggurat]   //Movement
 Ability,20,Name,Ziggurat of Kargul
@@ -220,35 +220,69 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Headmaster's Leather Jacket,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Combat Rorschach Training
+Omega,1,Points,10
+Omega,2,Name,Assassin Programming
+Omega,2,Points,1
+Omega,3,Name,Cochlear Implant
+Omega,3,Points,1
+Omega,4,Name,Doom's Mystic Armor
+Omega,4,Points,3
+Omega,5,Name,Arcane Attunement
+Omega,5,Points,1
+Omega,6,Name,Chitauri Prime
+Omega,6,Points,10
+Omega,7,Name,Halfworld
+Omega,7,Points,15
+Omega,8,Name,Counter-Earth
+Omega,8,Points,1
+Omega,9,Name,Chandilar
+Omega,9,Points,10
+Omega,10,Name,Skrullos
+Omega,10,Points,10
+Omega,11,Name,Earth
+Omega,11,Points,1
+Omega,12,Name,Knowhere
+Omega,12,Points,1
+Omega,13,Name,Sparta
+Omega,13,Points,10
+Omega,14,Name,Hala
+Omega,14,Points,1
+Omega,15,Name,Focused Plasma Cannon
+Omega,15,Points,10
+Omega,16,Name,S.H.I.E.L.D. Uniform
+Omega,16,Points,1
+Omega,17,Name,Warpath
+Omega,17,Points,10
+Omega,18,Name,Sunfire
+Omega,18,Points,3
+Omega,19,Name,Angel
+Omega,19,Points,1
+Omega,20,Name,S.P.I.N. Tech
+Omega,20,Points,10
+Omega,21,Name,Melt Face
+Omega,21,Points,20
+Omega,22,Name,Clairsentience
+Omega,22,Points,1
+Omega,23,Name,Precognition
+Omega,23,Points,1
+Omega,24,Name,Psychometry
+Omega,24,Points,1
+Omega,25,Name,Psionic Exoskeleton
+Omega,25,Points,1
+Omega,26,Name,Psionic Charge
+Omega,26,Points,1
+Omega,27,Name,Preview
+Omega,27,Points,1
+Omega,28,Name,Psyche Blasts
+Omega,28,Points,1
+Omega,29,Name,Psionic Overload
+Omega,29,Points,5
+Omega,30,Name,Terrigen Crystals
+Omega,30,Points,1
+Omega,31,Name,Xerogenesis
+Omega,31,Points,5
 
 END
 
