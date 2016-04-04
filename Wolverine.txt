@@ -112,49 +112,56 @@ Ability,15,Slot,6
 Ability,15,Cooldown,5
 Ability,15,MaxRange,450
 
-[Impale]   //CD Spender
-Ability,16,Name,Impale
+[Eviscerate]   //CD Spender
+Ability,16,Name,Eviscerate
 Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,7
-Ability,16,MaxRange,125
+Ability,16,Page,1 
+Ability,16,Slot,2
+Ability,16,MaxRange,125  
+
+[Impale]   //CD Spender
+Ability,17,Name,Impale
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,7
+Ability,17,MaxRange,125
 
 [Furious Assault]   //Sig+Multi-Activate+Spirit Regen
-Ability,17,Name,Furious Assault
-Ability,17,Points,20
-Ability,17,Page,2
-Ability,17,Slot,6
-Ability,17,MaxRange,125
-Ability,17,Delay,50
+Ability,18,Name,Furious Assault
+Ability,18,Points,20
+Ability,18,Page,2
+Ability,18,Slot,6
+Ability,18,MaxRange,125
+Ability,18,Delay,50
 
 [Swift Claws]   //Basic+Spirit Regen
-Ability,18,Name,Swift Claws
-Ability,18,Points,20
-Ability,18,Page,1
-Ability,18,Slot,1
-Ability,18,MaxRange,125
+Ability,19,Name,Swift Claws
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,MaxRange,125
 
 [Feral Roar]   //Spirit Regen While Moving
-Ability,19,Name,Feral Roar
-Ability,19,Points,20
-Ability,19,Page,2
-Ability,19,Slot,5
-Ability,19,Movement
-
-[Ziggurat]   //Movement
-Ability,20,Name,Ziggurat of Kargul
-Ability,20,Points,0
+Ability,20,Name,Feral Roar
+Ability,20,Points,20
 Ability,20,Page,2
-Ability,20,Slot,8
-Ability,20,YHPGT,40
+Ability,20,Slot,5
 Ability,20,Movement
 
-[Furious Lunge]   //Movement
-Ability,21,Name,Furious Lunge
+[Ziggurat]   //Movement
+Ability,21,Name,Ziggurat of Kargul
 Ability,21,Points,0
+Ability,21,Page,2
 Ability,21,Slot,8
-Ability,21,Page,1
+Ability,21,YHPGT,40
 Ability,21,Movement
+
+[Furious Lunge]   //Movement
+Ability,22,Name,Furious Lunge
+Ability,22,Points,0
+Ability,22,Slot,8
+Ability,22,Page,1
+Ability,22,Movement
 
 [Uniques]
 lootrule,add,contains,Bone Claws
