@@ -50,8 +50,8 @@ Ability,6,Cooldown,3
 Ability,6,YHPGT,40
 Ability,6,MinRange,200
 
-[Quick Getaway]   //Gap-Close
-Ability,7,Name,Quick Getaway
+[Hyper-Velocity Charge]   //Gap-Close
+Ability,7,Name,Hyper-Velocity Charge
 Ability,7,Points,0
 Ability,7,Page,1
 Ability,7,Slot,8
