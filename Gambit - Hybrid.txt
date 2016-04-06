@@ -55,14 +55,11 @@ Ability,8,Slot,1
 Ability,8,YSPLT,20
 Ability,8,MaxRange,125
 
-[Good Times Roll]   //Gap-Close
+[Good Times Roll]   //Movement Buff
 Ability,9,Name,Good Times Roll
 Ability,9,Points,0
 Ability,9,Page,1
 Ability,9,Slot,8
-Ability,9,Cooldown,3
-Ability,9,MinRange,200
-Ability,9,YSPGT,20
 Ability,9,Buff,marvelconditioneffect_haste,False
 
 [Ragin' Cajun]   //Buff
