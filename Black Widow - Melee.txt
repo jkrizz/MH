@@ -47,7 +47,7 @@ Ability,6,Slot,3
 Ability,6,MiniBoss
 Ability,6,Boss
 
-[Silent Killer]   //Gap-Close
+[Silent Killer]   //Movement Buff
 Ability,7,Name,Silent Killer
 Ability,7,Points,0
 Ability,7,Page,1
