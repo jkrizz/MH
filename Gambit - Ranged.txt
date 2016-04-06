@@ -69,7 +69,7 @@ Ability,9,Slot,2
 Ability,9,MiniBoss
 Ability,9,Boss
 
-[Bo Strike]
+[Bo Strike]   //Spirit Regen Below 20%
 Ability,10,Name,Bo Strike
 Ability,10,Points,0
 Ability,10,Page,1
@@ -77,101 +77,108 @@ Ability,10,Slot,1
 Ability,10,YSPLT,20
 Ability,10,MaxRange,125
 
-[Ragin' Cajun]   //Buff
-Ability,11,Name,Ragin' Cajun
-Ability,11,Points,20
+[Good Times Roll]   //Movement Buff
+Ability,11,Name,Good Times Roll
+Ability,11,Points,0
 Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,MiniBoss
-Ability,11,Boss
+Ability,11,Slot,8
+Ability,11,Buff,marvelconditioneffect_haste,false
 
-[Street Sweep]   //Vulnerability+Dot
-Ability,12,Name,Street Sweep
+[Ragin' Cajun]   //Buff
+Ability,12,Name,Ragin' Cajun
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,2
-Ability,12,Cooldown,6
-Ability,12,MaxRange,500
+Ability,12,Slot,3
+Ability,12,MiniBoss
+Ability,12,Boss
 
-[Royal Flush]   //Buff
-Ability,13,Name,Royal Flush
+[Street Sweep]   //Vulnerability+Dot
+Ability,13,Name,Street Sweep
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,6
-Ability,13,MaxRange,350
-Ability,13,PanelBuff,MarvelUIIcons.Power_Gambit_RoyalFlush,False
+Ability,13,Slot,2
+Ability,13,Cooldown,6
+Ability,13,MaxRange,500
 
-[House of Cards]   //Dot
-Ability,14,Name,House of Cards
+[Royal Flush]   //Buff
+Ability,14,Name,Royal Flush
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,4
-Ability,14,MaxRange,500
+Ability,14,Slot,6
+Ability,14,MaxRange,350
+Ability,14,PanelBuff,MarvelUIIcons.Power_Gambit_RoyalFlush,False
+
+[House of Cards]   //Dot
+Ability,15,Name,House of Cards
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,4
+Ability,15,MaxRange,500
 
 [Cherie]   //Ult
-Ability,15,Name,Cherie
-Ability,15,Points,0
-Ability,15,Page,1
-Ability,15,Slot,7
-Ability,15,Boss
-Ability,15,MaxRange,375
+Ability,16,Name,Cherie
+Ability,16,Points,0
+Ability,16,Page,1
+Ability,16,Slot,7
+Ability,16,Boss
+Ability,16,MaxRange,375
 
 [52 Pickup]   //Sig+Buffs
-Ability,16,Name,52 Pickup
-Ability,16,Points,20
-Ability,16,Slot,4
-Ability,16,Page,2
-Ability,16,Boss
-Ability,16,Miniboss
-Ability,16,Hold,4000
-Ability,16,Mousetarget
-Ability,16,MaxRange,625
+Ability,17,Name,52 Pickup
+Ability,17,Points,20
+Ability,17,Slot,4
+Ability,17,Page,2
+Ability,17,Boss
+Ability,17,Miniboss
+Ability,17,Hold,4000
+Ability,17,Mousetarget
+Ability,17,MaxRange,625
 
 [Ace of Spades]   //CD Spender
-Ability,17,Name,Ace of Spades
-Ability,17,Points,20
-Ability,17,Page,1
-Ability,17,Slot,5
-Ability,17,MaxRange,650
+Ability,18,Name,Ace of Spades
+Ability,18,Points,20
+Ability,18,Page,1
+Ability,18,Slot,5
+Ability,18,MaxRange,650
 
 [Royal Flush]   //Early-Game Spender 
-Ability,18,Name,Royal Flush 
-Ability,18,Points,20 
-Ability,18,Page,1 
-Ability,18,Slot,6 
-Ability,18,MaxRange,350 
-Ability,18,MaxLevel,10
+Ability,19,Name,Royal Flush 
+Ability,19,Points,20 
+Ability,19,Page,1 
+Ability,19,Slot,6 
+Ability,19,MaxRange,350 
+Ability,19,MaxLevel,10
 
 [Dead Man's Hand]   //Late-Game Spender
-Ability,19,Name,Dead Man's Hand
-Ability,19,Points,20
-Ability,19,Page,2
-Ability,19,Slot,3
-Ability,19,Mousetarget
-Ability,19,Hold,500,AsPrimary
-Ability,19,MaxRange,650
+Ability,20,Name,Dead Man's Hand
+Ability,20,Points,20
+Ability,20,Page,2
+Ability,20,Slot,3
+Ability,20,Mousetarget
+Ability,20,Hold,500,AsPrimary
+Ability,20,MaxRange,650
 
 [Bo Strike]   //Basic
-Ability,20,Name,Bo Strike
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,1
-Ability,20,MaxRange,125
+Ability,21,Name,Bo Strike
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,1
+Ability,21,MaxRange,125
 
 [Ziggurat]   //Movement
-Ability,21,Name,Ziggurat of Kargul
-Ability,21,Points,0
-Ability,21,Page,2
-Ability,21,Slot,8
-Ability,21,Movement
-Ability,21,YHPGT,40
-
-[Good Times Roll]   //Movement
-Ability,22,Name,Good Times Roll
+Ability,22,Name,Ziggurat of Kargul
 Ability,22,Points,0
-Ability,22,Page,1
+Ability,22,Page,2
 Ability,22,Slot,8
 Ability,22,Movement
+Ability,22,YHPGT,40
+
+[Good Times Roll]   //Movement
+Ability,23,Name,Good Times Roll
+Ability,23,Points,0
+Ability,23,Page,1
+Ability,23,Slot,8
+Ability,23,Movement
 
 [Uniques]
 lootrule,add,contains,Death's Black Staff
