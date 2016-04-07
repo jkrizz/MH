@@ -198,63 +198,47 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Remy's Lucky Deck,5
 
-[Physical -Melee Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Frenzy
-omega,last,points,10
-omega,add,name,Shadow King's Possession
-omega,last,points,1
-omega,add,name,Telepathic Immunity
-omega,last,points,1
-omega,add,name,Focused Strength of Grom
-omega,last,points,1
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Deathlok Program
-omega,last,points,1
-omega,add,name,Reaver Program
-omega,last,points,10
-omega,add,name,Super Soldier Serum
-omega,last,points,5
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Hala
-omega,last,points,20
-omega,add,name,Skrullos
-omega,last,points,10
-omega,add,name,Neural Recovery
-omega,last,points,1
-omega,add,name,Tactical Neural Implant
-omega,last,points,10
-omega,add,name,Harpy
-omega,last,points,5
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,19
-omega,add,name,Neurobotics
-omega,last,points,10
-omega,add,name,High Capacity Magazine
-omega,last,points,1
-omega,add,name,Showstopper Ammo
-omega,last,points,20
-omega,add,name,ExTechOp Cybernetic Body Upgrades
-omega,last,points,20
-omega,add,name,Adamantium-Laced Skin
-omega,last,points,1
-omega,add,name,Omega Death Spores
-omega,last,points,1
-omega,add,name,Weapon X
-omega,last,points,20
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
+[Omegas]
+Omega,1,Name,Arcane Attunement
+Omega,1,Points,6
+Omega,2,Name,Mjolnir
+Omega,2,Points,20
+Omega,3,Name,Chitauri Prime
+Omega,3,Points,10
+Omega,4,Name,Halfworld
+Omega,4,Points,15
+Omega,5,Name,Counter-Earth
+Omega,5,Points,5
+Omega,6,Name,Skrullos
+Omega,6,Points,10
+Omega,7,Name,Earth
+Omega,7,Points,1
+Omega,8,Name,Hala
+Omega,8,Points,1
+Omega,9,Name,The Moon
+Omega,9,Points,1
+Omega,10,Name,Sakaar
+Omega,10,Points,1
+Omega,11,Name,Breakworld
+Omega,11,Points,5
+Omega,12,Name,Zenn-La
+Omega,12,Points,1
+Omega,13,Name,Sabretooth
+Omega,13,Points,5
+Omega,14,Name,Warpath
+Omega,14,Points,10
+Omega,15,Name,Angel
+Omega,15,Points,1
+Omega,16,Name,Frenzy
+Omega,16,Points,10
+Omega,17,Name,S.P.I.N. Tech
+Omega,17,Points,10
+Omega,18,Name,Melt Face
+Omega,18,Points,20
+Omega,19,Name,Clairsentience
+Omega,19,Points,1
+Omega,20,Name,Shadow King's Possession
+Omega,20,Points,20
 
 END
 
