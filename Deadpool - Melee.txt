@@ -23,91 +23,96 @@ Ability,3,Cooldown,3
 Ability,3,MinRange,300
 Ability,3,YSPGT,20
 
+[Box Omega Proc]
+Ability,4,PetVacuum
+Ability,4,Cooldown,35
+//Ability,4,PanelBuff,MarvelUIIcons.Power_Omega_Mutation_17,False
+
 [Superior Healing Factor]  //HP Regen Below 80%
-Ability,4,Name,Superior Healing Factor
-Ability,4,Points,9
-Ability,4,Page,2
-Ability,4,Slot,3
-Ability,4,YHPLT,80
+Ability,5,Name,Superior Healing Factor
+Ability,5,Points,9
+Ability,5,Page,2
+Ability,5,Slot,3
+Ability,5,YHPLT,80
 
 [Foot Gougers]   //Weaken
-Ability,5,Name,Foot Gougers
-Ability,5,Points,20
-Ability,5,Page,1
-Ability,5,Slot,4
-Ability,5,MaxRange,200
-Ability,5,Cooldown,5
-
-[Server Lag]   //Sig+Buffs
-Ability,6,Name,Server Lag
+Ability,6,Name,Foot Gougers
 Ability,6,Points,20
 Ability,6,Page,1
-Ability,6,Slot,6
-Abiilty,6,MiniBoss
-Ability,6,Boss
-Ability,6,MaxRange,625
-Ability,6,Specialization,0xF4502970E1041884
+Ability,6,Slot,4
+Ability,6,MaxRange,200
+Ability,6,Cooldown,5
 
-[Stabby Flip]   //Vulnerability+Dot
-Ability,7,Name,Stabby Flip
+[Server Lag]   //Sig+Buffs
+Ability,7,Name,Server Lag
 Ability,7,Points,20
 Ability,7,Page,1
-Ability,7,Slot,5
-Ability,7,MaxRange,450
-Ability,7,Cooldown,4
+Ability,7,Slot,6
+Abiilty,7,MiniBoss
+Ability,7,Boss
+Ability,7,MaxRange,625
+Ability,7,Specialization,0xF4502970E1041884
+
+[Stabby Flip]   //Vulnerability+Dot
+Ability,8,Name,Stabby Flip
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,5
+Ability,8,MaxRange,450
+Ability,8,Cooldown,4
 
 [Kitchen Sink]   //Ult
-Ability,8,Name,Kitchen Sink
-Ability,8,Points,0
-Ability,8,Page,2
-Ability,8,Slot,2
-Ability,8,Boss
-Ability,8,Hold,10000,ShiftClick
-Ability,8,MouseTarget
-Ability,8,MaxRange,300
+Ability,9,Name,Kitchen Sink
+Ability,9,Points,0
+Ability,9,Page,2
+Ability,9,Slot,2
+Ability,9,Boss
+Ability,9,Hold,10000,ShiftClick
+Ability,9,MouseTarget
+Ability,9,MaxRange,300
 
 [Slam Jam]   //CD
-Ability,9,Name,Slam Jam
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,2
-Ability,9,MaxRange,325
-
-[Cutting Room Floor]   //CD
-Ability,10,Name,Cutting Room Floor
+Ability,10,Name,Slam Jam
 Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,7
-Ability,10,MaxRange,300
+Ability,10,Slot,2
+Ability,10,MaxRange,325
 
-[Real Armor Buster]   //CD
-Ability,11,Name,Real Armor Buster
+[Cutting Room Floor]   //CD
+Ability,11,Name,Cutting Room Floor
 Ability,11,Points,20
 Ability,11,Page,1
-Ability,11,Slot,3
-Ability,11,MaxRange,650
+Ability,11,Slot,7
+Ability,11,MaxRange,300
+
+[Real Armor Buster]   //CD
+Ability,12,Name,Real Armor Buster
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,3
+Ability,12,MaxRange,650
 
 [Bang Bang]   //Early-Game Basic
-Ability,12,Name,Bang Bang
-Ability,12,Points,0
-Ability,12,Slot,1
-Ability,12,Page,1
-Ability,12,MaxLevel,12
-Ability,12,MaxRange,600
+Ability,13,Name,Bang Bang
+Ability,13,Points,0
+Ability,13,Slot,1
+Ability,13,Page,1
+Ability,13,MaxLevel,12
+Ability,13,MaxRange,600
 
 [Sai Assault]   //Late-Game Basic
-Ability,13,Name,Sai Assault
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,1
-Ability,13,MaxRange,120
+Ability,14,Name,Sai Assault
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,1
+Ability,14,MaxRange,120
 
 [Bodyslide by One]   //Movement
-Ability,14,Name,Bodyslide by One
-Ability,14,Points,0
-Ability,14,Slot,8
-Ability,14,Page,1
-Ability,14,Movement
+Ability,15,Name,Bodyslide by One
+Ability,15,Points,0
+Ability,15,Slot,8
+Ability,15,Page,1
+Ability,15,Movement
 
 [Uniques]
 lootrule,add,contains,Chuck's Uzis
@@ -158,63 +163,61 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Magic Satchel of Unlimited Weaponry,5
 
-[Physical -Melee Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Frenzy
-omega,last,points,10
-omega,add,name,Shadow King's Possession
-omega,last,points,1
-omega,add,name,Telepathic Immunity
-omega,last,points,1
-omega,add,name,Focused Strength of Grom
-omega,last,points,1
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Deathlok Program
-omega,last,points,1
-omega,add,name,Reaver Program
-omega,last,points,10
-omega,add,name,Super Soldier Serum
-omega,last,points,5
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Hala
-omega,last,points,20
-omega,add,name,Skrullos
-omega,last,points,10
-omega,add,name,Neural Recovery
-omega,last,points,1
-omega,add,name,Tactical Neural Implant
-omega,last,points,10
-omega,add,name,Harpy
-omega,last,points,5
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,19
-omega,add,name,Neurobotics
-omega,last,points,10
-omega,add,name,High Capacity Magazine
-omega,last,points,1
-omega,add,name,Showstopper Ammo
-omega,last,points,20
-omega,add,name,ExTechOp Cybernetic Body Upgrades
-omega,last,points,20
-omega,add,name,Adamantium-Laced Skin
-omega,last,points,1
-omega,add,name,Omega Death Spores
-omega,last,points,1
-omega,add,name,Weapon X
-omega,last,points,20
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
+[Omegas]
+Omega,1,Name,Neurobotics
+Omega,1,Points,15
+Omega,2,Name,Halfworld
+Omega,2,Points,15
+Omega,3,Name,Skrullos
+Omega,3,Points,10
+Omega,4,Name,Hala
+Omega,4,Points,1
+Omega,5,Name,Showstopper Ammo
+Omega,5,Points,20
+Omega,6,Name,High Capacity Magazine
+Omega,6,Points,1
+Omega,7,Name,S.H.I.E.L.D. Uniform
+Omega,7,Points,4
+Omega,8,Name,Warpath
+Omega,8,Points,10
+Omega,9,Name,Angel
+Omega,9,Points,1
+Omega,10,Name,Frenzy
+Omega,10,Points,1
+Omega,11,Name,Box
+Omega,11,Points,5
+Omega,12,Name,S.P.I.N. Tech
+Omega,12,Points,10
+Omega,13,Name, ExTechOp Cybernetic Body Upgrades
+Omega,13,Points,14
+Omega,14,Name,Deathlok Program
+Omega,14,Points,30
+Omega,15,Name,Reaver Program
+Omega,15,Points,10
+Omega,16,Name,Melt Face
+Omega,16,Points,20
+Omega,17,Name,Clairsentience
+Omega,17,Points,1
+Omega,18,Name,Focused Strength of Grom
+Omega,18,Points,1
+Omega,19,Name,Telepathic Immunity
+Omega,19,Points,1
+Omega,20,Name,Shadow King's Possession
+Omega,20,Points,1
+Omega,21,Name,Precognition
+Omega,21,Points,1
+Omega,22,Name,Psychometry
+Omega,22,Points,1
+Omega,23,Name,Psionic Exoskeleton
+Omega,23,Points,1
+Omega,24,Name,Psionic Charge
+Omega,24,Points,1
+Omega,25,Name,Preview
+Omega,25,Points,1
+Omega,26,Name,Psyche Blasts
+Omega,26,Points,1
+Omega,27,Name,Psionic Overload
+Omega,27,Points,5
 
 END
 
