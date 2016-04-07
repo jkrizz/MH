@@ -201,36 +201,73 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Eye of Agamotto,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Retinal Targeting Chip
+Omega,1,Points,10
+Omega,2,Name,Neurobotics
+Omega,2,Points,15
+Omega,3,Name,Combat Rorschach Training
+Omega,3,Points,1
+Omega,4,Name,Guilt Suppression Research
+Omega,4,Points,1
+Omega,5,Name,Neural Recovery
+Omega,5,Points,1
+Omega,6,Name,Cochlear Implant
+Omega,6,Points,1
+Omega,7,Name,Tactical Neural Implant
+Omega,7,Points,1
+Omega,8,Name,Cerebro
+Omega,8,Points,20
+Omega,9,Name,Arcane Attunement
+Omega,9,Points,2
+Omega,10,Name,Zarathos
+Omega,10,Points,20
+Omega,11,Name,Kakaranthara
+Omega,11,Points,4
+Omega,12,Name,Galador
+Omega,12,Points,1
+Omega,13,Name,Wraithworld
+Omega,13,Points,10
+Omega,14,Name,Chandilar
+Omega,14,Points,4
+Omega,15,Name,Assault Rifles
+Omega,15,Points,10
+Omega,16,Name,Silencers
+Omega,16,Points,1
+Omega,17,Name,Tag Rounds
+Omega,17,Points,10
+Omega,18,Name,Warpath
+Omega,18,Points,10
+Omega,19,Name,Angel
+Omega,19,Points,1
+Omega,20,Name,Chamber
+Omega,20,Points,10
+Omega,21,Name,S.P.I.N. Tech
+Omega,21,Points,10
+Omega,22,Name,Melt Face
+Omega,22,Points,20
+Omega,23,Name,Clairsentience
+Omega,23,Points,1
+Omega,24,Name,Precognition
+Omega,24,Points,1
+Omega,25,Name,Psychometry
+Omega,25,Points,1
+Omega,26,Name,Psionic Exoskeleton
+Omega,26,Points,1
+Omega,27,Name,Psionic Charge
+Omega,27,Points,10
+Omega,28,Name,Preview
+Omega,28,Points,1
+Omega,29,Name,Psyche Blasts
+Omega,29,Points,1
+Omega,30,Name,Psionic Overload
+Omega,30,Points,5
+Omega,31,Name,Terrigen Crystals
+Omega,31,Points,1
+Omega,32,Name,Xerogenesis
+Omega,32,Points,5
 
 END
 
 [Build: http://marvelheroes.info/build/853/]
+[Omegas from http://marvelheroes.info/build/24168/]
