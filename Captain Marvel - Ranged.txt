@@ -198,35 +198,55 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Warbird's Mask,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Retinal Targeting Chip
+Omega,1,Points,10
+Omega,2,Name,Combat Rorschach Training
+Omega,2,Points,7
+Omega,3,Name,Guilt Suppression Research
+Omega,3,Points,3
+Omega,4,Name,Cochlear Implant
+Omega,4,Points,3
+Omega,5,Name,Kakaranthara
+Omega,5,Points,1
+Omega,6,Name,Galador
+Omega,6,Points,1
+Omega,7,Name,Battleworld
+Omega,7,Points,1
+Omega,8,Name,Chitauri Prime
+Omega,8,Points,10
+Omega,9,Name,Wraithworld
+Omega,9,Points,1
+Omega,10,Name,Halfworld
+Omega,10,Points,10
+Omega,11,Name,Chandilar
+Omega,11,Points,10
+Omega,12,Name,Skrullos
+Omega,12,Points,6
+Omega,13,Name,Sparta
+Omega,13,Points,10
+Omega,14,Name,Hala
+Omega,14,Points,1
+Omega,15,Name,S.H.I.E.L.D. Uniform
+Omega,15,Points,2
+Omega,16,Name,Apocalypse
+Omega,16,Points,1
+Omega,17,Name,Sabretooth
+Omega,17,Points,1
+Omega,18,Name,Warpath
+Omega,18,Points,5
+Omega,19,Name,Angel
+Omega,19,Points,1
+Omega,20,Name,S.P.I.N. Tech
+Omega,20,Points,10
+Omega,21,Name,Serum SO2
+Omega,21,Points,1
+Omega,22,Name,Forever Compound
+Omega,22,Points,1
+Omega,23,Name,Terrigen Crystals
+Omega,23,Points,1
+Omega,24,Name,Xerogenesis
+Omega,24,Points,5
 
 END
 
