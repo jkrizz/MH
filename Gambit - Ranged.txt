@@ -219,35 +219,63 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Remy's Lucky Deck,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Doom's Mystic Armor
+Omega,1,Points,20
+Omega,2,Name,Arcane Attunement
+Omega,2,Points,1
+Omega,3,Name,Halfworld
+Omega,3,Points,15
+Omega,4,Name,Skrullos
+Omega,4,Points,10
+Omega,5,Name,Earth
+Omega,5,Points,1
+Omega,6,Name,Knowhere
+Omega,6,Points,1
+Omega,7,Name,Sparta
+Omega,7,Points,7
+Omega,8,Name,Hala
+Omega,8,Points,1
+Omega,9,Name,Focused Plasma Cannon
+Omega,9,Points,10
+Omega,10,Name,Warpath
+Omega,10,Points,10
+Omega,11,Name,Sunfire
+Omega,11,Points,10
+Omega,12,Name,Angel
+Omega,12,Points,1
+Omega,13,Name,Frenzy
+Omega,13,Points,1
+Omega,14,Name,Polaris
+Omega,14,Points,10
+Omega,15,Name,S.P.I.N. Tech
+Omega,15,Points,10
+Omega,16,Name,Melt Face
+Omega,16,Points,20
+Omega,17,Name,Clairsentience
+Omega,17,Points,1
+Omega,18,Name,Mind Over Matter
+Omega,18,Points,5
+Omega,19,Name,Merge and Possess
+Omega,19,Points,1
+Omega,20,Name,Precognition
+Omega,20,Points,1
+Omega,21,Name,Psychometry
+Omega,21,Points,1
+Omega,22,Name,Psionic Exoskeleton
+Omega,22,Points,1
+Omega,23,Name,Psionic Charge
+Omega,23,Points,1
+Omega,24,Name,Preview
+Omega,24,Points,1
+Omega,25,Name,Psyche Blasts
+Omega,25,Points,1
+Omega,26,Name,Psionic Overload
+Omega,26,Points,5
+Omega,27,Name,Terrigen Crystals
+Omega,27,Points,1
+Omega,28,Name,Xerogenesis
+Omega,28,Points,5
 
 END
 
