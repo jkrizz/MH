@@ -39,107 +39,112 @@ Ability,6,Cooldown,3
 Ability,6,MinRange,200
 Ability,6,YSPGT,20
 
+[Box Omega Proc]
+Ability,7,PetVacuum
+Ability,7,Cooldown,35
+//Ability,7,PanelBuff,MarvelUIIcons.Power_Omega_Mutation_17,False
+
 [Mighty Punch]   //Spirit Regen Below 20%
-Ability,7,Name,Mighty Punch
-Ability,7,Slot,1
-Ability,7,Page,1
-Ability,7,Points,0
-Ability,7,MaxRange,125
-Ability,7,YSPLT,20
+Ability,8,Name,Mighty Punch
+Ability,8,Slot,1
+Ability,8,Page,1
+Ability,8,Points,0
+Ability,8,MaxRange,125
+Ability,8,YSPLT,20
 
 [Defiant Escape]   //CC-Immunity
-Ability,8,Name,Defiant Escape
-Ability,8,Points,1
-Ability,8,Page,2
-Ability,8,Slot,3
-Ability,8,MiniBoss
-Ability,8,Boss
+Ability,9,Name,Defiant Escape
+Ability,9,Points,1
+Ability,9,Page,2
+Ability,9,Slot,3
+Ability,9,MiniBoss
+Ability,9,Boss
 
 [Crashdown Strike]   //Vulnerability+Dot
-Ability,9,Name,Crashdown Strike
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,3
-Ability,9,MaxRange,600
+Ability,10,Name,Crashdown Strike
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,3
+Ability,10,MaxRange,600
 
 [Binary Overdrive]   //Ult+Buff
-Ability,10,Name,Binary Overdrive
-Ability,10,Points,0
-Ability,10,Page,1
-Ability,10,Slot,7
-Ability,10,Boss
-Ability,10,MaxRange,300
+Ability,11,Name,Binary Overdrive
+Ability,11,Points,0
+Ability,11,Page,1
+Ability,11,Slot,7
+Ability,11,Boss
+Ability,11,MaxRange,300
 
 [Stellar Flare]   //CD Spender
-Ability,11,Name,Stellar Flare
-Ability,11,Points,20
-Ability,11,Slot,4
-Ability,11,Page,1
-Ability,11,MaxRange,300
-Ability,11,SECEQ,100
+Ability,12,Name,Stellar Flare
+Ability,12,Points,20
+Ability,12,Slot,4
+Ability,12,Page,1
+Ability,12,MaxRange,300
+Ability,12,SECEQ,100
 
 [Radiant Cascade]   //Sig+Buff
-Ability,12,Name,Radiant Cascade
-Ability,12,Points,20
-Ability,12,Slot,2
-Ability,12,Page,1
-Ability,12,MiniBoss
-Ability,12,Boss
-Ability,12,MaxRange,300
+Ability,13,Name,Radiant Cascade
+Ability,13,Points,20
+Ability,13,Slot,2
+Ability,13,Page,1
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,MaxRange,300
 
 [Photonic Wave]   //Early-Game Photonic Spender
-Ability,13,Name,Photonic Wave
-Ability,13,Points,20
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,MaxLevel,8
-Ability,13,MaxRange,450
-
-[Photonic Wave]   //Photonic Spender
 Ability,14,Name,Photonic Wave
 Ability,14,Points,20
 Ability,14,Page,2
 Ability,14,Slot,2
-Ability,14,Cooldown,6
+Ability,14,MaxLevel,8
 Ability,14,MaxRange,450
 
-[Infused Uppercut]   //Late-Game Photonic Spender
-Ability,15,Name,Infused Uppercut
+[Photonic Wave]   //Photonic Spender
+Ability,15,Name,Photonic Wave
 Ability,15,Points,20
-Ability,15,Slot,5
-Ability,15,Page,1
-Ability,15,MaxRange,100
-Ability,15,SECEQ,100
+Ability,15,Page,2
+Ability,15,Slot,2
+Ability,15,Cooldown,6
+Ability,15,MaxRange,450
 
-[Cosmic Haymaker]   //Spender
-Ability,16,Name,Cosmic Haymaker
+[Infused Uppercut]   //Late-Game Photonic Spender
+Ability,16,Name,Infused Uppercut
 Ability,16,Points,20
-Ability,16,Slot,6
+Ability,16,Slot,5
 Ability,16,Page,1
 Ability,16,MaxRange,100
-Ability,16,Hold,1000,AsPrimary
+Ability,16,SECEQ,100
+
+[Cosmic Haymaker]   //Spender
+Ability,17,Name,Cosmic Haymaker
+Ability,17,Points,20
+Ability,17,Slot,6
+Ability,17,Page,1
+Ability,17,MaxRange,100
+Ability,17,Hold,1000,AsPrimary
 
 [Mighty Punch]   //Basic
-Ability,17,Name,Mighty Punch
-Ability,17,Points,0
-Ability,17,Slot,1
-Ability,17,Page,1
-Ability,17,MaxRange,125
+Ability,18,Name,Mighty Punch
+Ability,18,Points,0
+Ability,18,Slot,1
+Ability,18,Page,1
+Ability,18,MaxRange,125
 
 [Ziggurat]   //Movement
-Ability,18,Name,Ziggurat of Kargul
-Ability,18,Points,0
-Ability,18,Page,2
-Ability,18,Slot,8
-Ability,18,Movement
-Ability,18,YHPGT,40
+Ability,19,Name,Ziggurat of Kargul
+Ability,19,Points,0
+Ability,19,Page,2
+Ability,19,Slot,8
+Ability,19,Movement
+Ability,19,YHPGT,40
 
 [Flying Lunge]   //Movement
-Ability,19,Name,Flying Lunge
-Ability,19,Points,0
-Ability,19,Slot,8
-Ability,19,Page,1
-Ability,19,Movement
+Ability,20,Name,Flying Lunge
+Ability,20,Points,0
+Ability,20,Slot,8
+Ability,20,Page,1
+Ability,20,Movement
 
 [Uniques]
 lootrule,add,contains,The Captain's Gauntlets
@@ -175,35 +180,67 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Warbird's Mask,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Neurobotics
+Omega,1,Points,15
+Omega,2,Name,Combat Rorschach Training
+Omega,2,Points,10
+Omega,3,Name,Assassin Programming
+Omega,3,Points,1
+Omega,4,Name,Neural Recovery
+Omega,4,Points,1
+Omega,5,Name,Cochlear Implant
+Omega,5,Points,1
+Omega,6,Name,Tactical Neural Implant
+Omega,6,Points,10
+Omega,7,Name,Chitauri Prime
+Omega,7,Points,10
+Omega,8,Name,Halfworld
+Omega,8,Points,15
+Omega,9,Name,Counter-Earth
+Omega,9,Points,5
+Omega,10,Name,Skrullos
+Omega,10,Points,10
+Omega,11,Name,Earth
+Omega,11,Points,1
+Omega,12,Name,Hala
+Omega,12,Points,20
+Omega,13,Name,Showstopper Ammo
+Omega,13,Points,20
+Omega,14,Name,High Capacity Magazine
+Omega,14,Points,1
+Omega,15,Name,S.H.I.E.L.D. Uniform
+Omega,15,Points,3
+Omega,16,Name,Warpath
+Omega,16,Points,10
+Omega,17,Name,Angel
+Omega,17,Points,1
+Omega,18,Name,Frenzy
+Omega,18,Points,1
+Omega,19,Name,Box
+Omega,19,Points,5
+Omega,20,Name,Harpy
+Omega,20,Points,5
+Omega,21,Name,S.P.I.N. Tech
+Omega,21,Points,10
+Omega,22,Name, ExTechOp Cybernetic Body Upgrades
+Omega,22,Points,4
+Omega,23,Name,Deathlok Program
+Omega,23,Points,30
+Omega,24,Name,Reaver Program
+Omega,24,Points,10
+Omega,25,Name,Serum SO2
+Omega,25,Points,1
+Omega,26,Name,Forever Compound
+Omega,26,Points,1
+Omega,27,Name,Melt Face
+Omega,27,Points,1
+Omega,28,Name,Clairsentience
+Omega,28,Points,1
+Omega,29,Name,Terrigen Crystals
+Omega,29,Points,1
+Omega,30,Name,Xerogenesis
+Omega,30,Points,5
 
 END
 
