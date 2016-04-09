@@ -128,7 +128,7 @@ Ability,15,Name,Blossom of Death
 Ability,15,Points,20
 Ability,15,Page,1
 Ability,15,Slot,2
-Ability,15,Cooldown,8
+Ability,15,Cooldown,14
 Ability,15,MaxRange,450
 
 [From the Shadows]   //CD+AOE Marking
