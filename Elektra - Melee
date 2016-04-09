@@ -1,0 +1,235 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Elektra
+
+//ROTATION
+
+[TeamUp]   //Team-Up
+Ability,1,TeamUp
+
+[Flow Like Water]   //Gap-Close
+Ability,3,Name,Flow Like Water
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,200
+Ability,3,YSPGT,20
+
+[Sai Strike]   //Spirit Regen Below 20%
+Ability,4,Name,Sai Strike
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,1
+Ability,4,YSPLT,20
+Ability,4,MaxRange,125
+
+[Hyper-Awareness]   //CC-Immunity
+Ability,5,Name,Hyper-Awareness
+Ability,5,Points,6
+Ability,5,Page,2
+Ability,5,Slot,6
+Ability,5,MiniBoss
+Ability,5,Boss
+
+[Behind You]   //CD+Instakill Marked Non-Boss Enemies+Execute
+Ability,6,Name,Behind You
+Ability,6,Points,20
+Ability,6,Page,1
+Ability,6,Slot,6
+Ability,6,Elite
+Ability,6,MiniBoss
+Ability,6,Boss
+Ability,6,MaxRange,750
+Ability,6,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+
+[Marked for Death]   //Vulnerability
+Ability,7,Name,Marked for Death
+Ability,7,Points,19
+Ability,7,Page,2
+Ability,7,Slot,5
+Ability,7,Elite
+Ability,7,MiniBoss
+Ability,7,Boss
+Ability,7,MaxRange,750
+Ability,7,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
+
+[Clear the Air]   //CD+Weaken
+Ability,8,Name,Clear the Air
+Ability,8,Points,20
+Ability,8,Page,2
+Ability,8,Slot,3
+Ability,8,MaxRange,250
+Ability,8,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+
+[Slip into the Shadows]   //CD+Stealth+Buffs
+Ability,9,Name,Slip into the Shadows
+Ability,9,Points,1
+Ability,9,Page,2
+Ability,9,Slot,2
+Ability,9,MiniBoss
+Ability,9,Boss
+
+[Not Even The Stars]   //Sig+Mark on Elite/MiniBoss/Boss+Invulnerability
+Ability,10,Name,Not Even The Stars
+Ability,10,Points,20
+Ability,10,Page,1
+Ability,10,Slot,5
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,MaxRange,500
+Ability,10,Buff,marvelconditioneffect_elektra_stealth,False     //NOT while Slip into the Shadows is Active
+
+[Dance of Death]   //Ult+Invulnerability
+Ability,11,Name,Dance of Death
+Ability,11,Points,0
+Ability,11,Page,2
+Ability,11,Slot,7
+Ability,11,Boss
+
+[Blossom of Death]   //Dot
+Ability,12,Name,Blossom of Death
+Ability,12,Points,20
+Ability,12,Page,1
+Ability,12,Slot,2
+Ability,12,Cooldown,8
+Ability,12,MaxRange,450
+
+[Shadowstrike]   //CD+Mark on Elite/MiniBoss/Boss
+Ability,13,Name,Shadowstrike
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MaxRange,650
+
+[From the Shadows]   //CD+AOE Marking
+Ability,14,Name,From the Shadows
+Ability,14,Points,20
+Ability,14,Page,2
+Ability,14,Slot,4
+Ability,14,MaxRange,750
+Ability,14,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+
+[At My Bidding]    //CD+Summons
+Ability,15,Name,At My Bidding
+Ability,15,Points,1
+Ability,15,Page,1
+Ability,15,Slot,7
+Ability,15,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+Ability,15,Specialization,0xB51103FC554131B
+
+[Wave of Shurikens]   //Early-Game Spender
+Ability,16,Name,Wave of Shurikens
+Ability,16,Points,0
+Ability,16,Page,3
+Ability,16,Slot,2
+Ability,16,MaxRange,350
+Ability,16,MaxLevel,16
+
+[Deadliest of All Assassins]   //Late-Game Spender
+Ability,17,Name,Deadliest of All Assassins
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,4
+Ability,17,MaxRange,125
+Ability,17,MinLevel,16
+
+[Sai Strike]    //Basic
+Ability,18,Name,Sai Strike
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,125
+
+[Flow Like Water]   //Movement
+Ability,20,Name,Flow Like Water
+Ability,20,Points,0
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
+
+
+[Uniques]
+lootrule,add,contains,Elektra's Assassin Blade
+lootrule,last,dontstash
+lootrule,add,contains,Elfskin Cloak of Whispers
+lootrule,last,dontstash
+lootrule,add,contains,High-Altitude Rocket Boots
+lootrule,last,dontstash
+lootrule,add,contains,Mask of the Chaste
+lootrule,last,dontstash
+lootrule,add,contains,Pure Silk Vestments
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Elektra's Assassin Blade,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Elfskin Cloak of Whispers,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,High-Altitude Rocket Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mask of the Chaste,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Pure Silk Vestments,5
+
+
+[Omegas]
+Omega,1,Name,Combat Rorschach Training
+Omega,1,Points,10
+Omega,2,Name,Assassin Programming
+Omega,2,Points,1
+Omega,3,Name,Neural Recovery
+Omega,3,Points,1
+Omega,4,Name,Cochlear Implant
+Omega,4,Points,1
+Omega,5,Name,Tactical Neural Implant
+Omega,5,Points,10
+Omega,6,Name,Earth
+Omega,6,Points,1
+Omega,7,Name,Hala
+Omega,7,Points,20
+Omega,8,Name,Sakaar
+Omega,8,Points,10
+Omega,9,Name,S.H.I.E.L.D. Uniform
+Omega,9,Points,1
+Omega,10,Name,Warpath
+Omega,10,Points,10
+Omega,11,Name,Angel
+Omega,11,Points,1
+Omega,12,Name,Frenzy
+Omega,12,Points,10
+Omega,13,Name,Harpy
+Omega,13,Points,5
+Omega,14,Name,S.P.I.N. Tech
+Omega,14,Points,10
+Omega,15,Name,Goblin Formula
+Omega,15,Points,5
+Omega,16,Name, ExTechOp Cybernetic Body Upgrades
+Omega,16,Points,1
+Omega,17,Name,Deathlok Program
+Omega,17,Points,1
+Omega,18,Name,Melt Face
+Omega,18,Points,20
+Omega,19,Name,Clairsentience
+Omega,19,Points,1
+Omega,20,Name,Focused Strength of Grom
+Omega,20,Points,1
+Omega,21,Name,Telepathic Immunity
+Omega,21,Points,1
+Omega,22,Name,Shadow King's Possession
+Omega,22,Points,1
+Omega,23,Name,Terrigenesis
+Omega,23,Points,1
+Omega,24,Name,Terrigen Crystals
+Omega,24,Points,1
+Omega,25,Name,Xerogenesis
+Omega,25,Points,5
+END
+
+[Build: http://marvelheroes.info/build/7553/]
