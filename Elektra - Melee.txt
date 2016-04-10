@@ -61,8 +61,8 @@ Ability,7,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
 [Marked for Death]   //Vulnerability
 Ability,8,Name,Marked for Death
 Ability,8,Points,19
-Ability,8,Page,2
-Ability,8,Slot,5
+Ability,8,Page,1
+Ability,8,Slot,4
 Ability,8,Elite
 Ability,8,MiniBoss
 Ability,8,Boss
@@ -261,4 +261,4 @@ Omega,25,Name,Xerogenesis
 Omega,25,Points,5
 END
 
-[Build: http://marvelheroes.info/build/39915/)
+[Build: http://marvelheroes.info/build/39915/]
