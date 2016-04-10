@@ -261,4 +261,4 @@ Omega,25,Name,Xerogenesis
 Omega,25,Points,5
 END
 
-[Build: http://marvelheroes.info/build/7553/]
+[Build: http://marvelheroes.info/build/39915/)
