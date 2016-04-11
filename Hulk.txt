@@ -196,63 +196,61 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Anger Management System,5
 
-[Physical -Melee Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Frenzy
-omega,last,points,10
-omega,add,name,Shadow King's Possession
-omega,last,points,1
-omega,add,name,Telepathic Immunity
-omega,last,points,1
-omega,add,name,Focused Strength of Grom
-omega,last,points,1
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Deathlok Program
-omega,last,points,1
-omega,add,name,Reaver Program
-omega,last,points,10
-omega,add,name,Super Soldier Serum
-omega,last,points,5
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Hala
-omega,last,points,20
-omega,add,name,Skrullos
-omega,last,points,10
-omega,add,name,Neural Recovery
-omega,last,points,1
-omega,add,name,Tactical Neural Implant
-omega,last,points,10
-omega,add,name,Harpy
-omega,last,points,5
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,19
-omega,add,name,Neurobotics
-omega,last,points,10
-omega,add,name,High Capacity Magazine
-omega,last,points,1
-omega,add,name,Showstopper Ammo
-omega,last,points,20
-omega,add,name,ExTechOp Cybernetic Body Upgrades
-omega,last,points,20
-omega,add,name,Adamantium-Laced Skin
-omega,last,points,1
-omega,add,name,Omega Death Spores
-omega,last,points,1
-omega,add,name,Weapon X
-omega,last,points,20
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
+[Omegas]
+Omega,1,Name,Neural Recovery
+Omega,1,Points,1
+Omega,2,Name,Tactical Neural Implant
+Omega,2,Points,10
+Omega,3,Name,Hala
+Omega,3,Points,20
+Omega,4,Name,Sakaar
+Omega,4,Points,10
+Omega,5,Name,Mandroid Armor
+Omega,5,Points,1
+Omega,6,Name,Advanced Mandroid Armor
+Omega,6,Points,10
+Omega,7,Name,Warpath
+Omega,7,Points,10
+Omega,8,Name,Angel
+Omega,8,Points,1
+Omega,9,Name,Blob
+Omega,9,Points,25
+Omega,10,Name,Harpy
+Omega,10,Points,5
+Omega,11,Name,Lyra
+Omega,11,Points,5
+Omega,12,Name,S.P.I.N. Tech
+Omega,12,Points,10
+Omega,13,Name,Adamantium-Laced Skin
+Omega,13,Points,1
+Omega,14,Name,Omega Death Spores
+Omega,14,Points,1
+Omega,15,Name,Weapon X
+Omega,15,Points,20
+Omega,16,Name, ExTechOp Cybernetic Body Upgrades
+Omega,16,Points,10
+Omega,17,Name,Deathlok Program
+Omega,17,Points,20
+Omega,18,Name,Reaver Program
+Omega,18,Points,5
+Omega,19,Name,Serum SO2
+Omega,19,Points,10
+Omega,20,Name,Super Soldier Serum
+Omega,20,Points,5
+Omega,21,Name,Forever Compound
+Omega,21,Points,1
+Omega,22,Name,Melt Face
+Omega,22,Points,20
+Omega,23,Name,Clairsentience
+Omega,23,Points,1
+Omega,24,Name,Focused Strength of Grom
+Omega,24,Points,1
+Omega,25,Name,Telepathic Immunity
+Omega,25,Points,1
+Omega,26,Name,Shadow King's Possession
+Omega,26,Points,1
+Omega,27,Name,Pym's Growth Particles
+Omega,27,Points,1
 
 END
 
