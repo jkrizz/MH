@@ -96,83 +96,91 @@ Ability,11,Slot,1
 Ability,11,MaxRange,500
 Ability,11,YSPLT,20
 
-[Jericho Bombardment]   //Vulnerability
-Ability,12,Name,Jericho Bombardment
-Ability,12,Points,20
+[Hyper-Velocity Charge]   //Movement Buff
+Ability,12,Name,Hyper-Velocity Charge
+Ability,12,Points,0
 Ability,12,Page,1
-Ability,12,Slot,6
-Ability,12,MaxRange,600
+Ability,12,Slot,8
+Ability,12,MouseTarget
+Ability,12,Buff,marvelconditioneffect_haste,False
+
+[Jericho Bombardment]   //Vulnerability
+Ability,13,Name,Jericho Bombardment
+Ability,13,Points,20
+Ability,13,Page,1
+Ability,13,Slot,6
+Ability,13,MaxRange,600
 
 [House Party]   //Ult
-Ability,13,Name,House Party
-Ability,13,Points,0
-Ability,13,Page,2
-Ability,13,Slot,1
-Ability,13,Boss
-Ability,13,MaxRange,750
+Ability,14,Name,House Party
+Ability,14,Points,0
+Ability,14,Page,2
+Ability,14,Slot,1
+Ability,14,Boss
+Ability,14,MaxRange,750
 
 [Micro-Missiles]   //CD Spender
-Ability,14,Name,Micro-Missiles
-Ability,14,Points,20
-Ability,14,Page,1
-Ability,14,Slot,2
-Ability,14,MaxRange,625
-
-[The One-Off]  //Sig
-Ability,15,Name,The One-Off
+Ability,15,Name,Micro-Missiles
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,4
-Ability,15,MiniBoss
-Ability,15,Boss
-Ability,15,MaxRange,450
+Ability,15,Slot,2
+Ability,15,MaxRange,625
+
+[The One-Off]  //Sig
+Ability,16,Name,The One-Off
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,4
+Ability,16,MiniBoss
+Ability,16,Boss
+Ability,16,MaxRange,450
 
 [Wrist Rocket]   //CD Spender
-Ability,16,Name,Wrist Rocket
-Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,2
-Ability,16,MaxRange,875
-Ability,16,Cooldown,6
+Ability,17,Name,Wrist Rocket
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,2
+Ability,17,MaxRange,875
+Ability,17,Cooldown,6
 
 [Repulsor Barrage]   //Spender
-Ability,17,Name,Repulsor Barrage
-Ability,17,Points,20
-Ability,17,Page,1
-Ability,17,Slot,3
-Ability,17,MouseTarget
-Ability,17,Hold,1000,AsPrimary
-Ability,17,MaxRange,500
-
-[Repulsor Blast]   //Basic
-Ability,18,Name,Repulsor Blast
-Ability,18,Points,0
+Ability,18,Name,Repulsor Barrage
+Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,1
+Ability,18,Slot,3
+Ability,18,MouseTarget
+Ability,18,Hold,1000,AsPrimary
 Ability,18,MaxRange,500
 
-[Arc Reactor Overload]   //Spirit Regen Below 100% While Moving
-Ability,19,Name,Arc Reactor Overload
-Ability,19,Points,20
+[Repulsor Blast]   //Basic
+Ability,19,Name,Repulsor Blast
+Ability,19,Points,0
 Ability,19,Page,1
-Ability,19,Slot,7
-Ability,19,YSPLT,100
-Ability,19,Movement
+Ability,19,Slot,1
+Ability,19,MaxRange,500
 
-[Ziggurat]   //Movement
-Ability,20,Name,Ziggurat of Kargul
-Ability,20,Points,0
-Ability,20,Page,2
-Ability,20,Slot,8
-Ability,20,YHPGT,10
+[Arc Reactor Overload]   //Spirit Regen Below 100% While Moving
+Ability,20,Name,Arc Reactor Overload
+Ability,20,Points,20
+Ability,20,Page,1
+Ability,20,Slot,7
+Ability,20,YSPLT,100
 Ability,20,Movement
 
-[Hyper-Velocity Charge]   //Movement
-Ability,21,Name,Hyper-Velocity Charge
+[Ziggurat]   //Movement
+Ability,21,Name,Ziggurat of Kargul
 Ability,21,Points,0
-Ability,21,Page,1
+Ability,21,Page,2
 Ability,21,Slot,8
+Ability,21,YHPGT,10
 Ability,21,Movement
+
+[Hyper-Velocity Charge]   //Movement
+Ability,22,Name,Hyper-Velocity Charge
+Ability,22,Points,0
+Ability,22,Page,1
+Ability,22,Slot,8
+Ability,22,Movement
 
 [Uniques]
 lootrule,add,contains,Experimental Overcharged Repulsors
