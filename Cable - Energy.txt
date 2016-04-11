@@ -227,35 +227,33 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Techno-Organic Virus Inhibitor,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Warpath
+Omega,1,Points,10
+Omega,2,Name,Angel
+Omega,2,Points,1
+Omega,3,Name,S.P.I.N. Tech
+Omega,3,Points,10
+Omega,4,Name,Phoenix Force
+Omega,4,Points,10
+Omega,5,Name,Omega Machine
+Omega,5,Points,10
+Omega,6,Name,Telekinetic Research
+Omega,6,Points,1
+Omega,7,Name,Psionic Vampire
+Omega,7,Points,1
+Omega,8,Name,Master Telepath
+Omega,8,Points,1
+Omega,9,Name,Melt Face
+Omega,9,Points,20
+Omega,10,Name,Clairsentience
+Omega,10,Points,1
+Omega,11,Name,Shadow King's Possession
+Omega,11,Points,19
+Omega,12,Name,Antigenesis
+Omega,12,Points,10
+Omega,13,Name,Terrigen Crystals
+Omega,13,Points,1
 
 END
 
