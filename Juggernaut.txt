@@ -178,63 +178,23 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Thunderbolts Helmet,5
 
-[Physical -Melee Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Frenzy
-omega,last,points,10
-omega,add,name,Shadow King's Possession
-omega,last,points,1
-omega,add,name,Telepathic Immunity
-omega,last,points,1
-omega,add,name,Focused Strength of Grom
-omega,last,points,1
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Deathlok Program
-omega,last,points,1
-omega,add,name,Reaver Program
-omega,last,points,10
-omega,add,name,Super Soldier Serum
-omega,last,points,5
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Hala
-omega,last,points,20
-omega,add,name,Skrullos
-omega,last,points,10
-omega,add,name,Neural Recovery
-omega,last,points,1
-omega,add,name,Tactical Neural Implant
-omega,last,points,10
-omega,add,name,Harpy
-omega,last,points,5
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,19
-omega,add,name,Neurobotics
-omega,last,points,10
-omega,add,name,High Capacity Magazine
-omega,last,points,1
-omega,add,name,Showstopper Ammo
-omega,last,points,20
-omega,add,name,ExTechOp Cybernetic Body Upgrades
-omega,last,points,20
-omega,add,name,Adamantium-Laced Skin
-omega,last,points,1
-omega,add,name,Omega Death Spores
-omega,last,points,1
-omega,add,name,Weapon X
-omega,last,points,20
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
+[Omegas]
+Omega,1,Name,Arcane Attunement
+Omega,1,Points,40
+Omega,2,Name,Apocalypse
+Omega,2,Points,1
+Omega,3,Name,Sabretooth
+Omega,3,Points,1
+Omega,4,Name,Warpath
+Omega,4,Points,10
+Omega,5,Name,Angel
+Omega,5,Points,1
+Omega,6,Name,Terrigenesis
+Omega,6,Points,5
+Omega,7,Name,Pym's Growth Particles
+Omega,7,Points,1
+Omega,8,Name,Terrigen Crystals
+Omega,8,Points,1
 
 END
 
