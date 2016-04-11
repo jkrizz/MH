@@ -194,35 +194,39 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Age of Apocalypse Armor,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Kakaranthara
+Omega,1,Points,1
+Omega,2,Name,Squad Assault Weaponry
+Omega,2,Points,20
+Omega,3,Name,S.H.I.E.L.D. Uniform
+Omega,3,Points,2
+Omega,4,Name,Harpy
+Omega,4,Points,1
+Omega,5,Name,Hulk
+Omega,5,Points,1
+Omega,6,Name,Red Hulk
+Omega,6,Points,5
+Omega,7,Name,S.P.I.N. Tech
+Omega,7,Points,10
+Omega,8,Name,Serum SO2
+Omega,8,Points,1
+Omega,9,Name,Forever Compound
+Omega,9,Points,1
+Omega,10,Name,Merge and Possess
+Omega,10,Points,20
+Omega,11,Name,The Stepford Cuckoos
+Omega,11,Points,10
+Omega,12,Name,Shadow King's Possession
+Omega,12,Points,11
+Omega,13,Name,Supreme Intelligence
+Omega,13,Points,10
+Omega,14,Name,Overmind's Power
+Omega,14,Points,1
+Omega,15,Name,Amphogenesis
+Omega,15,Points,10
+Omega,16,Name,Terrigen Crystals
+Omega,16,Points,1
 
 END
 
