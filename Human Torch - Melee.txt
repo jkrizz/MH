@@ -170,37 +170,58 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Stellar Flare,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Combat Rorschach Training
+Omega,1,Points,10
+Omega,2,Name,Guilt Suppression Research
+Omega,2,Points,5
+Omega,3,Name,Cochlear Implant
+Omega,3,Points,1
+Omega,4,Name,Doom's Mystic Armor
+Omega,4,Points,20
+Omega,5,Name,Arcane Attunement
+Omega,5,Points,5
+Omega,6,Name,Dazzler
+Omega,6,Points,1
+Omega,7,Name,Sabretooth
+Omega,7,Points,1
+Omega,8,Name,Warpath
+Omega,8,Points,10
+Omega,9,Name,Sunfire
+Omega,9,Points,10
+Omega,10,Name,Angel
+Omega,10,Points,1
+Omega,11,Name,Aurora
+Omega,11,Points,10
+Omega,12,Name,Frenzy
+Omega,12,Points,1
+Omega,13,Name,Polaris
+Omega,13,Points,5
+Omega,14,Name,S.P.I.N. Tech
+Omega,14,Points,10
+Omega,15,Name,Phoenix Force
+Omega,15,Points,10
+Omega,16,Name,Omega Machine
+Omega,16,Points,1
+Omega,17,Name,Telekinetic Research
+Omega,17,Points,1
+Omega,18,Name,Psionic Vampire
+Omega,18,Points,1
+Omega,19,Name,Master Telepath
+Omega,19,Points,1
+Omega,20,Name,Melt Face
+Omega,20,Points,20
+Omega,21,Name,Clairsentience
+Omega,21,Points,1
+Omega,22,Name,Mind Over Matter
+Omega,22,Points,5
+Omega,23,Name,Merge and Possess
+Omega,23,Points,1
+Omega,24,Name,Terrigen Crystals
+Omega,24,Points,1
+Omega,25,Name,Xerogenesis
+Omega,25,Points,5
 
 END
 
 [Build: http://marvelheroes.info/build/24116/]
-
