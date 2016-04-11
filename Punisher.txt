@@ -53,40 +53,40 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YSPGT,10
 
-[Trusty Sidearms]   //Spirit Regen Below 20%
-Ability,7,Name,Trusty Sidearms
-Ability,7,Points,0
+[Magnum]   //CD
+Ability,7,Name,Magnum
+Ability,7,Points,20
 Ability,7,Page,1
-Ability,7,Slot,1
-Ability,7,MaxRange,625
-Ability,7,YSPLT,20
+Ability,7,Slot,4
+Ability,7,MaxRange,500
+Ability,7,Mousetarget
+Ability,7,YSPLT,25
+Ability,7,Delay,50
+Ability,7,MiniBoss
+Ability,7,Boss
+
+[Rapid Reload]   //Spirit Regen Below 20%
+Ability,8,Name,Rapid Reload
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,7
+Ability,8,YSPLT,20
+
+[Trusty Sidearms]   //Spirit Regen Below 20%
+Ability,9,Name,Trusty Sidearms
+Ability,9,Points,0
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,MaxRange,625
+Ability,9,YSPLT,20
 
 [Pain Tolerance]   //CC-Immunity
-Ability,8,Name,Pain Tolerance
-Ability,8,Points,20
-Ability,8,Page,2
-Ability,8,Slot,2
-Ability,8,MiniBoss
-Ability,8,Boss
-
-[Magnum]   //CD
-Ability,9,Name,Magnum
-Ability,9,Points,20
-Ability,9,Page,1
-Ability,9,Slot,4
-Ability,9,MaxRange,500
-Ability,9,Mousetarget
-Ability,9,YSPLT,25
-Ability,9,Delay,50
-Ability,9,MiniBoss
-Ability,9,Boss
-
-[Rapid Reload]   //SEC Regen Below 20%
-Ability,10,Name,Rapid Reload
+Ability,10,Name,Pain Tolerance
 Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,7
-Ability,10,YSPLT,20
+Ability,10,Page,2
+Ability,10,Slot,2
+Ability,10,MiniBoss
+Ability,10,Boss
 
 [Pineapple Grenade]   //Vulnerability
 Ability,11,Name,Pineapple Grenade
