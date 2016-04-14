@@ -62,6 +62,7 @@ Ability,9,Page,2
 Ability,9,Slot,5
 Ability,9,MiniBoss
 Ability,9,Boss
+Ability,9,Cooldown,10
 
 [Heavy Metal]   //Ult+Buff
 Ability,10,Name,Heavy Metal
