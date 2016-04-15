@@ -8,67 +8,61 @@ hero,Elektra
 Ability,1,Name,Marked for Death
 Ability,1,Points,19
 
+//PRIORITY POINTS
+[Slip into the Shadows]   //CD+Stealth+Buffs
+Ability,2,Name,Slip into the Shadows
+Ability,2,Points,1
+
 //ROTATION
 
 [TeamUp]   //Team-Up
-Ability,2,TeamUp
+Ability,3,TeamUp
 
 [Flow Like Water]   //Gap-Close
-Ability,3,Name,Flow Like Water
-Ability,3,Points,0
-Ability,3,Page,1
-Ability,3,Slot,8
-Ability,3,Cooldown,3
-Ability,3,MinRange,200
-Ability,3,YSPGT,20
-
-[Sai Strike]   //Spirit Regen Below 20%
-Ability,4,Name,Sai Strike
+Ability,4,Name,Flow Like Water
 Ability,4,Points,0
 Ability,4,Page,1
-Ability,4,Slot,1
-Ability,4,YSPLT,20
-Ability,4,MaxRange,125
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
+
+[Sai Strike]   //Spirit Regen Below 20%
+Ability,5,Name,Sai Strike
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,1
+Ability,5,YSPLT,20
+Ability,5,MaxRange,125
 
 [Hyper-Awareness]   //CC-Immunity
-Ability,5,Name,Hyper-Awareness
-Ability,5,Points,6
-Ability,5,Page,2
-Ability,5,Slot,6
-Ability,5,MiniBoss
-Ability,5,Boss
+Ability,6,Name,Hyper-Awareness
+Ability,6,Points,6
+Ability,6,Page,2
+Ability,6,Slot,6
+Ability,6,MiniBoss
+Ability,6,Boss
 
 [Flow Like Water]   //Movement
-Ability,6,Name,Flow Like Water
-Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,8
-Ability,6,Buff,marvelconditioneffect_elektra_stealth,False
-Ability,6,MouseTarget
+Ability,7,Name,Flow Like Water
+Ability,7,Points,0
+Ability,7,Page,1
+Ability,7,Slot,8
+Ability,7,Buff,marvelconditioneffect_elektra_stealth,False
+Ability,7,MouseTarget
+Ability,7,MinLevel,4
 
 [Behind You]   //CD+Instakill Marked Non-Boss Enemies+Execute
-Ability,7,Name,Behind You
-Ability,7,Points,20
-Ability,7,Page,1
-Ability,7,Slot,6
-Ability,7,Elite
-Ability,7,MiniBoss
-Ability,7,Boss
-Ability,7,MaxRange,750
-Ability,7,MouseTarget
-Ability,7,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
-
-[Marked for Death]   //Vulnerability
-Ability,8,Name,Marked for Death
-Ability,8,Points,19
+Ability,8,Name,Behind You
+Ability,8,Points,20
 Ability,8,Page,1
-Ability,8,Slot,4
+Ability,8,Slot,6
 Ability,8,Elite
 Ability,8,MiniBoss
 Ability,8,Boss
 Ability,8,MaxRange,750
-Ability,8,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
-Ability,8,MaxLevel,10
+Ability,8,MouseTarget
+Ability,8,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
 
 [Marked for Death]   //Vulnerability
 Ability,9,Name,Marked for Death
@@ -80,102 +74,114 @@ Ability,9,MiniBoss
 Ability,9,Boss
 Ability,9,MaxRange,750
 Ability,9,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
-Ability,9,MinLevel,10
-Ability,9,CooldownCheck,3,True
+Ability,9,MaxLevel,10
+
+[Marked for Death]   //Vulnerability
+Ability,10,Name,Marked for Death
+Ability,10,Points,19
+Ability,10,Page,1
+Ability,10,Slot,4
+Ability,10,Elite
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,MaxRange,750
+Ability,10,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
+Ability,10,MinLevel,10
+Ability,10,CooldownCheck,3,True
 
 [Shadowstrike]   //CD+Mark on Elite/MiniBoss/Boss
-Ability,10,Name,Shadowstrike
-Ability,10,Points,20
-Ability,10,Page,1
-Ability,10,Slot,3
-Ability,10,MaxRange,650
+Ability,11,Name,Shadowstrike
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,3
+Ability,11,MaxRange,650
 
 [Clear the Air]   //CD+Weaken
-Ability,11,Name,Clear the Air
-Ability,11,Points,20
-Ability,11,Page,2
-Ability,11,Slot,3
-Ability,11,MaxRange,250
-Ability,11,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+Ability,12,Name,Clear the Air
+Ability,12,Points,20
+Ability,12,Page,2
+Ability,12,Slot,3
+Ability,12,MaxRange,250
+Ability,12,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
 
 [Slip into the Shadows]   //CD+Stealth+Buffs
-Ability,12,Name,Slip into the Shadows
-Ability,12,Points,1
-Ability,12,Page,2
-Ability,12,Slot,2
-Ability,12,MiniBoss
-Ability,12,Boss
-
-[Not Even The Stars]   //Sig+Mark on Elite/MiniBoss/Boss+Invulnerability
-Ability,13,Name,Not Even The Stars
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,5
+Ability,13,Name,Slip into the Shadows
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,2
 Ability,13,MiniBoss
 Ability,13,Boss
-Ability,13,MaxRange,500
-Ability,13,Buff,marvelconditioneffect_elektra_stealth,False     //NOT while Slip into the Shadows is Active
+
+[Not Even The Stars]   //Sig+Mark on Elite/MiniBoss/Boss+Invulnerability
+Ability,14,Name,Not Even The Stars
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,MaxRange,500
+Ability,14,Buff,marvelconditioneffect_elektra_stealth,False     //NOT while Slip into the Shadows is Active
 
 [Dance of Death]   //Ult+Invulnerability
-Ability,14,Name,Dance of Death
-Ability,14,Points,0
-Ability,14,Page,2
-Ability,14,Slot,7
-Ability,14,Boss
+Ability,15,Name,Dance of Death
+Ability,15,Points,0
+Ability,15,Page,2
+Ability,15,Slot,7
+Ability,15,Boss
 
 [Blossom of Death]   //Dot
-Ability,15,Name,Blossom of Death
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,2
-Ability,15,Cooldown,14
-Ability,15,MaxRange,450
+Ability,16,Name,Blossom of Death
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,2
+Ability,16,Cooldown,14
+Ability,16,MaxRange,450
 
 [From the Shadows]   //CD+AOE Marking
-Ability,16,Name,From the Shadows
-Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,4
-Ability,16,MaxRange,750
-Ability,16,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+Ability,17,Name,From the Shadows
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,4
+Ability,17,MaxRange,750
+Ability,17,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
 
 [At My Bidding]    //CD+Summons
-Ability,17,Name,At My Bidding
-Ability,17,Points,1
-Ability,17,Page,1
-Ability,17,Slot,7
-Ability,17,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
-Ability,17,Specialization,0xB51103FC554131B
+Ability,18,Name,At My Bidding
+Ability,18,Points,1
+Ability,18,Page,1
+Ability,18,Slot,7
+Ability,18,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+Ability,18,Specialization,0xB51103FC554131B
 
 [Wave of Shurikens]   //Early-Game Spender
-Ability,18,Name,Wave of Shurikens
-Ability,18,Points,0
-Ability,18,Page,3
-Ability,18,Slot,2
-Ability,18,MaxRange,350
-Ability,18,MaxLevel,16
+Ability,19,Name,Wave of Shurikens
+Ability,19,Points,0
+Ability,19,Page,3
+Ability,19,Slot,2
+Ability,19,MaxRange,350
+Ability,19,MaxLevel,16
 
 [Deadliest of All Assassins]   //Late-Game Spender
-Ability,19,Name,Deadliest of All Assassins
-Ability,19,Points,20
-Ability,19,Page,2
-Ability,19,Slot,5
-Ability,19,MaxRange,125
-Ability,19,MinLevel,16
+Ability,20,Name,Deadliest of All Assassins
+Ability,20,Points,20
+Ability,20,Page,2
+Ability,20,Slot,5
+Ability,20,MaxRange,125
+Ability,20,MinLevel,16
 
 [Sai Strike]    //Basic
-Ability,20,Name,Sai Strike
-Ability,20,Points,0
-Ability,20,Page,1
-Ability,20,Slot,1
-Ability,20,MaxRange,125
-
-[Flow Like Water]   //Movement
-Ability,21,Name,Flow Like Water
+Ability,21,Name,Sai Strike
 Ability,21,Points,0
 Ability,21,Page,1
-Ability,21,Slot,8
-Ability,21,Movement
+Ability,21,Slot,1
+Ability,21,MaxRange,125
+
+[Flow Like Water]   //Movement
+Ability,22,Name,Flow Like Water
+Ability,22,Points,0
+Ability,22,Page,1
+Ability,22,Slot,8
+Ability,22,Movement
 
 
 [Uniques]
