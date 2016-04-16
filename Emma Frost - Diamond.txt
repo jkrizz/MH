@@ -1,0 +1,280 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+//Acquire a pet from Midtown once you are able to with Psychic Domination (Level 1).  Also be sure to level the pet up as you level.  Not super crucial, but don't be level 60 with a level 10 pet.
+
+hero,Emma Frost
+
+//ROTATION
+
+[TeamUp]   //TeamUp
+Ability,1,TeamUp
+
+[Ziggurat]   //Gap-Close
+Ability,2,Name,Ziggurat of Kargul
+Ability,2,Points,0
+Ability,2,Page,2
+Ability,2,Slot,8
+Ability,2,Cooldown,3
+Ability,2,YHPGT,40
+Ability,2,MinRange,200
+
+[Lustrous Lunge]   //Gap-Close
+Ability,3,Name,Lustrous Lunge
+Ability,3,Points,0
+Ability,3,Page,1
+Ability,3,Slot,8
+Ability,3,Cooldown,3
+Ability,3,MinRange,200
+Ability,3,YSPGT,20
+
+[Diamond Mind]   //Refresh Diamond Armor Below 10%
+Ability,4,Name,Diamond Mind
+Ability,4,Points,20
+Ability,4,Page,1
+Ability,4,Slot,3
+Ability,4,Buff,marvelconditioneffect_emmafrostdiamondformcondition_whitequeen,True
+Ability,4,SECLT,10
+
+[Astral Bolt]   //Early-Game Spirit Regen Below 20%
+Ability,5,Name,Astral Bolt
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,1
+Ability,5,MaxRange,600
+Ability,5,YSPLT,20
+Ability,5,MaxLevel,4
+
+[Gleaming Strike]   //Late-Game Spirit Regen Below 20%
+Ability,6,Name,Gleaming Strike
+Ability,6,Points,1
+Ability,6,Page,1
+Ability,6,Slot,1
+Ability,6,MaxRange,125
+Ability,6,YSPLT,20
+Ability,6,MinLevel,4
+
+[Lustrous Lunge]   //Stay in Diamond Form
+Ability,7,Name,Lustrous Lunge
+Ability,7,Points,1
+Ability,7,Page,1
+Ability,7,Slot,1
+Ability,7,MouseTarget
+Ability,7,Buff,marvelconditioneffect_emmafrostdiamondformcondition_whitequeen,False
+
+[Telepathic Mastery]   //CC-Immunity
+Ability,8,Name,Telepathic Mastery
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,4
+Ability,8,MiniBoss
+Ability,8,Boss
+
+[Telepathic Torment]   //Vulnerability+Dot
+Ability,9,Name,Telepathic Torment
+Ability,9,Points,8
+Ability,9,Page,1
+Ability,9,Slot,2
+Ability,9,Cooldown,6
+Ability,9,MaxRange,500
+
+[Show Off]   //CD+Weaken+Buff
+Ability,10,Name,Show Off
+Ability,10,Points,20
+Ability,10,Page,2
+Ability,10,Slot,4
+Ability,10,MaxRange,450
+
+[Unlock Potential]   //CD+Dot+Buffs
+Ability,11,Name,Unlock Potential
+Ability,11,Points,20
+Ability,11,Page,2
+Ability,11,Slot,2
+Ability,11,MiniBoss
+Ability,11,Boss
+Ability,11,MaxRange,525
+
+[Diamond-Bladed Spin Kick]   //Dot+Spender+Vulnerability
+Ability,12,Name,Diamond-Bladed Spin Kick
+Ability,12,Points,20
+Ability,12,Page,2
+Ability,12,Slot,5
+Ability,12,MaxRange,125
+Ability,12,Cooldown,6
+
+[Stepford Cuckoos]   //Ult+Summons
+Ability,13,Name,Stepford Cuckoos
+Ability,13,Points,0
+Ability,13,Page,2
+Ability,13,Slot,3
+Ability,13,Boss
+Ability,13,MaxRange,500
+
+[The True Queen]   //CD+Execute
+Ability,14,Name,The True Queen
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,MaxRange,125
+
+[Kneel Before Me]   //Sig+Damage Reduction+Spirit Restore
+Ability,15,Name,Kneel Before Me
+Ability,15,Points,20
+Ability,15,Page,1
+Ability,15,Slot,6
+Ability,15,MaxRange,500
+Ability,15,YSPLT,50
+
+[Diamond Crush]   //Spender
+Ability,16,Name,Diamond Crush
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,7
+Ability,16,MaxRange,125
+
+[Astral Bolt]   //Early-Game Basic
+Ability,17,Name,Astral Bolt
+Ability,17,Points,0
+Ability,17,Page,1
+Ability,17,Slot,1
+Ability,17,MaxRange,600
+Ability,17,MaxLevel,4
+
+[Gleaming Strike]   //Late-Game Basic
+Ability,18,Name,Gleaming Strike
+Ability,18,Points,0
+Ability,18,Page,1
+Ability,18,Slot,1
+Ability,18,MaxRange,125
+Ability,18,MinLevel,4
+
+[Ziggurat]   //Movement
+Ability,19,Name,Ziggurat of Kargul
+Ability,19,Points,0
+Ability,19,Page,2
+Ability,19,Slot,8
+Ability,19,YHPGT,40
+Ability,19,Movement
+
+[Lustrous Lunge]    //Movement
+Ability,20,Name,Lustrous Lunge
+Ability,20,Points,1
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,Movement
+
+[Uniques]
+lootrule,add,contains,Gloves of the Inner Circle
+lootrule,last,dontstash
+lootrule,add,contains,White Silk Gauntlets
+lootrule,last,dontstash
+lootrule,add,contains,Phoenix Force Harness
+lootrule,last,dontstash
+lootrule,add,contains,Rebel's Black Bodice
+lootrule,last,dontstash
+lootrule,add,contains,Dark X-Men Jacket
+lootrule,last,dontstash
+lootrule,add,contains,Fur Trimmed Stole of the White Queen
+lootrule,last,dontstash
+lootrule,add,contains,Diamond Tipped Stilettos
+lootrule,last,dontstash
+lootrule,add,contains,Generation X Academy Boots
+lootrule,last,dontstash
+lootrule,add,contains,Locket of the Lords Cardinal
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Gloves of the Inner Circle,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,White Silk Gauntlets,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Phoenix Force Harness,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Rebel's Black Bodice,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Dark X-Men Jacket,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Fur Trimmed Stole of the White Queen,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Diamond Tipped Stilettos,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Generation X Academy Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Locket of the Lords Cardinal,5
+
+[GENERIC Omegas]
+Omega,1,Name,Neurobotics
+Omega,1,Points,15
+Omega,2,Name,Neural Recovery
+Omega,2,Points,1
+Omega,3,Name,Tactical Neural Implant
+Omega,3,Points,10
+Omega,4,Name,Chitauri Prime
+Omega,4,Points,10
+Omega,5,Name,Halfworld
+Omega,5,Points,15
+Omega,6,Name,Counter-Earth
+Omega,6,Points,5
+Omega,7,Name,Skrullos
+Omega,7,Points,10
+Omega,8,Name,Earth
+Omega,8,Points,1
+Omega,9,Name,Hala
+Omega,9,Points,1
+Omega,10,Name,Mandroid Armor
+Omega,10,Points,1
+Omega,11,Name,Advanced Mandroid Armor
+Omega,11,Points,10
+Omega,12,Name,Warpath
+Omega,12,Points,10
+Omega,13,Name,Angel
+Omega,13,Points,1
+Omega,14,Name,Blob
+Omega,14,Points,25
+Omega,15,Name,Harpy
+Omega,15,Points,1
+Omega,16,Name,Extremis Healing
+Omega,16,Points,1
+Omega,17,Name,Extremis Electricity
+Omega,17,Points,1
+Omega,18,Name,Extremis Reflexes
+Omega,18,Points,1
+Omega,19,Name,Extremis Fire
+Omega,19,Points,1
+Omega,20,Name,Microsurgery Experimental Robotics
+Omega,20,Points,1
+Omega,21,Name,Extremis Speed
+Omega,21,Points,1
+Omega,22,Name,Extremis Stamina
+Omega,22,Points,1
+Omega,23,Name,Extremis Strength
+Omega,23,Points,10
+Omega,24,Name,Extremis Durability
+Omega,24,Points,20
+Omega,25,Name,S.P.I.N. Tech
+Omega,25,Points,10
+Omega,26,Name,Melt Face
+Omega,26,Points,20
+Omega,27,Name,Clairsentience
+Omega,27,Points,1
+Omega,28,Name,Precognition
+Omega,28,Points,1
+Omega,29,Name,Psychometry
+Omega,29,Points,1
+Omega,30,Name,Psionic Exoskeleton
+Omega,30,Points,20
+Omega,31,Name,Pym's Hybrid Particles
+Omega,31,Points,7
+
+END
+
+[Build http://marvelheroes.info/build/40401/]
