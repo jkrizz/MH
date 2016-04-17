@@ -31,7 +31,7 @@ Ability,3,YHPGT,10
 		
 //[Lustrous Lunge]   //Gap-Close		
 //Ability,4,Name,Lustrous Lunge		
-//Ability,4,Points,1		
+//Ability,4,Points,0		
 //Ability,4,Page,1		
 //Ability,4,Slot,8		
 //Ability,4,MaxRange,200		
@@ -42,7 +42,7 @@ Ability,3,YHPGT,10
 		
 [Lustrous Lunge]   //Gap-Close		
 Ability,5,Name,Lustrous Lunge		
-Ability,5,Points,1		
+Ability,5,Points,0		
 Ability,5,Slot,8		
 Ability,5,Page,1		
 Ability,5,MinRange,600		
@@ -170,7 +170,7 @@ Ability,20,Movement
 		
 [Lustrous Lunge]    //Movement		
 Ability,21,Name,Lustrous Lunge		
-Ability,21,Points,1		
+Ability,21,Points,0		
 Ability,21,Page,1		
 Ability,21,Slot,8		
 Ability,21,Movement		
