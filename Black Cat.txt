@@ -46,8 +46,8 @@ Ability,5,YSPLT,20
 [Unleashed]   //Ult+HP/Spirit/SEC Restore
 Ability,6,Name,Unleashed
 Ability,6,Points,0
-Ability,6,Slot,2
-Ability,6,Page,5
+Ability,6,Slot,5
+Ability,6,Page,2
 Ability,6,SECLT,1
 
 [Quick Getaway]   //Stealth Buff
