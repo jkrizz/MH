@@ -57,7 +57,7 @@ Ability,6,MinLevel,4
 Ability,7,Name,Lustrous Lunge
 Ability,7,Points,1
 Ability,7,Page,1
-Ability,7,Slot,1
+Ability,7,Slot,8
 Ability,7,MouseTarget
 Ability,7,Buff,marvelconditioneffect_emmafrostdiamondformcondition_whitequeen,False
 
