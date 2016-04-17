@@ -134,7 +134,7 @@ Ability,16,Points,20
 Ability,16,Page,1		
 Ability,16,Slot,6		
 Ability,16,MaxRange,500		
-Ability,16,YSPLT,50
+Ability,16,YSPLT,75
 
 [Psychic Spear]   //CD+Execute		
 Ability,17,Name,Psychic Spear	
