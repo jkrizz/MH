@@ -31,7 +31,7 @@ Ability,3,YHPGT,10
 		
 //[Lustrous Lunge]   //Gap-Close		
 //Ability,4,Name,Lustrous Lunge		
-//Ability,4,Points,0		
+//Ability,4,Points,0	
 //Ability,4,Page,1		
 //Ability,4,Slot,8		
 //Ability,4,MaxRange,200		
@@ -51,7 +51,7 @@ Ability,5,YSPGT,10
 
 [Diamond Mind]   //HP/Spirit Regen Below 45% HP+Invisibility
 Ability,6,Name,Diamond Mind
-Ability,6,Points,20
+Ability,6,Points,6
 Ability,6,Page,1
 Ability,6,Slot,3
 Ability,6,Buff,marvelconditioneffect_emmafrostdiamondformcondition_whitequeen,False
