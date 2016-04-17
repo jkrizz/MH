@@ -157,7 +157,7 @@ Ability,19,Movement
 
 [Lustrous Lunge]    //Movement
 Ability,20,Name,Lustrous Lunge
-Ability,20,Points,1
+Ability,20,Points,0
 Ability,20,Page,1
 Ability,20,Slot,8
 Ability,20,Movement
