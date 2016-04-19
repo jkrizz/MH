@@ -200,35 +200,67 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Age of Apocalypse Helmet,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Doom's Mystic Armor
+Omega,1,Points,20
+Omega,2,Name,Arcane Attunement
+Omega,2,Points,1
+Omega,3,Name,Chandilar
+Omega,3,Points,10
+Omega,4,Name,Earth
+Omega,4,Points,1
+Omega,5,Name,Knowhere
+Omega,5,Points,5
+Omega,6,Name,Spartax
+Omega,6,Points,10
+Omega,7,Name,Assault Rifles
+Omega,7,Points,10
+Omega,8,Name,S.H.I.E.L.D. Uniform
+Omega,8,Points,7
+Omega,9,Name,Warpath
+Omega,9,Points,10
+Omega,10,Name,Sunfire
+Omega,10,Points,10
+Omega,11,Name,Angel
+Omega,11,Points,1
+Omega,12,Name,Frenzy
+Omega,12,Points,1
+Omega,13,Name,Polaris
+Omega,13,Points,10
+Omega,14,Name,Magneto
+Omega,14,Points,10
+Omega,15,Name,S.P.I.N. Tech
+Omega,15,Points,10
+Omega,16,Name,Phoenix Force
+Omega,16,Points,6
+Omega,17,Name,Omega Machine
+Omega,17,Points,1
+Omega,18,Name,Telekinetic Research
+Omega,18,Points,1
+Omega,19,Name,Psionic Vampire
+Omega,19,Points,1
+Omega,20,Name,Master Telepath
+Omega,20,Points,1
+Omega,21,Name,Melt Face
+Omega,21,Points,20
+Omega,22,Name,Clairsentience
+Omega,22,Points,1
+Omega,23,Name,Mind Over Matter
+Omega,23,Points,5
+Omega,24,Name,Merge and Possess
+Omega,24,Points,1
+Omega,25,Name,Precognition
+Omega,25,Points,1
+Omega,26,Name,Psychometry
+Omega,26,Points,1
+Omega,27,Name,Psionic Exoskeleton
+Omega,27,Points,1
+Omega,28,Name,Psionic Charge
+Omega,28,Points,10
+Omega,29,Name,Terrigen Crystals
+Omega,29,Points,1
+Omega,30,Name,Xerogenesis
+Omega,30,Points,5
 
 END
 
