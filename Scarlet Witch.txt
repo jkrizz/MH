@@ -185,35 +185,73 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Chthonic Headdress,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Neurobotics
+Omega,1,Points,15
+Omega,2,Name,Neural Recovery
+Omega,2,Points,1
+Omega,3,Name,Tactical Neural Implant
+Omega,3,Points,1
+Omega,4,Name,Cerebro
+Omega,4,Points,20
+Omega,5,Name,Arcane Attunement
+Omega,5,Points,1
+Omega,6,Name,Zarathos
+Omega,6,Points,20
+Omega,7,Name,Kakaranthara
+Omega,7,Points,1
+Omega,8,Name,Galador
+Omega,8,Points,1
+Omega,9,Name,Wraithworld
+Omega,9,Points,10
+Omega,10,Name,Chandilar
+Omega,10,Points,2
+Omega,11,Name,Spartax
+Omega,11,Points,10
+Omega,12,Name,Sakaar
+Omega,12,Points,1
+Omega,13,Name,Breakworld
+Omega,13,Points,5
+Omega,14,Name,Zenn-La
+Omega,14,Points,1
+Omega,15,Name,Assault Rifles
+Omega,15,Points,10
+Omega,16,Name,Warpath
+Omega,16,Points,10
+Omega,17,Name,Angel
+Omega,17,Points,1
+Omega,18,Name,Chamber
+Omega,18,Points,10
+Omega,19,Name,S.P.I.N. Tech
+Omega,19,Points,10
+Omega,20,Name,Omega Machine
+Omega,20,Points,10
+Omega,21,Name,Telekinetic Research
+Omega,21,Points,20
+Omega,22,Name,Psionic Vampire
+Omega,22,Points,1
+Omega,23,Name,Master Telepath
+Omega,23,Points,10
+Omega,24,Name,Melt Face
+Omega,24,Points,20
+Omega,25,Name,Clairsentience
+Omega,25,Points,1
+Omega,26,Name,Mind Over Matter
+Omega,26,Points,5
+Omega,27,Name,Merge and Possess
+Omega,27,Points,1
+Omega,28,Name,Precognition
+Omega,28,Points,1
+Omega,29,Name,Psychometry
+Omega,29,Points,1
+Omega,30,Name,Psionic Exoskeleton
+Omega,30,Points,3
+Omega,31,Name,Psionic Charge
+Omega,31,Points,10
+Omega,32,Name,Terrigen Crystals
+Omega,32,Points,1
+Omega,33,Name,Xerogenesis
+Omega,33,Points,5
 
 END
 
