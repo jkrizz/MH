@@ -8,9 +8,11 @@ Hero,Loki
 Ability,1,Name,Master Sorcerer
 Ability,1,Points,20
 
+[Jotun Blood]
 Ability,2,Name,Jotun Blood
 Ability,2,Points,1
 
+[Lord of Deception]
 Ability,3,Name,Lord of Deception
 Ability,3,Points,20
 
