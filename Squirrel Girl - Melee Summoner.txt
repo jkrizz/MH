@@ -195,35 +195,37 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Full Set of "Iron Man Vs. Series" Cards,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Arcane Attunement
+Omega,1,Points,4
+Omega,2,Name,Squad Assault Weaponry
+Omega,2,Points,20
+Omega,3,Name,Warpath
+Omega,3,Points,5
+Omega,4,Name,Angel
+Omega,4,Points,1
+Omega,5,Name,S.P.I.N. Tech
+Omega,5,Points,10
+Omega,6,Name,Melt Face
+Omega,6,Points,16
+Omega,7,Name,Clairsentience
+Omega,7,Points,1
+Omega,8,Name,Merge and Possess
+Omega,8,Points,20
+Omega,9,Name,The Stepford Cuckoos
+Omega,9,Points,10
+Omega,10,Name,Shadow King's Possession
+Omega,10,Points,20
+Omega,11,Name,Supreme Intelligence
+Omega,11,Points,5
+Omega,12,Name,Overmind's Power
+Omega,12,Points,1
+Omega,13,Name,Amphogenesis
+Omega,13,Points,7
+Omega,14,Name,Terrigen Crystals
+Omega,14,Points,1
+Omega,15,Name,Xerogenesis
+Omega,15,Points,5
 
 END
 
