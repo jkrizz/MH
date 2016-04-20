@@ -184,35 +184,39 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Helm of the Star-Lord,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Kakaranthara
+Omega,1,Points,30
+Omega,2,Name,Earth
+Omega,2,Points,10
+Omega,3,Name,Knowhere
+Omega,3,Points,10
+Omega,4,Name,The Moon
+Omega,4,Points,1
+Omega,5,Name,Assault Rifles
+Omega,5,Points,8
+Omega,6,Name,Helicarrier Support
+Omega,6,Points,20
+Omega,7,Name,S.H.I.E.L.D. Uniform
+Omega,7,Points,1
+Omega,8,Name,Apocalypse
+Omega,8,Points,1
+Omega,9,Name,Sabretooth
+Omega,9,Points,1
+Omega,10,Name,Warpath
+Omega,10,Points,10
+Omega,11,Name,Angel
+Omega,11,Points,1
+Omega,12,Name,S.P.I.N. Tech
+Omega,12,Points,10
+Omega,13,Name,Adamantium-Laced Skin
+Omega,13,Points,1
+Omega,14,Name,Elixir of Immortality
+Omega,14,Points,10
+Omega,15,Name,Serum SO2
+Omega,15,Points,20
+Omega,16,Name,Forever Compound
+Omega,16,Points,1
 
 END
 
