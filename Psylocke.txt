@@ -189,35 +189,43 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Death's Guise,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Battleworld
+Omega,1,Points,1
+Omega,2,Name,Chitauri Prime
+Omega,2,Points,5
+Omega,3,Name,Halfworld
+Omega,3,Points,15
+Omega,4,Name,Counter-Earth
+Omega,4,Points,1
+Omega,5,Name,Skrullos
+Omega,5,Points,5
+Omega,6,Name,Hala
+Omega,6,Points,1
+Omega,7,Name,Apocalypse
+Omega,7,Points,1
+Omega,8,Name,Sabretooth
+Omega,8,Points,1
+Omega,9,Name,Warpath
+Omega,9,Points,10
+Omega,10,Name,Angel
+Omega,10,Points,1
+Omega,11,Name,Psylocke
+Omega,11,Points,2
+Omega,12,Name,Frenzy
+Omega,12,Points,9
+Omega,13,Name,Harpy
+Omega,13,Points,1
+Omega,14,Name,A-Bomb
+Omega,14,Points,1
+Omega,15,Name,S.P.I.N. Tech
+Omega,15,Points,10
+Omega,16,Name,Master Telepath
+Omega,16,Points,9
+Omega,17,Name,Melt Face
+Omega,17,Points,15
+Omega,18,Name,Clairsentience
+Omega,18,Points,1
 
 END
 
