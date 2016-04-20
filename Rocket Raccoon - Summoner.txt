@@ -310,7 +310,7 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Raccoonatics LW-60 "Commander" Minigun,5
 
-[Summoner Omega]
+[Omegas]
 Omega,1,Name,S.H.I.E.L.D. Leadership
 Omega,1,Points,20
 Omega,2,Name,Squad Assault Weaponry
