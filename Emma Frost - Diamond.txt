@@ -1,6 +1,8 @@
 [Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
 
-//Acquire a pet from Midtown once you are able to with Psychic Domination (Level 1).  Also be sure to level the pet up as you level.  Not super crucial, but don't be level 60 with a level 10 pet.
+//Emma Frost no longer REQUIRES a pet.  I believe a pet is still advantageous though, but I will leave it up to the user. 
+//For Emma Frost - Diamond specifically, it is important to note that not having a pet provides you with an additional 5% damage reduction.
+//If you want a pet, anything will do while leveling.  For endgame, grab a max level yellow (elite) enemy with Commanding Aura affix.  King Kahuna in Bronx Zoo Aquarium is guaranteed to have Commanding Aura. Another good option is AIM Incinerator's.
 
 hero,Emma Frost
 
