@@ -230,35 +230,57 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Bucky Barnes' WW2 Boots,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Combat Rorschach Training
+Omega,1,Points,10
+Omega,2,Name,Guilt Suppression Research
+Omega,2,Points,5
+Omega,3,Name,Cochlear Implant
+Omega,3,Points,1
+Omega,4,Name,Arcane Attunement
+Omega,4,Points,3
+Omega,5,Name,Earth
+Omega,5,Points,1
+Omega,6,Name,Knowhere
+Omega,6,Points,1
+Omega,7,Name,Spartax
+Omega,7,Points,10
+Omega,8,Name,Hala
+Omega,8,Points,20
+Omega,9,Name,Focused Plasma Cannon
+Omega,9,Points,10
+Omega,10,Name,S.H.I.E.L.D. Uniform
+Omega,10,Points,1
+Omega,11,Name,Warpath
+Omega,11,Points,10
+Omega,12,Name,Angel
+Omega,12,Points,1
+Omega,13,Name,Harpy
+Omega,13,Points,5
+Omega,14,Name,S.P.I.N. Tech
+Omega,14,Points,10
+Omega,15,Name, ExTechOp Cybernetic Body Upgrades
+Omega,15,Points,5
+Omega,16,Name,Deathlok Program
+Omega,16,Points,5
+Omega,17,Name,Reaver Program
+Omega,17,Points,4
+Omega,18,Name,Super Soldier Serum
+Omega,18,Points,5
+Omega,19,Name,Focused Strength of Grom
+Omega,19,Points,1
+Omega,20,Name,Telepathic Immunity
+Omega,20,Points,1
+Omega,21,Name,Shadow King's Possession
+Omega,21,Points,20
+Omega,22,Name,Precognition
+Omega,22,Points,1
+Omega,23,Name,Psychometry
+Omega,23,Points,1
+Omega,24,Name,Psionic Exoskeleton
+Omega,24,Points,1
+Omega,25,Name,Psionic Charge
+Omega,25,Points,10
 
 END
 
