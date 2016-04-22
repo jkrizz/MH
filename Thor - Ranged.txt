@@ -55,132 +55,137 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YSPGT,10
 
-[Hammer Strike]   //Early-Game Spirit Regen Below 20%
-Ability,7,Name,Hammer Strike
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,1
-Ability,7,Maxrange,125
-Ability,7,YSPLT,20
-Ability,7,MaxLevel,12
+[Box Omega Proc]
+Ability,7,PetVacuum
+Ability,7,Cooldown,35
+//Ability,7,PanelBuff,MarvelUIIcons.Power_Omega_Mutation_17,False
 
-[Lightning Strike]   //Late-Game Spirit Regen Below 20%
-Ability,8,Name,Lightning Strike
-Ability,8,Points,1
+[Hammer Strike]   //Early-Game Spirit Regen Below 20%
+Ability,8,Name,Hammer Strike
+Ability,8,Points,0
 Ability,8,Page,1
 Ability,8,Slot,1
-Ability,8,MaxRange,625
+Ability,8,Maxrange,125
 Ability,8,YSPLT,20
+Ability,8,MaxLevel,12
+
+[Lightning Strike]   //Late-Game Spirit Regen Below 20%
+Ability,9,Name,Lightning Strike
+Ability,9,Points,1
+Ability,9,Page,1
+Ability,9,Slot,1
+Ability,9,MaxRange,625
+Ability,9,YSPLT,20
 
 [Yggdrasil's Boon]   //CC-Immunity
-Ability,9,Name,Yggdrasil's Boon
-Ability,9,Points,20
-Ability,9,Page,2
-Ability,9,Slot,5
-Ability,9,MiniBoss
-Ability,9,Boss
+Ability,10,Name,Yggdrasil's Boon
+Ability,10,Points,20
+Ability,10,Page,2
+Ability,10,Slot,5
+Ability,10,MiniBoss
+Ability,10,Boss
 
 [Son of Odin]   //Buffs
-Ability,10,Name,Son of Odin
-Ability,10,Points,20
-Ability,10,Slot,2
-Ability,10,Page,2
-Ability,10,MaxRange,600
+Ability,11,Name,Son of Odin
+Ability,11,Points,20
+Ability,11,Slot,2
+Ability,11,Page,2
+Ability,11,MaxRange,600
 
 [For Asgard!]   //Buffs
-Ability,11,Name,For Asgard!
-Ability,11,Points,20
-Ability,11,Page,1
-Ability,11,Slot,5
-Ability,11,MiniBoss
-Ability,11,Boss
-
-[Bring the Thunder]   //Vulnerability
-Ability,12,Name,Bring the Thunder
+Ability,12,Name,For Asgard!
 Ability,12,Points,20
 Ability,12,Page,1
-Ability,12,Slot,3
-Ability,12,MaxRange,550
-Ability,12,Cooldown,6
+Ability,12,Slot,5
+Ability,12,MiniBoss
+Ability,12,Boss
 
-[Rolling Thunder]      //Dot
-Ability,13,Name,Rolling Thunder
+[Bring the Thunder]   //Vulnerability
+Ability,13,Name,Bring the Thunder
 Ability,13,Points,20
 Ability,13,Page,1
-Ability,13,Slot,7
-Ability,13,MaxRange,625
+Ability,13,Slot,3
+Ability,13,MaxRange,550
 Ability,13,Cooldown,6
 
-[God Blast]   //Ult
-Ability,14,Name,God Blast
-Ability,14,Boss
+[Rolling Thunder]      //Dot
+Ability,14,Name,Rolling Thunder
+Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,4
+Ability,14,Slot,7
 Ability,14,MaxRange,625
-Ability,14,MouseTarget
+Ability,14,Cooldown,6
+
+[God Blast]   //Ult
+Ability,15,Name,God Blast
+Ability,15,Boss
+Ability,15,Page,1
+Ability,15,Slot,4
+Ability,15,MaxRange,625
+Ability,15,MouseTarget
 
 [The Anti-Force]   //Sig
-Ability,15,Name,The Anti-Force
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,6
-Ability,15,Maxrange,650
+Ability,16,Name,The Anti-Force
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,6
+Ability,16,Maxrange,650
 
 [Lightning Hammer]   //CD Spender+Dot
-Ability,16,Name,Lightning Hammer
-Ability,16,Points,20
-Ability,16,Page,2
-Ability,16,Slot,3
-Ability,16,MaxRange,625
-Ability,16,MouseTarget
+Ability,17,Name,Lightning Hammer
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,3
+Ability,17,MaxRange,625
+Ability,17,MouseTarget
 
 [Forked Lightning]   //Early-Game Spender
-Ability,17,Name,Forked Lightning
-Ability,17,Points,0
-Ability,17,Page,2
-Ability,17,Slot,6
-Ability,17,MaxRange,600
-Ability,17,MaxLevel,18
+Ability,18,Name,Forked Lightning
+Ability,18,Points,0
+Ability,18,Page,2
+Ability,18,Slot,6
+Ability,18,MaxRange,600
+Ability,18,MaxLevel,18
 
 [Crack the Sky]   //Spender
-Ability,18,Name,Crack the Sky
-Ability,18,Points,20
-Ability,18,Page,1
-Ability,18,Slot,2
-Ability,18,MaxRange,625
-Ability,18,Hold,5000,AsPrimary
-Ability,18,MinLevel,18
+Ability,19,Name,Crack the Sky
+Ability,19,Points,20
+Ability,19,Page,1
+Ability,19,Slot,2
+Ability,19,MaxRange,625
+Ability,19,Hold,5000,AsPrimary
+Ability,19,MinLevel,18
 
 [Hammer Strike]   //Early-Game Basic
-Ability,19,Name,Hammer Strike
-Ability,19,Points,0
-Ability,19,Page,1
-Ability,19,Slot,1
-Ability,19,Maxrange,125
-Ability,19,MaxLevel,12
-
-[Lightning Strike]   //Late-Game Basic
-Ability,20,Name,Lightning Strike
-Ability,20,Points,1
+Ability,20,Name,Hammer Strike
+Ability,20,Points,0
 Ability,20,Page,1
 Ability,20,Slot,1
-Ability,20,MaxRange,625
+Ability,20,Maxrange,125
+Ability,20,MaxLevel,12
+
+[Lightning Strike]   //Late-Game Basic
+Ability,21,Name,Lightning Strike
+Ability,21,Points,1
+Ability,21,Page,1
+Ability,21,Slot,1
+Ability,21,MaxRange,625
 
 [Ziggurat]   //Movement
-Ability,21,Name,Ziggurat of Kargul
-Ability,21,Points,0
-Ability,21,Page,2
-Ability,21,Slot,8
-Ability,21,Movement
-Ability,21,YHPGT,40
-Ability,21,Delay,1500
+Ability,22,Name,Ziggurat of Kargul
+Ability,22,Points,0
+Ability,22,Page,2
+Ability,22,Slot,8
+Ability,22,Movement
+Ability,22,YHPGT,40
+Ability,22,Delay,1500
 
 [Thunderous Charge]   //Movement
-Ability,22,Name,Thunderous Charge
-Ability,22,Points,0
-Ability,22,Slot,8
-Ability,22,Page,1
-Ability,22,Movement
+Ability,23,Name,Thunderous Charge
+Ability,23,Points,0
+Ability,23,Slot,8
+Ability,23,Page,1
+Ability,23,Movement
 
 [Uniques]
 lootrule,add,contains,Mighty Mjolnir
@@ -221,35 +226,59 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,The All-Father's Eyepatch,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Earth
+Omega,1,Points,1
+Omega,2,Name,Knowhere
+Omega,2,Points,1
+Omega,3,Name,Spartax
+Omega,3,Points,10
+Omega,4,Name,Assault Rifles
+Omega,4,Points,10
+Omega,5,Name,Night Night Pistol
+Omega,5,Points,6
+Omega,6,Name,Focused Plasma Cannon
+Omega,6,Points,10
+Omega,7,Name,Warpath
+Omega,7,Points,10
+Omega,8,Name,Sunfire
+Omega,8,Points,10
+Omega,9,Name,Angel
+Omega,9,Points,1
+Omega,10,Name,Frenzy
+Omega,10,Points,1
+Omega,11,Name,Box
+Omega,11,Points,5
+Omega,12,Name,Polaris
+Omega,12,Points,10
+Omega,13,Name,S.P.I.N. Tech
+Omega,13,Points,10
+Omega,14,Name,Melt Face
+Omega,14,Points,20
+Omega,15,Name,Clairsentience
+Omega,15,Points,1
+Omega,16,Name,Mind Over Matter
+Omega,16,Points,5
+Omega,17,Name,Merge and Possess
+Omega,17,Points,1
+Omega,18,Name,Precognition
+Omega,18,Points,1
+Omega,19,Name,Psychometry
+Omega,19,Points,1
+Omega,20,Name,Psionic Exoskeleton
+Omega,20,Points,1
+Omega,21,Name,Psionic Charge
+Omega,21,Points,10
+Omega,22,Name,Preview
+Omega,22,Points,1
+Omega,23,Name,Psyche Blasts
+Omega,23,Points,1
+Omega,24,Name,Psionic Overload
+Omega,24,Points,5
+Omega,25,Name,Terrigen Crystals
+Omega,25,Points,1
+Omega,26,Name,Xerogenesis
+Omega,26,Points,5
 
 END
 
