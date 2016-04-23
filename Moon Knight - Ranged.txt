@@ -73,124 +73,132 @@ Ability,9,Slot,1
 Ability,9,MaxRange,625
 Ability,9,YSPLT,20
 
+
+[Combat Maneuvers]   //Movement Buff
+Ability,10,Name,Combat Maneuvers
+Ability,10,Points,0
+Ability,10,Page,1
+Ability,10,Slot,8
+Ability,10,Buff,marvelconditioneffect_haste,false
+
 [Khonshu Unbound]   //CC-Immunity
-Ability,10,Name,Khonshu Unbound
-Ability,10,Points,1
-Ability,10,Page,2
-Ability,10,Slot,7
-Ability,10,MiniBoss
-Ability,10,Boss
+Ability,11,Name,Khonshu Unbound
+Ability,11,Points,1
+Ability,11,Page,2
+Ability,11,Slot,7
+Ability,11,MiniBoss
+Ability,11,Boss
 
 [Explosive Crescent Dart]
-Ability,11,Name,Explosive Crescent Dart
-Ability,11,Points,1
-Ability,11,Page,1
-Ability,11,Slot,6
-Ability,11,Cooldown,6
-Ability,11,MaxRange,700
+Ability,12,Name,Explosive Crescent Dart
+Ability,12,Points,1
+Ability,12,Page,1
+Ability,12,Slot,6
+Ability,12,Cooldown,6
+Ability,12,MaxRange,700
 
 [Statue of Khonshu]   //Buff
-Ability,12,Name,Statue of Khonshu
-Ability,12,Points,1
-Ability,12,Page,2
-Ability,12,Slot,4
-Ability,12,Boss
-Ability,12,MiniBoss
-Ability,12,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
-
-[Gruesome Frenzy]   //Sig+Multi-Activate
-Ability,13,Name,Gruesome Frenzy
-Ability,13,Points,20
+Ability,13,Name,Statue of Khonshu
+Ability,13,Points,1
 Ability,13,Page,2
-Ability,13,Slot,5
+Ability,13,Slot,4
 Ability,13,Boss
 Ability,13,MiniBoss
-Ability,13,Delay,50
-Ability,13,MaxRange,125
 Ability,13,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
 
-[Avatar of Vengeance]   //Buff while Statue of Khonshu and Sig are active
-Ability,14,Name,Avatar of Vengeance
+[Gruesome Frenzy]   //Sig+Multi-Activate
+Ability,14,Name,Gruesome Frenzy
 Ability,14,Points,20
 Ability,14,Page,2
-Ability,14,Slot,3
+Ability,14,Slot,5
 Ability,14,Boss
 Ability,14,MiniBoss
-Ability,14,SECEQ,100
-Ability,14,CooldownCheck,5,False
+Ability,14,Delay,50
+Ability,14,MaxRange,125
+Ability,14,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
+
+[Avatar of Vengeance]   //Buff while Statue of Khonshu and Sig are active
+Ability,15,Name,Avatar of Vengeance
+Ability,15,Points,20
+Ability,15,Page,2
+Ability,15,Slot,3
+Ability,15,Boss
+Ability,15,MiniBoss
+Ability,15,SECEQ,100
+Ability,15,CooldownCheck,5,False
 
 [Moon Copter]   //Ult
-Ability,15,Name,Moon Copter
-Ability,15,Points,0
-Ability,15,Page,2
-Ability,15,Slot,2
-Ability,15,Boss
-Ability,15,MaxRange,450
+Ability,16,Name,Moon Copter
+Ability,16,Points,0
+Ability,16,Page,2
+Ability,16,Slot,2
+Ability,16,Boss
+Ability,16,MaxRange,450
 
 [Tripwire Bolas]   //Dot
-Ability,16,Name,Tripwire Bolas
-Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,3
-Ability,16,Cooldown,5
-Ability,16,MaxRange,600
-
-[Crescent Fan]   //Dot
-Ability,17,Name,Crescent Fan
+Ability,17,Name,Tripwire Bolas
 Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,5
+Ability,17,Slot,3
 Ability,17,Cooldown,5
-Ability,17,MaxRange,525
+Ability,17,MaxRange,600
 
-[Crescent Dart Throw]   //Dot
-Ability,18,Name,Crescent Dart Throw
+[Crescent Fan]   //Dot
+Ability,18,Name,Crescent Fan
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,4
+Ability,18,Slot,5
 Ability,18,Cooldown,5
-Ability,18,MaxRange,600
+Ability,18,MaxRange,525
 
-[Crescent Fan]   //AOE Spender+Dot
-Ability,19,Name,Crescent Fan
+[Crescent Dart Throw]   //Dot
+Ability,19,Name,Crescent Dart Throw
 Ability,19,Points,20
 Ability,19,Page,1
-Ability,19,Slot,5
-Ability,19,MaxRange,525
-Ability,19,AOE
-Ability,19,AOETYPE,Target
-Ability,19,AOERANGE,300
-Ability,19,AOECOUNT,2
+Ability,19,Slot,4
+Ability,19,Cooldown,5
+Ability,19,MaxRange,600
 
-[Crescent Launchers]   //Spender
-Ability,20,Name,Crescent Launchers
+[Crescent Fan]   //AOE Spender+Dot
+Ability,20,Name,Crescent Fan
 Ability,20,Points,20
 Ability,20,Page,1
-Ability,20,Slot,2
-Ability,20,MaxRange,625
-Ability,20,Hold,1000,AsPrimary
+Ability,20,Slot,5
+Ability,20,MaxRange,525
+Ability,20,AOE
+Ability,20,AOETYPE,Target
+Ability,20,AOERANGE,300
+Ability,20,AOECOUNT,2
 
-[Crescent Dart Throw]   //Basic
-Ability,21,Name,Crescent Dart Throw
+[Crescent Launchers]   //Spender
+Ability,21,Name,Crescent Launchers
 Ability,21,Points,20
 Ability,21,Page,1
-Ability,21,Slot,1
+Ability,21,Slot,2
 Ability,21,MaxRange,625
+Ability,21,Hold,1000,AsPrimary
+
+[Crescent Dart Throw]   //Basic
+Ability,22,Name,Crescent Dart Throw
+Ability,22,Points,20
+Ability,22,Page,1
+Ability,22,Slot,1
+Ability,22,MaxRange,625
 
 [Ziggurat]   //Movement
-Ability,22,Name,Ziggurat of Kargul
-Ability,22,Points,0
-Ability,22,Page,2
-Ability,22,Slot,8
-Ability,22,Movement
-Ability,22,YHPGT,40
-
-[Combat Maneuvers]   //Movement
-Ability,23,Name,Combat Maneuvers
+Ability,23,Name,Ziggurat of Kargul
 Ability,23,Points,0
-Ability,23,Page,1
+Ability,23,Page,2
 Ability,23,Slot,8
 Ability,23,Movement
+Ability,23,YHPGT,40
+
+[Combat Maneuvers]   //Movement
+Ability,24,Name,Combat Maneuvers
+Ability,24,Points,0
+Ability,24,Page,1
+Ability,24,Slot,8
+Ability,24,Movement
 
 [Uniques]
 lootrule,add,contains,Marc Spector's Spiked Gauntlets
