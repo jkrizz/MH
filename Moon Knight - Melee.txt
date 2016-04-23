@@ -51,115 +51,122 @@ Ability,7,Points,20
 Ability,7,MaxRange,125
 Ability,7,YSPLT,20
 
+[Combat Maneuvers]   //Movement Buff
+Ability,8,Name,Combat Maneuvers
+Ability,8,Points,0
+Ability,8,Page,1
+Ability,8,Slot,8
+Ability,8,Buff,marvelconditioneffect_haste,false
+
 [Khonshu Unbound]   //CC-Immunity
-Ability,8,Name,Khonshu Unbound
-Ability,8,Points,1
-Ability,8,Page,2
-Ability,8,Slot,7
-Ability,8,MiniBoss
-Ability,8,Boss
+Ability,9,Name,Khonshu Unbound
+Ability,9,Points,1
+Ability,9,Page,2
+Ability,9,Slot,7
+Ability,9,MiniBoss
+Ability,9,Boss
 
 [Statue of Khonshu]   //Buff
-Ability,9,Name,Statue of Khonshu
-Ability,9,Points,4
-Ability,9,Page,2
-Ability,9,Slot,4
-Ability,9,Boss
-Ability,9,MiniBoss
-Ability,9,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
-
-[Gruesome Frenzy]   //Sig+Multi-Activate
-Ability,10,Name,Gruesome Frenzy
-Ability,10,Points,20
+Ability,10,Name,Statue of Khonshu
+Ability,10,Points,4
 Ability,10,Page,2
-Ability,10,Slot,5
+Ability,10,Slot,4
 Ability,10,Boss
 Ability,10,MiniBoss
-Ability,10,Delay,50
-Ability,10,MaxRange,125
 Ability,10,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
 
-[Avatar of Vengeance]   //Buff while Statue of Khonshu and Sig are active
-Ability,11,Name,Avatar of Vengeance
+[Gruesome Frenzy]   //Sig+Multi-Activate
+Ability,11,Name,Gruesome Frenzy
 Ability,11,Points,20
 Ability,11,Page,2
-Ability,11,Slot,3
+Ability,11,Slot,5
 Ability,11,Boss
 Ability,11,MiniBoss
-Ability,11,SECEQ,100
-Ability,11,CooldownCheck,5,False
+Ability,11,Delay,50
+Ability,11,MaxRange,125
+Ability,11,PanelBuff,MarvelUIIcons.Power_MoonKnight_AvatarOfVengeance,True,1
+
+[Avatar of Vengeance]   //Buff while Statue of Khonshu and Sig are active
+Ability,12,Name,Avatar of Vengeance
+Ability,12,Points,20
+Ability,12,Page,2
+Ability,12,Slot,3
+Ability,12,Boss
+Ability,12,MiniBoss
+Ability,12,SECEQ,100
+Ability,12,CooldownCheck,5,False
 
 [Moon Copter]   //Ult
-Ability,12,Name,Moon Copter
-Ability,12,Points,0
-Ability,12,Page,2
-Ability,12,Slot,2
-Ability,12,Boss
-Ability,12,MaxRange,450
+Ability,13,Name,Moon Copter
+Ability,13,Points,0
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,Boss
+Ability,13,MaxRange,450
 
 [Tripwire Bolas]   //Dot
-Ability,13,Name,Tripwire Bolas
-Ability,13,Points,20
-Ability,13,Page,1
-Ability,13,Slot,3
-Ability,13,Cooldown,6
-Ability,13,MaxRange,600
-
-[Crescent Fan]   //Dot
-Ability,14,Name,Crescent Fan
+Ability,14,Name,Tripwire Bolas
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,Cooldown,5
-Ability,14,MaxRange,525
+Ability,14,Slot,3
+Ability,14,Cooldown,6
+Ability,14,MaxRange,600
 
-[Crescent Dart Throw]   //Dot
-Ability,15,Name,Crescent Dart Throw
+[Crescent Fan]   //Dot
+Ability,15,Name,Crescent Fan
 Ability,15,Points,20
 Ability,15,Page,1
-Ability,15,Slot,4
+Ability,15,Slot,5
 Ability,15,Cooldown,5
-Ability,15,MaxRange,600
+Ability,15,MaxRange,525
 
-[Crescent Fan]   //AOE Spender+Dot
-Ability,16,Name,Crescent Fan
+[Crescent Dart Throw]   //Dot
+Ability,16,Name,Crescent Dart Throw
 Ability,16,Points,20
 Ability,16,Page,1
-Ability,16,Slot,5
-Ability,16,MaxRange,525
-Ability,16,AOE
-Ability,16,AOETYPE,Target
-Ability,16,AOERANGE,300
-Ability,16,AOECOUNT,2
+Ability,16,Slot,4
+Ability,16,Cooldown,5
+Ability,16,MaxRange,600
+
+[Crescent Fan]   //AOE Spender+Dot
+Ability,17,Name,Crescent Fan
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,5
+Ability,17,MaxRange,525
+Ability,17,AOE
+Ability,17,AOETYPE,Target
+Ability,17,AOERANGE,300
+Ability,17,AOECOUNT,2
 
 [Cestus Gauntlet Punch]   //Spender+Dot
-Ability,17,Name,Cestus Gauntlet Punch
-Ability,17,Page,1
-Ability,17,Slot,2
-Ability,17,Points,20
-Ability,17,MaxRange,125
-
-[Spiked Gauntlets]   //Basic
-Ability,18,Name,Spiked Gauntlets
+Ability,18,Name,Cestus Gauntlet Punch
 Ability,18,Page,1
-Ability,18,Slot,1
+Ability,18,Slot,2
 Ability,18,Points,20
 Ability,18,MaxRange,125
 
-[Ziggurat]   //Movement
-Ability,19,Name,Ziggurat of Kargul
-Ability,19,Points,0
-Ability,19,Page,2
-Ability,19,Slot,8
-Ability,19,Movement
-Ability,19,YHPGT,40
+[Spiked Gauntlets]   //Basic
+Ability,19,Name,Spiked Gauntlets
+Ability,19,Page,1
+Ability,19,Slot,1
+Ability,19,Points,20
+Ability,19,MaxRange,125
 
-[Combat Maneuvers]   //Movement
-Ability,20,Name,Combat Maneuvers
+[Ziggurat]   //Movement
+Ability,20,Name,Ziggurat of Kargul
 Ability,20,Points,0
-Ability,20,Page,1
+Ability,20,Page,2
 Ability,20,Slot,8
 Ability,20,Movement
+Ability,20,YHPGT,40
+
+[Combat Maneuvers]   //Movement
+Ability,21,Name,Combat Maneuvers
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
 
 [Uniques]
 lootrule,add,contains,Marc Spector's Spiked Gauntlets
