@@ -13,10 +13,10 @@ Ability,1,Buff,marvelconditioneffect_phoenixtransform,False
 
 //ROTATION
 
-[TeamUp]
+[TeamUp]   //TeamUp
 Ability,2,TeamUp
 
-//[Ziggurat]
+//[Ziggurat]   //Gap-Close
 //Ability,3,Name,Ziggurat of Kargul
 //Ability,3,Points,0
 //Ability,3,Page,2
@@ -27,7 +27,7 @@ Ability,2,TeamUp
 //Ability,3,Cooldown,3
 //Ability,3,Boss
 
-[Ziggurat]
+[Ziggurat]   //Gap-Close
 Ability,4,Name,Ziggurat of Kargul
 Ability,4,Points,0
 Ability,4,Page,2
@@ -36,7 +36,7 @@ Ability,4,MinRange,600
 Ability,4,Cooldown,3
 Ability,4,YHPGT,10
 
-//[Phoenix Charge]
+//[Phoenix Charge]   //Gap-Close
 //Ability,5,Name,Phoenix Charge
 //Ability,5,Points,0
 //Ability,5,Page,1
@@ -47,7 +47,7 @@ Ability,4,YHPGT,10
 //Ability,5,Cooldown,3
 //Ability,5,Boss
 
-[Phoenix Charge]
+[Phoenix Charge]   //Gap-Close
 Ability,6,Name,Phoenix Charge
 Ability,6,Points,0
 Ability,6,Page,1
@@ -56,50 +56,49 @@ Ability,6,MinRange,600
 Ability,6,Cooldown,3
 Ability,6,YSPGT,10
 
-[Telepathic Detection]
-Ability,7,Name,Telepathic Detection
-Ability,7,Points,20
+[Kinetic Bolt]   //Spirit Regen Below 20%
+Ability,7,Name,Kinetic Bolt
+Ability,7,Points,0
 Ability,7,Page,1
-Ability,7,Slot,3
+Ability,7,Slot,1
+Ability,7,YSPLT,20
+Ability,7,MaxRange,600
 
-[Kinetic Bolt]
-Ability,8,Name,Kinetic Bolt
-Ability,8,Points,0
+[Neural Panic]   //CD+AOE+Irresistable Confuse Below 50% HP
+Ability,8,Name,Neural Panic
+Ability,8,Points,7
 Ability,8,Page,1
-Ability,8,Slot,1
-Ability,8,YSPLT,10
+Ability,8,Slot,3
+Ability,8,YHPLT,50
+Ability,8,AOE
+Ability,8,AOETYPE,Self
+Ability,8,AOERANGE,625
+Ability,8,AOECOUNT,2
 
-[Neural Panic]
-Ability,9,Name,Neural Panic
-Ability,9,Points,1
+[Telepathic Detection]   //CC-Immunity
+Ability,9,Name,Telepathic Detection
+Ability,9,Points,20
 Ability,9,Page,1
 Ability,9,Slot,3
+Ability,9,MiniBoss
 Ability,9,Boss
-Ability,9,YHPLT,50
-Ability,9,MaxRange,600
 
-[Neural Panic]
-Ability,10,Name,Neural Panic
-Ability,10,Points,1
+[Psychic Lethargy]   //Vulnerability
+Ability,10,Name,Psychic Lethargy
+Ability,10,Points,20
 Ability,10,Page,1
-Ability,10,Slot,3
-Ability,10,AOE
-Ability,10,AOETYPE,Self
-Ability,10,AOERANGE,625
-Ability,10,AOECOUNT,2
+Ability,10,Slot,5
+Ability,10,Cooldown,8
+Ability,10,MaxRange,500
 
-[Mind Crush]
-Ability,11,Name,Mind Crush
-Ability,11,Points,1
-Ability,11,Page,2
-Ability,11,Slot,5
-Ability,11,Cooldown,3
-Ability,11,AOE
-Ability,11,AOETYPE,Self
-Ability,11,AOERANGE,425
-Ability,11,AOECOUNT,2
+[Kinetic Wave]   //Weaken+Buff+Dot(In Phoenix Form)
+Ability,11,Name,Kinetic Wave
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,6
+Ability,11,MaxRange,525
 
-[Omega Level]
+[Omega Level]   //Ult+Restore SEC Below 80%
 Ability,12,Name,Omega Level
 Ability,12,Points,0
 Ability,12,Page,2
@@ -108,65 +107,77 @@ Ability,12,Boss
 Ability,12,SECLT,80
 Ability,12,MaxRange,700
 
-[Dark Phoenix]
-Ability,13,Name,Dark Phoenix
-Ability,13,Points,20
-Ability,13,Specialization,0xDE9098048E2511E7
-Ability,13,Page,2
-Ability,13,Slot,2
-Ability,13,SECGT,99
+[Neural Panic]   //CD+AOE+Irresistable Confuse
+Ability,13,Name,Neural Panic
+Ability,13,Points,7
+Ability,13,Page,1
+Ability,13,Slot,3
+Ability,13,MiniBoss
+Ability,13,Boss
+Ability,13,YHPLT,50
+Ability,13,MaxRange,600
 
-[Psychic Lethargy]
-Ability,14,Name,Psychic Lethargy
+[Crushing Telekinesis]   //Sig+Invulnerability
+Ability,14,Name,Crushing Telekinesis
 Ability,14,Points,20
 Ability,14,Page,1
-Ability,14,Slot,5
-Ability,14,Cooldown,8
-Ability,14,MaxRange,500
+Ability,14,Slot,7
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,MaxRange,600
 
-[Psychokinetic Implosion]
-Ability,15,Name,Psychokinetic Implosion
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,4
-Ability,15,Buff,marvelconditioneffect_phoenixtransform,False
-Ability,15,Cooldown,5
-Ability,15,MaxRange,600
+[Mind Crush]   //CD+AOE
+Ability,15,Name,Mind Crush
+Ability,15,Points,1
+Ability,15,Page,2
+Ability,15,Slot,5
+Ability,15,Cooldown,3
+Ability,15,AOE
+Ability,15,AOETYPE,Self
+Ability,15,AOERANGE,425
+Ability,15,AOECOUNT,2
 
-[Psychokinetic Implosion]
-Ability,16,Name,Psychokinetic Implosion
+[Dark Phoenix]   //Buffs+Spirit Restore
+Ability,16,Name,Dark Phoenix
 Ability,16,Points,20
-Ability,16,Page,1
-Ability,16,Slot,4
-Ability,16,MaxRange,600
+Ability,16,Page,2
+Ability,16,Slot,2
+Ability,16,SECGT,99
+Ability,16,Specialization,0xDE9098048E2511E7
 
-[Kinetic Wave]
-Ability,17,Name,Kinetic Wave
+[Psychokinetic Implosion]   //AOE+Vortex Effect
+Ability,17,Name,Psychokinetic Implosion
 Ability,17,Points,20
 Ability,17,Page,1
-Ability,17,Slot,6
+Ability,17,Slot,4
+Ability,17,Buff,marvelconditioneffect_phoenixtransform,False
+Ability,17,Cooldown,5
+Ability,17,MaxRange,600
 
-[Crushing Telekinesis]
-Ability,18,Name,Crushing Telekinesis
+[Psychokinetic Implosion]   //CD+AOE+Spender
+Ability,18,Name,Psychokinetic Implosion
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,7
-Ability,18,Boss
+Ability,18,Slot,4
+Ability,18,Buff,marvelconditioneffect_phoenixtransform,True
+Ability,18,MaxRange,600
 
-[Psychic Hammer]
+[Psychic Hammer]   //Spender
 Ability,19,Name,Psychic Hammer
 Ability,19,Points,20
 Ability,19,Page,1
 Ability,19,Slot,2
+Ability,19,MaxRange,600
 Ability,19,Hold,1000,AsPrimary
 
-[Kinetic Bolt]
+[Kinetic Bolt]   //Basic
 Ability,20,Name,Kinetic Bolt
 Ability,20,Points,0
 Ability,20,Page,1
 Ability,20,Slot,1
+Ability,20,MaxRange,600
 
-[Ziggurat]
+[Ziggurat]   //Movement
 Ability,21,Name,Ziggurat of Kargul
 Ability,21,Points,0
 Ability,21,Page,2
@@ -174,7 +185,7 @@ Ability,21,Slot,8
 Ability,21,YHPGT,10
 Ability,21,Movement
 
-[Phoenix Charge]
+[Phoenix Charge]   //Movement
 Ability,22,Name,Phoenix Charge
 Ability,22,Points,0
 Ability,22,Slot,8
@@ -230,35 +241,79 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Revolution's Red Face Mask,5
 
-[GENERIC Omegas]
-omega,add,name,S.P.I.N. Tech
-omega,last,points,10
-omega,add,name,Angel
-omega,last,points,1
-omega,add,name,Warpath
-omega,last,points,10
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Shadow King's Possession
-omega,last,points,10
-omega,add,name,Clairsentience
-omega,last,points,1
-omega,add,name,Melt Face
-omega,last,points,10
-omega,add,name,Terrigen Crystals
-omega,last,points,1
-omega,add,name,Xerogenesis
-omega,last,points,5
-omega,add,name,Cochlear Implant
-omega,last,points,1
-omega,add,name,Guilt Suppression Research
-omega,last,points,5
-omega,add,name,Kakaranthara
-omega,last,points,30
-omega,add,name,Sabretooth
-omega,last,points,5
-omega,add,name,Apocalypse
-omega,last,points,1
+[Omegas]
+Omega,1,Name,Retinal Targeting Chip
+Omega,1,Points,10
+Omega,2,Name,Combat Rorschach Training
+Omega,2,Points,1
+Omega,3,Name,Guilt Suppression Research
+Omega,3,Points,1
+Omega,4,Name,Cochlear Implant
+Omega,4,Points,1
+Omega,5,Name,Doom's Mystic Armor
+Omega,5,Points,20
+Omega,6,Name,Arcane Attunement
+Omega,6,Points,2
+Omega,7,Name,Kakaranthara
+Omega,7,Points,1
+Omega,8,Name,Galador
+Omega,8,Points,1
+Omega,9,Name,Wraithworld
+Omega,9,Points,1
+Omega,10,Name,Chandilar
+Omega,10,Points,10
+Omega,11,Name,Spartax
+Omega,11,Points,10
+Omega,12,Name,Sakaar
+Omega,12,Points,1
+Omega,13,Name,Breakworld
+Omega,13,Points,5
+Omega,14,Name,Zenn-La
+Omega,14,Points,1
+Omega,15,Name,Assault Rifles
+Omega,15,Points,10
+Omega,16,Name,Focused Plasma Cannon
+Omega,16,Points,10
+Omega,17,Name,S.H.I.E.L.D. Uniform
+Omega,17,Points,3
+Omega,18,Name,Dazzler
+Omega,18,Points,1
+Omega,19,Name,Sabretooth
+Omega,19,Points,1
+Omega,20,Name,Warpath
+Omega,20,Points,10
+Omega,21,Name,Sunfire
+Omega,21,Points,10
+Omega,22,Name,Angel
+Omega,22,Points,1
+Omega,23,Name,Frenzy
+Omega,23,Points,1
+Omega,24,Name,Polaris
+Omega,24,Points,10
+Omega,25,Name,Magneto
+Omega,25,Points,10
+Omega,26,Name,S.P.I.N. Tech
+Omega,26,Points,10
+Omega,27,Name,Melt Face
+Omega,27,Points,20
+Omega,28,Name,Clairsentience
+Omega,28,Points,1
+Omega,29,Name,Mind Over Matter
+Omega,29,Points,5
+Omega,30,Name,Merge and Possess
+Omega,30,Points,1
+Omega,31,Name,Precognition
+Omega,31,Points,1
+Omega,32,Name,Psychometry
+Omega,32,Points,1
+Omega,33,Name,Psionic Exoskeleton
+Omega,33,Points,3
+Omega,34,Name,Psionic Charge
+Omega,34,Points,10
+Omega,35,Name,Terrigen Crystals
+Omega,35,Points,1
+Omega,36,Name,Xerogenesis
+Omega,36,Points,5
 
 END
 
