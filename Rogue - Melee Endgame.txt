@@ -64,7 +64,7 @@ Ability,8,MinRange,200
 Ability,8,TransformPower
 
 [Vanish]   //"Early-Game" Gap-Close    
-//KIRIGI - INDUSTRY CITY / X-DEFENSE   
+//KIRIGI - HIGHTOWN / X-DEFENSE   
 //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL    
 Ability,9,Name,Vanish    
 Ability,9,Points,1    
@@ -297,7 +297,7 @@ Ability,36,TransformPower
 Ability,36,Movement
 
 [Vanish]   
-//KIRIGI - INDUSTRY CITY / X-DEFENSE   
+//KIRIGI - HIGHTOWN / X-DEFENSE   
 //REMOVE THIS ENTIRE ABILITY SECTION IF YOU HAVE TELEPORTAL    
 Ability,37,Name,Vanish    
 Ability,37,Points,3    
