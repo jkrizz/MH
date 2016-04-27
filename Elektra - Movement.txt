@@ -43,14 +43,14 @@ Ability,6,Slot,5
 Ability,6,MiniBoss
 Ability,6,Boss
 
-[Flow Like Water]   //Movement
-Ability,7,Name,Flow Like Water
-Ability,7,Points,0
-Ability,7,Page,1
-Ability,7,Slot,8
-Ability,7,Buff,marvelconditioneffect_elektra_stealth,False
-Ability,7,MouseTarget
-Ability,7,MinLevel,4
+//[Flow Like Water]   //Movement
+//Ability,7,Name,Flow Like Water
+//Ability,7,Points,0
+//Ability,7,Page,1
+//Ability,7,Slot,8
+//Ability,7,Buff,marvelconditioneffect_elektra_stealth,False
+//Ability,7,MouseTarget
+//Ability,7,MinLevel,4
 
 [Behind You]   //CD+Instakill Marked Non-Boss Enemies+Execute
 Ability,8,Name,Behind You
@@ -153,6 +153,7 @@ Ability,20,Slot,7
 Ability,20,MaxRange,250
 Ability,20,Hold,2000,AsPrimary
 Ability,20,MinLevel,18
+Ability,20,MouseTarget
 
 [Sai Strike]    //Basic
 Ability,21,Name,Sai Strike
@@ -241,4 +242,3 @@ Omega,19,Points,20
 END
 
 [Build: http://marvelheroes.info/build/39898/]
-
