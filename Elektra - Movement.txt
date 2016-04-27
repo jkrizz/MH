@@ -1,0 +1,244 @@
+[Check out the forum post for more and possibly updated abilities! http://www.mhbuddy.com/forum/showthread.php?835-ABILITIES-JKrizzle-s-Script-Collection]
+
+hero,Elektra
+
+//PASSIVES
+
+[Marked for Death]
+Ability,1,Name,Marked for Death
+Ability,1,Points,19
+
+//PRIORITY POINTS
+[Slip into the Shadows]   //CD+Stealth+Buffs
+Ability,2,Name,Slip into the Shadows
+Ability,2,Points,20
+
+//ROTATION
+
+[TeamUp]   //Team-Up
+Ability,3,TeamUp
+
+[Flow Like Water]   //Gap-Close
+Ability,4,Name,Flow Like Water
+Ability,4,Points,0
+Ability,4,Page,1
+Ability,4,Slot,8
+Ability,4,Cooldown,3
+Ability,4,MinRange,200
+Ability,4,YSPGT,20
+
+[Sai Strike]   //Spirit Regen Below 20%
+Ability,5,Name,Sai Strike
+Ability,5,Points,0
+Ability,5,Page,1
+Ability,5,Slot,1
+Ability,5,YSPLT,20
+Ability,5,MaxRange,125
+
+[Hyper-Awareness]   //CC-Immunity
+Ability,6,Name,Hyper-Awareness
+Ability,6,Points,9
+Ability,6,Page,2
+Ability,6,Slot,5
+Ability,6,MiniBoss
+Ability,6,Boss
+
+[Flow Like Water]   //Movement
+Ability,7,Name,Flow Like Water
+Ability,7,Points,0
+Ability,7,Page,1
+Ability,7,Slot,8
+Ability,7,Buff,marvelconditioneffect_elektra_stealth,False
+Ability,7,MouseTarget
+Ability,7,MinLevel,4
+
+[Behind You]   //CD+Instakill Marked Non-Boss Enemies+Execute
+Ability,8,Name,Behind You
+Ability,8,Points,20
+Ability,8,Page,1
+Ability,8,Slot,6
+Ability,8,Elite
+Ability,8,MiniBoss
+Ability,8,Boss
+Ability,8,MaxRange,750
+Ability,8,MouseTarget
+Ability,8,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+
+[Marked for Death]   //Vulnerability
+Ability,9,Name,Marked for Death
+Ability,9,Points,19
+Ability,9,Page,1
+Ability,9,Slot,4
+Ability,9,Elite
+Ability,9,MiniBoss
+Ability,9,Boss
+Ability,9,MaxRange,750
+Ability,9,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
+Ability,9,MaxLevel,10
+
+[Marked for Death]   //Vulnerability
+Ability,10,Name,Marked for Death
+Ability,10,Points,19
+Ability,10,Page,1
+Ability,10,Slot,4
+Ability,10,Elite
+Ability,10,MiniBoss
+Ability,10,Boss
+Ability,10,MaxRange,750
+Ability,10,TargetBuff,marvelconditioneffect_elektra_markfordeath,False
+Ability,10,MinLevel,10
+Ability,10,CooldownCheck,3,True
+
+[Shadowstrike]   //CD+Mark on Elite/MiniBoss/Boss
+Ability,11,Name,Shadowstrike
+Ability,11,Points,20
+Ability,11,Page,1
+Ability,11,Slot,3
+Ability,11,MaxRange,650
+
+[Slip into the Shadows]   //CD+Stealth+Buffs
+Ability,13,Name,Slip into the Shadows
+Ability,13,Points,1
+Ability,13,Page,2
+Ability,13,Slot,2
+Ability,13,MiniBoss
+Ability,13,Boss
+
+[Not Even The Stars]   //Sig+Mark on Elite/MiniBoss/Boss+Invulnerability
+Ability,14,Name,Not Even The Stars
+Ability,14,Points,20
+Ability,14,Page,1
+Ability,14,Slot,5
+Ability,14,MiniBoss
+Ability,14,Boss
+Ability,14,MaxRange,500
+Ability,14,Buff,marvelconditioneffect_elektra_stealth,False     //NOT while Slip into the Shadows is Active
+
+[Dance of Death]   //Ult+Invulnerability
+Ability,15,Name,Dance of Death
+Ability,15,Points,0
+Ability,15,Page,2
+Ability,15,Slot,4
+Ability,15,Boss
+
+[Blossom of Death]   //Dot
+Ability,16,Name,Blossom of Death
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,2
+Ability,16,Cooldown,14
+Ability,16,MaxRange,450
+
+[From the Shadows]   //CD+AOE Marking
+Ability,17,Name,From the Shadows
+Ability,17,Points,20
+Ability,17,Page,2
+Ability,17,Slot,3
+Ability,17,MaxRange,750
+Ability,17,TargetBuff,marvelconditioneffect_elektra_markfordeath,True
+
+[Wave of Shurikens]   //Early-Game Spender
+Ability,19,Name,Wave of Shurikens
+Ability,19,Points,0
+Ability,19,Page,3
+Ability,19,Slot,2
+Ability,19,MaxRange,350
+Ability,19,MaxLevel,18
+
+[Cut A Swath]   //Late-Game Spender
+Ability,20,Name,Cut A Swath
+Ability,20,Points,20
+Ability,20,Page,1
+Ability,20,Slot,7
+Ability,20,MaxRange,250
+Ability,20,Hold,2000,AsPrimary
+Ability,20,MinLevel,18
+
+[Sai Strike]    //Basic
+Ability,21,Name,Sai Strike
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,1
+Ability,20,Hold,2000,AsPrimary
+Ability,21,MaxRange,125
+
+[Flow Like Water]   //Movement
+Ability,22,Name,Flow Like Water
+Ability,22,Points,0
+Ability,22,Page,1
+Ability,22,Slot,8
+Ability,22,Movement
+
+[Uniques]
+lootrule,add,contains,Elektra's Assassin Blade
+lootrule,last,dontstash
+lootrule,add,contains,Elfskin Cloak of Whispers
+lootrule,last,dontstash
+lootrule,add,contains,High-Altitude Rocket Boots
+lootrule,last,dontstash
+lootrule,add,contains,Mask of the Chaste
+lootrule,last,dontstash
+lootrule,add,contains,Pure Silk Vestments
+lootrule,last,dontstash
+
+[Crafting]
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Elektra's Assassin Blade,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Elfskin Cloak of Whispers,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,High-Altitude Rocket Boots,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Mask of the Chaste,5
+craftrule,add,tabname,exchange
+craftrule,last,recipename,500k Credit Chest
+craftrule,last,ingredient,Pure Silk Vestments,5
+
+
+[Omegas]
+Omega,1,Name,Neurobotics
+Omega,1,Points,2
+Omega,2,Name,Trigger Scent
+Omega,2,Points,5
+Omega,3,Name,Hala
+Omega,3,Points,20
+Omega,4,Name,Showstopper Ammo
+Omega,4,Points,20
+Omega,5,Name,High Capacity Magazine
+Omega,5,Points,1
+Omega,6,Name,S.H.I.E.L.D. Uniform
+Omega,6,Points,8
+Omega,7,Name,Warpath
+Omega,7,Points,10
+Omega,8,Name,Angel
+Omega,8,Points,1
+Omega,9,Name,Frenzy
+Omega,9,Points,10
+Omega,10,Name,Harpy
+Omega,10,Points,5
+Omega,11,Name,S.P.I.N. Tech
+Omega,11,Points,10
+Omega,12,Name,Deathlok Program
+Omega,12,Points,30
+Omega,13,Name,Reaver Program
+Omega,13,Points,10
+Omega,14,Name,Super Soldier Serum
+Omega,14,Points,5
+Omega,15,Name,Melt Face
+Omega,15,Points,20
+Omega,16,Name,Clairsentience
+Omega,16,Points,1
+Omega,17,Name,Focused Strength of Grom
+Omega,17,Points,1
+Omega,18,Name,Telepathic Immunity
+Omega,18,Points,1
+Omega,19,Name,Shadow King's Possession
+Omega,19,Points,20
+END
+
+[Build: http://marvelheroes.info/build/39898/]
+
