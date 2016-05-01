@@ -150,7 +150,7 @@ lootrule,add,contains,Parker Industries Advanced Web-Shooters
 lootrule,last,dontstash
 lootrule,add,contains,Iron Spider Breastplate
 lootrule,last,dontstash
-lootrule,add,contains,Spider Bots
+lootrule,add,contains,Spider-Bots
 lootrule,last,dontstash
 lootrule,add,contains,Superior Clawed Gloves
 lootrule,last,dontstash
@@ -158,7 +158,7 @@ lootrule,add,contains,Spider-Armor MK II Boots
 lootrule,last,dontstash
 lootrule,add,contains,Shadowed Mask of Kaine
 lootrule,last,dontstash
-lootrule,add,contains,The Sin-Eater Caught!
+lootrule,add,contains,The Sin-Eater Caught!a
 lootrule,last,dontstash
 
 [Crafting]
@@ -173,7 +173,7 @@ craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Iron Spider Breastplate,5
 craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
-craftrule,last,ingredient,Spider Bots,5
+craftrule,last,ingredient,Spider-Bots,5
 craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Superior Clawed Gloves,5
