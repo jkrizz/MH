@@ -83,22 +83,22 @@ Ability,10,Slot,2
 Ability,10,Cooldown,6
 Ability,10,MaxRange,475
 
-[Hallucinogenic Pumpkin]   //Confusion
+[Hallucinogenic Pumpkin]  //Post-Specialization Vulnerability+CD Spender
 Ability,11,Name,Hallucinogenic Pumpkin
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,3
-Ability,11,Cooldown,5
 Ability,11,MaxRange,450
-Ability,11,MaxLevel,47
+Ability,11,MinLevel,47
 
-[Hallucinogenic Pumpkin]  //Post-Specialization Vulnerability+CD Spender
+[Hallucinogenic Pumpkin]   //Confusion
 Ability,12,Name,Hallucinogenic Pumpkin
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,3
+Ability,12,Cooldown,5
 Ability,12,MaxRange,450
-Ability,12,MinLevel,47
+Ability,12,MaxLevel,47
 
 [Pumpkin Bomb]   //Dot+Spender
 Ability,13,Name,Pumpkin Bomb
@@ -218,7 +218,7 @@ Omega,8,Name,Earth
 Omega,8,Points,1
 Omega,9,Name,Knowhere
 Omega,9,Points,1
-Omega,10,Name,Sparta
+Omega,10,Name,Spartax
 Omega,10,Points,10
 Omega,11,Name,Hala
 Omega,11,Points,20
