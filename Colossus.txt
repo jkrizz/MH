@@ -143,12 +143,21 @@ Ability,19,Slot,8
 Ability,19,YHPGT,40
 Ability,19,Movement
 
-[Osmium Charge]   //Movement
-Ability,20,Name,Osmium Charge
-Ability,20,Points,0
+[Titanic Slam]   //Movement
+Ability,20,Name,Titanic Slam
+Ability,20,Points,20
 Ability,20,Page,1
-Ability,20,Slot,8
+Ability,20,Slot,2
 Ability,20,Movement
+Ability,20,YSPGT,50
+
+[Osmium Charge] //Movement
+Ability,21,Name,Osmium Charge
+Ability,21,Points,0
+Ability,21,Page,1
+Ability,21,Slot,8
+Ability,21,Movement
+ability,21,YSPGT,30
 
 [Uniques]
 lootrule,add,contains,Mighty Fists of the Juggernaut
