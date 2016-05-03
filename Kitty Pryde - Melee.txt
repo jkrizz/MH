@@ -17,24 +17,23 @@ Ability,1,Cooldown,60
 [TeamUp]   //TeamUp
 Ability,2,Teamup
 
-[Walking Through Walls]   //Early-Game Gap-Close
+[Walking Through Walls]   //High Spirit Gap-Close
 Ability,3,Name,Walking Through Walls
 Ability,3,Points,0
 Ability,3,Page,1
 Ability,3,Slot,8
 Ability,3,Cooldown,3
 Ability,3,MinRange,200
-Ability,3,YSPGT,20
-Ability,3,MaxLevel,2
+Ability,3,YSPGT,75
 
-[Over Here]   //Late-Game Gap-Close
+[Over Here]   //Low Spirit Gap-Close
 Ability,4,Name,Over Here
 Ability,4,Points,1
 Ability,4,Page,1
 Ability,4,Slot,8
 Ability,4,Cooldown,3
 Ability,4,MinRange,200
-Ability,4,YSPGT,20
+Ability,4,YSPLT,75
 
 [Martial Arts Combo]   //Spirit Regen Below 20%
 Ability,5,Name,Martial Arts Combo
@@ -123,20 +122,21 @@ Ability,15,Page,1
 Ability,15,Slot,1
 Ability,15,MaxRange,125
 
-[Walking Through Walls]   //Early-Game Movement
+[Walking Through Walls]   //High Spirit Movement
 Ability,16,Name,Walking Through Walls
 Ability,16,Points,0
 Ability,16,Page,1
 Ability,16,Slot,8
-Ability,16,MaxLevel,2
 Ability,16,Movement
+Ability,16,YSPGT,75
 
-[Over Here]   //Late-Game Movement
+[Over Here]   //Low Spirit Movement
 Ability,17,Name,Over Here
 Ability,17,Points,1
 Ability,17,Page,1
 Ability,17,Slot,8
 Ability,17,Movement
+Ability,17,YSPLT,75
 
 [Uniques]
 lootrule,add,contains,Age of Apocalypse Claws
