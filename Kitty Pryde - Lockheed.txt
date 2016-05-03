@@ -4,13 +4,14 @@ Hero,Kitty Pryde
 
 //PASSIVES
 
-[My Pet Purple Dragon]   //CHECK FOR LOCKHEED BUFF IN LIEU OF COOLDOWN
+[My Pet Purple Dragon]
 Ability,1,Name,My Pet Purple Dragon
 Ability,1,Points,19
 Ability,1,Page,2
 Ability,1,Slot,6
 Ability,1,Toggle
-Ability,1,Cooldown,60
+Ability,1,Cooldown,4
+Ability,1,Buff,marvelconditioneffect_kittypryde_lockheedtoggle,False
 
 [Intangible]
 Ability,2,Name,Intangible
@@ -25,40 +26,36 @@ Ability,2,Cooldown,60
 [TeamUp]   //TeamUp
 Ability,3,Teamup
 
-[Walking Through Walls]   //Early-Game Gap-Close
+[Walking Through Walls]   //High Spirit Gap-Close
 Ability,4,Name,Walking Through Walls
 Ability,4,Points,0
-Ability,4,Page,1
+Ability,4,Page,2
 Ability,4,Slot,8
 Ability,4,Cooldown,3
 Ability,4,MinRange,200
-Ability,4,YSPGT,20
-Ability,4,MaxLevel,2
+Ability,4,YSPGT,75
 
-[Over Here]   //Late-Game Gap-Close
+[Over Here]   //Low Spirit Gap-Close
 Ability,5,Name,Over Here
 Ability,5,Points,1
 Ability,5,Page,1
 Ability,5,Slot,8
 Ability,5,Cooldown,3
 Ability,5,MinRange,200
-Ability,5,YSPGT,20
+Ability,5,YSPLT,75
+
+[Box Omega Proc]
+Ability,6,PetVacuum
+Ability,6,Cooldown,35
+//Ability,6,PanelBuff,MarvelUIIcons.Power_Omega_Mutation_17,False
 
 [Martial Arts Combo]   //Spirit Regen Below 20%
-Ability,6,Name,Martial Arts Combo
-Ability,6,Points,0
-Ability,6,Page,1
-Ability,6,Slot,1
-Ability,6,YSPLT,20
-Ability,6,MaxRange,125
-
-[Buddy System]   //Lockheed Spirit Regen Below 20%   //CHECK TOTAL LOCKHEED SPIRIT
-Ability,7,Name,Buddy System
-Ability,7,Points,20
+Ability,7,Name,Martial Arts Combo
+Ability,7,Points,0
 Ability,7,Page,1
-Ability,7,Slot,4
-//Ability,7,MaxRange,
-Ability,7,SECLT,20
+Ability,7,Slot,1
+Ability,7,YSPLT,20
+Ability,7,MaxRange,125
 
 [Ogun's Training]   //CC-Immunity
 Ability,8,Name,Ogun's Training
@@ -87,14 +84,14 @@ Ability,11,Name,Shadow & Flame
 Ability,11,Points,20
 Ability,11,Page,1
 Ability,11,Slot,3
-//Ability,11,MaxRange,
+Ability,11,MaxRange,125
 
 [Dragon Breath]   //Dot
 Ability,12,Name,Dragon Breath
 Ability,12,Points,20
 Ability,12,Page,1
 Ability,12,Slot,2
-//Ability,12,MaxRange,
+Ability,12,MaxRange,500
 Ability,12,Cooldown,6
 
 [Soulsword]   //Ult+Buffs
@@ -116,43 +113,52 @@ Ability,14,MiniBoss
 Ability,14,Boss
 Ability,14,Delay,50
 
-[Turn Up the Heat]   //Dot   //THIS ABILITY OR SPITBALLS FOR SPENDER, WHICH HAS BETTER DOT?
-Ability,15,Name,Turn Up the Heat
-Ability,15,Points,20
-Ability,15,Page,1
-Ability,15,Slot,5
-//Ability,15,MaxRange,
-//Ability,15,Cooldown,
+[Spitballs]   //Dot
+Ability,15,Name,Spitballs
+Ability,15,Points,19
+Ability,15,Page,2
+Ability,15,Slot,7
+Ability,15,MaxRange,625
+Ability,15,Cooldown,6
 
-[Spitballs]   //Dot   //THIS ABILITY OR TURN UP THE HEAT FOR SPENDER, WHICH HAS BETTER DOT?
-Ability,16,Name,Spitballs
-Ability,16,Points,19
-Ability,16,Page,2
-Ability,16,Slot,7
-//Ability,16,MaxRange,
-//Ability,16,Cooldown,
+[Turn Up the Heat]   //Dot
+Ability,16,Name,Turn Up the Heat
+Ability,16,Points,20
+Ability,16,Page,1
+Ability,16,Slot,5
+Ability,16,MaxRange,375
+Ability,16,Cooldown,2
+
+[Buddy System]   //Lockheed Spirit Regen Below 40%
+Ability,17,Name,Buddy System
+Ability,17,Points,20
+Ability,17,Page,1
+Ability,17,Slot,4
+Ability,17,MaxRange,125
+Ability,17,Hold,1000,AsPrimary
 
 [Martial Arts Combo]   //Basic
-Ability,17,Name,Martial Arts Combo
-Ability,17,Points,0
-Ability,17,Page,1
-Ability,17,Slot,1
-Ability,17,MaxRange,125
-
-[Walking Through Walls]   //Early-Game Movement
-Ability,18,Name,Walking Through Walls
+Ability,18,Name,Martial Arts Combo
 Ability,18,Points,0
 Ability,18,Page,1
-Ability,18,Slot,8
-Ability,18,MaxLevel,2
-Ability,18,Movement
+Ability,18,Slot,1
+Ability,18,MaxRange,125
 
-[Over Here]   //Late-Game Movement
-Ability,19,Name,Over Here
-Ability,19,Points,1
-Ability,19,Page,1
+[Walking Through Walls]   //High Spirit Movement
+Ability,19,Name,Walking Through Walls
+Ability,19,Points,0
+Ability,19,Page,2
 Ability,19,Slot,8
+Ability,19,YSPGT,75
 Ability,19,Movement
+
+[Over Here]   //Low Spirit Movement
+Ability,20,Name,Over Here
+Ability,20,Points,1
+Ability,20,Page,1
+Ability,20,Slot,8
+Ability,20,YSPLT,75
+Ability,20,Movement
 
 [Uniques]
 lootrule,add,contains,Age of Apocalypse Claws
@@ -183,56 +189,67 @@ craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Earth-1610 Mask,5
 
-//RECHECK OMEGAS IN BUILD
 [Omegas]
-Omega,1,Name,Neurobotics
-Omega,1,Points,1
-Omega,2,Name,Trigger Scent
-Omega,2,Points,5
-Omega,3,Name,Combat Rorschach Training
-Omega,3,Points,10
-Omega,4,Name,Guilt Suppression Research
-Omega,4,Points,1
-Omega,5,Name,Neural Recovery
+Omega,1,Name,Retinal Targeting Chip
+Omega,1,Points,10
+Omega,2,Name,Combat Rorschach Training
+Omega,2,Points,10
+Omega,3,Name,Assassin Programming
+Omega,3,Points,1
+Omega,4,Name,Cochlear Implant
+Omega,4,Points,20
+Omega,5,Name,Kakaranthara
 Omega,5,Points,1
-Omega,6,Name,Cochlear Implant
-Omega,6,Points,1
-Omega,7,Name,Tactical Neural Implant
-Omega,7,Points,10
-Omega,8,Name,Warpath
+Omega,6,Name,Galador
+Omega,6,Points,10
+Omega,7,Name,Battleworld
+Omega,7,Points,1
+Omega,8,Name,Chitauri Prime
 Omega,8,Points,10
-Omega,9,Name,Angel
-Omega,9,Points,1
-Omega,10,Name,Psylocke
+Omega,9,Name,Halfworld
+Omega,9,Points,15
+Omega,10,Name,Counter-Earth
 Omega,10,Points,5
-Omega,11,Name,Harpy
-Omega,11,Points,5
-Omega,12,Name,Mr. Fantastic
+Omega,11,Name,Skrullos
+Omega,11,Points,10
+Omega,12,Name,Hala
 Omega,12,Points,1
-Omega,13,Name,Thing
-Omega,13,Points,5
-Omega,14,Name,S.P.I.N. Tech
+Omega,13,Name,Focused Plasma Cannon
+Omega,13,Points,10
+Omega,14,Name,Warpath
 Omega,14,Points,10
-Omega,15,Name,Deathlok Program
+Omega,15,Name,Angel
 Omega,15,Points,1
-Omega,16,Name,Reaver Program
+Omega,16,Name,Frenzy
 Omega,16,Points,10
-Omega,17,Name,Super Soldier Serum
+Omega,17,Name,Box
 Omega,17,Points,5
-Omega,18,Name,Melt Face
-Omega,18,Points,13
-Omega,19,Name,Clairsentience
-Omega,19,Points,1
-Omega,20,Name,Focused Strength of Grom
-Omega,20,Points,1
-Omega,21,Name,Telepathic Immunity
-Omega,21,Points,1
-Omega,22,Name,Shadow King's Possession
+Omega,18,Name,Polaris
+Omega,18,Points,1
+Omega,19,Name,Magneto
+Omega,19,Points,10
+Omega,20,Name,Harpy
+Omega,20,Points,5
+Omega,21,Name,S.P.I.N. Tech
+Omega,21,Points,10
+Omega,22,Name,Serum SO2
 Omega,22,Points,1
-Omega,23,Name,Terrigen Crystals
+Omega,23,Name,Forever Compound
 Omega,23,Points,1
-Omega,24,Name,Xerogenesis
-Omega,24,Points,5
+Omega,24,Name,Melt Face
+Omega,24,Points,20
+Omega,25,Name,Clairsentience
+Omega,25,Points,1
+Omega,26,Name,Precognition
+Omega,26,Points,3
+Omega,27,Name,Psychometry
+Omega,27,Points,1
+Omega,28,Name,Psionic Exoskeleton
+Omega,28,Points,9
+Omega,29,Name,Terrigen Crystals
+Omega,29,Points,1
+Omega,30,Name,Xerogenesis
+Omega,30,Points,5
 
 END
 
