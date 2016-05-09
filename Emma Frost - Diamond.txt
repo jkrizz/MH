@@ -132,6 +132,7 @@ Ability,16,Points,20
 Ability,16,Page,1
 Ability,16,Slot,7
 Ability,16,MaxRange,125
+Ability,16,Hold,1000,AsPrimary
 
 [Astral Bolt]   //Early-Game Basic
 Ability,17,Name,Astral Bolt
@@ -148,6 +149,7 @@ Ability,18,Page,1
 Ability,18,Slot,1
 Ability,18,MaxRange,125
 Ability,18,MinLevel,4
+Ability,18,Hold,1000,AsPrimary
 
 [Ziggurat]   //Movement
 Ability,19,Name,Ziggurat of Kargul
@@ -177,7 +179,7 @@ lootrule,add,contains,Dark X-Men Jacket
 lootrule,last,dontstash
 lootrule,add,contains,Fur Trimmed Stole of the White Queen
 lootrule,last,dontstash
-lootrule,add,contains,Diamond Tipped Stilettos
+lootrule,add,contains,Diamond-Tipped Stilettos
 lootrule,last,dontstash
 lootrule,add,contains,Generation X Academy Boots
 lootrule,last,dontstash
@@ -205,7 +207,7 @@ craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Fur Trimmed Stole of the White Queen,5
 craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
-craftrule,last,ingredient,Diamond Tipped Stilettos,5
+craftrule,last,ingredient,Diamond-Tipped Stilettos,5
 craftrule,add,tabname,exchange
 craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Generation X Academy Boots,5
