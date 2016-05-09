@@ -189,7 +189,7 @@ lootrule,add,contains,Dark X-Men Jacket
 lootrule,last,dontstash		
 lootrule,add,contains,Fur Trimmed Stole of the White Queen		
 lootrule,last,dontstash		
-lootrule,add,contains,Diamond Tipped Stilettos		
+lootrule,add,contains,Diamond-Tipped Stilettos		
 lootrule,last,dontstash		
 lootrule,add,contains,Generation X Academy Boots		
 lootrule,last,dontstash		
@@ -217,7 +217,7 @@ craftrule,last,recipename,500k Credit Chest
 craftrule,last,ingredient,Fur Trimmed Stole of the White Queen,5		
 craftrule,add,tabname,exchange		
 craftrule,last,recipename,500k Credit Chest		
-craftrule,last,ingredient,Diamond Tipped Stilettos,5		
+craftrule,last,ingredient,Diamond-Tipped Stilettos,5		
 craftrule,add,tabname,exchange		
 craftrule,last,recipename,500k Credit Chest		
 craftrule,last,ingredient,Generation X Academy Boots,5		
