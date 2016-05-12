@@ -139,7 +139,7 @@ Ability,17,MouseTarget
 Ability,18,Name,Pierce the Veil
 Ability,18,Points,20
 Ability,18,Page,1
-Ability,18,Slot,1
+Ability,18,Slot,4
 Ability,18,MaxRange,475
 Ability,18,MouseTarget
 Ability,18,Hold,1000,AsPrimary
